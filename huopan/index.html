@@ -1,0 +1,906 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>进口食品直播货盘</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#15181c;--mut:#6d7480;--line:#e8e3dc;--bg:#faf8f5;--card:#fff;--brand:#e8503a;--soft:#fff4f1}
+body{font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1280px;margin:0 auto;padding:0 18px 60px}
+header.hero{background:linear-gradient(135deg,#fff 0%,var(--soft) 100%);border-bottom:1px solid var(--line);padding:34px 0 26px;margin-bottom:0}
+.hero .wrap{padding-bottom:0}
+.hero h1{font-size:27px;letter-spacing:-.5px;margin-bottom:9px}
+.hero p{color:var(--mut);font-size:14px;max-width:660px}
+.stat{display:flex;gap:26px;margin-top:18px;flex-wrap:wrap}
+.stat b{display:block;font-size:22px;color:var(--brand);line-height:1.2}
+.stat span{font-size:12px;color:var(--mut)}
+.bar{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:11px 0}
+.bar .wrap{padding-bottom:0}
+.frow{display:flex;align-items:flex-start;gap:10px;margin:5px 0}
+.fl{font-size:12px;color:var(--mut);min-width:40px;padding-top:6px;flex-shrink:0}
+.fc{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:inherit;font-size:12.5px;padding:5px 12px;border:1px solid var(--line);background:#fff;border-radius:999px;cursor:pointer;color:var(--ink);transition:.15s}
+.chip:hover:not(:disabled){border-color:var(--brand);color:var(--brand)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.chip:disabled{opacity:.32;cursor:not-allowed}
+.rgroup{margin-top:34px}
+.rt{display:flex;align-items:center;gap:10px;font-size:17px;margin-bottom:14px;padding-bottom:9px;border-bottom:2px solid var(--ink)}
+.rb{background:var(--ink);color:#fff;font-size:11.5px;padding:3px 9px;border-radius:5px;font-weight:400;letter-spacing:.5px}
+.rc{font-style:normal;font-size:12px;color:var(--mut);font-weight:400;margin-left:auto}
+.shop{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px}
+.shead{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.sl{display:flex;align-items:center;gap:11px;min-width:0}
+.flag{background:var(--soft);color:var(--brand);border:1px solid #f6d9d2;font-size:12px;padding:5px 9px;border-radius:7px;white-space:nowrap;flex-shrink:0;font-weight:500}
+.shead h3{font-size:16px;line-height:1.3;word-break:break-word}
+.sub{font-size:12.5px;color:var(--mut);margin-top:2px}
+.og{color:var(--ink);font-weight:500}
+.cnt{margin-left:auto;font-size:12px;color:var(--mut);background:var(--bg);padding:4px 10px;border-radius:999px;white-space:nowrap;flex-shrink:0}
+.note{font-size:13px;color:var(--mut);background:var(--bg);border-left:3px solid var(--line);padding:9px 12px;border-radius:0 6px 6px 0;margin-bottom:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:13px}
+.g{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:.18s;text-decoration:none;color:inherit;cursor:pointer}
+.g:hover{box-shadow:0 5px 18px rgba(232,80,58,.16);transform:translateY(-2px);border-color:var(--brand)}
+.g:hover .go{background:var(--brand);border-color:var(--brand)}
+.gimg{aspect-ratio:1;background:var(--bg);overflow:hidden}
+.gimg img{width:100%;height:100%;object-fit:cover;display:block}
+.gbody{padding:10px 11px 11px;display:flex;flex-direction:column;flex:1;gap:8px}
+.gbody h4{font-size:13px;font-weight:500;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.9em}
+.gmeta{display:flex;align-items:baseline;justify-content:space-between;gap:6px;margin-top:auto}
+.gp{font-size:15px;font-weight:600;color:var(--brand);white-space:nowrap}
+.dash{font-weight:400;margin:0 1px}
+.gc{font-size:11px;color:var(--mut);text-align:right;line-height:1.3;word-break:break-all}
+.gact{display:flex}
+.btn{font:inherit;font-size:11.5px;padding:6px 0;border-radius:6px;cursor:pointer;text-align:center;flex:1;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;transition:.15s;white-space:nowrap}
+.go{background:var(--ink);border-color:var(--ink);color:#fff;transition:.18s}
+.ftog{display:none;font:inherit;font-size:13px;width:100%;padding:9px 12px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer;color:var(--ink);text-align:left;position:relative}
+.ftog b{color:var(--brand);font-weight:600}
+.ftog::after{content:'▾';position:absolute;right:13px;transition:.2s}
+.bar.open .ftog::after{transform:rotate(180deg)}
+.empty{display:none;text-align:center;padding:54px 20px;color:var(--mut);font-size:14px}
+.tip{background:#fffdf5;border:1px solid #f2e6c4;border-radius:9px;padding:13px 15px;font-size:13px;color:#7a6a3a;line-height:1.7;margin-top:22px}
+.tip b{color:#5c4f28}
+footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--mut);line-height:1.9}
+@media(max-width:640px){
+ .wrap{padding:0 13px 44px} .hero h1{font-size:21px} .hero{padding:22px 0 18px}
+ .stat{gap:18px} .stat b{font-size:19px}
+ .grid{grid-template-columns:repeat(2,1fr);gap:10px}
+ .fl{display:none} .frow{margin:4px 0}
+ .bar{padding:9px 0} .chip{font-size:12px;padding:5px 10px}
+ .ftog{display:block}
+ .fwrap{display:none;padding-top:8px}
+ .bar.open .fwrap{display:block}
+ .shop{padding:14px;border-radius:10px} .shead h3{font-size:15px}
+ .rt{font-size:15.5px} .rc{font-size:11px}
+ .gbody h4{font-size:12.5px} .gp{font-size:14px}
+ .btn{font-size:11px;padding:6px 0}
+}
+</style></head><body>
+<header class="hero"><div class="wrap">
+<h1>进口食品直播货盘</h1>
+<p>小红书站内已入驻的进口食品商家，按产地区域整理。<b>点任意商品卡即可直接打开商品页</b>，可看当前售价、到手价、规格与库存。已剔除挂给其他达人的专属链接，只保留公开在售主品。</p>
+<div class="stat">
+<div><b>19</b><span>商家</span></div>
+<div><b>91</b><span>在盘商品</span></div>
+<div><b>15</b><span>进口产地</span></div>
+<div><b>8</b><span>品类</span></div>
+</div></div></header>
+
+<div class="bar"><div class="wrap">
+<button class="ftog">筛选 · <b class="fsum">全部商品</b></button>
+<div class="fwrap">
+<div class="frow"><span class="fl">区域</span><div class="fc"><button class="chip on" data-k="region" data-v="">全部</button><button class="chip" data-k="region" data-v="东南亚">东南亚</button><button class="chip" data-k="region" data-v="中国港台">中国港台</button><button class="chip" data-k="region" data-v="欧洲">欧洲</button><button class="chip" data-k="region" data-v="日韩">日韩</button><button class="chip" data-k="region" data-v="美洲·大洋洲">美洲·大洋洲</button></div></div>
+<div class="frow"><span class="fl">品类</span><div class="fc"><button class="chip on" data-k="group" data-v="">全部</button><button class="chip" data-k="group" data-v="零食烘焙">零食烘焙</button><button class="chip" data-k="group" data-v="饮料">饮料</button><button class="chip" data-k="group" data-v="冲饮">冲饮</button><button class="chip" data-k="group" data-v="茶">茶</button><button class="chip" data-k="group" data-v="巧克力糖果">巧克力糖果</button><button class="chip" data-k="group" data-v="调味">调味</button><button class="chip" data-k="group" data-v="乳制品">乳制品</button><button class="chip" data-k="group" data-v="酒水">酒水</button></div></div>
+<div class="frow"><span class="fl">价格</span><div class="fc"><button class="chip on" data-k="band" data-v="">全部</button><button class="chip" data-k="band" data-v="50元以下">50元以下</button><button class="chip" data-k="band" data-v="50-100元">50-100元</button><button class="chip" data-k="band" data-v="100-200元">100-200元</button><button class="chip" data-k="band" data-v="200元以上">200元以上</button></div></div>
+</div>
+</div></div>
+
+<div class="wrap">
+<div class="rgroup" data-region="东南亚">
+<h2 class="rt"><span class="rb">东南亚</span>东南亚
+<i class="rc">2 家 · 8 款</i></h2>
+<section class="shop" data-region="东南亚" data-group="零食烘焙" data-shop="芭腻PlaNeat鱼干旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">泰</span>
+<div><h3>芭腻PlaNeat鱼干旗舰店</h3>
+<p class="sub"><span class="og">泰国</span> · 零食/特产 · 大单品</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">泰国烤鱼片单一大单品店，35g 三口味（原味/辣味/黑胡椒）拆出多种袋数组合。低脂高蛋白话术清晰，是这批商家里近期动能最好的一家。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/681b4a7ebeccb10015e5e2e2" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50元以下" data-shop="芭腻PlaNeat鱼干旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31vs271d5l41g5q09tibjlkkgi1jtdh0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>泰国进口烤鱼片PlaNeat小鱼干35g海味即食追剧解馋休闲小零食好吃</h4>
+<div class="gmeta"><span class="gp">¥40<span class="dash">–</span>169.9</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a0ec8adbf25fa00019e02ce" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50元以下" data-shop="芭腻PlaNeat鱼干旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31sd5sjivl60g5q09tibjlkkglb46b3g?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>泰国进口烤鱿鱼片PlaNeat手撕鱿鱼丝干20g特产年货休闲海味小零食</h4>
+<div class="gmeta"><span class="gp">¥32<span class="dash">–</span>65</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a150785df36740001c48549" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50元以下" data-shop="芭腻PlaNeat鱼干旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031n24d222ku005q09tibjlkkgco9rfa8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【多口味自选】烤鱼干鲹鱼片海鲜泰国进口追剧解馋特产即食小零食</h4>
+<div class="gmeta"><span class="gp">¥49.9<span class="dash">–</span>238.8</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/686cee3d527b4d000104fbe3" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="200元以上" data-shop="芭腻PlaNeat鱼干旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31jm2488m361g5q09tibjlkkgra1muro?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>整箱泰国进口鱼干35g小鱼干烤鲹鱼片PlaNeat即食下酒小吃零食</h4>
+<div class="gmeta"><span class="gp">¥600</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/68bff6b70d3d6200015b09c4" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50元以下" data-shop="芭腻PlaNeat鱼干旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31lvfeoc94s5g5q09tibjlkkg5n0dfa0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>低脂高蛋白！烤鱼干鱼肉海味即食泰国进口办公室休闲零食解馋追剧</h4>
+<div class="gmeta"><span class="gp">¥35.8<span class="dash">–</span>89.9</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="东南亚" data-group="零食烘焙" data-shop="FOOD CORPORATION进口食品海外专营店">
+<header class="shead">
+<div class="sl"><span class="flag">坡</span>
+<div><h3>FOOD CORPORATION进口食品海外专营店</h3>
+<p class="sub"><span class="og">新加坡</span> · 零食/薯片 · 大单品</p></div></div>
+<span class="cnt">3 款</span>
+</header>
+<p class="note">新加坡网红零食，39 款围绕樟宜机场咸蛋黄薯片这条主线，黑松露芝士等口味承接。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6802088d4371630001a0c818" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50-100元" data-shop="FOOD CORPORATION进口食品海外专营店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031gh9133r42005pl74go7ebnu8f45ql0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>新加坡樟宜机场网红咸蛋黄薯片</h4>
+<div class="gmeta"><span class="gp">¥59<span class="dash">–</span>69</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/67cabd874a593600018816d3" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50元以下" data-shop="FOOD CORPORATION进口食品海外专营店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031ess5qnu606g5pl74go7ebnu5vc9nig?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>新加坡进口松发潮州肉骨茶汤料包煲汤猪肚鸡香料胡椒调料30g*1袋</h4>
+<div class="gmeta"><span class="gp">¥22.8</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a7d827c5bea4e00011fc871" target="_blank" rel="noopener" data-region="东南亚" data-group="零食烘焙" data-band="50-100元" data-shop="FOOD CORPORATION进口食品海外专营店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0323ncetll70005pl74go7ebnumrcjlr0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>新加坡必买网红咸蛋黄薯片</h4>
+<div class="gmeta"><span class="gp">¥69</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section></div><div class="rgroup" data-region="中国港台">
+<h2 class="rt"><span class="rb">中国港台</span>中国港台
+<i class="rc">2 家 · 11 款</i></h2>
+<section class="shop" data-region="中国港台" data-group="饮料" data-shop="港货零食哆的店">
+<header class="shead">
+<div class="sl"><span class="flag">港</span>
+<div><h3>港货零食哆的店</h3>
+<p class="sub"><span class="og">中国香港</span> · 饮料 · 大单品</p></div></div>
+<span class="cnt">6 款</span>
+</header>
+<p class="note">122 款港版饮料零食，围绕碳酸与柠檬茶集中。维他气泡茶与港版可乐两个大单品占一半以上成交，港货心智很干。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6790e80075ca3a000139cd79" target="_blank" rel="noopener" data-region="中国港台" data-group="饮料" data-band="50元以下" data-shop="港货零食哆的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/material_space/4680d177-97d0-4458-aa1c-bd9e5675d94b?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港北川巨峰乌龙茶430mL*3瓶装乌龙茶夏日果茶果汁港版进口饮料</h4>
+<div class="gmeta"><span class="gp">¥23.6<span class="dash">–</span>190</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69241dea603b4e0001154735" target="_blank" rel="noopener" data-region="中国港台" data-group="饮料" data-band="50元以下" data-shop="港货零食哆的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031aodsdsr7i005nf67qdg862u23jaavg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港进口Qoo酷儿少甜苹果汁白提香橙蜜桃黑加仑果汁饮料200mL*6盒</h4>
+<div class="gmeta"><span class="gp">¥21.8<span class="dash">–</span>80.8</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a02d17e5a83230001a65f53" target="_blank" rel="noopener" data-region="中国港台" data-group="饮料" data-band="50元以下" data-shop="港货零食哆的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no320f9hc64le0g5nf67qdg862uhi5f4eg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【新品上市】港版雪碧柠檬茶500ML瓶装士多啤梨可乐汽水碳酸饮料</h4>
+<div class="gmeta"><span class="gp">¥16.5<span class="dash">–</span>150</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a782f0295cfc000017f2a60" target="_blank" rel="noopener" data-region="中国港台" data-group="饮料" data-band="50元以下" data-shop="港货零食哆的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no3235gldr0740g5nf67qdg862ul71qqlg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>港版拉布布联名款可口可乐收藏版汽水港版原味可乐进口碳酸饮料</h4>
+<div class="gmeta"><span class="gp">¥23.8<span class="dash">–</span>122</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69c00afc23faf80001c572bb" target="_blank" rel="noopener" data-region="中国港台" data-group="饮料" data-band="50元以下" data-shop="港货零食哆的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031jr8h8k136005nf67qdg862uuboccco?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港进口加系puls白色可乐无糖330ml原味可乐碳酸饮料港版汽水</h4>
+<div class="gmeta"><span class="gp">¥26.8<span class="dash">–</span>115</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6831c9dcbc06d200017e5fbe" target="_blank" rel="noopener" data-region="中国港台" data-group="饮料" data-band="50元以下" data-shop="港货零食哆的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031hsaq8s138705nf67qdg862uhjagvmg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港进口sunkist新奇士橙汁汽水330ml*6罐港版葡萄柚汽水果汁饮料</h4>
+<div class="gmeta"><span class="gp">¥28.6<span class="dash">–</span>112</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="中国港台" data-group="零食烘焙" data-shop="妮子食尚宝岛美食坊的店">
+<header class="shead">
+<div class="sl"><span class="flag">台</span>
+<div><h3>妮子食尚宝岛美食坊的店</h3>
+<p class="sub"><span class="og">中国台湾</span> · 零食/糕点 · 大单品</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">台式伴手礼集中店，91 款围绕台湾手信纵深。洪瑞珍三明治单一品类占近两成，凤凰酥等糕点礼盒承接。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a82b4a2532d77000141c4a2" target="_blank" rel="noopener" data-region="中国港台" data-group="零食烘焙" data-band="50-100元" data-shop="妮子食尚宝岛美食坊的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0323q3f1ntgm005p9l6u00rk2qqmuo22g?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>方芳老师papi酱推荐同款台湾欧客佬OKLAO挂耳黑咖啡独立包装种草</h4>
+<div class="gmeta"><span class="gp">¥53<span class="dash">–</span>108</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69b65916771a670001fded9b" target="_blank" rel="noopener" data-region="中国港台" data-group="零食烘焙" data-band="50-100元" data-shop="妮子食尚宝岛美食坊的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0ao30s2g5d38im2g5p9l6u00rk2qutd382o?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>小潘凤凰酥 來台必带的伴手礼 超级推荐 百吃不腻</h4>
+<div class="gmeta"><span class="gp">¥82<span class="dash">–</span>135</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/68eb3601002e7e0001347f24" target="_blank" rel="noopener" data-region="中国港台" data-group="零食烘焙" data-band="100-200元" data-shop="妮子食尚宝岛美食坊的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0ao30rrl0sntiq005p9l6u00rk2q11tnf28?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>台湾高雄不二家织果芋头蛋糕 奶香味十足</h4>
+<div class="gmeta"><span class="gp">¥158<span class="dash">–</span>168</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a5dccf84f6fde000192a8c3" target="_blank" rel="noopener" data-region="中国港台" data-group="零食烘焙" data-band="50元以下" data-shop="妮子食尚宝岛美食坊的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao3219g9ghm7a0manlf36200000000000taci0du?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>台湾原装进口明奇极黑芝麻夹心酥杏仁牛奶威化饼下午茶办公室零食</h4>
+<div class="gmeta"><span class="gp">¥25.8<span class="dash">–</span>49.8</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/65605d50e0f1530001cbbb9b" target="_blank" rel="noopener" data-region="中国港台" data-group="零食烘焙" data-band="50-100元" data-shop="妮子食尚宝岛美食坊的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0ao30rrpfpkvim005p9l6u00rk2qt53g200?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>papi酱方芳老师同款推荐 台湾佳德凤梨酥 经典伴手礼糕点礼盒</h4>
+<div class="gmeta"><span class="gp">¥70<span class="dash">–</span>228</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section></div><div class="rgroup" data-region="欧洲">
+<h2 class="rt"><span class="rb">欧洲</span>欧洲
+<i class="rc">7 家 · 29 款</i></h2>
+<section class="shop" data-region="欧洲" data-group="零食烘焙" data-shop="Waitrose海外旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">英</span>
+<div><h3>Waitrose海外旗舰店</h3>
+<p class="sub"><span class="og">英国</span> · 饼干/吐司/酒水 · 集合店</p></div></div>
+<span class="cnt">6 款</span>
+</header>
+<p class="note">英国 Waitrose 自营商超货盘，89 款横跨饼干、吐司、酒水，品牌力强但没有单一爆品，动销比较分散。烤吐司片是近期冒头的品。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/695b9d3dcf93e20001884086" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50元以下" data-shop="Waitrose海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31q69apfimu0g5p1m4o33jtqglna858g?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>英国进口100%动物黄油手指酥饼干曲奇糕点办公室休闲小零食下午茶</h4>
+<div class="gmeta"><span class="gp">¥27.9<span class="dash">–</span>999</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/690596c7454590000190dbc8" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50-100元" data-shop="Waitrose海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031q69ap6502005p1m4o33jtqgrmmanno?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>英国进口蔓越莓葡萄烤吐司片手工面包100g可搭配榛子可可巧克力酱</h4>
+<div class="gmeta"><span class="gp">¥65.9<span class="dash">–</span>172.7</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/68f0e65f3f37a900017fa070" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50-100元" data-shop="Waitrose海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31vj31ogokc005p1m4o33jtqg6a55elo?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>流心榛子可可威化卷巧克力威化卷400g甜脆不腻配咖啡下午茶新效期</h4>
+<div class="gmeta"><span class="gp">¥69.9<span class="dash">–</span>197.7</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/690466ae5c4f19000161903a" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50元以下" data-shop="Waitrose海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31q69ap0u027g5p1m4o33jtqgortftt8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>进口咸口黄油切达干酪香扭卷芝士扭干酪奶酪卷125g下午茶休闲零食</h4>
+<div class="gmeta"><span class="gp">¥45.9<span class="dash">–</span>245.4</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/674fc2bdeb35d700019874c2" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50元以下" data-shop="Waitrose海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31q69apgv6u0g5p1m4o33jtqgm150lvg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>英国进口奶油夹心饼干150g奶香浓郁办公室下午茶追剧解馋小零食</h4>
+<div class="gmeta"><span class="gp">¥24.9<span class="dash">–</span>137.7</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69fab498273c7d0001c58d6d" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50-100元" data-shop="Waitrose海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031vj35u4rkc005p1m4o33jtqgeu113t0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>预售N°1接骨木花气泡水750m花香风味夏日饮料0脂低卡控糖调酒直饮</h4>
+<div class="gmeta"><span class="gp">¥59.9<span class="dash">–</span>329.4</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="欧洲" data-group="巧克力糖果" data-shop="巴拉 Studio🌈Emm31533的店">
+<header class="shead">
+<div class="sl"><span class="flag">意</span>
+<div><h3>巴拉 Studio🌈Emm31533的店</h3>
+<p class="sub"><span class="og">意大利</span> · 巧克力 · 大单品</p></div></div>
+<span class="cnt">4 款</span>
+</header>
+<p class="note">意大利进口巧克力精选店，58 款围绕 Venchi、Amedei、La perla 等意式品牌的排块与彩蛋组合。「混合 500g 自选」一个品占近一半成交。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a291cf8599c87000112b401" target="_blank" rel="noopener" data-region="欧洲" data-group="巧克力糖果" data-band="200元以上" data-shop="巴拉 Studio🌈Emm31533的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104103ng320vrtm4u7o0m4sqg949e1b0006k3em4dju9u2?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>现货venchi2026新货彩蛋自选500g保质期2027.07</h4>
+<div class="gmeta"><span class="gp">¥229<span class="dash">–</span>999</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69d8bd392369350001e30978" target="_blank" rel="noopener" data-region="欧洲" data-group="巧克力糖果" data-band="100-200元" data-shop="巴拉 Studio🌈Emm31533的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao322v32m3knk064sqg949e1b0006k3em583dtto?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>现货La perla巧克力 保质期2027.04</h4>
+<div class="gmeta"><span class="gp">¥179<span class="dash">–</span>339</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69f20f56213e2700011f3b77" target="_blank" rel="noopener" data-region="欧洲" data-group="巧克力糖果" data-band="200元以上" data-shop="巴拉 Studio🌈Emm31533的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao31oqi7shk1q064sqg949e1b0006k3em7tcctl2?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>Venchi鱼子酱巧克力500g顺丰包邮保质期2027.08【6月最新到货】</h4>
+<div class="gmeta"><span class="gp">¥349</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a4f4fdb1f5d30000194d742" target="_blank" rel="noopener" data-region="欧洲" data-group="巧克力糖果" data-band="100-200元" data-shop="巴拉 Studio🌈Emm31533的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao322ogqlvano764sqg949e1b0006k3em5u62u9u?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>混合500g自选现货顺丰包邮保质期2027.08-2028.10【7.1最新到货】</h4>
+<div class="gmeta"><span class="gp">¥189<span class="dash">–</span>888</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="欧洲" data-group="乳制品" data-shop="瑞慕旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">瑞</span>
+<div><h3>瑞慕旗舰店</h3>
+<p class="sub"><span class="og">瑞士</span> · 乳制品 · 单品类深</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">瑞士原制奶酪单品类，57 款围绕干酪碎与奶酪棒，前三个品占近九成成交，货盘极聚焦。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6969d26785c6db000173a2fb" target="_blank" rel="noopener" data-region="欧洲" data-group="乳制品" data-band="100-200元" data-shop="瑞慕旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no322ejpkplms0g4atrgps1ipc10odp1uo?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【送奶酪片100g】瑞士高钙原制奶酪棒140g*2袋/500g 独立装</h4>
+<div class="gmeta"><span class="gp">¥159<span class="dash">–</span>279</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a4208fcc4c16c0001fb65ca" target="_blank" rel="noopener" data-region="欧洲" data-group="乳制品" data-band="100-200元" data-shop="瑞慕旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031vf2i4ehis004atrgps1ipc1g1uqipg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【送奶酪片2盒】瑞士进口原制即食营养高钙大孔奶酪片100g*3包</h4>
+<div class="gmeta"><span class="gp">¥149<span class="dash">–</span>159</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/686240f6d67cc20001add75b" target="_blank" rel="noopener" data-region="欧洲" data-group="乳制品" data-band="100-200元" data-shop="瑞慕旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no322l0ablc700g4atrgps1ipc16fg3eb8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【送埃曼塔200g】瑞士进口埃曼塔奶酪块AOP200g*2 大孔奶酪</h4>
+<div class="gmeta"><span class="gp">¥168</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69f30fb96bdc3800017cb9ec" target="_blank" rel="noopener" data-region="欧洲" data-group="乳制品" data-band="50-100元" data-shop="瑞慕旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o032423blc10m0g4atrgps1ipc164m5ld8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>瑞士原装进口原制莫兹瑞拉干酪碎120g*3/6</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>169</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/63734738bfb9ac00017c683d" target="_blank" rel="noopener" data-region="欧洲" data-group="乳制品" data-band="50-100元" data-shop="瑞慕旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no3230im6h8700g4atrgps1ipc1ttpv6h0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【爆款】瑞士进口原制营养高钙莫兹瑞拉干酪碎120g</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>199</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="欧洲" data-group="冲饮" data-shop="薇戈娜旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">西</span>
+<div><h3>薇戈娜旗舰店</h3>
+<p class="sub"><span class="og">西班牙</span> · 果醋 · 单品类深</p></div></div>
+<span class="cnt">4 款</span>
+</header>
+<p class="note">西班牙浓缩原浆果醋三口味，客单带 ¥79.9-219.9，38 款在售但含赠品占位 SKU，实际可选品集中在三条主链。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6847e1fc801a240001b59cb8" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="50-100元" data-shop="薇戈娜旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1000g0o02qmj0ecmjm0005p3ob3u43i53j4h6bu0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>Vegaana西班牙进口浓缩原浆覆盆子果醋鲜果压榨运动饮料</h4>
+<div class="gmeta"><span class="gp">¥96.9<span class="dash">–</span>219.9</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/647ffc7214c5df0001010c43" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="50-100元" data-shop="薇戈娜旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o030rervheahg005p3ob3u43i5348phq2o?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>VEGAANA西班牙进口浓缩原浆果醋运动健身发酵饮料</h4>
+<div class="gmeta"><span class="gp">¥79.9<span class="dash">–</span>539.9</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/668643a826b4b60001420f5c" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="100-200元" data-shop="薇戈娜旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0314qpm2kj0o005p3ob3u43i53u1cu5h8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>VEGAANA西班牙进口浓缩原浆苹果醋覆盆子醋运动健身饮料</h4>
+<div class="gmeta"><span class="gp">¥139.9<span class="dash">–</span>209.9</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/684fc45993d0780001dbdf44" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="50-100元" data-shop="薇戈娜旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031ipj1tqr1i005p3ob3u43i53n0ep5qg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>VEGAANA西班牙进口浓缩原浆石榴醋覆盆子醋运动健身发酵饮料</h4>
+<div class="gmeta"><span class="gp">¥79.9<span class="dash">–</span>539.9</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="欧洲" data-group="零食烘焙" data-shop="Iceland埃丝蓝旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">英</span>
+<div><h3>Iceland埃丝蓝旗舰店</h3>
+<p class="sub"><span class="og">英国</span> · 冷冻烘焙 · 大单品</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">英国 Iceland 冷冻烘焙，纽约芝士蛋糕与巧克力熔岩蛋糕为主力，197 款冷冻品铺货较广。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/68ccf4e4bf5d360001fa4e5f" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50-100元" data-shop="Iceland埃丝蓝旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031pumq9tj60005pqdfm77304k89cs09g?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【芝士脑袋必囤】埃丝蓝芝士蛋糕甜品下午茶</h4>
+<div class="gmeta"><span class="gp">¥69.9<span class="dash">–</span>106.9</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/68b3e127a50cd9000105682a" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50-100元" data-shop="Iceland埃丝蓝旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031qgp55tt74005pqdfm77304ktd3s148?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【芝士脑袋必囤】埃丝蓝纽约芝士蛋糕甜品下午茶</h4>
+<div class="gmeta"><span class="gp">¥69.9</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6939486451b8c000011ea17b" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50-100元" data-shop="Iceland埃丝蓝旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31qe7fgqh6u105pqdfm77304kcfat78o?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>埃丝蓝 6口味12个装马卡龙礼盒</h4>
+<div class="gmeta"><span class="gp">¥59.9<span class="dash">–</span>179.9</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/690c09c09509c100014735cd" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="50元以下" data-shop="Iceland埃丝蓝旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031qeafqft72005pqdfm77304ksap8ako?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>埃丝蓝意塔联名玛格丽特芝士披萨+蒜香奶酪披萨冷冻速食440g</h4>
+<div class="gmeta"><span class="gp">¥49.9<span class="dash">–</span>209.9</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/692578c601312b00014b9e1d" target="_blank" rel="noopener" data-region="欧洲" data-group="零食烘焙" data-band="100-200元" data-shop="Iceland埃丝蓝旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031qfcuvr20m005pqdfm77304k05ifdk0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【芝士脑袋必囤】埃丝蓝纽约芝士蛋糕赠意塔联名蒜香披萨</h4>
+<div class="gmeta"><span class="gp">¥139.9</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="欧洲" data-group="冲饮" data-shop="HYLLERS海外旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">芬</span>
+<div><h3>HYLLERS海外旗舰店</h3>
+<p class="sub"><span class="og">芬兰</span> · 冲饮/粉粉 · 单品类深</p></div></div>
+<span class="cnt">3 款</span>
+</header>
+<p class="note">芬兰野生浆果与超级食物粉，甜菜根粉、北欧蓝莓粉、蔓越莓粉等独立装为主，SKU 数多但动销集中在少数几款。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/68f32c164272610001f4a054" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="200元以上" data-shop="HYLLERS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31p2hdc7f240g5oais940kfcm306k9c8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>便携独立装甜菜根粉天然气血营养品补铁叶酸食品红润-d</h4>
+<div class="gmeta"><span class="gp">¥309<span class="dash">–</span>927</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/66bea730b902bf0001fc505a" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="200元以上" data-shop="HYLLERS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031tq5fv0mmq005oais940kfcm424pbi0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>有机羽衣甘蓝果蔬粉膳食纤维营养代餐升级独立装-d</h4>
+<div class="gmeta"><span class="gp">¥319<span class="dash">–</span>638</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/692edc0101312b0001b33901" target="_blank" rel="noopener" data-region="欧洲" data-group="冲饮" data-band="200元以上" data-shop="HYLLERS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031pjed2jgkq005oais940kfcmjmprd18?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【4袋西芹粉+赠1袋羽衣甘蓝粉】有机西芹粉膳食纤维天然蔬菜</h4>
+<div class="gmeta"><span class="gp">¥1555</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="欧洲" data-group="酒水" data-shop="一群娃的妈妈是潘潘海外专营店">
+<header class="shead">
+<div class="sl"><span class="flag">意</span>
+<div><h3>一群娃的妈妈是潘潘海外专营店</h3>
+<p class="sub"><span class="og">意大利</span> · 酒水 · 单品类深</p></div></div>
+<span class="cnt">2 款</span>
+</header>
+<p class="note">意大利 FRESCOBALDI 干红为实际主销货盘（店铺主营标签写的是巧克力零食，需按实际在售品核对）。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/69708d5cb224790001f3cdd7" target="_blank" rel="noopener" data-region="欧洲" data-group="酒水" data-band="200元以上" data-shop="一群娃的妈妈是潘潘海外专营店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31rgndeho0m0g5oriauhp2h954kvmvg0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>液体祖母绿品鉴级别特级初榨橄榄油 500ml</h4>
+<div class="gmeta"><span class="gp">¥488</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6979b84006c7230001db09db" target="_blank" rel="noopener" data-region="欧洲" data-group="酒水" data-band="200元以上" data-shop="一群娃的妈妈是潘潘海外专营店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031rshrnuhi0005oriauhp2h95577ktpg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>巴萨米克醋10/20/25年黑醋250ml/瓶</h4>
+<div class="gmeta"><span class="gp">¥248<span class="dash">–</span>599</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section></div><div class="rgroup" data-region="日韩">
+<h2 class="rt"><span class="rb">日韩</span>日韩
+<i class="rc">4 家 · 21 款</i></h2>
+<section class="shop" data-region="日韩" data-group="饮料" data-shop="一只liuliu的店">
+<header class="shead">
+<div class="sl"><span class="flag">日</span>
+<div><h3>一只liuliu的店</h3>
+<p class="sub"><span class="og">日本 · 中国香港</span> · 饮料 · 大单品</p></div></div>
+<span class="cnt">6 款</span>
+</header>
+<p class="note">64 款货盘实为饮料大单品店，北川乌龙茶与港版汽水前三个品占七成以上。季节切换明显——夏季主打饮料，秋冬转美禄、kitkat 等糖巧膨化。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a623ead84b8ee000139f611" target="_blank" rel="noopener" data-region="日韩" data-group="饮料" data-band="50-100元" data-shop="一只liuliu的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322frcqrg6u0040ppgjva1tkv079u95o?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>巧克力饮品220ml KitKat朱古力可可饮料咖啡 拿铁 卡布奇诺</h4>
+<div class="gmeta"><span class="gp">¥60<span class="dash">–</span>120</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/697852ae226ff50001332ea3" target="_blank" rel="noopener" data-region="日韩" data-group="饮料" data-band="50元以下" data-shop="一只liuliu的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031el9burs4u0040ppgjva1tkvi9smkqg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港北川伝说巨峰乌龙茶北川半兵卫白桃荔枝乌龙茶瓶饮品430ml</h4>
+<div class="gmeta"><span class="gp">¥40<span class="dash">–</span>80</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69fedaa998ac4300012c1848" target="_blank" rel="noopener" data-region="日韩" data-group="饮料" data-band="50元以下" data-shop="一只liuliu的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31vuj902l560g40ppgjva1tkv0gctqd0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【新品上线】香港进口雪碧柠檬茶士多啤梨可乐草莓可乐【港版】</h4>
+<div class="gmeta"><span class="gp">¥30<span class="dash">–</span>80</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69a5262f6b5a830001cdc133" target="_blank" rel="noopener" data-region="日韩" data-group="饮料" data-band="50元以下" data-shop="一只liuliu的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031unsijnaj40040ppgjva1tkvlegpqdg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港可乐饮料330ml港版原味可乐柠檬可乐</h4>
+<div class="gmeta"><span class="gp">¥15<span class="dash">–</span>80</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a2131e11978d90001e5cc8b" target="_blank" rel="noopener" data-region="日韩" data-group="饮料" data-band="50元以下" data-shop="一只liuliu的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322jt5ved6u0040ppgjva1tkv5kk81p0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>香港进口可乐330ML可乐碳酸饮料汽水夏日饮料可乐</h4>
+<div class="gmeta"><span class="gp">¥25<span class="dash">–</span>80</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a624432e179b500013f0989" target="_blank" rel="noopener" data-region="日韩" data-group="饮料" data-band="50-100元" data-shop="一只liuliu的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322vkujs1mu0040ppgjva1tkvamlo3sg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>泰国零度碳酸饮料711高颜值可乐黑金可乐325ML夏日饮品可乐</h4>
+<div class="gmeta"><span class="gp">¥50<span class="dash">–</span>120</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="日韩" data-group="零食烘焙" data-shop="拉面口袋的店">
+<header class="shead">
+<div class="sl"><span class="flag">韩</span>
+<div><h3>拉面口袋的店</h3>
+<p class="sub"><span class="og">韩国</span> · 速食/饼干/糖巧 · 集合店</p></div></div>
+<span class="cnt">6 款</span>
+</header>
+<p class="note">韩系零食饮料长尾集合店，323 款在售，无大单品。背后有线下 3000 平大仓，全品类进口货源都能调。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/68945b6a956aac0015490fe6" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="拉面口袋的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031v8kg61r1u005oh83vr410ah5hv8828?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>越南原装PHO速食河粉泡面方便冲泡acecook牛肉鸡肉米粉米线</h4>
+<div class="gmeta"><span class="gp">¥29.9<span class="dash">–</span>74.8</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a743c05cef2250001a5dc3c" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="拉面口袋的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no323rdghae6u0g5oh83vr410ah3uj0eb0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>越南Alpenliebe阿尔卑斯百香果味软糖橡皮糖84g儿童零食糖果</h4>
+<div class="gmeta"><span class="gp">¥25.88<span class="dash">–</span>58.88</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/68ca8c867be2990015cb50a2" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="拉面口袋的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0323jldn28n4005oh83vr410ahn13r1io?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>韩国原装CROWN苹果味夹心华夫饼干办公室休闲食品解馋零食</h4>
+<div class="gmeta"><span class="gp">¥29.99<span class="dash">–</span>81.8</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a7ecd86a4f71c0001986b00" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="拉面口袋的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o03120okt8lhk005oh83vr410ahltmo4co?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【潘玮柏同款囤货装】韩国原装不倒翁八道三养农心泡面韩式拉面</h4>
+<div class="gmeta"><span class="gp">¥33.9<span class="dash">–</span>99.9</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/697a090665a1a100016db868" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50-100元" data-shop="拉面口袋的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31rsrqp0ii20g5oh83vr410ahc6vffi8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【顺丰包邮】江原道匠人拉面韩国原装韩式石锅汤面香辣牛肉方便面</h4>
+<div class="gmeta"><span class="gp">¥72.8<span class="dash">–</span>118.8</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/68fb68f2ad046d000198ff02" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="拉面口袋的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322h5tbr7n0005oh83vr410ahqfev5g0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>Twice代言BTS同款韩国原装茶美安teazen康普茶无加糖柠檬气泡茶饮</h4>
+<div class="gmeta"><span class="gp">¥49.9<span class="dash">–</span>75.8</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="日韩" data-group="零食烘焙" data-shop="韩国食品旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">韩</span>
+<div><h3>韩国食品旗舰店</h3>
+<p class="sub"><span class="og">韩国</span> · 零食/饮料 · 集合店</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">三立、OKF、LOTTE 等韩系品牌集合，181 款在售，货盘偏铺货型，动销分散在长尾。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a51982ff7e50e00157a5bcf" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="韩国食品旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no322fp4ir7740g5p3mn8p75aa2qsjn2tg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>韩国牌奶酪味压缩饼干芝士零食苏打曲奇饼干营养应急代餐</h4>
+<div class="gmeta"><span class="gp">¥8.9<span class="dash">–</span>65</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a4b1d34d9bb890015817648" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="韩国食品旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322ah0gtrmu005p3mn8p75aa2kn9m2u0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>韩国进口CW青佑牌巧克力味打糕九日青右零食饼干麻薯软曲奇元气</h4>
+<div class="gmeta"><span class="gp">¥9.9<span class="dash">–</span>59.9</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a4718004ffccd0015664d7f" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="韩国食品旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322ah064174005p3mn8p75aa2p2qd31g?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>韩国进口冰棒冰淇淋雪糕冰棍吸吸冰苏打水果味冷饮棒冰原装</h4>
+<div class="gmeta"><span class="gp">¥35.9<span class="dash">–</span>49.9</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a559190b113e40015b57b33" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50元以下" data-shop="韩国食品旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no322j9r0knn0005p3mn8p75aa2623hls8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>韩国进口大麦茶茶饮料植物饮品瓶装熬夜花草茶饮</h4>
+<div class="gmeta"><span class="gp">¥35.6</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a4f3526a9e8d300012f6398" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="100-200元" data-shop="韩国食品旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no322fkrb70n40g5p3mn8p75aa2moc4io8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>代餐粉轻享营养早餐粉饱腹轻享健康控制热量下午茶健身</h4>
+<div class="gmeta"><span class="gp">¥118<span class="dash">–</span>188</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="日韩" data-group="零食烘焙" data-shop="蓝猫小可乐美食研究所的店">
+<header class="shead">
+<div class="sl"><span class="flag">日</span>
+<div><h3>蓝猫小可乐美食研究所的店</h3>
+<p class="sub"><span class="og">日本 · 法国</span> · 日韩杂货 · 集合店</p></div></div>
+<span class="cnt">4 款</span>
+</header>
+<p class="note">92 款日韩与法系进口杂货，可丽饼、京都柚子汽水等选品有辨识度，动销高度分散在长尾。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a523a234f6fde00019b59c5" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="100-200元" data-shop="蓝猫小可乐美食研究所的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao322fum23i7u06cjleqvh00000000000focl9ji?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【现货】韩国网红咖啡店anthracite coffee精品咖啡豆拼配豆</h4>
+<div class="gmeta"><span class="gp">¥139.9</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69cc9450c6fcf500010cc242" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="100-200元" data-shop="蓝猫小可乐美食研究所的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104103ng31m1sek525i76cjleqvh000000000008sn41fq?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【现货】日本chiwataya超浓郁抹茶浓茶黄油酱焙茶红茶黄油即食</h4>
+<div class="gmeta"><span class="gp">¥199<span class="dash">–</span>398</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/66993294e05f370001f5bffb" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="100-200元" data-shop="蓝猫小可乐美食研究所的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao323ubmse4nk06cjleqvh00000000000f9jt5g0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【现货】正规进口法国la conviette 发酵AOP黄油糖果黄油独立包装</h4>
+<div class="gmeta"><span class="gp">¥178<span class="dash">–</span>459</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69d3ea393ff4c80001fc391a" target="_blank" rel="noopener" data-region="日韩" data-group="零食烘焙" data-band="50-100元" data-shop="蓝猫小可乐美食研究所的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/104100ao321bd0g6g7a66cjleqvh000000000008ao7282?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【现货】日本北海道札幌GARAKU人气汤咖喱日式咖喱鸡料理食材高汤</h4>
+<div class="gmeta"><span class="gp">¥79.9<span class="dash">–</span>158</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section></div><div class="rgroup" data-region="美洲·大洋洲">
+<h2 class="rt"><span class="rb">美洲·大洋洲</span>美洲·大洋洲
+<i class="rc">4 家 · 22 款</i></h2>
+<section class="shop" data-region="美洲·大洋洲" data-group="冲饮" data-shop="皇太后御食生活的店">
+<header class="shead">
+<div class="sl"><span class="flag">多</span>
+<div><h3>皇太后御食生活的店</h3>
+<p class="sub"><span class="og">英国 · 澳洲 · 意大利</span> · 咖啡/麦片/冲饮 · 集合店</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">进口品牌选品集合店，beanies 冻干咖啡、a2 牛奶、LOACKER 威化、MOVENPICK 冰淇淋等多品牌并行，分爆款零食、速食下饭菜、爆款饮品三个货架。3.7 万粉，累计已售 25.2 万件。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/66cd3ff95c80460001effc4c" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="50-100元" data-shop="皇太后御食生活的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031ajvsbelmm004a6gv0s6blbrnvdeql0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【推荐做奶咖】贝尼诗英国进口冻干风味速溶薄荷巧克力黑咖啡</h4>
+<div class="gmeta"><span class="gp">¥65<span class="dash">–</span>298</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69c6241315bd74000144ea0d" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="100-200元" data-shop="皇太后御食生活的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322jigtfnmu004a6gv0s6blbrb6a56ig?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【四盒装】小矮人坚果巧克力脆皮冰淇淋草莓柠檬味雪糕</h4>
+<div class="gmeta"><span class="gp">¥109<span class="dash">–</span>128</span><span class="gc">水产肉类/新鲜蔬果/熟食</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a4f447733a5710001f9c850" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="50-100元" data-shop="皇太后御食生活的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no3234eb800ms7g4a6gv0s6blbrifhll4g?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【8瓶装】鲜芋仙台式仙草冻冬瓜饮植物饮料清爽解腻</h4>
+<div class="gmeta"><span class="gp">¥59</span><span class="gc">零食/坚果/特产</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/63881c5ef7c6ac0001224a69" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="100-200元" data-shop="皇太后御食生活的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031782b686gm004a6gv0s6blbr9vitln0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【顺丰发货】维也纳香肠日式小香肠早餐烤肠章鱼小香肠</h4>
+<div class="gmeta"><span class="gp">¥148</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6597f46bff7b510001a095c6" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="50-100元" data-shop="皇太后御食生活的店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31jpfhare360g4a6gv0s6blbre6i1mb8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【3盒共30串，送6包调料】日式风味关东煮串串组合鱼丸关东煮食材</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>128</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="美洲·大洋洲" data-group="调味" data-shop="PIC’S皮卡思旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">新</span>
+<div><h3>PIC’S皮卡思旗舰店</h3>
+<p class="sub"><span class="og">新西兰</span> · 调味 · 单品类深</p></div></div>
+<span class="cnt">5 款</span>
+</header>
+<p class="note">新西兰高油酸花生酱单品类纵深，颗粒/幼滑/奇亚籽/巧克力多规格，客单带 ¥99-215，是这批商家里客单最高的一家。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/6348d89b7fbc370001cf35ac" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="调味" data-band="50元以下" data-shop="PIC’S皮卡思旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0322ff64bj70004aevurjr0jh1tas4eco?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>PICS新西兰健身颗粒宝宝高油酸花生酱火锅酱生酮辅食优质脂肪</h4>
+<div class="gmeta"><span class="gp">¥9.9<span class="dash">–</span>198</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69b22ff57c9c8f0001352920" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="调味" data-band="50-100元" data-shop="PIC’S皮卡思旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31ueoh7hh1u0g4aevurjr0jh1ftstlso?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【进阶食养】PIC&#x27;S奇亚籽火麻仁生酮健身五籽花生酱290克轻食餐</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>215</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69b221359b4aae0001e357ed" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="调味" data-band="50-100元" data-shop="PIC’S皮卡思旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031ueo08lmhm004aevurjr0jh1r0ho2p8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【运动健身】PIC&#x27;S颗粒高油酸花生酱100%纯花生健身优质脂肪轻食</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>195</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69b2311499f8fe0001f7e45f" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="调味" data-band="50-100元" data-shop="PIC’S皮卡思旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031ueoiirpj4004aevurjr0jh1r70mhig?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【嘴馋解压】PIC&#x27;S新西兰原装巧克力花生酱优质脂肪营养醇香健身</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>215</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/69f2cded6bdc38000172f7cd" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="调味" data-band="50-100元" data-shop="PIC’S皮卡思旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031ueod2pn2s004aevurjr0jh1int9boo?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【首创新品】PIC&#x27;S新西兰海盐黑胡椒高油酸花生酱健身餐优质脂肪</h4>
+<div class="gmeta"><span class="gp">¥99<span class="dash">–</span>215</span><span class="gc">粮油调味/速食/干货/烘焙</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="美洲·大洋洲" data-group="茶" data-shop="HARNEY&amp;SONS海外旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">美</span>
+<div><h3>HARNEY&amp;SONS海外旗舰店</h3>
+<p class="sub"><span class="og">美国</span> · 茶 · 单品类深</p></div></div>
+<span class="cnt">6 款</span>
+</header>
+<p class="note">美国调味茶包，炒米、姜黄、路易波士等口味各成一条链接，51 款在售，动销集中在前三个口味。目前无礼盒化组合。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/669b7fb93813ca000151a856" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="茶" data-band="50-100元" data-shop="HARNEY&amp;SONS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0320ebjm6v5i004a5oph3qgau9p4631po?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>【两件8折】有机姜黄茶+柠檬生姜茶 果味养生茶包进口</h4>
+<div class="gmeta"><span class="gp">¥99</span><span class="gc">茶</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/66c6a5d2ad99590001301bed" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="茶" data-band="100-200元" data-shop="HARNEY&amp;SONS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o032011v0n454004a5oph3qgau9fgjilp8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>蓝色绮梦花草茶 蝶豆花苹果柠檬玫瑰果茶 进口袋泡茶包花果茶</h4>
+<div class="gmeta"><span class="gp">¥119</span><span class="gc">茶</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/67063eba5bcbab00015de44c" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="茶" data-band="100-200元" data-shop="HARNEY&amp;SONS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031c4b5d7kgc004a5oph3qgau9asrrlh0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>覆盆子花草茶 树莓玫瑰果茶薄荷茶 进口袋泡茶包调味茶 冷泡茶</h4>
+<div class="gmeta"><span class="gp">¥119</span><span class="gc">茶</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/676ce9a5966ebd00014b4d01" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="茶" data-band="100-200元" data-shop="HARNEY&amp;SONS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31c1b1gnt0e0g4a5oph3qgau93vbdsco?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>甜红豆炒米红茶 进口袋泡茶包花草茶红茶</h4>
+<div class="gmeta"><span class="gp">¥159</span><span class="gc">茶</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/65543c2f1996a5000118f859" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="茶" data-band="100-200元" data-shop="HARNEY&amp;SONS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o030rftt4iuhc004a5oph3qgau9asiikrg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>黄蓝梦幻花草茶 洋甘菊矢车菊薰衣草茶 进口花茶茶包</h4>
+<div class="gmeta"><span class="gp">¥119</span><span class="gc">茶</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/65543cb9ec3d120001497476" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="茶" data-band="100-200元" data-shop="HARNEY&amp;SONS海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o0319c9l7tb5k004a5oph3qgau9ugg5k80?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>有机姜黄茶 苹果甜菜根生姜茶 养生茶进口茶包</h4>
+<div class="gmeta"><span class="gp">¥129</span><span class="gc">茶</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section><section class="shop" data-region="美洲·大洋洲" data-group="冲饮" data-shop="little apple treats海外旗舰店">
+<header class="shead">
+<div class="sl"><span class="flag">美</span>
+<div><h3>little apple treats海外旗舰店</h3>
+<p class="sub"><span class="og">美国</span> · 冲饮/果醋 · 单品类深</p></div></div>
+<span class="cnt">6 款</span>
+</header>
+<p class="note">美国进口苹果醋三口味（百香果/原味/柑橘），SKU 少而聚焦，产地心智清晰。</p>
+<div class="grid"><a class="g" href="https://www.xiaohongshu.com/goods-detail/687e06ce79bc4700011cc7a1" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="200元以上" data-shop="little apple treats海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031rsl4gqb28005plj3apiu9hvju6v1do?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>多口味有机原浆发酵苹果醋 美国原装 减脂搭档 无添加</h4>
+<div class="gmeta"><span class="gp">¥280<span class="dash">–</span>885</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6a587aa071d2490001ca89b4" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="200元以上" data-shop="little apple treats海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o03230gq3ji72005plj3apiu9hvbp2lltg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>2瓶装｜多口味有机原浆发酵苹果醋 美国原装 减脂搭档 无添加</h4>
+<div class="gmeta"><span class="gp">¥590</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6874a66068b50f00011ac9bb" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="200元以上" data-shop="little apple treats海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031jth6977ig005plj3apiu9hv1nf2lqg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>百香果热带风味 美国进口苹果醋原浆发酵375ml</h4>
+<div class="gmeta"><span class="gp">¥295</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6874a576b6f0e80001928836" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="200元以上" data-shop="little apple treats海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31jth620uk80g5plj3apiu9hvk5l65n0?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>原味美国进口苹果醋 有机原浆发酵 零糖 375ml</h4>
+<div class="gmeta"><span class="gp">¥280</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6874a7434485460001e32c45" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="200元以上" data-shop="little apple treats海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g0o031jth61rt2a005plj3apiu9hvcpl9fjg?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>黑莓柠檬味苹果醋美国原装进口 原浆发酵 375ml</h4>
+<div class="gmeta"><span class="gp">¥295</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a><a class="g" href="https://www.xiaohongshu.com/goods-detail/6874a71575ae0c0001e0e4b0" target="_blank" rel="noopener" data-region="美洲·大洋洲" data-group="冲饮" data-band="200元以上" data-shop="little apple treats海外旗舰店">
+<div class="gimg"><img loading="lazy" src="https://qimg.xiaohongshu.com/arkgoods/1040g3no31jth61tmk8s05plj3apiu9hvgelt6p8?imageView2/2/w/420/format/webp" alt=""></div>
+<div class="gbody">
+<h4>三重柑橘味美国进口苹果醋原浆发酵 375ml</h4>
+<div class="gmeta"><span class="gp">¥295</span><span class="gc">咖啡/麦片/冲饮</span></div>
+<div class="gact"><span class="btn go">查看商品 →</span></div>
+</div></a></div>
+</section></div>
+<div class="empty">没有同时满足这几个条件的商品，换个筛选看看</div>
+
+<div class="tip"><b>使用说明：</b>点商品卡直接跳转商品页，手机和电脑都能打开。价格为当前售价区间，商品页上能看到实时到手价。<br>
+直播专属价、佣金比例、可承接档期需与商家单独确认。<br>
+列表只收公开在售的主推品 —— 挂给其他达人的专属链接、拍样链接、已下架品都没放进来，需要专属价可让商家单独开链接。</div>
+
+<footer>
+价格为商品当前售价区间（同一商品不同规格的最低至最高价），实际直播到手价与佣金需与商家单独确认。<br>
+商品与商家信息截至 2026-08-24。
+</footer></div>
+
+<script>
+var KEYS=['region','group','band'];
+var state={region:'',group:'',band:''};
+var cards=[].slice.call(document.querySelectorAll('.g'));
+var shopsEl=[].slice.call(document.querySelectorAll('.shop'));
+var rgs=[].slice.call(document.querySelectorAll('.rgroup'));
+
+function hit(el,skip){
+  for(var i=0;i<KEYS.length;i++){
+    var k=KEYS[i]; if(k===skip) continue;
+    if(!state[k]) continue;
+    if(el.dataset[k]!==state[k]) return false;
+  }
+  return true;
+}
+
+function render(){
+  var vis=0;
+  cards.forEach(function(c){
+    var ok=hit(c,null);
+    c.style.display=ok?'':'none';
+    if(ok) vis++;
+  });
+  shopsEl.forEach(function(s){
+    var n=[].slice.call(s.querySelectorAll('.g')).filter(function(c){return c.style.display!=='none'}).length;
+    s.style.display=n?'':'none';
+    var c=s.querySelector('.cnt'); if(c) c.textContent=n+' 款';
+  });
+  rgs.forEach(function(r){
+    var sh=[].slice.call(r.querySelectorAll('.shop')).filter(function(s){return s.style.display!=='none'});
+    r.style.display=sh.length?'':'none';
+    var n=0; sh.forEach(function(s){n+=[].slice.call(s.querySelectorAll('.g')).filter(function(c){return c.style.display!=='none'}).length});
+    var rc=r.querySelector('.rc'); if(rc) rc.textContent=sh.length+' 家 · '+n+' 款';
+  });
+  document.querySelector('.empty').style.display=vis?'none':'block';
+  if(document.querySelector('.fsum')) summary();
+  // chip 联动禁用
+  KEYS.forEach(function(k){
+    document.querySelectorAll('.chip[data-k="'+k+'"]').forEach(function(ch){
+      var v=ch.dataset.v;
+      ch.classList.toggle('on',state[k]===v);
+      if(!v){ch.disabled=false;return}
+      var n=cards.filter(function(c){return c.dataset[k]===v&&hit(c,k)}).length;
+      ch.disabled=n===0;
+    });
+  });
+}
+
+document.querySelectorAll('.chip').forEach(function(ch){
+  ch.addEventListener('click',function(){
+    if(ch.disabled) return;
+    var k=ch.dataset.k;
+    state[k]=(state[k]===ch.dataset.v)?'':ch.dataset.v;
+    render();
+  });
+});
+
+var bar=document.querySelector('.bar');
+document.querySelector('.ftog').addEventListener('click',function(){bar.classList.toggle('open')});
+function summary(){
+  var on=KEYS.map(function(k){return state[k]}).filter(Boolean);
+  var vis=cards.filter(function(c){return c.style.display!=='none'}).length;
+  document.querySelector('.fsum').textContent=on.length?on.join(' · ')+'（'+vis+' 款）':'全部商品';
+}
+
+render();
+</script></body></html>
