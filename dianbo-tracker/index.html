@@ -556,7 +556,7 @@ window.__WTD__={"gen": "2026-08-31", "w1": "2026-08-24~2026-08-30", "m1": "2026-
    return d.rows||d.data||d.records||(Array.isArray(d)?d:[]);
  }
  function q(am){
-   return post('/supabase/rows/query',{table_name:TB,filters:{am:'eq.'+am,week:'eq.'+WEEK},limit:1})
+   return post('/supabase/rows/query',{table_name:TB,limit:1,query:{am:'eq.'+am,week:'eq.'+WEEK,order:'id.desc'}})
      .then(function(j){ var r=pickRows(j); return r[0]||null; });
  }
  function upsert(am,patch,cur){
