@@ -536,73 +536,94 @@ window.__WTD__={"gen": "2026-08-31", "w1": "2026-08-24~2026-08-30", "m1": "2026-
 })();
 
 (function(){
- var BASE='https://builder.devops.xiaohongshu.com/builder-api/v1';
- var APP='bld_c04675277cb44c29b084c94f14b8683a';
- var TB='dianbo_am_feedback';
+ var API='https://cowork.xiaohongshu.com/s/xiushi-dianbo-backend';
  var WEEK=(window.__WTD__&&window.__WTD__.w1)?String(window.__WTD__.w1).split('~')[0]:'unknown';
  var KMAP={last:'last_review',plan:'week_plan',gpm:'gpm_plan'};
- function req(path,body){
-   var url=BASE+path+'?app_id='+encodeURIComponent(APP);
-   return fetch(url,{method:'POST',credentials:'include',
-     headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
-    .then(function(r){return r.json()})
-    .then(function(j){ if(j.code!==0) throw new Error(j.message||('code '+j.code)); return j.data||{}; });
+ var CACHE=null, CANEDIT=null;
+
+ function api(path,opt){
+   opt=opt||{};
+   return fetch(API+path,{
+     method:opt.method||'GET',
+     credentials:'include',
+     headers:{'Content-Type':'application/json'},
+     body:opt.body?JSON.stringify(opt.body):undefined
+   }).then(function(r){
+     if(r.status===401) throw new Error('未登录：请先在浏览器里登录公司账号');
+     if(r.status===403) throw new Error('仅休食组成员可填写');
+     return r.json().then(function(j){
+       if(!r.ok) throw new Error((j&&j.detail)||('HTTP '+r.status));
+       return j;
+     });
+   });
  }
- function load(am){
-   return req('/supabase/rows/query',{table_name:TB,query:{am:'eq.'+am,week:'eq.'+WEEK,limit:1,order:'id.desc'}})
-     .then(function(d){ var r=d.rows||[]; return r[0]||null; });
+ function lsKey(am,f){ return 'dianbo_fb_local|'+am+'|'+WEEK+'|'+f; }
+ function lsSet(am,f,v){ try{localStorage.setItem(lsKey(am,f),v)}catch(e){} }
+ function lsGet(am,f){ try{return localStorage.getItem(lsKey(am,f))}catch(e){return null} }
+
+ function loadAll(){
+   if(CACHE) return Promise.resolve(CACHE);
+   return api('/api/feedback?week='+encodeURIComponent(WEEK)).then(function(j){
+     CACHE={};
+     (j.rows||[]).forEach(function(r){ CACHE[r.am]=r; });
+     return CACHE;
+   });
  }
- function saveField(am,cur,field,val){
-   if(cur&&cur.id){
-     var v={}; v[field]=val;
-     return req('/supabase/rows/update',{table_name:TB,filters:{id:'eq.'+cur.id},values:v})
-       .then(function(d){ var r=d.rows||[]; return r[0]||cur; });
-   }
-   var row={am:am,week:WEEK}; row[field]=val;
-   return req('/supabase/rows/insert',{table_name:TB,rows:[row]})
-     .then(function(d){ var r=d.rows||[]; return r[0]||null; });
- }
+
  document.querySelectorAll('.fb-card').forEach(function(card){
    var am=card.getAttribute('data-fbam');
    var st=card.querySelector('.fb-status');
    var who=card.querySelector('.fb-who');
-   var cur=null;
    function S(t,c){ if(st){st.textContent=t; st.style.color=c||'#00A14B';} }
    function stamp(row){
      if(!who||!row) return;
-     var t=row.updated_at||row.created_at;
-     who.textContent=t?('　最近更新：'+String(t).slice(5,16).replace('T',' ')):'';
+     var t=row.updated_at?String(row.updated_at).replace('T',' ').slice(5,16):'';
+     who.textContent='　最近更新：'+(row.author_name||'')+(t?(' '+t):'');
    }
+   function fillLocal(){
+     card.querySelectorAll('.fb-ta').forEach(function(ta){
+       var v=lsGet(am,KMAP[ta.getAttribute('data-k')]);
+       if(v&&!ta.value) ta.value=v;
+     });
+   }
+
    S('读取中…','#888');
-   load(am).then(function(row){
-     cur=row;
+   loadAll().then(function(all){
+     var row=all[am];
      if(row){
        card.querySelectorAll('.fb-ta').forEach(function(ta){
-         var f=KMAP[ta.getAttribute('data-k')]; if(row[f]) ta.value=row[f];
+         var f=KMAP[ta.getAttribute('data-k')];
+         if(row[f]) ta.value=row[f];
        });
-       S('✓ 已加载共享内容','#00A14B'); stamp(row);
-     } else S('本周尚无填写','#888');
+       S('✓ 已加载全组共享内容','#00A14B'); stamp(row);
+     } else {
+       S('本周尚无填写','#888');
+     }
+     fillLocal();
    }).catch(function(e){
-     S('⚠ 读取失败：'+(e&&e.message||'网络'),'#c62828');
+     S('⚠ '+(e&&e.message||'读取失败')+'（下面填的内容会先存在本机）','#c62828');
+     fillLocal();
    });
+
    card.querySelectorAll('.fb-save').forEach(function(btn){
      btn.addEventListener('click',function(){
        var k=btn.getAttribute('data-k');
        var ta=btn.parentElement.querySelector('.fb-ta[data-k="'+k+'"]');
        if(!ta) return;
-       var old=btn.textContent;
+       var field=KMAP[k], old=btn.textContent;
+       lsSet(am,field,ta.value);
        btn.textContent='⏳ 保存中…'; btn.disabled=true;
-       saveField(am,cur,KMAP[k],ta.value).then(function(r){
-         if(r&&r.id) cur=r;
-         btn.textContent='✅ 已保存'; stamp(r);
-         S('✓ 已保存·全组可见 '+new Date().toLocaleTimeString('zh-CN',{hour12:false}),'#00A14B');
-       }).catch(function(e){
-         btn.textContent='❌ 失败';
-         S('⚠ 保存失败：'+(e&&e.message||'网络'),'#c62828');
-         alert('保存失败：'+(e&&e.message||'网络'));
-       }).then(function(){
-         setTimeout(function(){ btn.textContent=old; btn.disabled=false; },1800);
-       });
+       api('/api/feedback',{method:'POST',body:{am:am,week:WEEK,field:field,value:ta.value}})
+        .then(function(row){
+          if(CACHE) CACHE[am]=row;
+          btn.textContent='✅ 已保存'; stamp(row);
+          S('✓ 已保存·全组可见 '+new Date().toLocaleTimeString('zh-CN',{hour12:false}),'#00A14B');
+        }).catch(function(e){
+          btn.textContent='❌ 未同步';
+          S('⚠ 保存失败：'+(e&&e.message||'网络')+'（内容已暂存本机，稍后再点保存）','#c62828');
+        }).then(function(){
+          setTimeout(function(){ btn.textContent=old; btn.disabled=false; },2200);
+        });
      });
    });
  });
