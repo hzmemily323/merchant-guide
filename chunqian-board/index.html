@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>春千个人业绩看板</title>
+<style>
+:root{
+  --bg:#f7f7f9; --card:#fff; --ink:#222; --muted:#8a8f99;
+  --accent:#ff6700; --up:#16a34a; --down:#dc2626;
+  --border:#e8e8ee; --soft:#f2f3f7;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
+.wrap{max-width:1180px;margin:0 auto;padding:18px 16px 40px}
+header h1{font-size:20px;display:flex;align-items:center;gap:8px}
+header .sub{color:var(--muted);font-size:12px;margin-top:4px}
+.tabs{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+.tabs button{border:1px solid var(--border);background:var(--card);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:13px}
+.tabs button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.card h3{font-size:14px;margin-bottom:10px;color:var(--ink)}
+.card h3 small{color:var(--muted);font-weight:400;font-size:12px;margin-left:6px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpi{background:var(--soft);border-radius:10px;padding:12px}
+.kpi .v{font-size:22px;font-weight:700}
+.kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
+.up{color:var(--up)} .down{color:var(--down)}
+.bar-row{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px}
+.bar-row .name{width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar-row .track{flex:1;background:var(--soft);border-radius:4px;height:14px;position:relative}
+.bar-row .fill{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ffb066,#ff6700)}
+.bar-row .val{width:70px;text-align:right;font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{color:var(--muted);font-weight:500;text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:6px 8px;border-bottom:1px solid var(--soft)}
+tr.total td{font-weight:700;background:var(--soft)}
+.empty{color:var(--muted);padding:24px;text-align:center}
+.muted{color:var(--muted);font-size:12px}
+#copy-btn{border:1px solid var(--border);background:transparent;border-radius:6px;padding:3px 10px;font-size:12px;cursor:pointer;margin-left:8px}
+.hero{background:linear-gradient(135deg,#fff7f0,#fff);border:1px solid #ffd9b3;border-radius:12px;padding:16px;margin-bottom:14px}
+.hero h2{font-size:15px;margin-bottom:12px}
+footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center}
+.chart-box{height:280px}
+.full{grid-column:1/-1}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🌱 春千个人业绩看板</h1>
+    <div class="sub" id="meta-sub">挂户 2026-09-01 起 · 数据窗口 2026-08-03 ~ 2026-09-01 · 挂接商家 146 家</div>
+  </header>
+  <div class="tabs" id="tabs"></div>
+  <div id="main"></div>
+  <footer>数据源：RedBI 商家列表导出（挂接人=春千）· 周报可点「复制摘要」一键带走 · 下期数据刷新后自动对比</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
