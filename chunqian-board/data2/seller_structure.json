@@ -1,0 +1,107 @@
+{
+ "metric": "seller_structure",
+ "desc": "商家结构变化（基于 ds:1922 各时段有成交(DGMV>0)的商家集合）",
+ "periods": {
+  "this_week": {
+   "label": "本周 2026-08-25~2026-08-31",
+   "active_sellers": 101,
+   "vs": "last_week",
+   "new_sellers": {
+    "658e0dd5c1ef660001c1573e": {
+     "name": "蜀味食品",
+     "dgmv": 879.86
+    },
+    "6926b98d68a55c0015118007": {
+     "name": "节礼礼品定制的店",
+     "dgmv": 612
+    },
+    "66986d1861e10d0001183118": {
+     "name": "WantPower旗舰店",
+     "dgmv": 5.8
+    }
+   },
+   "lost_sellers": {
+    "68f6fdb50bcf900016c87f6d": {
+     "name": "上而生商贸的店"
+    },
+    "694ebc911b172300155d9ecc": {
+     "name": "煲汤的牙米的店"
+    },
+    "68cbc3ee12892e00154dbe40": {
+     "name": "外婆乡小榨食用油旗舰店"
+    },
+    "675165f996808d001539adbf": {
+     "name": "麦小年茶事的店"
+    }
+   },
+   "new_count": 3,
+   "lost_count": 4
+  },
+  "last_week": {
+   "label": "上周 2026-08-18~2026-08-24",
+   "active_sellers": 102
+  },
+  "this_bimonth": {
+   "label": "本双月 2026-07-01~2026-08-31",
+   "active_sellers": 117,
+   "vs": "last_bimonth",
+   "new_sellers": {
+    "65dc37897929fe000150dea5": {
+     "name": "聚香达粮油店的店",
+     "dgmv": 419.4
+    }
+   },
+   "lost_sellers": {
+    "69648daf0933ac0015867ae0": {
+     "name": "皮皮滴柴烧的店"
+    },
+    "699faa7e18d5d40015fb495b": {
+     "name": "云南农宝宝菌菇的店"
+    },
+    "69c25e245b08cd0015271d54": {
+     "name": "腊峰生物科技的店"
+    },
+    "67bbff7616b26700152857d4": {
+     "name": "Arnott's雅乐思旗舰店"
+    },
+    "66d6db628ff8dc00150df719": {
+     "name": "闲多福食光记的店"
+    },
+    "69855155f880a800151bbdbe": {
+     "name": "官耳生物科技的店"
+    },
+    "68b92209fa6f6500159af904": {
+     "name": "Nairns奈尔斯的店"
+    },
+    "66efd48da9bf3400163ab970": {
+     "name": "小禾家零食整件的店"
+    },
+    "69708c3ab71ebf0015902dfe": {
+     "name": "贝蒂斯橄榄油旗舰店"
+    },
+    "6859074fafe81a00158f6fd1": {
+     "name": "冠生园官方旗舰店"
+    },
+    "62d0d8d98a193a0001a86084": {
+     "name": "亿滋旗舰店"
+    },
+    "67623f1d1b9d1900156965c7": {
+     "name": "食验室零食铺的店"
+    },
+    "68ff1c41429ad7001506a736": {
+     "name": "饱了但还能吃的店"
+    }
+   },
+   "new_count": 1,
+   "lost_count": 13
+  },
+  "last_bimonth": {
+   "label": "上双月 2026-05-01~2026-06-30",
+   "active_sellers": 129
+  },
+  "yoy_bimonth": {
+   "label": "去年同期 2025-07-01~2025-08-31",
+   "active_sellers": 102
+  }
+ }
+}
