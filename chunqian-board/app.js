@@ -35,8 +35,8 @@ function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt
 /* ---------- 总览 ---------- */
 function renderOverview(){
   const p=CUR_P, prev=PREV[p];
-  const sum=D._summary[p].total_dgmv;
-  const prevSum=prev?D._summary[prev].total_dgmv:null;
+  const sum=D.summary[p].total_dgmv;
+  const prevSum=prev?D.summary[prev].total_dgmv:null;
   const fd=D.field_dist.periods[p], pfd=prev?D.field_dist.periods[prev]:null;
   const getG=(data,name)=>{if(!data)return null;const r=data.rows.find(x=>x[0]===name);return r?r[3]:null};
   const scenes=fd.rows.filter(r=>r[0]!=="总计");
@@ -82,7 +82,7 @@ function renderOverview(){
   // 日序列趋势 + 当前时段高亮
   const dates=ds.map(r=>r.date), vals=ds.map(r=>r.dgmv);
   const ps=PERIOD_LABEL[p];
-  const [s,e]=D._summary[p].label.match(/\d{4}-\d{2}-\d{2}/g)||[];
+  const [s,e]=D.summary[p].label.match(/\d{4}-\d{2}-\d{2}/g)||[];
   const inRange=i=>s&&e&&dates[i]>=s&&dates[i]<=e;
   chart("c-trend",{tooltip:{trigger:"axis",formatter:x=>`${x[0].axisValue}<br>DGMV: <b>${fmtW(x[0].value)}</b>`},
     grid:{left:50,right:10,top:10,bottom:22},
@@ -153,7 +153,7 @@ function renderNote(){
       <div>· 曝光→阅读转化 <b>${c(0)?pct(c(1)/c(0)):"—"}</b>${prev&&q(0)?`（上期 ${pct(q(1)/q(0))}）`:""}：内容封面/标题的点击吸引力</div>
       <div>· 阅读→商卡点击 <b>${pct(c(4))}</b>：挂卡位置与商品匹配度</div>
       <div>· 商笔DGMV/新发笔记 = <b>${c(2)&&c(3)?"¥"+fmtN(c(2)/c(3)):"—"}</b>/篇：单篇带货效率</div>
-      <div>· 场域占比：商笔占总 DGMV <b>${pct(c(2)/D._summary[p].total_dgmv)}</b></div>
+      <div>· 场域占比：商笔占总 DGMV <b>${pct(c(2)/D.summary[p].total_dgmv)}</b></div>
     </div>
   </div>`;
 }
@@ -184,7 +184,7 @@ function renderLive(){
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 店播诊断</div>
-      <div>· 店播占总 DGMV <b>${pct(g(core,0)/D._summary[p].total_dgmv)}</b>；开播商家渗透 <b>${(g(core,3)/146*100).toFixed(0)}%</b>（146家中${g(core,3)}家）</div>
+      <div>· 店播占总 DGMV <b>${pct(g(core,0)/D.summary[p].total_dgmv)}</b>；开播商家渗透 <b>${(g(core,3)/146*100).toFixed(0)}%</b>（146家中${g(core,3)}家）</div>
       <div>· 场均 DGMV <b>${det&&det[5]?(g(core,0)/det[5]/1e4).toFixed(2)+"万/场":"—"}</b>${det?`（${det[5]}场）`:""}</div>
       <div>· 场均时长 <b>${det&&det[5]&&hours?(hours/det[5]).toFixed(1)+"h":"—"}</b>${p==="this_week"?"：对照店播专项 4-6h 性价比区间":""}</div>
       <div>· GPM <b>${g(core,1)!=null?g(core,1).toFixed(1):"—"}</b>：休食友好线参考 170（月度口径），低 GPM 优先查货品结构与流量承接</div>
@@ -205,7 +205,7 @@ function renderKbo(){
         ${kpi(fmtW(w[0]),"K播DGMV",prev?delta(w[0],pw[0]):"")}
         ${kpi(cur.from_1922.k_sellers_1922,"K带动销商家",prev?delta(cur.from_1922.k_sellers_1922,prv.from_1922.k_sellers_1922):"")}
         ${kpi(fmtN(cur.from_1922.k_orders),"K播订单数",prev?delta(cur.from_1922.k_orders,prv.from_1922.k_orders):"")}
-        ${kpi(pct(w[0]/D._summary[p].total_dgmv),"占总DGMV","")}
+        ${kpi(pct(w[0]/D.summary[p].total_dgmv),"占总DGMV","")}
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 K播诊断</div>
@@ -299,7 +299,7 @@ function renderTab(){
 window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 
 (async()=>{
-  const files=["_summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
+  const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
   for(const f of files){
     D[f]=await (await fetch(`data2/${f}.json`)).json();
   }
