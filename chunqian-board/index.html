@@ -12,38 +12,49 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
-.wrap{max-width:1180px;margin:0 auto;padding:18px 16px 40px}
-header h1{font-size:20px;display:flex;align-items:center;gap:8px}
-header .sub{color:var(--muted);font-size:12px;margin-top:4px}
-.tabs{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+.wrap{max-width:1200px;margin:0 auto;padding:18px 16px 40px}
+header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+header h1{font-size:20px}
+header .sub{color:var(--muted);font-size:12px}
+.periods{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
+.periods button{border:1px solid var(--border);background:var(--card);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:13px}
+.periods button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tabs{display:flex;gap:8px;margin:0 0 14px;flex-wrap:wrap}
 .tabs button{border:1px solid var(--border);background:var(--card);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:13px}
-.tabs button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tabs button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
 .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
-.card h3{font-size:14px;margin-bottom:10px;color:var(--ink)}
+.card h3{font-size:14px;margin-bottom:10px}
 .card h3 small{color:var(--muted);font-weight:400;font-size:12px;margin-left:6px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
 .kpi{background:var(--soft);border-radius:10px;padding:12px}
-.kpi .v{font-size:22px;font-weight:700}
+.kpi .v{font-size:21px;font-weight:700}
 .kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
-.up{color:var(--up)} .down{color:var(--down)}
-.bar-row{display:flex;align-items:center;gap:8px;padding:5px 0;font-size:13px}
-.bar-row .name{width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.bar-row .track{flex:1;background:var(--soft);border-radius:4px;height:14px;position:relative}
-.bar-row .fill{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ffb066,#ff6700)}
-.bar-row .val{width:70px;text-align:right;font-variant-numeric:tabular-nums}
+.kpi .d{font-size:12px;margin-top:2px;font-weight:600}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+.hero{background:linear-gradient(135deg,#fff7f0,#fff);border:1px solid #ffd9b3;border-radius:12px;padding:16px;margin-bottom:14px}
+.hero h2{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 table{width:100%;border-collapse:collapse;font-size:13px}
 th{color:var(--muted);font-weight:500;text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
 td{padding:6px 8px;border-bottom:1px solid var(--soft)}
 tr.total td{font-weight:700;background:var(--soft)}
-.empty{color:var(--muted);padding:24px;text-align:center}
+.num{text-align:right;font-variant-numeric:tabular-nums}
 .muted{color:var(--muted);font-size:12px}
-#copy-btn{border:1px solid var(--border);background:transparent;border-radius:6px;padding:3px 10px;font-size:12px;cursor:pointer;margin-left:8px}
-.hero{background:linear-gradient(135deg,#fff7f0,#fff);border:1px solid #ffd9b3;border-radius:12px;padding:16px;margin-bottom:14px}
-.hero h2{font-size:15px;margin-bottom:12px}
-footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center}
-.chart-box{height:280px}
+.chart-box{height:300px}
 .full{grid-column:1/-1}
+#copy-btn{border:1px solid var(--border);background:transparent;border-radius:6px;padding:3px 10px;font-size:12px;cursor:pointer;margin-left:auto}
+.tag{display:inline-block;font-size:11px;border-radius:4px;padding:1px 6px;margin-left:4px}
+.tag-up{background:#e8f7ee;color:var(--up)} .tag-down{background:#fdeaea;color:var(--down)}
+.insight{background:#fffaf5;border:1px solid #ffd9b3;border-radius:8px;padding:10px 12px;font-size:13px;line-height:1.7}
+.insight b{color:var(--accent)}
+footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center;line-height:1.8}
+.delta{font-size:12px;font-weight:600}
+.bar-row{display:flex;align-items:center;gap:8px;padding:4px 0;font-size:13px}
+.bar-row .name{width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar-row .track{flex:1;background:var(--soft);border-radius:4px;height:12px;position:relative}
+.bar-row .fill{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ffb066,#ff6700)}
+.bar-row .val{width:64px;text-align:right;font-variant-numeric:tabular-nums}
+.bar-row .delta{width:56px;text-align:right}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 </head>
@@ -51,11 +62,13 @@ footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center}
 <div class="wrap">
   <header>
     <h1>🌱 春千个人业绩看板</h1>
-    <div class="sub" id="meta-sub">挂户 2026-09-01 起 · 数据窗口 2026-08-03 ~ 2026-09-01 · 挂接商家 146 家</div>
+    <span class="sub" id="meta-sub">挂接商家 146 家 · 商家ID口径 · 数据截止 2026-08-31</span>
   </header>
+  <div class="periods" id="periods"></div>
   <div class="tabs" id="tabs"></div>
-  <div id="main"></div>
-  <footer>数据源：RedBI 商家列表导出（挂接人=春千）· 周报可点「复制摘要」一键带走 · 下期数据刷新后自动对比</footer>
+  <div id="main"><div style="text-align:center;color:var(--muted);padding:40px">加载中…</div></div>
+  <footer>数据源：RedBI ds:1922 / ds:2479 / ds:5574 · 商家口径=146家挂接清单（AM字段数仓生效后可切换）<br>
+  率类指标（GPM/CTR/转化率）为跨商家跨天平均值口径 · K播合作主播数/场次数疑似同源仅作量级参考</footer>
 </div>
 <script src="app.js"></script>
 </body>
