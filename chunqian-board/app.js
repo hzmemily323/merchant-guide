@@ -7,14 +7,16 @@ const PERIOD_LABEL = {
 };
 const PREV = {this_week:"last_week", this_bimonth:"last_bimonth", last_bimonth:"yoy_bimonth"};
 const TABS = [
+  {key:"weekly", name:"周报"},
   {key:"overview", name:"总览"},
   {key:"note", name:"商笔"},
   {key:"live", name:"店播"},
   {key:"kbo", name:"K播"},
-  {key:"category", name:"品类"},
   {key:"sellers", name:"商家"},
 ];
-let CUR_P = "this_week", CUR_T = "overview";
+const FIELDS = ["zhibo","shangbi","kbo","shangka","other"];
+const FIELD_NAME = {zhibo:"店播", shangbi:"商笔", kbo:"K播", shangka:"商卡", other:"其他"};
+let CUR_P = "this_week", CUR_T = "weekly";
 const CHARTS = [];
 
 const $=id=>document.getElementById(id);
@@ -148,6 +150,11 @@ function renderNote(){
         ${kpi(pct(c(4)),"阅读后商卡点击率",prev?delta(c(4),q(4)):"")}
         ${kpi(pct(c(5)),"商笔商品转化率",prev?delta(c(5),q(5)):"")}
       </div></div>
+    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>近两周对比</small></h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("shangbi","W35","W34").up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("shangbi","W35","W34").down)}</div>
+      </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 商笔诊断</div>
       <div>· 曝光→阅读转化 <b>${c(0)?pct(c(1)/c(0)):"—"}</b>${prev&&q(0)?`（上期 ${pct(q(1)/q(0))}）`:""}：内容封面/标题的点击吸引力</div>
@@ -182,6 +189,11 @@ function renderLive(){
         ${kpi(pct(g(core,4)),"店播CTR(平均)",prev?delta(g(core,4),g(pcore,4)):"")}
         ${kpi(g(core,5)!=null?"¥"+g(core,5).toFixed(1):"—","笔单价(平均)",prev?delta(g(core,5),g(pcore,5)):"")}
       </div></div>
+    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>近两周对比</small></h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("zhibo","W35","W34").up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("zhibo","W35","W34").down)}</div>
+      </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 店播诊断</div>
       <div>· 店播占总 DGMV <b>${pct(g(core,0)/D.summary[p].total_dgmv)}</b>；开播商家渗透 <b>${(g(core,3)/146*100).toFixed(0)}%</b>（146家中${g(core,3)}家）</div>
@@ -206,6 +218,11 @@ function renderKbo(){
         ${kpi(cur.from_1922.k_sellers_1922,"K带动销商家",prev?delta(cur.from_1922.k_sellers_1922,prv.from_1922.k_sellers_1922):"")}
         ${kpi(fmtN(cur.from_1922.k_orders),"K播订单数",prev?delta(cur.from_1922.k_orders,prv.from_1922.k_orders):"")}
         ${kpi(pct(w[0]/D.summary[p].total_dgmv),"占总DGMV","")}
+      </div></div>
+    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>近两周对比</small></h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("kbo","W35","W34").up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("kbo","W35","W34").down)}</div>
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 K播诊断</div>
@@ -288,11 +305,11 @@ function renderTab(){
     b.onclick=()=>{CUR_T=t.key;renderTab();};
     el.appendChild(b);
   });
-  if(CUR_T==="overview")renderOverview();
+  if(CUR_T==="weekly")renderWeekly();
+  else if(CUR_T==="overview")renderOverview();
   else if(CUR_T==="note")renderNote();
   else if(CUR_T==="live")renderLive();
   else if(CUR_T==="kbo")renderKbo();
-  else if(CUR_T==="category")renderCategory();
   else if(CUR_T==="sellers")renderSellers();
   window.scrollTo({top:0});
 }
@@ -300,9 +317,106 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly"]){
+    D[f]=await (await fetch(`data3/${f}.json`)).json();
+  }
   for(const f of files){
     D[f]=await (await fetch(`data2/${f}.json`)).json();
   }
   renderPeriods();
   renderTab();
 })();
+
+/* ---------- V3: 涨跌 TOP 商家通用 ---------- */
+function topMovers(field, wk, prevWk, n=5){
+  // field: dgmv/zhibo/shangbi/kbo/shangka；返回 [{name, cur, prev, delta, pct}]
+  const rows = D.seller_weekly.map(r=>{
+    const cur=(r.weeks[wk]||{})[field]||0, prev=(r.weeks[prevWk]||{})[field]||0;
+    return {name:r.name, seller_id:r.seller_id, cur, prev, delta:cur-prev};
+  }).filter(r=>r.cur>0||r.prev>0);
+  const up=[...rows].filter(r=>r.delta>0).sort((a,b)=>b.delta-a.delta).slice(0,n);
+  const down=[...rows].filter(r=>r.delta<0).sort((a,b)=>a.delta-b.delta).slice(0,n);
+  return {up, down};
+}
+function moverRows(list, field){
+  if(!list||!list.length) return `<div class="muted" style="padding:8px 0">无</div>`;
+  return `<table><tbody>${list.map(r=>`<tr>
+    <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(r.name)}">${esc(r.name)}</td>
+    <td class="num">${fmtW(r.prev)}</td><td style="color:var(--muted)">→</td>
+    <td class="num"><b>${fmtW(r.cur)}</b></td>
+    <td class="num ${r.delta>=0?"up":"down"}">${r.delta>=0?"Δ+":"Δ-"}${fmtW(Math.abs(r.delta))}${r.prev>0?`（${r.delta>=0?"+":""}${(r.delta/r.prev*100).toFixed(0)}%）`:"（新起量）"}</td>
+  </tr>`).join("")}</tbody></table>`;
+}
+
+/* ---------- V3: 周报 tab ---------- */
+const WEEK_LIST = ["W35","W34","W33","W32"];
+function renderWeekly(){
+  const wkMap = {this_week:"W35", last_week:"W34"};
+  const wk = wkMap[CUR_P] || "W35";
+  const w = wk, pw = "W"+(parseInt(w.slice(1))-1);
+  const yoy = (D.yoy_weekly||{})[w]||{};
+  const sw = D.seller_weekly;
+  const tot = f => sw.reduce((s,r)=>s+((r.weeks[w]||{})[f]||0),0);
+  const ptot = f => sw.reduce((s,r)=>s+((r.weeks[pw]||{})[f]||0),0);
+  const dgmv=tot("dgmv"), pdgmv=ptot("dgmv");
+  const wow = pdgmv>0?(dgmv-pdgmv)/pdgmv:null;
+  const active = sw.filter(r=>((r.weeks[w]||{}).dgmv||0)>0).length;
+  const sl = D.seller_live_weekly.find?D.seller_live_weekly:[];
+  const liveSellers = sl.filter(r=>(r.weeks[w]||{}).rooms>0).length;
+  const sbSellers = sw.filter(r=>((r.weeks[w]||{}).shangbi||0)>0).length;
+  const m=$("main");
+
+  const fieldLine = (f)=>{
+    const c=tot(f), p=ptot(f);
+    if(c===0&&p===0) return "";
+    const r=p>0?(c-p)/p:null;
+    return `<span class="${r==null?"flat":r>=0?"up":"down"}" style="font-size:13px">${FIELD_NAME[f]} ${fmtW(c)}${r!=null?`（${r>=0?"+":""}${(r*100).toFixed(1)}%）`:""}</span>`;
+  };
+
+  m.innerHTML=`
+  <div class="hero">
+    <h2>📝 ${w} 周报生成器<button id="copy-btn">复制周报文字</button></h2>
+    <div class="kpis">
+      ${kpi(fmtW(dgmv),`总 DGMV`,wow!=null?delta(dgmv,pdgmv):"")}
+      ${kpi(active,"动销商家","")}
+      ${kpi(yoy.yoy_ratio!=null?(yoy.yoy_ratio*100).toFixed(1)+"%":"—","YoY","")}
+      ${kpi(liveSellers,"开播商家","")}
+      ${kpi(sbSellers,"商笔动销商家","")}
+    </div>
+    <div style="margin-top:10px;line-height:2">${FIELDS.map(fieldLine).join(" · ")}</div>
+  </div>
+  <div class="grid">
+    ${FIELDS.filter(f=>tot(f)>0||ptot(f)>0).map(f=>{
+      const mv=topMovers(f==="other"?"dgmv":f, w, pw);
+      if(f==="other") return ""; // 其他载体不单列
+      return `<div class="card full"><h3>${FIELD_NAME[f]} · 涨跌 TOP5 商家<small>${w} vs ${pw} · ${fmtW(tot(f))} ${tot(f)>0&&ptot(f)>0?((tot(f)-ptot(f))/ptot(f)*100).toFixed(1)+"%":""}</small></h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(mv.up,f)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(mv.down,f)}</div>
+      </div></div>`;
+    }).join("")}
+    <div class="card full insight" id="wk-insight"></div>
+  </div>`;
+
+  // 洞察
+  const ins=[];
+  ins.push(`总盘 ${fmtW(dgmv)}，WoW ${wow!=null?(wow>=0?"<b class='up'>+"+(wow*100).toFixed(1)+"%</b>":"<b class='down'>"+(wow*100).toFixed(1)+"%</b>"):"—"}${yoy.yoy_ratio!=null?`，YoY <b class="down">${(yoy.yoy_ratio*100).toFixed(1)}%</b>（去年同期 ${fmtW(yoy.yoy_dgmv)}）`:""}`);
+  const mvAll=topMovers("dgmv",w,pw);
+  if(mvAll.up[0]) ins.push(`最大增量：<b>${esc(mvAll.up[0].name)}</b> ${fmtW(mvAll.up[0].prev)}→${fmtW(mvAll.up[0].cur)}（Δ+${fmtW(mvAll.up[0].delta)}）`);
+  if(mvAll.down[0]) ins.push(`最大跌幅：<b>${esc(mvAll.down[0].name)}</b> ${fmtW(mvAll.down[0].prev)}→${fmtW(mvAll.down[0].cur)}（Δ${fmtW(mvAll.down[0].delta)}）`);
+  const zr=tot("zhibo"), zrPrev=ptot("zhibo");
+  if(zr>0) ins.push(`店播 ${fmtW(zr)}${zrPrev>0?`（WoW ${((zr-zrPrev)/zrPrev*100).toFixed(1)}%）`:""}，开播 ${liveSellers} 家；商笔 ${fmtW(tot("shangbi"))}（${sbSellers}家动销）；K播 ${fmtW(tot("kbo"))}；商卡 ${fmtW(tot("shangka"))}`);
+  $("wk-insight").innerHTML=`<div style="font-weight:600;margin-bottom:6px">🔍 周报要点</div>`+ins.map(x=>`<div>· ${x}</div>`).join("");
+
+  $("copy-btn").onclick=()=>{
+    const txt=[`【春千 ${w} 周报】`,
+      `总盘 DGMV ${fmtW(dgmv)}（WoW ${wow!=null?(wow>=0?"+":"")+(wow*100).toFixed(1)+"%":"—"}${yoy.yoy_ratio!=null?"，YoY "+(yoy.yoy_ratio*100).toFixed(1)+"%":""}）；动销 ${active} 家、开播 ${liveSellers} 家、商笔动销 ${sbSellers} 家。`,
+      `场域：${FIELDS.filter(f=>tot(f)>0).map(f=>`${FIELD_NAME[f]} ${fmtW(tot(f))}`).join(" / ")}。`,
+      `最大增量：${mvAll.up.slice(0,3).map(r=>`${r.name} +${fmtW(r.delta)}`).join("、")}；最大跌幅：${mvAll.down.slice(0,3).map(r=>`${r.name} ${fmtW(r.delta)}`).join("、")}。`,
+      FIELDS.filter(f=>tot(f)>0&&f!=="other").map(f=>{
+        const mv=topMovers(f,w,pw);
+        return `${FIELD_NAME[f]}：涨 ${mv.up.slice(0,3).map(r=>`${r.name}+${fmtW(r.delta)}`).join("、")}；跌 ${mv.down.slice(0,3).map(r=>`${r.name}${fmtW(r.delta)}`).join("、")}。`;
+      }).join("\n")].join("\n");
+    navigator.clipboard.writeText(txt).then(()=>{$("copy-btn").textContent="✅ 已复制";setTimeout(()=>$("copy-btn").textContent="复制周报文字",2000)});
+  };
+}
