@@ -228,6 +228,26 @@ function renderLive(){
 }
 
 /* ---------- K播 ---------- */
+/* V4: K播主播归因 */
+function kboHostAttr(seller_id, w, pw){
+  const rec=(D.seller_kbo_hosts||{})[seller_id];
+  if(!rec) return null;
+  const hw=rec.weeks[w]||{}, hp=rec.weeks[pw]||{};
+  const hostsW={}, hostsP={};
+  (hw.hosts||[]).forEach(h=>hostsW[h.anchor_id]=h);
+  (hp.hosts||[]).forEach(h=>hostsP[h.anchor_id]=h);
+  const changes=[];
+  Object.keys(hostsW).forEach(id=>{
+    const a=hostsW[id], b=hostsP[id];
+    const dd=(a.dgmv||0)-((b&&b.dgmv)||0);
+    if(Math.abs(dd)>800) changes.push({n:a.nickname,d:dd,type:b?"增":"新"});
+  });
+  Object.keys(hostsP).forEach(id=>{
+    if(!hostsW[id] && hostsP[id].dgmv>800) changes.push({n:hostsP[id].nickname,d:-hostsP[id].dgmv,type:"停"});
+  });
+  changes.sort((x,y)=>Math.abs(y.d)-Math.abs(x.d));
+  return changes.slice(0,4);
+}
 function renderKbo(){
   const p=CUR_P, prev=PREV[p];
   const cur=D.k_live.periods[p];
@@ -247,6 +267,20 @@ function renderKbo(){
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("kbo","W35","W34")).up)}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("kbo","W35","W34")).down)}</div>
       </div></div>
+    <div class="card full"><h3>🎙 K播涨跌 · 主播级归因<small>W35 vs W34 · 涨跌TOP5商家的主播变化</small></h3>
+      ${(()=>{
+        const mv=topMovers("kbo","W35","W34");
+        const rows=[...mv.up.slice(0,5),...mv.down.slice(0,5)];
+        const html=rows.map(r=>{
+          const ch=kboHostAttr(r.seller_id,"W35","W34")||[];
+          if(!ch.length) return "";
+          const chips=ch.map(c=>`<span style="display:inline-block;margin:2px 4px 2px 0;padding:2px 8px;border-radius:10px;font-size:11.5px;${c.d>0?'background:#e8f5e9;color:#1b5e20':'background:#fdecea;color:#b71c1c'}">${c.type==="新"?"🆕":c.type==="停"?"🚫":c.d>0?"📈":"📉"} ${esc(c.n)} ${c.d>0?"+":""}${fmtW(c.d)}</span>`).join("");
+          return `<div style="display:flex;align-items:flex-start;gap:10px;padding:7px 0;border-bottom:1px solid #f0f0f0"><b style="min-width:150px;font-size:13px">${esc(r.name)}</b><span style="flex:1">${chips||'<span style="color:#999;font-size:12px">主播粒度无显著变化</span>'}</span></div>`;
+        }).join("");
+        return html||'<div style="color:#999">本周K播涨跌TOP商家均无主播级显著变化</div>';
+      })()}
+      <div style="font-size:11.5px;color:#999;margin-top:8px">🆕新合作主播 · 🚫停止合作 · 📈📉同主播增减 · 金额为主播贡献K播DGMV变化（阈值800元）</div>
+    </div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 K播诊断</div>
       <div>· K播贡献 <b>${fmtW(w[0])}</b>，主要由头部达人带货（金燕耳、ffit8 等品为主）</div>
@@ -345,8 +379,9 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly"]){
-    D[f]=await (await fetch(`data3/${f}.json`)).json();
+const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"];
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"]){
+    try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
   for(const f of files){
     D[f]=await (await fetch(`data2/${f}.json`)).json();
