@@ -152,8 +152,8 @@ function renderNote(){
       </div></div>
     <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("shangbi","W35","W34").up)}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("shangbi","W35","W34").down)}</div>
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("shangbi","W35","W34")).up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("shangbi","W35","W34")).down)}</div>
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 商笔诊断</div>
@@ -191,8 +191,8 @@ function renderLive(){
       </div></div>
     <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("zhibo","W35","W34").up)}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("zhibo","W35","W34").down)}</div>
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("zhibo","W35","W34")).up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("zhibo","W35","W34")).down)}</div>
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 店播诊断</div>
@@ -221,8 +221,8 @@ function renderKbo(){
       </div></div>
     <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("kbo","W35","W34").up)}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("kbo","W35","W34").down)}</div>
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("kbo","W35","W34")).up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("kbo","W35","W34")).down)}</div>
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 K播诊断</div>
@@ -344,6 +344,47 @@ function topMovers(field, wk, prevWk, n=5){
   const down=[...rows].filter(r=>r.delta<0).sort((a,b)=>a.delta-b.delta).slice(0,n);
   return {up, down};
 }
+/* V4: 涨跌归因——场域贡献 + 过程指标变化 */
+function attributeMove(r, w, pw){
+  // r: {seller_id, name, cur, prev, delta}
+  const sw = (D.seller_weekly||[]).find(x=>x.seller_id===r.seller_id);
+  if(!sw) return "数据不足";
+  const cw=sw.weeks[w]||{}, pwk=sw.weeks[pw]||{};
+  const parts=[];
+  const FIELDD={zhibo:"店播",shangbi:"商笔",kbo:"K播",shangka:"商卡"};
+  // 场域贡献分解
+  const contr=Object.keys(FIELDD).map(f=>({f,d:(cw[f]||0)-(pwk[f]||0)})).sort((a,b)=>Math.abs(b.d)-Math.abs(a.d));
+  const main=contr[0];
+  if(main && Math.abs(main.d)>Math.abs(r.delta)*0.5 && Math.abs(main.d)>1000 && main.d*r.delta>0){
+    const share=Math.round(main.d/r.delta*100);
+    parts.push(`${FIELDD[main.f]}${main.d>=0?"贡献":"拖累"}${Math.abs(share)}%`);
+  } else if(r.delta>0){
+    // 增长但无单一主导场域：给场域结构
+    const pos=contr.filter(c=>c.d>500).map(c=>`${FIELDD[c.f]}+${fmtW(c.d)}`);
+    if(pos.length>1) parts.push(pos.join(" "));
+  }
+  // 店播过程指标
+  const lv=(D.seller_live_weekly||[]).find(x=>x.seller_id===r.seller_id);
+  if(lv){
+    const lw=lv.weeks[w]||{}, lp=lv.weeks[pw]||{};
+    const dRooms=(lw.rooms||0)-(lp.rooms||0), dDur=(lw.duration_h||0)-(lp.duration_h||0);
+    if(r.delta<0 && (lp.rooms||0)>=20 && (lw.rooms||0)<(lp.rooms||0)*0.5) parts.push("大场/高排播回落");
+    else if(dRooms!==0) parts.push(`场次${dRooms>0?"+":""}${dRooms}场`);
+    if(Math.abs(dDur)>10) parts.push(`时长${dDur>0?"+":""}${Math.round(dDur)}h`);
+  }
+  // 商笔过程
+  const nt=(D.seller_note_weekly||[]).find(x=>x.seller_id===r.seller_id);
+  if(nt){
+    const nw=nt.weeks[w]||{}, np=nt.weeks[pw]||{};
+    const dNotes=(nw.new_notes||0)-(np.new_notes||0);
+    if(Math.abs(dNotes)>=10) parts.push(`新发笔记${dNotes>0?"+":""}${dNotes}篇`);
+  }
+  // 新起量 / 归零
+  if(r.prev===0) parts.unshift("本周新起量");
+  if(r.cur===0) parts.unshift("本周归零");
+  return parts.length?parts.join(" · "):"—";
+}
+let MOVER_W="W35", MOVER_PW="W34";
 function moverRows(list, field){
   if(!list||!list.length) return `<div class="muted" style="padding:8px 0">无</div>`;
   return `<table><tbody>${list.map(r=>`<tr>
@@ -351,6 +392,7 @@ function moverRows(list, field){
     <td class="num">${fmtW(r.prev)}</td><td style="color:var(--muted)">→</td>
     <td class="num"><b>${fmtW(r.cur)}</b></td>
     <td class="num ${r.delta>=0?"up":"down"}">${r.delta>=0?"▲":"▼"}${fmtW(Math.abs(r.delta))}${r.prev>0?`（${r.delta>=0?"+":""}${(r.delta/r.prev*100).toFixed(0)}%）`:"（新起量）"}</td>
+    <td style="font-size:11.5px;color:#666;min-width:130px">${attributeMove(r, MOVER_W, MOVER_PW)}</td>
   </tr>`).join("")}</tbody></table>`;
 }
 
@@ -360,7 +402,7 @@ function renderWeekly(){
   const wkMap = {this_week:"W35", last_week:"W34"};
   const wk = wkMap[CUR_P] || "W35";
   const periodOffWeek = !(CUR_P in wkMap);  // 双月/YoY 时段与周数据不匹配
-  const w = wk, pw = "W"+(parseInt(w.slice(1))-1);
+  const w = wk, pw = "W"+(parseInt(w.slice(1))-1); MOVER_W=w; MOVER_PW=pw;
   const yoy = (D.yoy_weekly||{})[w]||{};
   const sw = D.seller_weekly;
   const tot = f => sw.reduce((s,r)=>s+((r.weeks[w]||{})[f]||0),0);
