@@ -1,0 +1,30 @@
+{
+ "W32": {
+  "this_dgmv": 1978637.35,
+  "this_sellers": 132,
+  "yoy_dgmv": 3383460.380000001,
+  "yoy_sellers": 103,
+  "yoy_ratio": -0.4152
+ },
+ "W33": {
+  "this_dgmv": 2026676.49,
+  "this_sellers": 131,
+  "yoy_dgmv": 4085688.689999999,
+  "yoy_sellers": 103,
+  "yoy_ratio": -0.504
+ },
+ "W34": {
+  "this_dgmv": 1664908.12,
+  "this_sellers": 130,
+  "yoy_dgmv": 3530657.0699999984,
+  "yoy_sellers": 103,
+  "yoy_ratio": -0.5284
+ },
+ "W35": {
+  "this_dgmv": 1909497.73,
+  "this_sellers": 130,
+  "yoy_dgmv": 3905503.769999999,
+  "yoy_sellers": 104,
+  "yoy_ratio": -0.5111
+ }
+}
