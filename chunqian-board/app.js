@@ -350,7 +350,7 @@ function moverRows(list, field){
     <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(r.name)}">${esc(r.name)}</td>
     <td class="num">${fmtW(r.prev)}</td><td style="color:var(--muted)">→</td>
     <td class="num"><b>${fmtW(r.cur)}</b></td>
-    <td class="num ${r.delta>=0?"up":"down"}">${r.delta>=0?"Δ+":"Δ-"}${fmtW(Math.abs(r.delta))}${r.prev>0?`（${r.delta>=0?"+":""}${(r.delta/r.prev*100).toFixed(0)}%）`:"（新起量）"}</td>
+    <td class="num ${r.delta>=0?"up":"down"}">${r.delta>=0?"▲":"▼"}${fmtW(Math.abs(r.delta))}${r.prev>0?`（${r.delta>=0?"+":""}${(r.delta/r.prev*100).toFixed(0)}%）`:"（新起量）"}</td>
   </tr>`).join("")}</tbody></table>`;
 }
 
