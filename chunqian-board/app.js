@@ -305,6 +305,11 @@ function renderTab(){
     b.onclick=()=>{CUR_T=t.key;renderTab();};
     el.appendChild(b);
   });
+  if(CUR_T==="weekly" && !(CUR_P in {this_week:1,last_week:1})){
+    // 周报 tab 只在周时段有效；双月/YoY 时段自动回落总览
+    CUR_T="overview";
+    [...el.querySelectorAll("button")].forEach((b,i)=>b.classList.toggle("active", TABS[i].key==="overview"));
+  }
   if(CUR_T==="weekly")renderWeekly();
   else if(CUR_T==="overview")renderOverview();
   else if(CUR_T==="note")renderNote();
