@@ -166,6 +166,28 @@ function renderNote(){
 }
 
 /* ---------- 店播 ---------- */
+function liveMedianGPM(){
+  try{
+    const wkMap={this_week:"W35",last_week:"W34"};
+    const wk=wkMap[CUR_P]; if(!wk) return "—";
+    const g=(D.seller_live_weekly||[]).map(r=>((r.weeks||{})[wk]||{}).gpm).filter(x=>x!=null).sort((a,b)=>a-b);
+    if(!g.length) return "—";
+    return g[Math.floor(g.length/2)].toFixed(1);
+  }catch(e){ return "—" }
+}
+function liveGpmOutliers(){
+  try{
+    const wkMap={this_week:"W35",last_week:"W34"};
+    const wk=wkMap[CUR_P]; if(!wk) return "";
+    const names={}; (D.seller_weekly||[]).forEach(r=>names[r.seller_id]=r.name);
+    const rows=(D.seller_live_weekly||[]).map(r=>{
+      const w=(r.weeks||{})[wk]||{};
+      return {n:names[r.seller_id]||r.seller_id.slice(0,8), gpm:w.gpm, dgmv:w.dgmv||0, uv:w.buy_uv||0};
+    }).filter(r=>r.gpm!=null).sort((a,b)=>b.gpm-a.gpm).slice(0,3)
+     .map(r=>`${r.n}（GPM ${r.gpm.toFixed(0)}，但DGMV仅${fmtW(r.dgmv)}、购买UV ${r.uv}）`).join("、");
+    return rows;
+  }catch(e){ return "" }
+}
 function renderLive(){
   const p=CUR_P, prev=PREV[p];
   const cur=D.store_live.periods[p];
@@ -185,7 +207,8 @@ function renderLive(){
         ${kpi(det?fmtN(det[5]):"—","开播场次",prev?delta(det?det[5]:null,pdet?pdet[5]:null):"")}
         ${kpi(hours!=null?fmtN(hours)+"h":"—","开播时长",prev&&phours!=null?delta(hours,phours):"")}
         ${kpi(g(core,1)?fmtN(g(core,1)):"—","店播购买UV",prev?delta(g(core,1),g(pcore,1)):"")}
-        ${kpi(g(core,2)!=null?g(core,2).toFixed(1):"—","GPM(平均)",prev?delta(g(core,2),g(pcore,2)):"")}
+        ${kpi(g(core,2)!=null?g(core,2).toFixed(1):"—","GPM(简单平均)",prev?delta(g(core,2),g(pcore,2)):"")}
+        ${kpi(liveMedianGPM(),"GPM(中位)") }
         ${kpi(pct(g(core,4)),"店播CTR(平均)",prev?delta(g(core,4),g(pcore,4)):"")}
         ${kpi(g(core,5)!=null?"¥"+g(core,5).toFixed(1):"—","笔单价(平均)",prev?delta(g(core,5),g(pcore,5)):"")}
       </div></div>
@@ -199,7 +222,7 @@ function renderLive(){
       <div>· 店播占总 DGMV <b>${pct(g(core,0)/D.summary[p].total_dgmv)}</b>；开播商家渗透 <b>${(g(core,3)/146*100).toFixed(0)}%</b>（146家中${g(core,3)}家）</div>
       <div>· 场均 DGMV <b>${det&&det[5]?(g(core,0)/det[5]/1e4).toFixed(2)+"万/场":"—"}</b>${det?`（${det[5]}场）`:""}</div>
       <div>· 场均时长 <b>${det&&det[5]&&hours?(hours/det[5]).toFixed(1)+"h":"—"}</b>${p==="this_week"?"：对照店播专项 4-6h 性价比区间":""}</div>
-      <div>· GPM <b>${g(core,1)!=null?g(core,1).toFixed(1):"—"}</b>：休食友好线参考 170（月度口径），低 GPM 优先查货品结构与流量承接</div>
+      <div>· GPM 为<b>跨商家简单平均</b>，小曝光商家会拉出极端值${liveGpmOutliers()?`（本周最高：${liveGpmOutliers()}）</div><div>· 判断大盘看「GPM(中位)」更稳：中位 <b>${liveMedianGPM()}</b>`:"；判断大盘请看「GPM(中位)」"}</div>
     </div>
   </div>`;
 }
