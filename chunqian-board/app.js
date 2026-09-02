@@ -150,7 +150,7 @@ function renderNote(){
         ${kpi(pct(c(4)),"阅读后商卡点击率",prev?delta(c(4),q(4)):"")}
         ${kpi(pct(c(5)),"商笔商品转化率",prev?delta(c(5),q(5)):"")}
       </div></div>
-    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>近两周对比</small></h3>
+    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("shangbi","W35","W34").up)}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("shangbi","W35","W34").down)}</div>
@@ -189,7 +189,7 @@ function renderLive(){
         ${kpi(pct(g(core,4)),"店播CTR(平均)",prev?delta(g(core,4),g(pcore,4)):"")}
         ${kpi(g(core,5)!=null?"¥"+g(core,5).toFixed(1):"—","笔单价(平均)",prev?delta(g(core,5),g(pcore,5)):"")}
       </div></div>
-    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>近两周对比</small></h3>
+    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("zhibo","W35","W34").up)}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("zhibo","W35","W34").down)}</div>
@@ -219,7 +219,7 @@ function renderKbo(){
         ${kpi(fmtN(cur.from_1922.k_orders),"K播订单数",prev?delta(cur.from_1922.k_orders,prv.from_1922.k_orders):"")}
         ${kpi(pct(w[0]/D.summary[p].total_dgmv),"占总DGMV","")}
       </div></div>
-    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>近两周对比</small></h3>
+    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows(topMovers("kbo","W35","W34").up)}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows(topMovers("kbo","W35","W34").down)}</div>
@@ -328,6 +328,7 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 })();
 
 /* ---------- V3: 涨跌 TOP 商家通用 ---------- */
+function STATE_LABEL(){ try { return PERIOD_LABEL[CUR_P]||CUR_P } catch(e){ return CUR_P } }
 function topMovers(field, wk, prevWk, n=5){
   // field: dgmv/zhibo/shangbi/kbo/shangka；返回 [{name, cur, prev, delta, pct}]
   const rows = D.seller_weekly.map(r=>{
@@ -353,6 +354,7 @@ const WEEK_LIST = ["W35","W34","W33","W32"];
 function renderWeekly(){
   const wkMap = {this_week:"W35", last_week:"W34"};
   const wk = wkMap[CUR_P] || "W35";
+  const periodOffWeek = !(CUR_P in wkMap);  // 双月/YoY 时段与周数据不匹配
   const w = wk, pw = "W"+(parseInt(w.slice(1))-1);
   const yoy = (D.yoy_weekly||{})[w]||{};
   const sw = D.seller_weekly;
@@ -374,6 +376,7 @@ function renderWeekly(){
   };
 
   m.innerHTML=`
+  ${periodOffWeek?`<div class="card" style="border-color:#f59e0b;background:#fffbeb;margin-bottom:12px;font-size:13px">⚠️ 周报板块只看<b>周对比</b>，顶部时段切到「本周/上周」才生效（当前时段：${STATE_LABEL()}）。周数据只有 W32~W35 四周。</div>`:""}
   <div class="hero">
     <h2>📝 ${w} 周报生成器<button id="copy-btn">复制周报文字</button></h2>
     <div class="kpis">
