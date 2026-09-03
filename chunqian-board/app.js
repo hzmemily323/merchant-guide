@@ -563,8 +563,8 @@ function renderWeekly(){
   const ins=[];
   ins.push(`总盘 ${fmtW(dgmv)}，WoW ${wow!=null?(wow>=0?"<b class='up'>+"+(wow*100).toFixed(1)+"%</b>":"<b class='down'>"+(wow*100).toFixed(1)+"%</b>"):"—"}${yoy.yoy_ratio!=null?`，YoY <b class="down">${(yoy.yoy_ratio*100).toFixed(1)}%</b>（去年同期 ${fmtW(yoy.yoy_dgmv)}）`:""}`);
   const mvAll=topMovers("dgmv",w,pw);
-  if(mvAll.up[0]) ins.push(`最大增量：<b>${esc(mvAll.up[0].name)}</b> ${fmtW(mvAll.up[0].prev)}→${fmtW(mvAll.up[0].cur)}（Δ+${fmtW(mvAll.up[0].delta)}）`);
-  if(mvAll.down[0]) ins.push(`最大跌幅：<b>${esc(mvAll.down[0].name)}</b> ${fmtW(mvAll.down[0].prev)}→${fmtW(mvAll.down[0].cur)}（Δ${fmtW(mvAll.down[0].delta)}）`);
+  if(mvAll.up[0]) ins.push(`最大增量：<b>${esc(mvAll.up[0].name)}</b> ${fmtW(mvAll.up[0].prev)}→${fmtW(mvAll.up[0].cur)}（▲${fmtW(mvAll.up[0].delta)}）`);
+  if(mvAll.down[0]) ins.push(`最大跌幅：<b>${esc(mvAll.down[0].name)}</b> ${fmtW(mvAll.down[0].prev)}→${fmtW(mvAll.down[0].cur)}（▼${Math.abs(mvAll.down[0].delta)}）`);
   const zr=tot("zhibo"), zrPrev=ptot("zhibo");
   if(zr>0) ins.push(`店播 ${fmtW(zr)}${zrPrev>0?`（WoW ${((zr-zrPrev)/zrPrev*100).toFixed(1)}%）`:""}，开播 ${liveSellers} 家；商笔 ${fmtW(tot("shangbi"))}（${sbSellers}家动销）；K播 ${fmtW(tot("kbo"))}；商卡 ${fmtW(tot("shangka"))}`);
   $("wk-insight").innerHTML=`<div style="font-weight:600;margin-bottom:6px">🔍 周报要点</div>`+ins.map(x=>`<div>· ${x}</div>`).join("");
