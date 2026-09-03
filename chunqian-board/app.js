@@ -493,6 +493,57 @@ function renderWeekly(){
     </div>
     <div style="margin-top:10px;line-height:2">${FIELDS.map(fieldLine).join(" · ")}</div>
   </div>
+  <div class="card full" style="margin-bottom:12px"><h3>📊 过程指标归因<small>${w} vs ${pw}</small></h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;font-size:12.5px">
+      ${(()=>{ // 笔记
+        const nw=D.seller_note_weekly||[];
+        const g=(f,wk)=>nw.reduce((s,r)=>s+(((r.weeks||{})[wk]||{})[f]||0),0);
+        const nn=g("new_notes",w), pn=g("new_notes",pw);
+        const pd=g("note_pv",w), ppd=g("note_pv",pw);
+        const rd=g("read_pv",w), prd=g("read_pv",pw);
+        const cr=(f,c,p)=>p>0?((c-p)/p*100).toFixed(1)+"%":"—";
+        return `<div style="background:#fafafa;border-radius:8px;padding:10px">
+          <b>📝 笔记</b>
+          <div>新发笔记 <b>${nn}</b>（${cr(0,nn,pn)}）</div>
+          <div>曝光量 <b>${fmtN(pd)}</b>（${cr(0,pd,ppd)}）</div>
+          <div>阅读pv <b>${fmtN(rd)}</b>（${cr(0,rd,prd)}）</div>
+          <div>商笔DGMV <b>${fmtW(g("note_dgmv",w))}</b></div>
+        </div>`})()}
+      ${(()=>{ // 店播
+        const lv=D.seller_live_weekly||[];
+        const g=(f,wk)=>lv.reduce((s,r)=>s+(((r.weeks||{})[wk]||{})[f]||0),0);
+        const rooms=g("rooms",w), prooms=g("rooms",pw);
+        const dur=g("duration_h",w), pdur=g("duration_h",pw);
+        const per=rooms>0?dur/rooms:0, pper=prooms>0?pdur/prooms:0;
+        const dg=g("dgmv",w), pdg=g("dgmv",pw);
+        const aov=dg/(g("buy_uv",w)||1), paov=pdg/(g("buy_uv",pw)||1);
+        const opens=lv.filter(r=>((r.weeks||{})[w]||{}).rooms>0).length;
+        const popens=lv.filter(r=>((r.weeks||{})[pw]||{}).rooms>0).length;
+        return `<div style="background:#fafafa;border-radius:8px;padding:10px">
+          <b>🎬 店播</b>
+          <div>开播场次 <b>${fmtN(rooms)}</b>（${prooms>0?((rooms-prooms)/prooms*100).toFixed(1)+"%":"—"}）</div>
+          <div>商均时长 <b>${per.toFixed(1)}h</b>（${pper>0?((per-pper)/pper*100).toFixed(1)+"%":"—"}）</div>
+          <div>店播客单价 <b>¥${aov.toFixed(0)}</b>（${paov>0?((aov-paov)/paov*100).toFixed(1)+"%":"—"}）</div>
+          <div>开播渗透率 <b>${(opens/146*100).toFixed(0)}%</b>（${opens}/${popens}家）</div>
+        </div>`})()}
+      ${(()=>{ // K播
+        const kh=D.seller_kbo_hosts||{};
+        const cW=Object.values(kh).filter(v=>((v.weeks||{})[w]||{}).dgmv_total>0).length;
+        const cP=Object.values(kh).filter(v=>((v.weeks||{})[pw]||{}).dgmv_total>0).length;
+        const ktot=tot("kbo"), ptotK=ptot("kbo");
+        // 合作场次：sum sessions
+        const sesW=Object.values(kh).reduce((s,v)=>s+(((v.weeks||{})[w]||{}).hosts||[]).filter(h=>(h.dgmv||0)>0).reduce((a,h)=>a+(h.sessions||0),0),0);
+        const sesP=Object.values(kh).reduce((s,v)=>s+(((v.weeks||{})[pw]||{}).hosts||[]).filter(h=>(h.dgmv||0)>0).reduce((a,h)=>a+(h.sessions||0),0),0);
+        const per=sesW>0?ktot/sesW:0, pper=sesP>0?ptotK/sesP:0;
+        return `<div style="background:#fafafa;border-radius:8px;padding:10px">
+          <b>🎙 K播</b>
+          <div>合作商家 <b>${cW}</b>家（渗透率${(cW/146*100).toFixed(0)}%，${cP}→${cW}）</div>
+          <div>合作场次 <b>${fmtN(sesW)}</b>（${sesP>0?((sesW-sesP)/sesP*100).toFixed(1)+"%":"—"}）</div>
+          <div>单场GMV <b>${fmtW(per)}</b>（${pper>0?((per-pper)/pper*100).toFixed(1)+"%":"—"}）</div>
+        </div>`})()}
+    </div>
+  </div>
+  <div style="margin:16px 0 8px;font-size:15px;font-weight:700">① 业绩分析（全量）</div>
   <div class="grid">
     ${FIELDS.filter(f=>tot(f)>0||ptot(f)>0).map(f=>{
       const mv=topMovers(f==="other"?"dgmv":f, w, pw);
@@ -504,7 +555,9 @@ function renderWeekly(){
       </div></div>`;
     }).join("")}
     <div class="card full insight" id="wk-insight"></div>
-  </div>`;
+  </div>
+  <div style="margin:16px 0 8px;font-size:15px;font-weight:700">② 下周拉收动作 & 重点 To do</div>
+  <div class="card full" id="wk-todo" style="font-size:13px;color:#666;line-height:1.9">结合①的涨跌归因填写：K播场域重点跟进（新起量主播的复投、流失主播的挽回）、店播场域重点跟进（衰减商家的排播恢复）、商笔内容供给。此处为占位，复制周报后人工补充定性内容。</div>`;
 
   // 洞察
   const ins=[];
@@ -517,14 +570,28 @@ function renderWeekly(){
   $("wk-insight").innerHTML=`<div style="font-weight:600;margin-bottom:6px">🔍 周报要点</div>`+ins.map(x=>`<div>· ${x}</div>`).join("");
 
   $("copy-btn").onclick=()=>{
+    const nw=D.seller_note_weekly||[], lv=D.seller_live_weekly||[], kh=D.seller_kbo_hosts||{};
+    const ng=(f,wk)=>nw.reduce((s,r)=>s+(((r.weeks||{})[wk]||{})[f]||0),0);
+    const lg=(f,wk)=>lv.reduce((s,r)=>s+(((r.weeks||{})[wk]||{})[f]||0),0);
+    const ktot2=tot("kbo"), ptotK2=ptot("kbo");
+    const sesW=Object.values(kh).reduce((s,v)=>s+(((v.weeks||{})[w]||{}).hosts||[]).filter(h=>(h.dgmv||0)>0).reduce((a,h)=>a+(h.sessions||0),0),0);
+    const cW=Object.values(kh).filter(v=>((v.weeks||{})[w]||{}).dgmv_total>0).length;
+    const rooms=lg("rooms",w), prooms=lg("rooms",pw), dur=lg("duration_h",w), pdur=lg("duration_h",pw);
+    const dg2=lg("dgmv",w), pdg2=lg("dgmv",pw), uv=lg("buy_uv",w), puv=lg("buy_uv",pw);
     const txt=[`【春千 ${w} 周报】`,
-      `总盘 DGMV ${fmtW(dgmv)}（WoW ${wow!=null?(wow>=0?"+":"")+(wow*100).toFixed(1)+"%":"—"}${yoy.yoy_ratio!=null?"，YoY "+(yoy.yoy_ratio*100).toFixed(1)+"%":""}）；动销 ${active} 家、开播 ${liveSellers} 家、商笔动销 ${sbSellers} 家。`,
-      `场域：${FIELDS.filter(f=>tot(f)>0).map(f=>`${FIELD_NAME[f]} ${fmtW(tot(f))}`).join(" / ")}。`,
-      `最大增量：${mvAll.up.slice(0,3).map(r=>`${r.name} +${fmtW(r.delta)}`).join("、")}；最大跌幅：${mvAll.down.slice(0,3).map(r=>`${r.name} ${fmtW(r.delta)}`).join("、")}。`,
-      FIELDS.filter(f=>tot(f)>0&&f!=="other").map(f=>{
-        const mv=topMovers(f,w,pw);
-        return `${FIELD_NAME[f]}：涨 ${mv.up.slice(0,3).map(r=>`${r.name}+${fmtW(r.delta)}`).join("、")}；跌 ${mv.down.slice(0,3).map(r=>`${r.name}${fmtW(r.delta)}`).join("、")}。`;
-      }).join("\n")].join("\n");
+``,
+`一、业绩分析（全量）`,
+`1. 本周业绩：总盘 DGMV ${fmtW(dgmv)}（WoW ${wow!=null?(wow>=0?"+":"")+(wow*100).toFixed(1)+"%":"—"}${yoy.yoy_ratio!=null?"，YoY "+(yoy.yoy_ratio*100).toFixed(1)+"%":""}）；动销 ${active} 家、开播 ${liveSellers} 家、商笔动销 ${sbSellers} 家。`,
+`2. 分载体拆分（WoW）：${FIELDS.filter(f=>tot(f)>0&&f!=="other").map(f=>{const c=tot(f),p=ptot(f);return `${FIELD_NAME[f]} ${fmtW(c)}${p>0?"（"+((c-p)/p*100).toFixed(1)+"%）":""}`}).join(" / ")}`,
+`   · 笔记：新发 ${ng("new_notes",w)}篇（上周${ng("new_notes",pw)}），曝光 ${fmtN(ng("note_pv",w))}，阅读pv ${fmtN(ng("read_pv",w))}`,
+`   · 店播：场次 ${fmtN(rooms)}（${prooms>0?((rooms-prooms)/prooms*100).toFixed(1)+"%":"—"}），商均时长 ${(rooms>0?dur/rooms:0).toFixed(1)}h，客单价 ¥${(uv>0?dg2/uv:0).toFixed(0)}，渗透率 ${(liveSellers/146*100).toFixed(0)}%`,
+`   · K播：合作商家 ${cW}家（渗透${(cW/146*100).toFixed(0)}%），合作场次 ${fmtN(sesW)}，单场GMV ${fmtW(sesW>0?ktot2/sesW:0)}`,
+`3. 涨跌归因（Top3）：`,
+...mvAll.up.slice(0,3).map(r=>`   增量：${r.name} ${fmtW(r.prev)}→${fmtW(r.cur)}（+${fmtW(r.delta)}）${(kboHostAttr(r.seller_id,w,pw)||[]).slice(0,2).map(c=>c.d>0?"｜"+c.n+" +"+fmtW(c.d):"").join("")}`),
+...mvAll.down.slice(0,3).map(r=>`   跌幅：${r.name} ${fmtW(r.prev)}→${fmtW(r.cur)}（${fmtW(r.delta)}）${(kboHostAttr(r.seller_id,w,pw)||[]).slice(0,2).map(c=>c.d<0?"｜"+c.n+" "+fmtW(c.d):"").join("")}`),
+``,
+`二、下周拉收动作 & 重点To do`,
+`（人工补充：K播重点跟进 + 店播重点跟进 + 商笔内容供给）`].join("\n");
     navigator.clipboard.writeText(txt).then(()=>{$("copy-btn").textContent="✅ 已复制";setTimeout(()=>$("copy-btn").textContent="复制周报文字",2000)});
   };
 }
