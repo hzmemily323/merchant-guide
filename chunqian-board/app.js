@@ -352,6 +352,10 @@ function renderPeriods(){
     el.appendChild(b);
   });
 }
+document.addEventListener("click",e=>{
+  const btn=e.target.closest(".drill-btn");
+  if(btn&&btn.dataset.sid){ renderDrill(btn.dataset.sid); }
+});
 function renderTab(){
   CHARTS.forEach(c=>c.dispose()); CHARTS.length=0;
   const el=$("tabs"); el.innerHTML="";
@@ -380,9 +384,10 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
 const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"]){
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill"]){
     try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
+  try{ D.drillSellers=(D.seller_daily_drill&&D.seller_daily_drill.sellers)||[]; }catch(e){ D.drillSellers=[]; }
   for(const f of files){
     D[f]=await (await fetch(`data2/${f}.json`)).json();
   }
@@ -390,6 +395,42 @@ const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_wee
   renderTab();
 })();
 
+/* ---------- V4: 商家日粒度下钻 ---------- */
+function renderDrill(seller_id){
+  const r=(D.drillSellers||[]).find(x=>x.seller_id===seller_id);
+  if(!r) return;
+  const days=r.days||[];
+  const w34=days.filter(d=>d.date<="2026-08-24"), w35=days.filter(d=>d.date>"2026-08-24");
+  const sum=(arr,f)=>arr.reduce((s,d)=>s+(d[f]||0),0);
+  const evList=(r.events||[]);
+  $("main").innerHTML=`
+  <div style="margin-bottom:10px"><button id="back-btn" style="font-size:13px;padding:6px 14px;border:1px solid #ddd;background:#fff;border-radius:8px;cursor:pointer">← 返回周报</button></div>
+  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">W34→W35 ${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_w35_vs_w34))} · ${fmtW(sum(w34,"dgmv"))}→${fmtW(sum(w35,"dgmv"))}</small></h2></div>
+  <div class="card full"><h3>逐日 DGMV 分场域<small>堆叠=店播/商笔/K播/商卡/其他</small></h3><div id="drill-chart" style="height:320px"></div></div>
+  <div class="card full"><h3>关键动作信号日</h3>
+    ${evList.length?evList.map(e=>`<div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0f0;font-size:13px"><b style="min-width:80px;color:#666">${e.date.slice(5)}</b><span style="min-width:52px">${{note:"📝发笔记",live:"🎬开播",kbo:"🎙K播"}[e.type]||e.type}</span><span>${esc(e.detail)}</span></div>`).join(""):'<div style="color:#999;font-size:13px">无显著信号日——波动为渐进式或由商卡/其他载体驱动</div>'}
+    <div style="font-size:11.5px;color:#999;margin-top:8px">信号日判定：新发商笔≥max(5, 2×中位) · 店播DGMV≥1.8×中位 · 多直播间开播 · K播当日≥5000元；K播主播明细为周粒度</div>
+  </div>
+  <div class="card full"><h3>逐日明细</h3>
+    <div style="overflow-x:auto"><table class="tbl" style="width:100%;font-size:12px">
+      <thead><tr><th>日期</th><th>DGMV</th><th>店播</th><th>商笔</th><th>K播</th><th>商卡</th><th>新发笔记</th><th>开播场次</th><th>开播时长</th></tr></thead>
+      <tbody>${days.map(d=>`<tr><td>${d.date.slice(5)}</td><td class="num">${fmtW(d.dgmv)}</td><td class="num">${fmtW(d.zhibo)}</td><td class="num">${fmtW(d.shangbi)}</td><td class="num">${fmtW(d.kbo)}</td><td class="num">${fmtW(d.shangka)}</td><td>${d.new_notes||0}</td><td>${d.live_rooms||0}</td><td>${d.live_h?d.live_h.toFixed(1)+"h":"—"}</td></tr>`).join("")}</tbody>
+    </table></div>
+  </div>`;
+  // ECharts 堆叠柱
+  const chart=echarts.init($("drill-chart"));
+  const F=[["zhibo","店播","#ff6700"],["shangbi","商笔","#3b82f6"],["kbo","K播","#8b5cf6"],["shangka","商卡","#10b981"],["other","其他","#cbd5e1"]];
+  chart.setOption({
+    animation:false,
+    tooltip:{trigger:"axis",valueFormatter:v=>v>=10000?(v/10000).toFixed(1)+"万":Math.round(v)},
+    legend:{bottom:0,textStyle:{fontSize:11}},
+    grid:{left:50,right:10,top:10,bottom:30},
+    xAxis:{type:"category",data:days.map(d=>d.date.slice(5))},
+    yAxis:{type:"value",axisLabel:{formatter:v=>v>=10000?v/10000+"万":v}},
+    series:F.map(([f,n,c],i)=>({name:n,type:"bar",stack:"t",itemStyle:{color:c},barMaxWidth:26,data:days.map(d=>Math.round(d[f]||0))}))
+  });
+  $("back-btn").onclick=()=>{ CUR_T="weekly"; [...$("tabs").querySelectorAll("button")].forEach((b,i)=>b.classList.toggle("active", TABS[i].key==="weekly")); renderTab(); };
+}
 /* ---------- V3: 涨跌 TOP 商家通用 ---------- */
 function STATE_LABEL(){ try { return PERIOD_LABEL[CUR_P]||CUR_P } catch(e){ return CUR_P } }
 function topMovers(field, wk, prevWk, n=5){
@@ -451,6 +492,7 @@ function moverRows(list, field){
     <td class="num"><b>${fmtW(r.cur)}</b></td>
     <td class="num ${r.delta>=0?"up":"down"}">${r.delta>=0?"▲":"▼"}${fmtW(Math.abs(r.delta))}${r.prev>0?`（${r.delta>=0?"+":""}${(r.delta/r.prev*100).toFixed(0)}%）`:"（新起量）"}</td>
     <td style="font-size:11.5px;color:#666;min-width:130px">${attributeMove(r, MOVER_W, MOVER_PW)}</td>
+    <td style="width:44px">${(D.drillSellers||[]).find(x=>x.seller_id===r.seller_id)?`<button class="drill-btn" data-sid="${r.seller_id}" style="font-size:11px;padding:2px 8px;border:1px solid #ddd;background:#fff;border-radius:10px;cursor:pointer">🔍下钻</button>`:""}</td>
   </tr>`).join("")}</tbody></table>`;
 }
 
