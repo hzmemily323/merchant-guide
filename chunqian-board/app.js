@@ -150,10 +150,10 @@ function renderNote(){
         ${kpi(pct(c(4)),"阅读后商卡点击率",prev?delta(c(4),q(4)):"")}
         ${kpi(pct(c(5)),"商笔商品转化率",prev?delta(c(5),q(5)):"")}
       </div></div>
-    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
+    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>${wkMap2.t} vs ${wkMap2.p} · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("shangbi","W35","W34")).up)}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("shangbi","W35","W34")).down)}</div>
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W=(wkMap2.t),MOVER_PW=(wkMap2.p),topMovers("shangbi",wkMap2.t,wkMap2.p)).up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W=(wkMap2.t),MOVER_PW=(wkMap2.p),topMovers("shangbi",wkMap2.t,wkMap2.p)).down)}</div>
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 商笔诊断</div>
@@ -168,7 +168,7 @@ function renderNote(){
 /* ---------- 店播 ---------- */
 function liveMedianGPM(){
   try{
-    const wkMap={this_week:"W35",last_week:"W34"};
+    const wkMap={this_week:"W36",last_week:"W35"};
     const wk=wkMap[CUR_P]; if(!wk) return "—";
     const g=(D.seller_live_weekly||[]).map(r=>((r.weeks||{})[wk]||{}).gpm).filter(x=>x!=null).sort((a,b)=>a-b);
     if(!g.length) return "—";
@@ -177,7 +177,7 @@ function liveMedianGPM(){
 }
 function liveGpmOutliers(){
   try{
-    const wkMap={this_week:"W35",last_week:"W34"};
+    const wkMap={this_week:"W36",last_week:"W35"};
     const wk=wkMap[CUR_P]; if(!wk) return "";
     const names={}; (D.seller_weekly||[]).forEach(r=>names[r.seller_id]=r.name);
     const rows=(D.seller_live_weekly||[]).map(r=>{
@@ -212,10 +212,10 @@ function renderLive(){
         ${kpi(pct(g(core,4)),"店播CTR(平均)",prev?delta(g(core,4),g(pcore,4)):"")}
         ${kpi(g(core,5)!=null?"¥"+g(core,5).toFixed(1):"—","笔单价(平均)",prev?delta(g(core,5),g(pcore,5)):"")}
       </div></div>
-    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
+    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>${wkMap2.t} vs ${wkMap2.p} · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("zhibo","W35","W34")).up)}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("zhibo","W35","W34")).down)}</div>
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W=(wkMap2.t),MOVER_PW=(wkMap2.p),topMovers("zhibo",wkMap2.t,wkMap2.p)).up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W=(wkMap2.t),MOVER_PW=(wkMap2.p),topMovers("zhibo",wkMap2.t,wkMap2.p)).down)}</div>
       </div></div>
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 店播诊断</div>
@@ -262,17 +262,17 @@ function renderKbo(){
         ${kpi(fmtN(cur.from_1922.k_orders),"K播订单数",prev?delta(cur.from_1922.k_orders,prv.from_1922.k_orders):"")}
         ${kpi(pct(w[0]/D.summary[p].total_dgmv),"占总DGMV","")}
       </div></div>
-    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>W35 vs W34 · 周粒度</small></h3>
+    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>${wkMap2.t} vs ${wkMap2.p} · 周粒度</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("kbo","W35","W34")).up)}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W="W35",MOVER_PW="W34",topMovers("kbo","W35","W34")).down)}</div>
+        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRows((MOVER_W=(wkMap2.t),MOVER_PW=(wkMap2.p),topMovers("kbo",wkMap2.t,wkMap2.p)).up)}</div>
+        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRows((MOVER_W=(wkMap2.t),MOVER_PW=(wkMap2.p),topMovers("kbo",wkMap2.t,wkMap2.p)).down)}</div>
       </div></div>
-    <div class="card full"><h3>🎙 K播涨跌 · 主播级归因<small>W35 vs W34 · 涨跌TOP5商家的主播变化</small></h3>
+    <div class="card full"><h3>🎙 K播涨跌 · 主播级归因<small>${wkMap2.t} vs ${wkMap2.p} · 涨跌TOP5商家的主播变化</small></h3>
       ${(()=>{
-        const mv=topMovers("kbo","W35","W34");
+        const mv=topMovers("kbo",wkMap2.t,wkMap2.p);
         const rows=[...mv.up.slice(0,5),...mv.down.slice(0,5)];
         const html=rows.map(r=>{
-          const ch=kboHostAttr(r.seller_id,"W35","W34")||[];
+          const ch=kboHostAttr(r.seller_id,wkMap2.t,wkMap2.p)||[];
           if(!ch.length) return "";
           const chips=ch.map(c=>`<span style="display:inline-block;margin:2px 4px 2px 0;padding:2px 8px;border-radius:10px;font-size:11.5px;${c.d>0?'background:#e8f5e9;color:#1b5e20':'background:#fdecea;color:#b71c1c'}">${c.type==="新"?"🆕":c.type==="停"?"🚫":c.d>0?"📈":"📉"} ${esc(c.n)} ${c.d>0?"+":""}${fmtW(c.d)}</span>`).join("");
           return `<div style="display:flex;align-items:flex-start;gap:10px;padding:7px 0;border-bottom:1px solid #f0f0f0"><b style="min-width:150px;font-size:13px">${esc(r.name)}</b><span style="flex:1">${chips||'<span style="color:#999;font-size:12px">主播粒度无显著变化</span>'}</span></div>`;
@@ -400,12 +400,12 @@ function renderDrill(seller_id){
   const r=(D.drillSellers||[]).find(x=>x.seller_id===seller_id);
   if(!r) return;
   const days=r.days||[];
-  const w34=days.filter(d=>d.date<="2026-08-24"), w35=days.filter(d=>d.date>"2026-08-24");
+  const mid=Math.ceil(days.length/2); const w34=days.slice(0,mid), w35=days.slice(mid);
   const sum=(arr,f)=>arr.reduce((s,d)=>s+(d[f]||0),0);
   const evList=(r.events||[]);
   $("main").innerHTML=`
   <div style="margin-bottom:10px"><button id="back-btn" style="font-size:13px;padding:6px 14px;border:1px solid #ddd;background:#fff;border-radius:8px;cursor:pointer">← 返回周报</button></div>
-  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">W34→W35 ${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_w35_vs_w34))} · ${fmtW(sum(w34,"dgmv"))}→${fmtW(sum(w35,"dgmv"))}</small></h2></div>
+  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_w35_vs_w34))} · ${fmtW(sum(w34,"dgmv"))}→${fmtW(sum(w35,"dgmv"))}</small></h2></div>
   <div class="card full"><h3>逐日 DGMV 分场域<small>堆叠=店播/商笔/K播/商卡/其他</small></h3><div id="drill-chart" style="height:320px"></div></div>
   <div class="card full"><h3>关键动作信号日</h3>
     ${evList.length?evList.map(e=>`<div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0f0;font-size:13px"><b style="min-width:80px;color:#666">${e.date.slice(5)}</b><span style="min-width:52px">${{note:"📝发笔记",live:"🎬开播",kbo:"🎙K播"}[e.type]||e.type}</span><span>${esc(e.detail)}</span></div>`).join(""):'<div style="color:#999;font-size:13px">无显著信号日——波动为渐进式或由商卡/其他载体驱动</div>'}
@@ -483,7 +483,9 @@ function attributeMove(r, w, pw){
   if(r.cur===0) parts.unshift("本周归零");
   return parts.length?parts.join(" · "):"—";
 }
-let MOVER_W="W35", MOVER_PW="W34";
+let MOVER_W="W36", MOVER_PW="W35";
+const wkMap2 = {get t(){return WK().t}, get p(){return WK().p}};
+function WK(){ const m={this_week:"W36",last_week:"W35"}; return {t:m[CUR_P]||"W36", p:"W"+((parseInt((m[CUR_P]||"W36").slice(1)))-1)} }
 function moverRows(list, field){
   if(!list||!list.length) return `<div class="muted" style="padding:8px 0">无</div>`;
   return `<table><tbody>${list.map(r=>`<tr>
@@ -497,10 +499,10 @@ function moverRows(list, field){
 }
 
 /* ---------- V3: 周报 tab ---------- */
-const WEEK_LIST = ["W35","W34","W33","W32"];
+const WEEK_LIST = ["W36","W35","W34","W33"];
 function renderWeekly(){
-  const wkMap = {this_week:"W35", last_week:"W34"};
-  const wk = wkMap[CUR_P] || "W35";
+  const wkMap = {this_week:"W36", last_week:"W35"};
+  const wk = wkMap[CUR_P] || "W36";
   const periodOffWeek = !(CUR_P in wkMap);  // 双月/YoY 时段与周数据不匹配
   const w = wk, pw = "W"+(parseInt(w.slice(1))-1); MOVER_W=w; MOVER_PW=pw;
   const yoy = (D.yoy_weekly||{})[w]||{};
@@ -523,7 +525,7 @@ function renderWeekly(){
   };
 
   m.innerHTML=`
-  ${periodOffWeek?`<div class="card" style="border-color:#f59e0b;background:#fffbeb;margin-bottom:12px;font-size:13px">⚠️ 周报板块只看<b>周对比</b>，顶部时段切到「本周/上周」才生效（当前时段：${STATE_LABEL()}）。周数据只有 W32~W35 四周。</div>`:""}
+  ${periodOffWeek?`<div class="card" style="border-color:#f59e0b;background:#fffbeb;margin-bottom:12px;font-size:13px">⚠️ 周报板块只看<b>周对比</b>，顶部时段切到「本周/上周」才生效（当前时段：${STATE_LABEL()}）。周数据目前覆盖 W33~W36。</div>`:""}
   <div class="hero">
     <h2>📝 ${w} 周报生成器<button id="copy-btn">复制周报文字</button></h2>
     <div class="kpis">
