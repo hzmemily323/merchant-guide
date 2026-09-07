@@ -3,43 +3,39 @@
  "desc": "商家结构变化（基于 ds:1922 各时段有成交(DGMV>0)的商家集合）",
  "periods": {
   "this_week": {
-   "label": "本周 2026-08-25~2026-08-31",
-   "active_sellers": 101,
+   "label": "本周 2026-09-01~2026-09-07",
+   "active_sellers": 99,
    "vs": "last_week",
    "new_sellers": {
-    "658e0dd5c1ef660001c1573e": {
-     "name": "蜀味食品",
-     "dgmv": 879.86
+    "689d91c9a5a9490015e767c3": {
+     "name": "老杨T.KFOOD旗舰店",
+     "dgmv": 39.8
     },
-    "6926b98d68a55c0015118007": {
-     "name": "节礼礼品定制的店",
-     "dgmv": 612
-    },
-    "66986d1861e10d0001183118": {
-     "name": "WantPower旗舰店",
-     "dgmv": 5.8
+    "68cd233f135ce70015a1719c": {
+     "name": "金龙鱼方便食品旗舰店",
+     "dgmv": 11
     }
    },
    "lost_sellers": {
-    "68f6fdb50bcf900016c87f6d": {
-     "name": "上而生商贸的店"
+    "658e0dd5c1ef660001c1573e": {
+     "name": "蜀味食品"
     },
-    "694ebc911b172300155d9ecc": {
-     "name": "煲汤的牙米的店"
+    "69c266700f3c8d00158495b2": {
+     "name": "故里小主旗舰店"
     },
-    "68cbc3ee12892e00154dbe40": {
-     "name": "外婆乡小榨食用油旗舰店"
+    "69b116e749561b0016b29d7d": {
+     "name": "潘漂亮食品旗舰店"
     },
-    "675165f996808d001539adbf": {
-     "name": "麦小年茶事的店"
+    "66986d1861e10d0001183118": {
+     "name": "WantPower旗舰店"
     }
    },
-   "new_count": 3,
+   "new_count": 2,
    "lost_count": 4
   },
   "last_week": {
-   "label": "上周 2026-08-18~2026-08-24",
-   "active_sellers": 102
+   "label": "上周 2026-08-25~2026-08-31",
+   "active_sellers": 101
   },
   "this_bimonth": {
    "label": "本双月 2026-07-01~2026-08-31",
