@@ -392,6 +392,18 @@ const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_wee
   for(const f of files){
     D[f]=await (await fetch(`data2/${f}.json`)).json();
   }
+  // 动态填数据截止日期
+  try{
+    let cutoff=null;
+    if(D.daily_series&&D.daily_series.daily&&D.daily_series.daily.length){
+      cutoff=D.daily_series.daily[D.daily_series.daily.length-1].date;
+    } else if(D.seller_weekly&&D.seller_weekly[0]){
+      const wk=D.seller_weekly[0].weeks, last=Object.keys(wk).sort().pop();
+      cutoff=last+"周";
+    }
+    const el=document.getElementById("meta-sub");
+    if(el&&cutoff) el.textContent=`挂接商家 146 家 · 商家ID口径 · 数据截至 ${cutoff}（W36为9/1-9/6，9/7分区产出后补全）`;
+  }catch(e){}
   renderPeriods();
   renderTab();
 })();
