@@ -68,7 +68,7 @@ function renderOverview(){
   <div class="grid">
     <div class="card full insight" id="insight-box"></div>
     <div class="card"><h3>场域结构<small>DGMV 按载体</small></h3><div class="chart-box" id="c-field" style="height:260px"></div></div>
-    <div class="card"><h3>DGMV 趋势<small>5-8月逐日 · 周分界</small></h3><div class="chart-box" id="c-trend" style="height:260px"></div></div>
+    <div class="card"><h3>DGMV 趋势<small id="trend-range"></small></h3><div class="chart-box" id="c-trend" style="height:260px"></div></div>
     <div class="card full"><h3>TOP10 商家${prev?`<small>含 vs ${PERIOD_LABEL[prev]}</small>`:""}</h3><div id="c-topsellers"></div></div>
     <div class="card full"><h3>TOP10 商品</h3>
       <table><thead><tr><th>#</th><th>商品</th><th>商家</th><th class="num">价格</th><th class="num">件数</th><th class="num">DGMV</th></tr></thead>
@@ -83,6 +83,7 @@ function renderOverview(){
 
   // 日序列趋势 + 当前时段高亮
   const dates=ds.map(r=>r.date), vals=ds.map(r=>r.dgmv);
+  const tr=$("trend-range"); if(tr) tr.textContent=`${dates[0]?.slice(5)}~${dates[dates.length-1]?.slice(5)} 逐日 · 周分界`;
   const ps=PERIOD_LABEL[p];
   const [s,e]=D.summary[p].label.match(/\d{4}-\d{2}-\d{2}/g)||[];
   const inRange=i=>s&&e&&dates[i]>=s&&dates[i]<=e;
