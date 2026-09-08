@@ -3,16 +3,22 @@
 <title>饼干膨化 + 粮油干货｜细分品与商家做功清单</title>
 <style>*{margin:0;padding:0;box-sizing:border-box}
 body{background:#FFFDF5;color:#2B2B2B;font:13px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
-.hero{background:linear-gradient(100deg,#3D2B1F,#5C4033);color:#fff;padding:24px 0 20px}
+.hero{background:linear-gradient(100deg,#3D2B1F,#5C4033);color:#fff;padding:22px 0 0}
 .hin,.wrap{width:88%;max-width:1500px;margin:0 auto}
 .hero h1{font-size:20px;font-weight:600}
-.hero .sub{font-size:13px;color:#EFE0CB;margin-top:8px}
-.hero .meta{font-size:12.5px;color:#F5E4CE;margin-top:11px;background:rgba(0,0,0,.24);border-left:2px solid #FE8F29;border-radius:5px;padding:7px 12px;display:inline-block}
+.hero .sub{font-size:13px;color:#EFE0CB;margin-top:7px}
+.hero .meta{font-size:12px;color:#F5E4CE;margin-top:10px;background:rgba(0,0,0,.24);border-left:2px solid #FE8F29;border-radius:5px;padding:6px 12px;display:inline-block}
 .hero .meta b{color:#FFD9A8}
-.wrap{padding:20px 0 50px}
-h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left:9px;border-left:3px solid #FE8F29}
-.lead{font-size:12.5px;color:#6B5C48;margin-bottom:14px;padding-left:12px;line-height:1.65}
-.hl{background:#FFF4E8;border:1px solid #FFD9A8;border-left:3px solid #C25E00;border-radius:7px;padding:13px 16px;margin-bottom:16px}
+.tabs{position:sticky;top:0;z-index:50;background:#FFFDF5;border-bottom:2px solid #F0E6D2;display:flex;gap:2px;overflow-x:auto;padding:0 6%}
+.tab{padding:11px 18px;font-size:13.5px;color:#7A6A55;cursor:pointer;border-bottom:2.5px solid transparent;margin-bottom:-2px;white-space:nowrap;user-select:none;font-weight:500}
+.tab:hover{color:#3D2B1F}
+.tab.on{color:#C25E00;font-weight:600;border-bottom-color:#FE8F29;background:#FFF8EE}
+.wrap{padding:18px 0 50px}
+.pane{display:none}
+.pane.on{display:block}
+h2{font-size:15px;font-weight:600;color:#3D2B1F;margin:6px 0 5px;padding-left:9px;border-left:3px solid #FE8F29}
+.lead{font-size:12.5px;color:#6B5C48;margin-bottom:13px;padding-left:12px;line-height:1.65}
+.hl{background:#FFF4E8;border:1px solid #FFD9A8;border-left:3px solid #C25E00;border-radius:7px;padding:13px 16px;margin-bottom:14px}
 .hl .ht{font-size:13.5px;font-weight:600;color:#A34E00;margin-bottom:5px}
 .hl p{font-size:12.5px;color:#6B5C48;line-height:1.7}
 .sbox{background:#fff;border:1px solid #F0E6D2;border-radius:9px;padding:14px 16px;margin-bottom:12px}
@@ -48,7 +54,7 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 .fbox{background:#fff;border:1px solid #F0E6D2;border-radius:9px;padding:15px 17px}
 .fr{display:grid;grid-template-columns:1.5fr 3fr .7fr;gap:11px;align-items:center;padding:6px 0}
 .fn{font-size:12.5px}
-.fbar{background:#F7F0E4;height:17px;border-radius:3px;overflow:hidden;position:relative}
+.fbar{background:#F7F0E4;height:17px;border-radius:3px;overflow:hidden}
 .fbar i{display:block;height:100%;border-radius:3px}
 .fbar i.pos{background:#237804}.fbar i.neg{background:#A8071A}
 .fv{text-align:right;font-variant-numeric:tabular-nums;font-size:12.5px}
@@ -69,24 +75,58 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 .ish{color:#6B5C48}
 .iit{color:#4A4A4A;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.cal{background:#FBF7EE;border:1px solid #F0E6D2;border-radius:9px;padding:14px 17px;margin-top:26px}
+.cal{background:#FBF7EE;border:1px solid #F0E6D2;border-radius:9px;padding:14px 17px;margin-top:8px}
 .cal .ct{font-size:12.5px;font-weight:600;color:#7A6A55;margin-bottom:6px}
 .cal p{font-size:11.5px;color:#7F6E56;line-height:1.8}
-@media(max-width:1200px){.two,.pgrid{grid-template-columns:1fr}.hin,.wrap{width:94%}}</style></head><body>
+@media(max-width:1200px){.two,.pgrid{grid-template-columns:1fr}.hin,.wrap,.tabs{width:94%;padding-left:0}.tabs{padding:0 3%}}</style></head><body>
 <div class="hero"><div class="hin">
 <h1>饼干膨化 + 粮油干货｜拆到细分品与具体商家的做功清单</h1>
 <div class="sub">什么细分品在涨 · 哪家涨哪家跌 · 涨跌到底因为什么 · 哪些做法能抄、哪些坑要躲</div>
 <div class="meta">数据窗口 <b>2026-06-10 → 09-07</b>（近 90 天）　｜　同比对照 <b>2025-06-10 → 09-07</b>　｜　商家池 <b>146 家</b>挂接清单</div>
 </div></div>
+<div class="tabs">
+<div class="tab on" data-k="ov">总览</div>
+<div class="tab" data-k="bis">饼干膨化</div>
+<div class="tab" data-k="play">打法与坑</div>
+<div class="tab" data-k="item">单品明细</div>
+<div class="tab" data-k="gan">干货熏腊</div>
+</div>
 <div class="wrap">
 
+<div class="pane on" data-p="ov">
 <div class="hl">
 <div class="ht">一句话结论：跌的不是某个细分品，是「没有背书的白牌零食」整体在退</div>
 <p>把所有涨跌单品按卖点归类后，<b>只有「达人 / IP 背书」这一类是净增长的（+50 万）</b>；传统甜饼 -282 万、规格升级 -137 万、节庆礼盒 -112 万、进口贴牌 -110 万、健康功能 -76 万，全线净跌。这意味着招商和做功的抓手不是「找什么品类」，而是<b>「这个货有没有人替它说话」</b>——同样是高蛋白威化，ffit8 有帕姐背书就 +16 万，别家没有就跟着大盘一起跌。</p>
 </div>
-
-<h2>一、饼干里到底什么在涨、什么在跌</h2>
-<div class="lead">按四级细分品拆。饼干总盘 -52%，但内部分化极大：威化 +53%、苏打 +95%、韧性 +52% 在涨，蛋卷 -87%、夹心 -82%、酥性 -81% 在崩。</div>
+<h2>卖点特征的净涨跌</h2>
+<div class="lead">把所有涨跌单品按标题卖点归类，看哪种卖点还立得住。这是判断「招什么商、推什么品」最直接的依据。</div>
+<div class="fbox"><div class="fr">
+<span class="fn">达人 / IP 背书</span>
+<span class="fbar"><i class="pos" style="width:17.8%"></i></span>
+<span class="fv pos">+50万</span>
+</div><div class="fr">
+<span class="fn">健康功能（高蛋白/非油炸）</span>
+<span class="fbar"><i class="neg" style="width:26.9%"></i></span>
+<span class="fv neg">-76万</span>
+</div><div class="fr">
+<span class="fn">进口贴牌</span>
+<span class="fbar"><i class="neg" style="width:38.9%"></i></span>
+<span class="fv neg">-110万</span>
+</div><div class="fr">
+<span class="fn">节庆礼盒</span>
+<span class="fbar"><i class="neg" style="width:39.6%"></i></span>
+<span class="fv neg">-112万</span>
+</div><div class="fr">
+<span class="fn">规格升级（大装/组合）</span>
+<span class="fbar"><i class="neg" style="width:48.4%"></i></span>
+<span class="fv neg">-137万</span>
+</div><div class="fr">
+<span class="fn">传统甜饼（蛋卷/夹心/曲奇）</span>
+<span class="fbar"><i class="neg" style="width:100.0%"></i></span>
+<span class="fv neg">-282万</span>
+</div></div>
+<h2 style="margin-top:20px">饼干细分品速览</h2>
+<div class="lead">总盘 -52% 但内部撕裂：威化 +53%、苏打 +95% 在涨；蛋卷 -87%、夹心 -82% 在崩。详见「饼干膨化」tab。</div>
 <div class="sbox"><div class="sbh">饼干 · 11 个细分品<span class="sbnote">合计 361 万｜曲奇仍是最大盘但 -37%，威化是唯一有量且在涨的</span></div>
 <div class="sbhd"><span>细分品</span><span></span><span>今年DGMV</span><span>同比</span><span>Δ绝对值</span></div>
 <div class="sbr">
@@ -156,13 +196,85 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 <span class="sbd"><span class="pos">+52%</span></span>
 <span class="sbdd"><span class="pos">+2.7万</span></span>
 </div></div>
-
-<div class="hl">
-<div class="ht">膨化为什么没有细分品拆解</div>
-<p>膨化食品 149 万的四级类目在数仓里<b>全部为 UNKNOWN（未打标）</b>，无法按细分品拆。所以膨化只能看商家和商品两层——下面第二、四节有完整拆解。这是数仓打标缺失，不是数据没取到。</p>
 </div>
 
-<h2>二、饼干膨化：哪家在涨、哪家在跌、跌在哪个场域</h2>
+<div class="pane" data-p="bis">
+<h2>饼干 · 11 个细分品涨跌</h2>
+<div class="lead">按四级细分品拆。威化 +53%、苏打 +95%、韧性 +52% 在涨，蛋卷 -87%、夹心 -82%、酥性 -81% 在崩。</div>
+<div class="sbox"><div class="sbh">饼干 · 11 个细分品<span class="sbnote">合计 361 万｜曲奇仍是最大盘但 -37%，威化是唯一有量且在涨的</span></div>
+<div class="sbhd"><span>细分品</span><span></span><span>今年DGMV</span><span>同比</span><span>Δ绝对值</span></div>
+<div class="sbr">
+<span class="sbn">曲奇饼干</span>
+<span class="sbbar"><i style="width:100.0%" class="neg"></i></span>
+<span class="sbv">120.0万</span>
+<span class="sbd"><span class="neg">-37%</span></span>
+<span class="sbdd"><span class="neg">-69.6万</span></span>
+</div><div class="sbr">
+<span class="sbn">威化饼干</span>
+<span class="sbbar"><i style="width:41.9%" class="pos"></i></span>
+<span class="sbv">50.3万</span>
+<span class="sbd"><span class="pos">+53%</span></span>
+<span class="sbdd"><span class="pos">+17.4万</span></span>
+</div><div class="sbr">
+<span class="sbn">薄脆饼干</span>
+<span class="sbbar"><i style="width:33.8%" class="neg"></i></span>
+<span class="sbv">40.6万</span>
+<span class="sbd"><span class="neg">-47%</span></span>
+<span class="sbdd"><span class="neg">-36.1万</span></span>
+</div><div class="sbr">
+<span class="sbn">蛋卷</span>
+<span class="sbbar"><i style="width:23.7%" class="neg"></i></span>
+<span class="sbv">28.5万</span>
+<span class="sbd"><span class="neg">-87%</span></span>
+<span class="sbdd"><span class="neg">-187.5万</span></span>
+</div><div class="sbr">
+<span class="sbn">更多饼干类型</span>
+<span class="sbbar"><i style="width:23.2%" class="neg"></i></span>
+<span class="sbv">27.8万</span>
+<span class="sbd"><span class="neg">-70%</span></span>
+<span class="sbdd"><span class="neg">-63.4万</span></span>
+</div><div class="sbr">
+<span class="sbn">酥性饼干</span>
+<span class="sbbar"><i style="width:20.1%" class="neg"></i></span>
+<span class="sbv">24.1万</span>
+<span class="sbd"><span class="neg">-81%</span></span>
+<span class="sbdd"><span class="neg">-100.0万</span></span>
+</div><div class="sbr">
+<span class="sbn">营养（消化）饼干</span>
+<span class="sbbar"><i style="width:20.0%" class="neg"></i></span>
+<span class="sbv">24.0万</span>
+<span class="sbd"><span class="neg">-24%</span></span>
+<span class="sbdd"><span class="neg">-7.7万</span></span>
+</div><div class="sbr">
+<span class="sbn">夹心饼干</span>
+<span class="sbbar"><i style="width:16.7%" class="neg"></i></span>
+<span class="sbv">20.1万</span>
+<span class="sbd"><span class="neg">-82%</span></span>
+<span class="sbdd"><span class="neg">-91.5万</span></span>
+</div><div class="sbr">
+<span class="sbn">蛋圆饼干</span>
+<span class="sbbar"><i style="width:7.4%" class="pos"></i></span>
+<span class="sbv">8.8万</span>
+<span class="sbd"><span class="pos">+34%</span></span>
+<span class="sbdd"><span class="pos">+2.2万</span></span>
+</div><div class="sbr">
+<span class="sbn">苏打饼干</span>
+<span class="sbbar"><i style="width:7.1%" class="pos"></i></span>
+<span class="sbv">8.5万</span>
+<span class="sbd"><span class="pos">+95%</span></span>
+<span class="sbdd"><span class="pos">+4.2万</span></span>
+</div><div class="sbr">
+<span class="sbn">韧性饼干</span>
+<span class="sbbar"><i style="width:6.5%" class="pos"></i></span>
+<span class="sbv">7.8万</span>
+<span class="sbd"><span class="pos">+52%</span></span>
+<span class="sbdd"><span class="pos">+2.7万</span></span>
+</div></div>
+<div class="hl">
+<div class="ht">膨化为什么没有细分品拆解</div>
+<p>膨化食品 149 万的四级类目在数仓里<b>全部为 UNKNOWN（未打标）</b>，无法按细分品拆。所以膨化只能看商家和商品两层——上面「打法与坑」「单品明细」两个 tab 有完整拆解。这是数仓打标缺失，不是数据没取到。</p>
+</div>
+<h2>饼干膨化 · 哪家在涨哪家在跌</h2>
 <div class="lead">Δ 是今年减去年的绝对额。最右列指出变化主要发生在哪个场域——这决定了要找商家聊什么。</div>
 <div class="stbl"><div class="sth">饼干 · 13 家（今年或去年任一 ≥ 8 万）</div>
 <table><thead><tr><th>店铺</th><th>今年（万）</th><th>去年（万）</th><th>Δ</th><th>主要变化场域</th></tr></thead>
@@ -284,76 +396,51 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 <td class="num"><span class="neg">-77.0万</span></td>
 <td class="segs"><span class="sg neg">商笔 -72万</span><span class="sg neg">商卡 -5万</span></td>
 </tr></tbody></table></div>
+</div>
 
-<h2>三、可以抄的四种打法</h2>
+<div class="pane" data-p="play">
+<h2>可以抄的四种打法</h2>
 <div class="lead">这四家是赛道内唯一在涨的，每家的涨法都能迁移到别的商家身上。</div>
 <div class="pgrid"><div class="pc good">
-  <div class="pch"><span class="pct">IP 周边化</span><span class="pcd">旺仔俱乐部 +29.6万</span></div>
+  <div class="pch"><span class="pct">可模仿</span><span class="pcd">旺仔俱乐部 +29.6万</span></div>
   <div class="pcb">把仙贝/雪饼/浪味仙这类传统组合，换成「合作款零食周边组合」——三个联名 SKU 合计 +39.7 万，而传统口味组合同期 -10.8 万。商卡 +28 万，说明是搜索端接住的。</div>
   <div class="pca"><b>怎么用：</b>找有 IP 或能做联名的商家，把现有货盘包装成周边组合，而不是继续堆口味组合。</div>
 </div><div class="pc good">
-  <div class="pch"><span class="pct">达人同款 × 功能属性</span><span class="pcd">ffit8 +24.6万</span></div>
+  <div class="pch"><span class="pct">可模仿</span><span class="pcd">ffit8 +24.6万</span></div>
   <div class="pcb">「帕姐同款高蛋白高纤威化」单品 +16.4 万、「董生活燕麦蛋白棒」+6.4 万。商笔 +26 万，纯内容驱动。</div>
   <div class="pca"><b>怎么用：</b>关键不是「高蛋白」而是「达人同款」——同类健康功能品在别家全线跌，有达人背书才立得住。</div>
 </div><div class="pc good">
-  <div class="pch"><span class="pct">规格升级提客单</span><span class="pcd">运康锅巴 +14.1万</span></div>
+  <div class="pch"><span class="pct">可模仿</span><span class="pcd">运康锅巴 +14.1万</span></div>
   <div class="pcb">把「小包装锅巴」升级成「畅销福利装」：大装 +18.4 万、小装 -7.8 万，净 +10.6 万。店播 +15 万。</div>
   <div class="pca"><b>怎么用：</b>同一个品换大规格在直播间卖，客单和场均都能拉起来。适合已有店播基础的商家。</div>
 </div><div class="pc good">
-  <div class="pch"><span class="pct">高频上新滚动</span><span class="pcd">小禾家零食分装 +9.8万</span></div>
+  <div class="pch"><span class="pct">可模仿</span><span class="pcd">小禾家零食分装 +9.8万</span></div>
   <div class="pcb">6 月/7 月新品（黄油夹心脆卷、芝士脆酥条、薯布朗）各 +2.8 万，而老款「饼干套餐」「10-12 月新品」在跌。</div>
   <div class="pca"><b>怎么用：</b>靠上新节奏而非单品长销；老款一定会衰退，要有稳定的新品补位机制。</div>
 </div></div>
-
-<h2>四、要躲的四个坑</h2>
+<h2 style="margin-top:22px">要躲的四个坑</h2>
 <div class="lead">这四家合计失血 398 万，占饼干膨化跌幅的绝大部分。看清它们怎么掉的，避免在别的商家身上重演。</div>
 <div class="pgrid"><div class="pc bad">
-  <div class="pch"><span class="pct">单爆品衰退无接棒</span><span class="pcd">臻江味臻选零食 -183.2万</span></div>
+  <div class="pch"><span class="pct">要规避</span><span class="pcd">臻江味臻选零食 -183.2万</span></div>
   <div class="pcb">「爆浆手工蛋卷」一个 SKU 就 -107.2 万，商笔 -147 万。整店没有第二个能顶上的品。</div>
   <div class="pca"><b>怎么防：</b>单品占比过高就是风险。这家是全赛道最大的失血点，要么帮它找接棒品，要么别再投资源。</div>
 </div><div class="pc bad">
-  <div class="pch"><span class="pct">进口贴牌无壁垒</span><span class="pcd">吃出很多小胖仔仔 -78.3万</span></div>
+  <div class="pch"><span class="pct">要规避</span><span class="pcd">吃出很多小胖仔仔 -78.3万</span></div>
   <div class="pcb">「越南进口 Tipo 面包干」-60.9 万，商笔 -69 万。进口贴牌品谁都能卖，没有壁垒。</div>
   <div class="pca"><b>怎么防：</b>进口概念在站内已经不灵了（进口特征整体 -110 万）。别再按「进口」这个卖点招商。</div>
 </div><div class="pc bad">
-  <div class="pch"><span class="pct">品类审美疲劳</span><span class="pcd">小馋嘟嘟 -77.0万</span></div>
+  <div class="pch"><span class="pct">要规避</span><span class="pcd">小馋嘟嘟 -77.0万</span></div>
   <div class="pcb">苦荞脆片 -59.2 万、荞麦脆片 -23.3 万，但新品「全麦酥酥卷」+6.4 万。</div>
   <div class="pca"><b>怎么防：</b>粗粮脆片这个概念退了，但它的新品方向是对的。这家值得帮，方向已经找到只是量没跟上。</div>
 </div><div class="pc bad">
-  <div class="pch"><span class="pct">同质化夹心饼干</span><span class="pcd">零食股东 -59.2万</span></div>
+  <div class="pch"><span class="pct">要规避</span><span class="pcd">零食股东 -59.2万</span></div>
   <div class="pcb">香葱牛轧饼 -32.6 万、千层夹心酥 -17.0 万，牛轧系列全线跌。商笔 -34 万、商卡 -24 万双杀。</div>
   <div class="pca"><b>怎么防：</b>牛轧饼/夹心饼干是站内最卷的细分，没有差异化就是价格战。</div>
 </div></div>
+</div>
 
-<h2>五、卖点特征的净涨跌</h2>
-<div class="lead">把所有涨跌单品按标题卖点归类，看哪种卖点还立得住。这是判断「招什么商、推什么品」最直接的依据。</div>
-<div class="fbox"><div class="fr">
-<span class="fn">达人 / IP 背书</span>
-<span class="fbar"><i class="pos" style="width:17.8%"></i></span>
-<span class="fv pos">+50万</span>
-</div><div class="fr">
-<span class="fn">健康功能（高蛋白/非油炸）</span>
-<span class="fbar"><i class="neg" style="width:26.9%"></i></span>
-<span class="fv neg">-76万</span>
-</div><div class="fr">
-<span class="fn">进口贴牌</span>
-<span class="fbar"><i class="neg" style="width:38.9%"></i></span>
-<span class="fv neg">-110万</span>
-</div><div class="fr">
-<span class="fn">节庆礼盒</span>
-<span class="fbar"><i class="neg" style="width:39.6%"></i></span>
-<span class="fv neg">-112万</span>
-</div><div class="fr">
-<span class="fn">规格升级（大装/组合）</span>
-<span class="fbar"><i class="neg" style="width:48.4%"></i></span>
-<span class="fv neg">-137万</span>
-</div><div class="fr">
-<span class="fn">传统甜饼（蛋卷/夹心/曲奇）</span>
-<span class="fbar"><i class="neg" style="width:100.0%"></i></span>
-<span class="fv neg">-282万</span>
-</div></div>
-
-<h2>六、单品级涨跌明细</h2>
+<div class="pane" data-p="item">
+<h2>单品级涨跌明细</h2>
 <div class="lead">Δ 超过 5 万的单品。左边是能抄的具体品，右边是已经证明会掉的品。</div>
 <div class="two">
 <div class="ibox"><div class="sbh">↑ 涨得最多的单品</div><div class="ir">
@@ -443,9 +530,11 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 <span class="iit">花生味鸡蛋卷酥网红下午茶追剧茶点好吃的办公室宿舍女生充饥零食</span>
 </div></div>
 </div>
+</div>
 
-<h2>七、干货与熏腊：结构性转向</h2>
-<div class="lead">这两个类目虽然建议转守，但内部同样在换血——名贵滋补干货在退，日常食材干货在涨。这个转向决定了干货类目还能不能做。</div>
+<div class="pane" data-p="gan">
+<h2>干货与熏腊：结构性转向</h2>
+<div class="lead">这两个类目虽然建议转守，但内部同样在换血——名贵滋补干货在退，日常食材干货在涨。</div>
 <div class="sbox"><div class="sbh">干货 / 土特产 / 养生干料 · 11 个细分品<span class="sbnote">合计 474 万｜豆腐皮腐竹 +383%、香菇 +609%，而银耳 -35%、羊肚菌 -62%、竹荪 -72%</span></div>
 <div class="sbhd"><span>细分品</span><span></span><span>今年DGMV</span><span>同比</span><span>Δ绝对值</span></div>
 <div class="sbr">
@@ -536,12 +625,10 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 <span class="sbd"><span class="neg">-61%</span></span>
 <span class="sbdd"><span class="neg">-4.1万</span></span>
 </div></div>
-
 <div class="hl">
 <div class="ht">干货类目的真实机会：从「名贵滋补」转向「日常食材」</div>
 <p>银耳（-35%）、羊肚菌（-62%）、莲子（-39%）、竹荪（-72%）这些<b>高单价滋补干货全线大跌</b>；而豆腐皮/腐竹（+383%）、香菇（+609%）这些<b>日常做菜用的平价干货在暴涨</b>。这不是周期波动，是消费场景从「送礼滋补」切到「日常下厨」。干货类目虽然整体在退，但如果把货盘往日常食材调，仍有结构性机会。</p>
 </div>
-
 <div class="stbl"><div class="sth">干货 · 12 家</div>
 <table><thead><tr><th>店铺</th><th>今年（万）</th><th>去年（万）</th><th>Δ</th><th>主要变化场域</th></tr></thead>
 <tbody><tr class="grp u"><td colspan="5">↑ 在涨（5 家）</td></tr><tr>
@@ -680,6 +767,7 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 <td class="num"><span class="neg">-67.5万</span></td>
 <td class="segs"><span class="sg neg">商笔 -63万</span><span class="sg neg">商卡 -4万</span></td>
 </tr></tbody></table></div>
+</div>
 
 <div class="cal">
 <div class="ct">口径说明</div>
@@ -694,4 +782,20 @@ h2{font-size:15.5px;font-weight:600;color:#3D2B1F;margin:30px 0 5px;padding-left
 · 数据源：人货场成交分析（dataset 1922）。
 </p>
 </div>
-</div></body></html>
+</div>
+<script>
+(function(){
+var tabs=document.querySelectorAll('.tab'),panes=document.querySelectorAll('.pane');
+function act(i){
+  tabs.forEach(function(t,j){t.classList.toggle('on',j===i)});
+  panes.forEach(function(p,j){p.classList.toggle('on',j===i)});
+  try{history.replaceState(null,'','#'+tabs[i].dataset.k)}catch(e){}
+  window.scrollTo({top:0});
+}
+tabs.forEach(function(t,i){t.addEventListener('click',function(){act(i)})});
+var h=(location.hash||'').replace('#',''),init=0;
+tabs.forEach(function(t,i){if(t.dataset.k===h)init=i});
+act(init);
+})();
+</script>
+</body></html>
