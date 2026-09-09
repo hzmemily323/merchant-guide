@@ -169,8 +169,7 @@ function renderNote(){
 /* ---------- 店播 ---------- */
 function liveMedianGPM(){
   try{
-    const wkMap={this_week:"W36",last_week:"W35"};
-    const wk=wkMap[CUR_P]; if(!wk) return "—";
+    const wk=WK().t; if(CUR_P!=="this_week"&&CUR_P!=="last_week") return "—";
     const g=(D.seller_live_weekly||[]).map(r=>((r.weeks||{})[wk]||{}).gpm).filter(x=>x!=null).sort((a,b)=>a-b);
     if(!g.length) return "—";
     return g[Math.floor(g.length/2)].toFixed(1);
@@ -178,8 +177,7 @@ function liveMedianGPM(){
 }
 function liveGpmOutliers(){
   try{
-    const wkMap={this_week:"W36",last_week:"W35"};
-    const wk=wkMap[CUR_P]; if(!wk) return "";
+    const wk=WK().t; if(CUR_P!=="this_week"&&CUR_P!=="last_week") return "";
     const names={}; (D.seller_weekly||[]).forEach(r=>names[r.seller_id]=r.name);
     const rows=(D.seller_live_weekly||[]).map(r=>{
       const w=(r.weeks||{})[wk]||{};
@@ -402,7 +400,7 @@ const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_wee
       cutoff=last+"周";
     }
     const el=document.getElementById("meta-sub");
-    if(el&&cutoff) el.textContent=`挂接商家 146 家 · 商家ID口径 · 数据截至 ${cutoff}（W36为9/1-9/6，9/7分区产出后补全）`;
+    if(el&&cutoff) el.textContent=`挂接商家 146 家 · 商家ID口径 · 数据截至 ${cutoff}（日更管道：最新周为周至今口径，涨跌下钻为日环比）`;
   }catch(e){}
   renderPeriods();
   renderTab();
@@ -418,7 +416,7 @@ function renderDrill(seller_id){
   const evList=(r.events||[]);
   $("main").innerHTML=`
   <div style="margin-bottom:10px"><button id="back-btn" style="font-size:13px;padding:6px 14px;border:1px solid #ddd;background:#fff;border-radius:8px;cursor:pointer">← 返回周报</button></div>
-  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_w35_vs_w34))} · ${fmtW(sum(w34,"dgmv"))}→${fmtW(sum(w35,"dgmv"))}</small></h2></div>
+  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_day??r.delta_w36_vs_w35??r.delta_w35_vs_w34))} · ${fmtW(sum(w34,"dgmv"))}→${fmtW(sum(w35,"dgmv"))}</small></h2></div>
   <div class="card full"><h3>逐日 DGMV 分场域<small>堆叠=店播/商笔/K播/商卡/其他</small></h3><div id="drill-chart" style="height:320px"></div></div>
   <div class="card full"><h3>关键动作信号日</h3>
     ${evList.length?evList.map(e=>`<div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0f0;font-size:13px"><b style="min-width:80px;color:#666">${e.date.slice(5)}</b><span style="min-width:52px">${{note:"📝发笔记",live:"🎬开播",kbo:"🎙K播"}[e.type]||e.type}</span><span>${esc(e.detail)}</span></div>`).join(""):'<div style="color:#999;font-size:13px">无显著信号日——波动为渐进式或由商卡/其他载体驱动</div>'}
@@ -498,7 +496,12 @@ function attributeMove(r, w, pw){
 }
 let MOVER_W="W36", MOVER_PW="W35";
 const wkMap2 = {get t(){return WK().t}, get p(){return WK().p}};
-function WK(){ const m={this_week:"W36",last_week:"W35"}; return {t:m[CUR_P]||"W36", p:"W"+((parseInt((m[CUR_P]||"W36").slice(1)))-1)} }
+function WK(){
+  const wks=new Set(); (D.seller_weekly||[]).forEach(s=>Object.keys(s.weeks||{}).forEach(w=>wks.add(w)));
+  const sorted=[...wks].sort(); const t=sorted.length?sorted[sorted.length-1]:"W36";
+  const m={this_week:t,last_week:"W"+(parseInt(t.slice(1))-1)};
+  return {t:m[CUR_P]||t, p:"W"+((parseInt((m[CUR_P]||t).slice(1)))-1)};
+}
 function moverRows(list, field){
   if(!list||!list.length) return `<div class="muted" style="padding:8px 0">无</div>`;
   return `<table><tbody>${list.map(r=>`<tr>
@@ -512,11 +515,10 @@ function moverRows(list, field){
 }
 
 /* ---------- V3: 周报 tab ---------- */
-const WEEK_LIST = ["W36","W35","W34","W33"];
+const WEEK_LIST = (function(){const wks=new Set(); (D.seller_weekly||[]).forEach(s=>Object.keys(s.weeks||{}).forEach(w=>wks.add(w))); return [...wks].sort().slice(-4).reverse();})();
 function renderWeekly(){
-  const wkMap = {this_week:"W36", last_week:"W35"};
-  const wk = wkMap[CUR_P] || "W36";
-  const periodOffWeek = !(CUR_P in wkMap);  // 双月/YoY 时段与周数据不匹配
+  const wk = WK().t;
+  const periodOffWeek = !(CUR_P==="this_week"||CUR_P==="last_week");  // 双月/YoY 时段与周数据不匹配
   const w = wk, pw = "W"+(parseInt(w.slice(1))-1); MOVER_W=w; MOVER_PW=pw;
   const yoy = (D.yoy_weekly||{})[w]||{};
   const sw = D.seller_weekly;
@@ -538,7 +540,7 @@ function renderWeekly(){
   };
 
   m.innerHTML=`
-  ${periodOffWeek?`<div class="card" style="border-color:#f59e0b;background:#fffbeb;margin-bottom:12px;font-size:13px">⚠️ 周报板块只看<b>周对比</b>，顶部时段切到「本周/上周」才生效（当前时段：${STATE_LABEL()}）。周数据目前覆盖 W33~W36。</div>`:""}
+  ${periodOffWeek?`<div class="card" style="border-color:#f59e0b;background:#fffbeb;margin-bottom:12px;font-size:13px">⚠️ 周报板块只看<b>周对比</b>，顶部时段切到「本周/上周」才生效（当前时段：${STATE_LABEL()}）。周数据覆盖 ${WEEK_LIST[WEEK_LIST.length-1]}~${WEEK_LIST[0]}，${WEEK_LIST[0]} 为周至今口径（日更）。</div>`:""}
   <div class="hero">
     <h2>📝 ${w} 周报生成器<button id="copy-btn">复制周报文字</button></h2>
     <div class="kpis">
