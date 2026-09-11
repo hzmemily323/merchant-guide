@@ -318,6 +318,17 @@ const SCH_STATUS={1:"待开播",2:"开播中",3:"已直播",4:"已过期"};
 const INV_STATUS={0:"待响应",1:"已接受",2:"已拒绝",10:"已读未回",15:"已读未回"};
 function renderSchedule(){
   const names={}; (D.seller_weekly||[]).forEach(r=>names[r.seller_id]=r.name);
+  // 达人昵称映射：优先专门表，回落到 K播成交明细里的历史合作主播
+  const distMap=(D.distributor_names||{});
+  (function(){
+    const kh=D.seller_kbo_hosts||{};
+    Object.values(kh).forEach(rec=>{
+      Object.values(rec.weeks||{}).forEach(wd=>{
+        (wd.hosts||[]).forEach(h=>{ if(!distMap[h.anchor_id]) distMap[h.anchor_id]=h.nickname; });
+      });
+    });
+  })();
+  const distName=id=>distMap[id]||("达人 "+id.slice(0,8));
   const sch=(D.live_schedule&&D.live_schedule.schedules)||[];
   const inv=(D.kbo_invitations&&D.kbo_invitations)||[];
   const today="2026-09-11";
@@ -352,14 +363,14 @@ function renderSchedule(){
       :`<div style="color:var(--muted);padding:24px;text-align:center">146 家当前无未来排期——可以推动商家建计划</div>`}
     </div>
     <div class="card"><h3>🤝 K播邀约 · 进行中<small>待响应/已读未回</small></h3>
-      ${pending.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>邀约发出</th><th>状态</th></tr></thead>
-      <tbody>${pending.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,50).map(x=>`<tr><td>${esc(x.sname)}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td>
+      ${pending.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>邀约发出</th><th>状态</th></tr></thead>
+      <tbody>${pending.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,80).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td>
       <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${x.status===0?'background:#e3f2fd;color:#0d47a1':'background:#fff8e1;color:#e65100'}">${INV_STATUS[x.status]}</span></td></tr>`).join("")}</tbody></table></div>`
       :`<div style="color:var(--muted);padding:24px;text-align:center">无进行中邀约</div>`}
     </div>
     <div class="card"><h3>✅ K播邀约 · 已接受<small>近90天</small></h3>
-      ${accepted.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>邀约发出</th><th>回复时间</th></tr></thead>
-      <tbody>${accepted.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,50).map(x=>`<tr><td>${esc(x.sname)}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td><td style="font-size:11.5px;color:#666">${x.replay_time&&x.replay_time.slice(0,4)>"1971"?fmtDT(x.replay_time):"—"}</td></tr>`).join("")}</tbody></table></div>`
+      ${accepted.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>邀约发出</th><th>回复时间</th></tr></thead>
+      <tbody>${accepted.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,80).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td><td style="font-size:11.5px;color:#666">${x.replay_time&&x.replay_time.slice(0,4)>"1971"?fmtDT(x.replay_time):"—"}</td></tr>`).join("")}</tbody></table></div>`
       :`<div style="color:var(--muted);padding:24px;text-align:center">无</div>`}
     </div>
     <div class="card full" style="font-size:12px;color:#999">
@@ -523,7 +534,7 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
 const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations"]){
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations","distributor_names"]){
     try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
   try{ D.drillSellers=(D.seller_daily_drill&&D.seller_daily_drill.sellers)||[]; }catch(e){ D.drillSellers=[]; }
