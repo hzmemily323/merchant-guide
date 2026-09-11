@@ -317,23 +317,106 @@ function renderSellers(){
   const ss=D.seller_structure.periods[p];
   const news=Object.entries(ss.new_sellers||{}), lost=Object.entries(ss.lost_sellers||{});
   const tops=D.top_sellers.periods[p].rows;
+
+  // 全量146家数据聚合（用本期窗口，若seller_daily可用则按日期区间；否则退化到 seller_weekly 当前周）
+  const buildAllRows=()=>{
+    const sd=D.seller_daily&&D.seller_daily.sellers||[];
+    const wk=(D.seller_weekly||[]);
+    const map={};
+    // 从 seller_daily 拿全量商家名 + 全周期累计（覆盖挂接名单，即使动销为0也在列）
+    sd.forEach(s=>{
+      const totalDgmv=Object.values(s.days||{}).reduce((sum,d)=>sum+(d.dgmv||0),0);
+      const fields={zhibo:0,shangbi:0,kbo:0,shangka:0,other:0,live_rooms:0,new_notes:0};
+      Object.values(s.days||{}).forEach(d=>{
+        fields.zhibo+=d.zhibo||0; fields.shangbi+=d.shangbi||0; fields.kbo+=d.kbo||0;
+        fields.shangka+=d.shangka||0; fields.other+=d.other||0;
+        fields.live_rooms+=d.live_rooms||0; fields.new_notes+=d.new_notes||0;
+      });
+      map[s.seller_id]={seller_id:s.seller_id,name:s.name,dgmv:totalDgmv,...fields};
+    });
+    // 补齐 seller_weekly 里但 daily 没有的商家（0动销商家）
+    wk.forEach(w=>{ if(!map[w.seller_id]) map[w.seller_id]={seller_id:w.seller_id,name:w.name,dgmv:0,zhibo:0,shangbi:0,kbo:0,shangka:0,other:0,live_rooms:0,new_notes:0}; });
+    return Object.values(map).sort((a,b)=>b.dgmv-a.dgmv);
+  };
+  const allRows=buildAllRows();
+  const noActive=allRows.filter(r=>r.dgmv===0).length;
+
   $("main").innerHTML=`
   <div class="grid">
     <div class="card full"><h3>商家结构<small>${ss.label} · 动销 ${ss.active_sellers}/146 家</small></h3>
       <div class="kpis">
         ${kpi(ss.active_sellers,"本期动销商家","")}
+        ${kpi(146-ss.active_sellers,"零成交商家","")}
         ${kpi(news.length,"新动销","")}
         ${kpi(lost.length,"流失","")}
         ${kpi(((ss.active_sellers)/146*100).toFixed(0)+"%","动销率","")}
       </div></div>
-    <div class="card"><h3>🆕 新动销商家<small>上期无成交、本期有</small></h3>
-      ${news.length?`<table><tbody>${news.map(([id,v])=>`<tr><td>${esc(v.name)}</td><td class="num">${fmtW(v.dgmv)}</td></tr>`).join("")}</tbody></table>`:`<div style="color:var(--muted);padding:20px;text-align:center">无</div>`}</div>
-    <div class="card"><h3>⚠️ 流失商家<small>上期有成交、本期无</small></h3>
-      ${lost.length?`<table><tbody>${lost.map(([id,v])=>`<tr><td>${esc(v.name)}</td><td class="num">${fmtW(v.dgmv)}</td></tr>`).join("")}</tbody></table>`:`<div style="color:var(--muted);padding:20px;text-align:center">无</div>`}</div>
-    <div class="card full"><h3>DGMV TOP20 商家</h3>
-      <table><thead><tr><th>#</th><th>商家</th><th>一级类目</th><th class="num">DGMV</th></tr></thead>
-      <tbody>${tops.map((r,i)=>`<tr><td>${i+1}</td><td title="${r[0]}">${esc(r[2])}</td><td>${r[1]}</td><td class="num">${fmtW(r[3])}</td></tr>`).join("")}</tbody></table></div>
+    <div class="card"><h3>🆕 新动销<small>上期无、本期有</small></h3>
+      ${news.length?`<table><tbody>${news.slice(0,10).map(([id,v])=>`<tr><td>${esc(v.name)}</td><td class="num">${fmtW(v.dgmv)}</td></tr>`).join("")}</tbody></table>`:`<div style="color:var(--muted);padding:20px;text-align:center">无</div>`}</div>
+    <div class="card"><h3>⚠️ 流失<small>上期有、本期无</small></h3>
+      ${lost.length?`<table><tbody>${lost.slice(0,10).map(([id,v])=>`<tr><td>${esc(v.name)}</td><td class="num">${fmtW(v.dgmv)}</td></tr>`).join("")}</tbody></table>`:`<div style="color:var(--muted);padding:20px;text-align:center">无</div>`}</div>
+    <div class="card full">
+      <h3>🔍 全量商家明细<small>146 家挂接商家 · 搜索商家名 · 点行末🔍下钻查看该商家逐日/事件</small></h3>
+      <div style="display:flex;gap:10px;margin-bottom:8px;flex-wrap:wrap">
+        <input id="seller-search" placeholder="搜索商家名（支持部分匹配）" style="flex:1;min-width:200px;padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">
+        <select id="seller-filter" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">
+          <option value="all">全部 (${allRows.length})</option>
+          <option value="active">动销 (${allRows.length-noActive})</option>
+          <option value="zero">零成交 (${noActive})</option>
+          <option value="live">有店播</option>
+          <option value="note">有商笔</option>
+          <option value="kbo">有K播</option>
+        </select>
+        <select id="seller-sort" style="padding:6px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px">
+          <option value="dgmv">按DGMV降序</option>
+          <option value="zhibo">按店播降序</option>
+          <option value="shangbi">按商笔降序</option>
+          <option value="kbo">按K播降序</option>
+          <option value="name">按名称</option>
+        </select>
+      </div>
+      <div style="max-height:520px;overflow-y:auto;border:1px solid #f0f0f0;border-radius:6px">
+        <table id="seller-tbl" style="width:100%;font-size:12.5px">
+          <thead style="position:sticky;top:0;background:#fafafa;z-index:1">
+            <tr><th style="padding:8px 6px;text-align:left">商家</th><th class="num">DGMV</th><th class="num">店播</th><th class="num">商笔</th><th class="num">K播</th><th class="num">商卡</th><th class="num">场次</th><th class="num">新笔</th><th></th></tr>
+          </thead>
+          <tbody id="seller-tbody"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:8px;font-size:11.5px;color:#999">💡 数据窗口 = ${D.seller_daily?.meta?.start||"—"} ~ ${D.seller_daily?.meta?.end||"—"}；下钻里的逐日/事件仅TOP16有完整事件标注，其他商家仅有逐日DGMV</div>
+    </div>
   </div>`;
+
+  // 渲染逻辑
+  const renderList=()=>{
+    const q=($("seller-search")?.value||"").trim().toLowerCase();
+    const filter=$("seller-filter")?.value||"all";
+    const sort=$("seller-sort")?.value||"dgmv";
+    let rows=allRows.filter(r=>!q||r.name.toLowerCase().includes(q));
+    if(filter==="active") rows=rows.filter(r=>r.dgmv>0);
+    else if(filter==="zero") rows=rows.filter(r=>r.dgmv===0);
+    else if(filter==="live") rows=rows.filter(r=>r.zhibo>0);
+    else if(filter==="note") rows=rows.filter(r=>r.shangbi>0);
+    else if(filter==="kbo") rows=rows.filter(r=>r.kbo>0);
+    if(sort==="name") rows.sort((a,b)=>a.name.localeCompare(b.name,"zh"));
+    else rows.sort((a,b)=>(b[sort]||0)-(a[sort]||0));
+    $("seller-tbody").innerHTML=rows.map(r=>`
+      <tr>
+        <td style="padding:5px 6px" title="${r.seller_id}">${esc(r.name)}</td>
+        <td class="num">${r.dgmv?fmtW(r.dgmv):'—'}</td>
+        <td class="num" style="color:${r.zhibo>0?'#ff6700':'#ccc'}">${r.zhibo?fmtW(r.zhibo):'—'}</td>
+        <td class="num" style="color:${r.shangbi>0?'#3b82f6':'#ccc'}">${r.shangbi?fmtW(r.shangbi):'—'}</td>
+        <td class="num" style="color:${r.kbo>0?'#8b5cf6':'#ccc'}">${r.kbo?fmtW(r.kbo):'—'}</td>
+        <td class="num" style="color:${r.shangka>0?'#10b981':'#ccc'}">${r.shangka?fmtW(r.shangka):'—'}</td>
+        <td class="num">${r.live_rooms||'—'}</td>
+        <td class="num">${r.new_notes||'—'}</td>
+        <td><button class="drill-btn" data-sid="${r.seller_id}" style="font-size:11px;padding:2px 8px;border:1px solid #ddd;background:#fff;border-radius:10px;cursor:pointer">🔍</button></td>
+      </tr>`).join("");
+  };
+  renderList();
+  $("seller-search").oninput=renderList;
+  $("seller-filter").onchange=renderList;
+  $("seller-sort").onchange=renderList;
 }
 
 /* ---------- 框架 ---------- */
@@ -383,7 +466,7 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
 const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill"]){
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily"]){
     try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
   try{ D.drillSellers=(D.seller_daily_drill&&D.seller_daily_drill.sellers)||[]; }catch(e){ D.drillSellers=[]; }
@@ -408,15 +491,31 @@ const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_wee
 
 /* ---------- V4: 商家日粒度下钻 ---------- */
 function renderDrill(seller_id){
-  const r=(D.drillSellers||[]).find(x=>x.seller_id===seller_id);
-  if(!r) return;
+  let r=(D.drillSellers||[]).find(x=>x.seller_id===seller_id);
+  if(!r){
+    // 从 seller_daily 全量构造（覆盖任意商家，不限TOP16）
+    const sd=(D.seller_daily&&D.seller_daily.sellers||[]).find(x=>x.seller_id===seller_id);
+    if(!sd){
+      // 挂接名单里但整个窗口零成交（不在 seller_daily）
+      const w=(D.seller_weekly||[]).find(x=>x.seller_id===seller_id);
+      const nm=w?w.name:seller_id.slice(0,10);
+      r={seller_id, name:nm, direction:"up", delta_w35_vs_w34:0, days:[], events:[], _zero:true};
+    } else {
+      const ddays=Object.keys(sd.days||{}).sort().map(d=>({date:d,...sd.days[d]}));
+      const totalDgmv=ddays.reduce((s,d)=>s+(d.dgmv||0),0);
+      const cur=ddays[ddays.length-1]||{dgmv:0}, prev=ddays.length>=2?ddays[ddays.length-2]:null;
+      const dt=prev?(cur.dgmv-prev.dgmv):0;
+      r={seller_id, name:sd.name, direction:dt>=0?"up":"down",
+         delta_w35_vs_w34:dt, days:ddays, events:[], _zero:totalDgmv===0};
+    }
+  }
   const days=r.days||[];
   const mid=Math.ceil(days.length/2); const w34=days.slice(0,mid), w35=days.slice(mid);
   const sum=(arr,f)=>arr.reduce((s,d)=>s+(d[f]||0),0);
   const evList=(r.events||[]);
   $("main").innerHTML=`
   <div style="margin-bottom:10px"><button id="back-btn" style="font-size:13px;padding:6px 14px;border:1px solid #ddd;background:#fff;border-radius:8px;cursor:pointer">← 返回周报</button></div>
-  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_day??r.delta_w36_vs_w35??r.delta_w35_vs_w34))} · ${fmtW(sum(w34,"dgmv"))}→${fmtW(sum(w35,"dgmv"))}</small></h2></div>
+  <div class="hero"><h2>🔍 ${esc(r.name)} · 逐日下钻<small style="font-weight:400;font-size:12px;color:#999">${r._zero?"当前窗口零成交":`${r.direction==="up"?"▲":"▼"}${fmtW(Math.abs(r.delta_day??r.delta_w36_vs_w35??r.delta_w35_vs_w34??0))} · ${days[0]?.date?.slice(5)}~${days[days.length-1]?.date?.slice(5)}`}</small></h2></div>
   <div class="card full"><h3>逐日 DGMV 分场域<small>堆叠=店播/商笔/K播/商卡/其他</small></h3><div id="drill-chart" style="height:320px"></div></div>
   <div class="card full"><h3>关键动作信号日</h3>
     ${evList.length?evList.map(e=>`<div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f0f0f0;font-size:13px"><b style="min-width:80px;color:#666">${e.date.slice(5)}</b><span style="min-width:52px">${{note:"📝发笔记",live:"🎬开播",kbo:"🎙K播"}[e.type]||e.type}</span><span>${esc(e.detail)}</span></div>`).join(""):'<div style="color:#999;font-size:13px">无显著信号日——波动为渐进式或由商卡/其他载体驱动</div>'}
