@@ -1,0 +1,242 @@
+{
+ "meta": {
+  "partition": "20260910",
+  "fetched_at": "2026-09-11 09:00:32",
+  "window": [
+   "2026-09-10",
+   "2026-09-25"
+  ],
+  "total": 19,
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=3058735&cellId=cell_1789117233630_6&msgId=9e2d76c1-e062-4b11-bf70-4d99c93ea155&viewType=TABLE"
+ },
+ "schedules": [
+  {
+   "seller_id": "5c6f97f1bb06cd759f7438a5",
+   "shop_name": "晟麦旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "晟麦健康营养油",
+   "live_schedule_status": 2,
+   "live_schedule_start_time": "2026-09-10 06:00:00",
+   "live_schedule_end_time": "2026-09-10 07:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "684fc0275fb9c50015ca88d6",
+   "shop_name": "官耳滋补旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "0910",
+   "live_schedule_status": 2,
+   "live_schedule_start_time": "2026-09-10 06:00:00",
+   "live_schedule_end_time": "2026-09-10 07:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "65b368dd2cdd640001d6c207",
+   "shop_name": "小禾家零食分装的店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "1",
+   "live_schedule_status": 2,
+   "live_schedule_start_time": "2026-09-10 09:00:00",
+   "live_schedule_end_time": "2026-09-11 01:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 20000.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "683d9b0bc3302a0015a9d5a8",
+   "shop_name": "崔小元真选的店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "思辰直播",
+   "live_schedule_status": 3,
+   "live_schedule_start_time": "2026-09-10 09:20:00",
+   "live_schedule_end_time": "2026-09-10 10:20:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "66583c9ee5b8e60001263c98",
+   "shop_name": "海伶山珍旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "直播",
+   "live_schedule_status": 3,
+   "live_schedule_start_time": "2026-09-10 10:00:00",
+   "live_schedule_end_time": "2026-09-10 11:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "5ad98c8fd20f44553a4cc327",
+   "shop_name": "金燕耳旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "金燕耳，滋养你的每时每刻！",
+   "live_schedule_status": 3,
+   "live_schedule_start_time": "2026-09-10 11:00:00",
+   "live_schedule_end_time": "2026-09-10 12:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "61ab5b271156ae000128181a",
+   "shop_name": "闽熙元菌菇的店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "最后4份红薯🍠",
+   "live_schedule_status": 4,
+   "live_schedule_start_time": "2026-09-10 13:00:00",
+   "live_schedule_end_time": "2026-09-10 13:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 8
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "shop_name": "原豆复兴Peasup旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "kkk",
+   "live_schedule_status": 3,
+   "live_schedule_start_time": "2026-09-10 14:00:00",
+   "live_schedule_end_time": "2026-09-10 15:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "683d9b0bc3302a0015a9d5a8",
+   "shop_name": "崔小元真选的店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "小温直播",
+   "live_schedule_status": 3,
+   "live_schedule_start_time": "2026-09-10 15:10:00",
+   "live_schedule_end_time": "2026-09-10 16:10:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "646b3040937a2b0001588b29",
+   "shop_name": "奥莱奥原生旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "西班牙油",
+   "live_schedule_status": 3,
+   "live_schedule_start_time": "2026-09-10 18:00:00",
+   "live_schedule_end_time": "2026-09-10 20:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 1000.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "684fc0275fb9c50015ca88d6",
+   "shop_name": "官耳滋补旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "0911",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-11 06:00:00",
+   "live_schedule_end_time": "2026-09-11 07:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "66583c9ee5b8e60001263c98",
+   "shop_name": "海伶山珍旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "直播",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-11 10:00:00",
+   "live_schedule_end_time": "2026-09-11 11:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "64ccc00ba14d4e0001322a18",
+   "shop_name": "珍妮曲奇聪明小熊饼干旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "香港珍妮曲奇聪明小熊饼干",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-11 12:20:00",
+   "live_schedule_end_time": "2026-09-12 00:20:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 7000.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "646b3040937a2b0001588b29",
+   "shop_name": "奥莱奥原生旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "西班牙油 美哭",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-11 13:30:00",
+   "live_schedule_end_time": "2026-09-11 15:30:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 1000.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "6583fd2d623df60001a83a15",
+   "shop_name": "黄飞红旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "减脂不是苦行（涵中直播）",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-11 16:30:00",
+   "live_schedule_end_time": "2026-09-11 17:30:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "66583c9ee5b8e60001263c98",
+   "shop_name": "海伶山珍旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "直播",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-12 10:00:00",
+   "live_schedule_end_time": "2026-09-12 11:00:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "646b3040937a2b0001588b29",
+   "shop_name": "奥莱奥原生旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "西班牙特级初榨橄榄油",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-12 13:30:00",
+   "live_schedule_end_time": "2026-09-12 15:30:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 1000.0,
+   "live_schedule_source": 41
+  },
+  {
+   "seller_id": "65b368dd2cdd640001d6c207",
+   "shop_name": "小禾家零食分装的店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "山姆9月新品",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-13 08:55:00",
+   "live_schedule_end_time": "2026-09-13 08:55:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 0.0,
+   "live_schedule_source": 8
+  },
+  {
+   "seller_id": "646b3040937a2b0001588b29",
+   "shop_name": "奥莱奥原生旗舰店",
+   "goods_live_anchor_type": "店",
+   "live_schedule_title": "西班牙油 美哭",
+   "live_schedule_status": 1,
+   "live_schedule_start_time": "2026-09-13 13:30:00",
+   "live_schedule_end_time": "2026-09-13 15:30:00",
+   "live_schedule_goods_count": 0,
+   "live_schedule_sale_amont": 1000.0,
+   "live_schedule_source": 41
+  }
+ ]
+}
