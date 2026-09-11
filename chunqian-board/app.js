@@ -13,6 +13,7 @@ const TABS = [
   {key:"live", name:"店播"},
   {key:"kbo", name:"K播"},
   {key:"sellers", name:"商家"},
+  {key:"schedule", name:"排期与邀约"},
 ];
 const FIELDS = ["zhibo","shangbi","kbo","shangka","other"];
 const FIELD_NAME = {zhibo:"店播", shangbi:"商笔", kbo:"K播", shangka:"商卡", other:"其他"};
@@ -312,6 +313,61 @@ function renderCategory(){
 }
 
 /* ---------- 商家 ---------- */
+/* ---------- 排期与邀约 ---------- */
+const SCH_STATUS={1:"待开播",2:"开播中",3:"已直播",4:"已过期"};
+const INV_STATUS={0:"待响应",1:"已接受",2:"已拒绝",10:"已读未回",15:"已读未回"};
+function renderSchedule(){
+  const names={}; (D.seller_weekly||[]).forEach(r=>names[r.seller_id]=r.name);
+  const sch=(D.live_schedule&&D.live_schedule.schedules)||[];
+  const inv=(D.kbo_invitations&&D.kbo_invitations)||[];
+  const today="2026-09-11";
+  // 排期分：未来（含今天）/ 已播
+  const future=sch.filter(x=>x.live_schedule_start_time>=today+" 00:00"&&x.live_schedule_status!==4).sort((a,b)=>a.live_schedule_start_time<b.live_schedule_start_time?-1:1);
+  const past=sch.filter(x=>!future.includes(x)).sort((a,b)=>b.live_schedule_start_time<a.live_schedule_start_time?-1:1);
+  const invList=(inv.invitations||[]).map(x=>({...x, sname:names[x.seller_id]||x.seller_id.slice(0,8)}));
+  const pending=invList.filter(x=>[0,10,15].includes(x.status));
+  const accepted=invList.filter(x=>x.status===1);
+  const rejected=invList.filter(x=>x.status===2);
+  const fmtDT=t=>t?t.slice(5,16):"—";
+
+  $("main").innerHTML=`
+  <div class="grid">
+    <div class="card full"><h3>📅 排期与邀约概览<small>快照分区 ${D.live_schedule?.meta?.partition||"—"} · 日更</small></h3>
+      <div class="kpis">
+        ${kpi(future.length,"未来排期场次","")}
+        ${kpi(new Set(future.map(x=>x.seller_id)).size,"未来开播商家","")}
+        ${kpi(pending.length,"邀约进行中","")}
+        ${kpi(accepted.length,"已接受邀约","")}
+        ${kpi(rejected.length,"已拒绝","")}
+      </div></div>
+    <div class="card full"><h3>📅 未来店播排期<small>今天起 · 按开播时间排序</small></h3>
+      ${future.length?`<table><thead><tr><th>商家</th><th>计划名称</th><th>开播时间</th><th>时长</th><th>状态</th><th class="num">预计挂品</th><th class="num">预期销售额</th></tr></thead>
+      <tbody>${future.map(x=>{
+        const st=x.live_schedule_start_time, en=x.live_schedule_end_time;
+        const dur=(st&&en)?Math.max(1,Math.round((new Date(en)-new Date(st))/3600000))+"h":"—";
+        const stt=x.live_schedule_status;
+        return `<tr><td>${esc(x.shop_name||names[x.seller_id]||"—")}</td><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(x.live_schedule_title||"")}">${esc(x.live_schedule_title||"—")}</td><td>${fmtDT(st)}</td><td>${dur}</td>
+        <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${stt===2?'background:#e8f5e9;color:#1b5e20':stt===1?'background:#fff3e0;color:#e65100':'background:#f5f5f5;color:#999'}">${SCH_STATUS[stt]||stt}</span></td>
+        <td class="num">${x.live_schedule_goods_count||"—"}</td><td class="num">${x.live_schedule_sale_amont?fmtW(x.live_schedule_sale_amont):"—"}</td></tr>`}).join("")}</tbody></table>`
+      :`<div style="color:var(--muted);padding:24px;text-align:center">146 家当前无未来排期——可以推动商家建计划</div>`}
+    </div>
+    <div class="card"><h3>🤝 K播邀约 · 进行中<small>待响应/已读未回</small></h3>
+      ${pending.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>邀约发出</th><th>状态</th></tr></thead>
+      <tbody>${pending.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,50).map(x=>`<tr><td>${esc(x.sname)}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td>
+      <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${x.status===0?'background:#e3f2fd;color:#0d47a1':'background:#fff8e1;color:#e65100'}">${INV_STATUS[x.status]}</span></td></tr>`).join("")}</tbody></table></div>`
+      :`<div style="color:var(--muted);padding:24px;text-align:center">无进行中邀约</div>`}
+    </div>
+    <div class="card"><h3>✅ K播邀约 · 已接受<small>近90天</small></h3>
+      ${accepted.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>邀约发出</th><th>回复时间</th></tr></thead>
+      <tbody>${accepted.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,50).map(x=>`<tr><td>${esc(x.sname)}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td><td style="font-size:11.5px;color:#666">${x.replay_time&&x.replay_time.slice(0,4)>"1971"?fmtDT(x.replay_time):"—"}</td></tr>`).join("")}</tbody></table></div>`
+      :`<div style="color:var(--muted);padding:24px;text-align:center">无</div>`}
+    </div>
+    <div class="card full" style="font-size:12px;color:#999">
+      口径：排期=直播计划扩展表（每日快照，含店播与买手计划）；邀约=商家邀约表（近90天，已剔除删除/过期）。已拒绝 ${rejected.length} 条。replay_time 的 1970 哨兵已过滤。
+    </div>
+  </div>`;
+}
+
 function renderSellers(){
   const p=CUR_P;
   const ss=D.seller_structure.periods[p];
@@ -454,6 +510,7 @@ function renderTab(){
     [...el.querySelectorAll("button")].forEach((b,i)=>b.classList.toggle("active", TABS[i].key==="overview"));
   }
   if(CUR_T==="weekly")renderWeekly();
+  if(CUR_T==="schedule")renderSchedule();
   else if(CUR_T==="overview")renderOverview();
   else if(CUR_T==="note")renderNote();
   else if(CUR_T==="live")renderLive();
@@ -466,7 +523,7 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
 const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily"]){
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations"]){
     try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
   try{ D.drillSellers=(D.seller_daily_drill&&D.seller_daily_drill.sellers)||[]; }catch(e){ D.drillSellers=[]; }
