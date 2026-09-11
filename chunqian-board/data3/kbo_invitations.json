@@ -1,0 +1,2117 @@
+{
+ "meta": {
+  "partition": "20260910",
+  "fetched_at": "2026-09-11 09:00:32",
+  "window_note": "create_time 近90天",
+  "total": 234,
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=3058735&cellId=cell_1789117252694_6&msgId=e58447ee-d17c-4c0a-887b-f78db093b2a3&viewType=TABLE"
+ },
+ "invitations": [
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5677eaa0cb35fb4db872f696",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:23:06",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "6454ef0b00000000290128bd",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:20:46",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5daea5ff0000000001008c14",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:20:29",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "62b4650b000000001b024b52",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:18:15",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5b3e56326b58b740caa137e2",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:17:41",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "58776afc6a6a69429ae4d536",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:12:05",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5e2407b50000000001005711",
+   "status": 10,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:03:06",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "54ed0b5ad39ea23b25501d6d",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:02:22",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "626a3631000000002102296f",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 14:01:06",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "63807a4d000000002302755a",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 13:54:21",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "6583fd2d623df60001a83a15",
+   "distributor_id": "5b91f04c651c390001d2b1cf",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 10:52:28",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "6583fd2d623df60001a83a15",
+   "distributor_id": "5a570a67e8ac2b4317d79523",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-10 10:19:38",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "565ac75482ec3922e2a6fac0",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-09 09:29:15",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "543545eed6e4a965d79005b3",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-09 09:27:59",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5a9e47d94eacab395327333f",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-09 09:27:21",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5bbf86c800e530000144c21b",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-09 09:02:05",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "64b5017ab81c530001cefb46",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-08 16:05:01",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "68cb7cfc87628700157edf84",
+   "distributor_id": "5bee70e851783a21c54e4848",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-08 11:36:48",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "623463a0d5964e00011b942c",
+   "distributor_id": "560808083fef9276d88b728f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-09-07 10:20:41",
+   "replay_time": "2026-09-07 17:48:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "623463a0d5964e00011b942c",
+   "distributor_id": "5847d82550c4b44655a6feb1",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-07 10:20:12",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "64b5017ab81c530001cefb46",
+   "distributor_id": "5d5e142500000000010096e0",
+   "status": 10,
+   "coo_type": 0,
+   "create_time": "2026-09-05 17:27:41",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64b5017ab81c530001cefb46",
+   "distributor_id": "5f72dd6d0000000001004f1a",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-05 17:27:27",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "64b5017ab81c530001cefb46",
+   "distributor_id": "57c0828282ec393a14557d11",
+   "status": 10,
+   "coo_type": 0,
+   "create_time": "2026-09-05 17:27:14",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64b5017ab81c530001cefb46",
+   "distributor_id": "5b69dddad8fb5b000148dacb",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-05 17:26:32",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "64b5017ab81c530001cefb46",
+   "distributor_id": "5d529792000000001601e639",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-05 17:23:11",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "55a754dc3397db56743ab548",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-04 13:18:31",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "59f18906e8ac2b5547337488",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-04 13:18:24",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5f0fdf3100000000010010ab",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-04 13:17:38",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "56ca75b384edcd3659f7a8a3",
+   "status": 0,
+   "coo_type": 0,
+   "create_time": "2026-09-04 13:16:32",
+   "replay_time": "1970-01-01 07:59:59",
+   "is_read": 0
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5df75d1800000000010053da",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-09-02 15:29:42",
+   "replay_time": "2026-09-09 15:30:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5c878d39000000001202d5e0",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-09-02 14:16:46",
+   "replay_time": "2026-09-03 08:58:24",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "549f72eb2e1d93782126b605",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-09-02 11:24:22",
+   "replay_time": "2026-09-09 11:30:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "58f429af5e87e74c8daa6aea",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-09-02 09:58:01",
+   "replay_time": "2026-09-09 10:00:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "63807a4d000000002302755a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-09-02 09:32:43",
+   "replay_time": "2026-09-09 09:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5a8b14084eacab77d4753a93",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-09-02 09:15:08",
+   "replay_time": "2026-09-02 10:28:01",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6555e04b1c841300014bc3f0",
+   "distributor_id": "6110f16b0000000001008d89",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-09-01 15:52:52",
+   "replay_time": "2026-09-08 16:00:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6555e04b1c841300014bc3f0",
+   "distributor_id": "61c9949f0000000010009d99",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-09-01 15:52:52",
+   "replay_time": "2026-09-01 17:35:36",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "560e6f9e3f95a32e2057182b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-31 16:24:57",
+   "replay_time": "2026-09-07 16:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "623c8a57000000001000648f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-31 09:55:35",
+   "replay_time": "2026-08-31 09:57:43",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "59f1918311be104958d53a1b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-29 10:24:08",
+   "replay_time": "2026-09-05 10:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5b3e56326b58b740caa137e2",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-29 10:06:08",
+   "replay_time": "2026-09-05 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5b066d5e11be101c8871fe0d",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-29 09:36:40",
+   "replay_time": "2026-08-29 09:42:29",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "55eb771ca75c9563a6335afb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-29 09:28:03",
+   "replay_time": "2026-09-05 09:30:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "623463a0d5964e00011b942c",
+   "distributor_id": "560808083fef9276d88b728f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-28 09:28:57",
+   "replay_time": "2026-09-04 09:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "59abcd355e87e7562012dcb9",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-26 15:53:05",
+   "replay_time": "2026-09-02 16:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "581e89da82ec39781eee62e6",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-26 15:24:38",
+   "replay_time": "2026-09-02 15:30:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "62ddff2b000000001e01e270",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-26 15:24:20",
+   "replay_time": "2026-08-26 15:32:34",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "6659b668000000000b030bfc",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-26 15:19:10",
+   "replay_time": "2026-09-02 15:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "56b82a9d84edcd52944a46f1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-25 10:45:16",
+   "replay_time": "2026-09-01 10:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "69c6cc7e000000003202f8a5",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-24 10:15:13",
+   "replay_time": "2026-08-31 10:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "6a4d0183000000000f038400",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-24 10:14:56",
+   "replay_time": "2026-08-24 12:46:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "560808083fef9276d88b728f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-24 10:13:54",
+   "replay_time": "2026-08-24 10:37:30",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5ae52f154eacab7f0ca22fd9",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-22 10:58:30",
+   "replay_time": "2026-08-22 18:41:32",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5a5edd0e11be107002886a09",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-22 10:54:03",
+   "replay_time": "2026-08-22 11:23:15",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "647b64a400000000120349b8",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-22 10:51:19",
+   "replay_time": "2026-08-29 11:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5a9d33e04eacab3e49dcc317",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 14:18:32",
+   "replay_time": "2026-08-28 14:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5e4e832c0000000001001128",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "55dacf593397db4eab61e70b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "57953a7c5e87e714a6c91ee2",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "59bbd47051783a17701140ab",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5a3f2986e8ac2b535a17a3f3",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "6423b677000000001201094f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5a995f8311be105455a34d44",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5e425a630000000001002b64",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5fd1c8230000000001008a2a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5b0a4e8411be10608002883c",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 09:45:17",
+   "replay_time": "2026-08-28 09:50:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "58ccf62282ec39507be04798",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-20 09:55:34",
+   "replay_time": "2026-08-27 10:00:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "62b02303000000001b027c0d",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-19 16:30:00",
+   "replay_time": "2026-08-26 16:30:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "565bc5fe03eb841546598cf9",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-19 10:28:06",
+   "replay_time": "2026-08-26 10:30:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "54cd4264b4c4d615fc2c8785",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-19 10:28:06",
+   "replay_time": "2026-08-26 10:30:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "54e474fa2e1d932883fa7add",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-18 16:06:53",
+   "replay_time": "2026-08-25 16:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5e5a730600000000010028cb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-18 13:26:54",
+   "replay_time": "2026-08-25 13:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "56e6679c1c07df3d554a003f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-18 13:18:32",
+   "replay_time": "2026-08-25 13:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6548bef8368edf00013df609",
+   "distributor_id": "5cb019da0000000011019f1f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-17 14:21:56",
+   "replay_time": "2026-08-17 14:22:44",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "57ab3b645e87e71147d1e3f9",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-14 11:21:49",
+   "replay_time": "2026-08-21 11:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "566a2bcab8c8b45b0ce36ecc",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-14 11:05:50",
+   "replay_time": "2026-08-21 11:10:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5a8b14084eacab77d4753a93",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-14 10:30:08",
+   "replay_time": "2026-08-16 16:42:22",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68076048ad6a030015d6e8ce",
+   "distributor_id": "5db557060000000001003d85",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-14 10:22:15",
+   "replay_time": "2026-08-21 10:30:05",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68076048ad6a030015d6e8ce",
+   "distributor_id": "5eabfb6b00000000010036c6",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-14 10:14:32",
+   "replay_time": "2026-08-14 11:08:08",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "6927fbb5000000003702eaeb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-14 10:09:51",
+   "replay_time": "2026-08-21 10:10:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68076048ad6a030015d6e8ce",
+   "distributor_id": "5b3cc6d811be106a089d4014",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-14 10:03:41",
+   "replay_time": "2026-08-14 10:06:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68076048ad6a030015d6e8ce",
+   "distributor_id": "5c08ab37000000000600cdc7",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-14 09:57:25",
+   "replay_time": "2026-08-14 11:24:13",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "68d4567d000000002102e8d2",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-13 13:48:02",
+   "replay_time": "2026-08-13 14:04:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "62bb2d91000000001b0288f1",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-13 13:35:18",
+   "replay_time": "2026-08-13 17:49:12",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "55eb771ca75c9563a6335afb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-13 13:07:43",
+   "replay_time": "2026-08-20 13:10:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "55aa7a5bb7ba220530846f5e",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-13 10:16:58",
+   "replay_time": "2026-08-14 18:30:36",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5f25142c0000000001005a54",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-13 10:16:03",
+   "replay_time": "2026-08-15 17:13:33",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "584d089e50c4b4271d9888e2",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-13 10:10:51",
+   "replay_time": "2026-08-13 11:01:43",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5a70ab6411be107da8a19e12",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-13 10:03:01",
+   "replay_time": "2026-08-13 10:27:24",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "560808083fef9276d88b728f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-13 10:01:55",
+   "replay_time": "2026-08-20 10:10:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "61b45d0caaae2500016addf8",
+   "distributor_id": "5a7417784eacab7c532fff09",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-12 15:02:05",
+   "replay_time": "2026-08-19 15:10:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5fdda201000000000100289b",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-11 11:53:40",
+   "replay_time": "2026-08-11 12:18:28",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "55c81f633397db6eea4031a3",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-11 11:41:52",
+   "replay_time": "2026-08-18 11:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5ff27996000000000100230a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-11 09:46:46",
+   "replay_time": "2026-08-18 09:50:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "583e97ed6a6a690d4963e99c",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-11 09:45:53",
+   "replay_time": "2026-08-18 09:50:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5ff3e0ee0000000001004d1c",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-11 09:41:24",
+   "replay_time": "2026-08-11 13:57:56",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6548bef8368edf00013df609",
+   "distributor_id": "66cac688000000001d032e63",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-10 14:50:57",
+   "replay_time": "2026-08-10 16:19:28",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5e1ad99e000000000100824d",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-10 12:32:20",
+   "replay_time": "2026-08-10 14:13:12",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "67579047000000001d02cba9",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:58:29",
+   "replay_time": "2026-08-10 11:22:18",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "60376430000000000101e776",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-10 10:24:39",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5e50ee7e0000000001007cf1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-17 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "57553f0a6a6a695eec3df68a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-17 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-17 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "6110f16b0000000001008d89",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-17 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "6217812000000000100070e4",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:08:02",
+   "replay_time": "2026-08-07 11:12:41",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "56d3e598aed7583e931d9526",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:08:02",
+   "replay_time": "2026-08-14 11:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5b4f3a6f6b58b708068de94f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:08:02",
+   "replay_time": "2026-08-14 11:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "611167c00000000001006179",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:07:45",
+   "replay_time": "2026-08-07 11:43:22",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5c5e7fa700000000110382a3",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:07:45",
+   "replay_time": "2026-08-07 14:33:43",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "62de739b000000001e01ca35",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:07:45",
+   "replay_time": "2026-08-14 11:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "65e5cbbb00000000050098c8",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:07:45",
+   "replay_time": "2026-08-14 11:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "64f234060000000005003017",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-06 16:44:08",
+   "replay_time": "2026-08-13 16:50:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "61ab5b271156ae000128181a",
+   "distributor_id": "60376430000000000101e776",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-05 14:38:20",
+   "replay_time": "2026-08-05 17:42:16",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68cb7cfc87628700157edf84",
+   "distributor_id": "60376430000000000101e776",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-05 10:49:10",
+   "replay_time": "2026-08-05 10:52:19",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5fd5ff04000000000100b776",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-08-03 14:17:45",
+   "replay_time": "2026-08-07 22:24:06",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "65fe909b000000000600c0c7",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-03 14:16:39",
+   "replay_time": "2026-08-10 14:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "6180e2b8000000001000a7e3",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-03 11:57:22",
+   "replay_time": "2026-08-10 12:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5b5364194eacab544e35f96b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-03 11:38:19",
+   "replay_time": "2026-08-10 11:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-03 10:36:22",
+   "replay_time": "2026-08-03 11:00:06",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "59107c2182ec39485cefac50",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-03 10:36:22",
+   "replay_time": "2026-08-03 10:36:39",
+   "is_read": 1
+  },
+  {
+   "seller_id": "61ab5b271156ae000128181a",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-02 00:09:22",
+   "replay_time": "2026-08-09 00:10:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "61ab5b271156ae000128181a",
+   "distributor_id": "5e50ee7e0000000001007cf1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-02 00:09:22",
+   "replay_time": "2026-08-09 00:10:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "61b45d0caaae2500016addf8",
+   "distributor_id": "65d4aebd000000000401f549",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-31 10:06:56",
+   "replay_time": "2026-07-31 10:55:34",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "60c99fa200000000010010eb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-30 10:03:43",
+   "replay_time": "2026-08-06 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "641c2f410000000011022e1b",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-30 10:01:38",
+   "replay_time": "2026-08-02 13:01:54",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5b0395944eacab5c69e74c23",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-29 17:29:25",
+   "replay_time": "2026-08-05 17:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-29 17:28:28",
+   "replay_time": "2026-08-05 17:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68cb7cfc87628700157edf84",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-28 10:17:26",
+   "replay_time": "2026-08-04 10:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "61108654000000002002b18f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-27 13:15:47",
+   "replay_time": "2026-07-27 14:08:01",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5b611100e8ac2b03b32b80ef",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-27 10:04:40",
+   "replay_time": "2026-08-03 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5b6150c56b58b741e26b8c7f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-27 10:03:19",
+   "replay_time": "2026-08-03 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5abcc52911be102f3b04eef1",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-27 10:02:05",
+   "replay_time": "2026-07-27 10:20:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "55a1195467bc6516e873f84f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-27 10:01:43",
+   "replay_time": "2026-08-03 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5f25142c0000000001005a54",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-07-27 09:55:58",
+   "replay_time": "2026-07-27 20:24:21",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "635f9809000000001802e4df",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-24 18:20:31",
+   "replay_time": "2026-07-24 18:36:45",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "67667201000000001801f15e",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-24 18:19:44",
+   "replay_time": "2026-07-24 20:49:39",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "6498f99b000000000b017b48",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-24 18:18:56",
+   "replay_time": "2026-07-25 21:23:05",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "694d06bb000000003900c4c1",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-24 18:15:52",
+   "replay_time": "2026-07-25 10:58:39",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5beb273340344200010a2bdf",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-23 13:35:38",
+   "replay_time": "2026-07-30 13:40:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5a7d670311be100fc642f25a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-23 13:34:36",
+   "replay_time": "2026-07-30 13:40:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5f96dd640000000001001de8",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-23 13:20:19",
+   "replay_time": "2026-07-23 13:48:53",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "650a4a5b000000000200d834",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-20 18:31:02",
+   "replay_time": "2026-07-25 18:18:23",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "665c2b5d000000000700496f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 18:30:46",
+   "replay_time": "2026-07-27 18:40:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "5e5a730600000000010028cb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 15:55:51",
+   "replay_time": "2026-07-27 16:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "5d03692100000000120199b8",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 15:55:33",
+   "replay_time": "2026-07-27 16:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "5bf406c9e5a09e0001988a2b",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-20 14:40:46",
+   "replay_time": "2026-07-23 16:51:46",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "55a1195467bc6516e873f84f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:50:06",
+   "replay_time": "2026-07-27 11:00:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "567cc0c2e4251d156fdc5215",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:43:34",
+   "replay_time": "2026-07-27 10:50:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5e717f32000000000100b557",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:42:26",
+   "replay_time": "2026-07-27 10:50:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5f9be2580000000001007472",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:28:09",
+   "replay_time": "2026-07-20 15:05:00",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5f5eb9700000000001009007",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:26:46",
+   "replay_time": "2026-07-27 10:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "573f0b416a6a692811c7dfb6",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:23:28",
+   "replay_time": "2026-07-27 10:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "597d6d3e82ec3906e2b5e6c1",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:20:01",
+   "replay_time": "2026-07-20 10:33:05",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "599c3d9282ec394094a3270e",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:19:38",
+   "replay_time": "2026-07-21 21:49:52",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5bfe266bb3c6920001a172b3",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:18:36",
+   "replay_time": "2026-07-20 18:37:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5e50ee7e0000000001007cf1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-20 10:13:47",
+   "replay_time": "2026-07-27 10:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5c68113700000000110226a6",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-18 13:22:22",
+   "replay_time": "2026-07-25 13:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5aedba1ae8ac2b68e7f5b651",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-17 18:19:37",
+   "replay_time": "2026-07-24 18:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "56866bc4b8c8b40339396311",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-17 18:18:47",
+   "replay_time": "2026-07-22 15:54:10",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5accd952e8ac2b3f7d395312",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-17 18:14:23",
+   "replay_time": "2026-07-17 20:34:08",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5ad6b0cb11be10342a4a1fd4",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-17 18:12:56",
+   "replay_time": "2026-07-24 18:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5d093c4600000000100222de",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-17 18:09:41",
+   "replay_time": "2026-07-24 18:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5853af655e87e72fcd4580ec",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-17 13:58:54",
+   "replay_time": "2026-07-24 14:00:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "5f0c76a50000000001004ed9",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-17 09:36:48",
+   "replay_time": "2026-07-18 08:17:41",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5930bd8f82ec39342c98a8c6",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-16 17:26:55",
+   "replay_time": "2026-07-21 17:28:34",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "543dbbaed6e4a9787138ff2c",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-16 14:09:01",
+   "replay_time": "2026-07-23 14:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "5b9a85d4be09010001cc8694",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-16 14:08:08",
+   "replay_time": "2026-07-23 14:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "5f27dbb5000000000101ee88",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-16 14:07:18",
+   "replay_time": "2026-07-23 14:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5e70472c0000000001006085",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-16 13:46:01",
+   "replay_time": "2026-07-23 13:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "6869f984000000001d01610f",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-16 11:43:54",
+   "replay_time": "2026-07-16 12:53:31",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5f5622a40000000001002459",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-16 11:11:26",
+   "replay_time": "2026-07-16 12:21:30",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "575047cc5e87e779fe5db1f5",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-16 09:54:23",
+   "replay_time": "2026-07-17 18:11:30",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "6551fc200000000002010af6",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-16 09:51:22",
+   "replay_time": "2026-07-23 10:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5c77e1620000000017007b98",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-16 09:48:02",
+   "replay_time": "2026-07-23 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5b2916f911be1066f7bccc86",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-14 10:04:13",
+   "replay_time": "2026-07-21 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "641dcd1e00000000120132ab",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-14 10:01:48",
+   "replay_time": "2026-07-21 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5c71140e00000000110278bd",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-14 10:01:32",
+   "replay_time": "2026-07-21 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "63e498ab0000000026011b0e",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-10 18:23:59",
+   "replay_time": "2026-07-10 20:13:08",
+   "is_read": 1
+  },
+  {
+   "seller_id": "689ea4d234ec8a00154fe94c",
+   "distributor_id": "5a7d63de11be100fb60f5da0",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-09 11:23:26",
+   "replay_time": "2026-07-10 13:05:24",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6583fd2d623df60001a83a15",
+   "distributor_id": "54e722dad39ea214c11ebbdc",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-06 15:53:29",
+   "replay_time": "2026-07-13 16:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6613611faeebf8000165306b",
+   "distributor_id": "5afde3794eacab4274364dd7",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-06 11:32:49",
+   "replay_time": "2026-07-13 11:40:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6613611faeebf8000165306b",
+   "distributor_id": "5c84a6a50000000012022f25",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-06 11:32:49",
+   "replay_time": "2026-07-13 11:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6613611faeebf8000165306b",
+   "distributor_id": "5f8bb8cb0000000001004ae8",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-06 11:32:49",
+   "replay_time": "2026-07-06 12:06:20",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "61adfc76000000001000ddd2",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-03 09:59:14",
+   "replay_time": "2026-07-03 09:59:59",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "574a9b4bbd0da5148bc046f6",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-02 17:35:18",
+   "replay_time": "2026-07-02 21:37:08",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5ca42a82000000001703759b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-02 17:35:16",
+   "replay_time": "2026-07-09 17:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5e50ee7e0000000001007cf1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-02 13:02:28",
+   "replay_time": "2026-07-09 13:10:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6583fd2d623df60001a83a15",
+   "distributor_id": "568a014582ec39147ae2d1b0",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-07-02 11:15:41",
+   "replay_time": "2026-07-02 11:41:07",
+   "is_read": 1
+  },
+  {
+   "seller_id": "61b45d0caaae2500016addf8",
+   "distributor_id": "5f181d9500000000010021ab",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-02 08:53:42",
+   "replay_time": "2026-07-09 09:00:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "5af695654eacab6a0715e247",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-01 17:33:36",
+   "replay_time": "2026-07-08 17:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "6209de83000000001000bb2a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-01 09:54:20",
+   "replay_time": "2026-07-08 10:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "629e459a0000000019028acd",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-30 15:13:25",
+   "replay_time": "2026-07-07 15:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "68ac067b0000000019017d6c",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-30 11:37:16",
+   "replay_time": "2026-06-30 12:22:33",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "650d512d0000000012007cb6",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-29 17:19:13",
+   "replay_time": "2026-06-30 15:27:29",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6583fd2d623df60001a83a15",
+   "distributor_id": "69c4cea700000000330388e2",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-29 14:53:11",
+   "replay_time": "2026-07-06 15:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "6204f98b000000002102719b",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-29 10:40:31",
+   "replay_time": "2026-06-29 17:21:44",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "661b444700000000030335de",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-29 10:36:25",
+   "replay_time": "2026-07-06 10:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "557c53ba41a2b3657b998584",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-26 14:02:14",
+   "replay_time": "2026-06-26 14:09:33",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "55aa5bbb3397db7605017cb5",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 13:58:34",
+   "replay_time": "2026-07-03 14:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "566c425ae00dd84edcc61e9e",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 13:45:45",
+   "replay_time": "2026-07-03 13:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "6052e10800000000010016af",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 13:41:07",
+   "replay_time": "2026-07-03 13:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "5754d0bea9b2ed32313bdfc2",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-26 11:27:28",
+   "replay_time": "2026-06-28 08:29:36",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "5b6578e511be106f1f608c46",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 11:11:27",
+   "replay_time": "2026-07-03 11:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "5b0395944eacab5c69e74c23",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 11:03:07",
+   "replay_time": "2026-07-03 11:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "54e5b545b4c4d65bec47e49b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 10:52:25",
+   "replay_time": "2026-07-03 11:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "5f8bb8cb0000000001004ae8",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-26 10:49:07",
+   "replay_time": "2026-06-26 17:34:11",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "556002df62a60c4205da4758",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-26 10:17:20",
+   "replay_time": "2026-07-03 10:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "583e97ed6a6a690d4963e99c",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-26 09:40:04",
+   "replay_time": "2026-06-26 09:47:51",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "59bbd47051783a17701140ab",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-26 09:25:00",
+   "replay_time": "2026-06-30 23:29:49",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66986d1861e10d0001183118",
+   "distributor_id": "5f5eb9700000000001009007",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-25 17:05:01",
+   "replay_time": "2026-07-01 16:19:31",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "54e5b545b4c4d65bec47e49b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-25 14:58:02",
+   "replay_time": "2026-07-02 15:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "66cc725c000000001d03154b",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-25 14:54:50",
+   "replay_time": "2026-06-28 12:11:56",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5717ea7c1c07df3036038fcb",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-25 14:52:34",
+   "replay_time": "2026-07-02 15:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5806ec6650c4b466552f0fe1",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-06-24 16:36:36",
+   "replay_time": "2026-06-26 16:55:36",
+   "is_read": 1
+  },
+  {
+   "seller_id": "64eeeb128265a10001d5e4c7",
+   "distributor_id": "58f429af5e87e74c8daa6aea",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-23 11:30:11",
+   "replay_time": "2026-06-30 11:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68cb7cfc87628700157edf84",
+   "distributor_id": "5e50ee7e0000000001007cf1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-23 11:24:28",
+   "replay_time": "2026-06-30 11:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "distributor_id": "5570899ec2bdeb1c4a58bea1",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-23 10:09:47",
+   "replay_time": "2026-06-30 10:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "59a805d882ec397ef446f238",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-22 17:19:44",
+   "replay_time": "2026-06-29 17:20:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "556b5a7ba75c9560e37de7a3",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-22 16:35:30",
+   "replay_time": "2026-06-29 16:40:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "629e459a0000000019028acd",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-22 15:57:59",
+   "replay_time": "2026-06-29 16:00:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "65366ef1000000000d0044c5",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-22 15:37:58",
+   "replay_time": "2026-06-29 15:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "60c9b4ad000000000101c425",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-22 15:28:41",
+   "replay_time": "2026-06-29 15:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "66d9735e7b526000163af454",
+   "distributor_id": "58f429af5e87e74c8daa6aea",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-22 14:09:05",
+   "replay_time": "2026-06-29 14:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5adeef0811be10035a69b859",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-18 09:46:27",
+   "replay_time": "2026-06-25 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "68afd12f000000001901b36c",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-17 16:00:12",
+   "replay_time": "2026-06-24 16:10:02",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5e1919220000000001003c36",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-17 14:43:31",
+   "replay_time": "2026-06-24 14:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "distributor_id": "5f891d8e0000000001002288",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-17 14:23:09",
+   "replay_time": "2026-06-24 14:30:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68cb7cfc87628700157edf84",
+   "distributor_id": "5b0395944eacab5c69e74c23",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-16 16:32:16",
+   "replay_time": "2026-06-23 16:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "68cb7cfc87628700157edf84",
+   "distributor_id": "6089f76a0000000001009b77",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-16 16:31:52",
+   "replay_time": "2026-06-23 16:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "6728f547000000001c0199ec",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-16 11:50:49",
+   "replay_time": "2026-06-16 11:58:19",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "6048e68e0000000001004151",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-13 10:25:44",
+   "replay_time": "2026-06-13 10:27:28",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "5ee5d310000000000101f251",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-13 10:12:43",
+   "replay_time": "2026-06-20 10:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "57f8881e5e87e725ed4d5414",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-06-13 10:11:24",
+   "replay_time": "2026-06-20 10:20:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6176a13d2137d00001440b99",
+   "distributor_id": "68c262560000000019023ebd",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-06-13 10:08:54",
+   "replay_time": "2026-06-13 22:24:32",
+   "is_read": 1
+  }
+ ]
+}
