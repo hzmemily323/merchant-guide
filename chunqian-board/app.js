@@ -362,16 +362,20 @@ function renderSchedule(){
         <td class="num">${x.live_schedule_goods_count||"—"}</td><td class="num">${x.live_schedule_sale_amont?fmtW(x.live_schedule_sale_amont):"—"}</td></tr>`}).join("")}</tbody></table>`
       :`<div style="color:var(--muted);padding:24px;text-align:center">146 家当前无未来排期——可以推动商家建计划</div>`}
     </div>
-    <div class="card"><h3>🤝 K播邀约 · 进行中<small>待响应/已读未回</small></h3>
-      ${pending.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>邀约发出</th><th>状态</th></tr></thead>
-      <tbody>${pending.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,80).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td>
-      <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${x.status===0?'background:#e3f2fd;color:#0d47a1':'background:#fff8e1;color:#e65100'}">${INV_STATUS[x.status]}</span></td></tr>`).join("")}</tbody></table></div>`
-      :`<div style="color:var(--muted);padding:24px;text-align:center">无进行中邀约</div>`}
-    </div>
-    <div class="card"><h3>✅ K播邀约 · 已接受<small>近90天</small></h3>
-      ${accepted.length?`<div style="max-height:420px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>邀约发出</th><th>回复时间</th></tr></thead>
-      <tbody>${accepted.sort((a,b)=>a.create_time<b.create_time?1:-1).slice(0,80).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td><td style="font-size:11.5px;color:#666">${x.replay_time&&x.replay_time.slice(0,4)>"1971"?fmtDT(x.replay_time):"—"}</td></tr>`).join("")}</tbody></table></div>`
-      :`<div style="color:var(--muted);padding:24px;text-align:center">无</div>`}
+    <div class="card full" style="padding:0;background:transparent;border:none;box-shadow:none">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+        <div class="card" style="margin:0"><h3>🤝 K播邀约 · 进行中<small>待响应/已读未回 · ${pending.length}条</small></h3>
+          ${pending.length?`<div style="max-height:640px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>发出</th><th>状态</th></tr></thead>
+          <tbody>${pending.sort((a,b)=>a.create_time<b.create_time?1:-1).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td>
+          <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${x.status===0?'background:#e3f2fd;color:#0d47a1':'background:#fff8e1;color:#e65100'}">${INV_STATUS[x.status]}</span></td></tr>`).join("")}</tbody></table></div>`
+          :`<div style="color:var(--muted);padding:24px;text-align:center">无进行中邀约</div>`}
+        </div>
+        <div class="card" style="margin:0"><h3>✅ K播邀约 · 已接受<small>近90天 · ${accepted.length}条</small></h3>
+          ${accepted.length?`<div style="max-height:640px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>发出</th><th>回复</th></tr></thead>
+          <tbody>${accepted.sort((a,b)=>a.create_time<b.create_time?1:-1).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td><td style="font-size:11.5px;color:#666">${x.replay_time&&x.replay_time.slice(0,4)>"1971"?fmtDT(x.replay_time):"—"}</td></tr>`).join("")}</tbody></table></div>`
+          :`<div style="color:var(--muted);padding:24px;text-align:center">无</div>`}
+        </div>
+      </div>
     </div>
     <div class="card full" style="font-size:12px;color:#999">
       口径：排期=直播计划扩展表（每日快照，含店播与买手计划）；邀约=商家邀约表（近90天，已剔除删除/过期）。已拒绝 ${rejected.length} 条。replay_time 的 1970 哨兵已过滤。
