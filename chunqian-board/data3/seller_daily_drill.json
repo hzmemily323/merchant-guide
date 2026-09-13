@@ -1,2540 +1,193 @@
 {
  "meta": {
-  "window": "2026-09-01 ~ 2026-09-10",
-  "compare": "2026-09-10 vs 2026-09-09（日环比）",
+  "window": "2026-09-01 ~ 2026-09-12",
+  "compare": "2026-09-12 vs 2026-09-11（日环比）",
   "pick": "末日 DGMV 环比前一日 差值绝对值最大的涨/跌各8家",
   "days_source": "ds:1922 载体小类逐日; live: ds:5574; note: ds:2479; kbo: ds:577143(已剔自播)"
  },
  "sellers": [
   {
-   "seller_id": "667275715d874700016fcfdd",
-   "name": "COCO&VOVO旗舰店",
+   "seller_id": "639fc4f3fa525500015c45c0",
+   "name": "官耳旗舰店",
    "direction": "up",
-   "delta_day": 4515.47,
+   "delta_day": 15665.43,
    "days": [
     {
      "date": "2026-09-01",
-     "dgmv": 12791.3,
-     "zhibo": 0.0,
-     "shangbi": 10365.55,
-     "kbo": 0.0,
-     "shangka": 2150.58,
-     "other": 275.17,
-     "buys": 119,
-     "note_dgmv": 10365.55,
-     "new_notes": 8,
-     "note_pv": 103377,
-     "read_pv": 17738
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 9356.86,
-     "zhibo": 0.0,
-     "shangbi": 7086.26,
-     "kbo": 73.95,
-     "shangka": 2012.21,
-     "other": 184.44,
-     "buys": 91,
-     "note_dgmv": 7086.26,
-     "new_notes": 7,
-     "note_pv": 76810,
-     "read_pv": 11710
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 14956.93,
-     "zhibo": 0.0,
-     "shangbi": 12147.63,
-     "kbo": 0.0,
-     "shangka": 2525.14,
-     "other": 284.16,
-     "buys": 141,
-     "note_dgmv": 12147.63,
-     "new_notes": 7,
-     "note_pv": 118271,
-     "read_pv": 15150
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 14797.04,
-     "zhibo": 0.0,
-     "shangbi": 13070.74,
-     "kbo": 0.0,
-     "shangka": 1726.3,
-     "other": 0.0,
-     "buys": 136,
-     "note_dgmv": 13070.74,
-     "new_notes": 7,
-     "note_pv": 141725,
-     "read_pv": 17655
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 18830.4,
-     "zhibo": 0.0,
-     "shangbi": 16150.73,
-     "kbo": 0.0,
-     "shangka": 1940.43,
-     "other": 739.24,
-     "buys": 174,
-     "note_dgmv": 16150.73,
-     "new_notes": 2,
-     "note_pv": 188302,
-     "read_pv": 67809
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 29298.65,
-     "zhibo": 0.0,
-     "shangbi": 26800.22,
-     "kbo": 0.0,
-     "shangka": 2124.55,
-     "other": 373.88,
-     "buys": 266,
-     "note_dgmv": 26800.22,
-     "new_notes": 0,
-     "note_pv": 297194,
-     "read_pv": 102094
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 15254.01,
-     "zhibo": 0.0,
-     "shangbi": 12069.65,
-     "kbo": 0.0,
-     "shangka": 2542.76,
-     "other": 641.6,
-     "buys": 141,
-     "note_dgmv": 12069.65,
-     "new_notes": 10,
-     "note_pv": 145617,
-     "read_pv": 37901
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 11469.94,
-     "zhibo": 0.0,
-     "shangbi": 8914.37,
-     "kbo": 0.0,
-     "shangka": 2366.13,
-     "other": 189.44,
-     "buys": 110,
-     "note_dgmv": 8914.37,
-     "new_notes": 9,
-     "note_pv": 109136,
-     "read_pv": 19787
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 8434.41,
-     "zhibo": 0.0,
-     "shangbi": 6739.37,
-     "kbo": 0.0,
-     "shangka": 1505.6,
-     "other": 189.44,
-     "buys": 78,
-     "note_dgmv": 6739.37,
-     "new_notes": 9,
-     "note_pv": 78054,
-     "read_pv": 14535
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 12949.88,
-     "zhibo": 0.0,
-     "shangbi": 11015.31,
-     "kbo": 0.0,
-     "shangka": 1745.13,
-     "other": 189.44,
-     "buys": 122,
-     "note_dgmv": 11015.31,
-     "new_notes": 10,
-     "note_pv": 105066,
-     "read_pv": 16393
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "note",
-     "detail": "新发商笔8篇，当日商笔DGMV 10366元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "note",
-     "detail": "新发商笔7篇，当日商笔DGMV 7086元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔7篇，当日商笔DGMV 12148元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔7篇，当日商笔DGMV 13071元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "note",
-     "detail": "新发商笔2篇，当日商笔DGMV 16151元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "note",
-     "detail": "新发商笔10篇，当日商笔DGMV 12070元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 8914元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 6739元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔10篇，当日商笔DGMV 11015元"
-    }
-   ]
-  },
-  {
-   "seller_id": "649167e65ada740001bac6c3",
-   "name": "臻江味臻选零食的店",
-   "direction": "up",
-   "delta_day": 3641.06,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 6528.59,
-     "zhibo": 0.0,
-     "shangbi": 2096.73,
-     "kbo": 0.0,
-     "shangka": 2945.07,
-     "other": 1486.79,
-     "buys": 114,
-     "note_dgmv": 2096.73,
-     "new_notes": 9,
-     "note_pv": 141114,
-     "read_pv": 13647
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 3976.54,
-     "zhibo": 0.0,
-     "shangbi": 2382.73,
-     "kbo": 0.0,
-     "shangka": 1573.91,
-     "other": 19.9,
-     "buys": 139,
-     "note_dgmv": 2382.73,
-     "new_notes": 10,
-     "note_pv": 153307,
-     "read_pv": 13619
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 3747.04,
-     "zhibo": 0.0,
-     "shangbi": 2103.54,
-     "kbo": 0.0,
-     "shangka": 1607.7,
-     "other": 35.8,
-     "buys": 118,
-     "note_dgmv": 2103.54,
-     "new_notes": 15,
-     "note_pv": 153647,
-     "read_pv": 14241
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 6680.66,
-     "zhibo": 0.0,
-     "shangbi": 2302.2,
-     "kbo": 0.0,
-     "shangka": 4318.56,
-     "other": 59.9,
-     "buys": 134,
-     "note_dgmv": 2302.2,
-     "new_notes": 9,
-     "note_pv": 173077,
-     "read_pv": 15970
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 5311.88,
-     "zhibo": 0.0,
-     "shangbi": 2874.86,
-     "kbo": 0.0,
-     "shangka": 2437.02,
-     "other": 0.0,
-     "buys": 133,
-     "note_dgmv": 2874.86,
-     "new_notes": 6,
-     "note_pv": 159818,
-     "read_pv": 16011
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 4458.96,
-     "zhibo": 0.0,
-     "shangbi": 3195.37,
-     "kbo": 0.0,
-     "shangka": 1263.59,
-     "other": 0.0,
-     "buys": 138,
-     "note_dgmv": 3195.37,
-     "new_notes": 5,
-     "note_pv": 140636,
-     "read_pv": 13880
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 6016.15,
-     "zhibo": 0.0,
-     "shangbi": 2630.55,
-     "kbo": 58.9,
-     "shangka": 3326.7,
-     "other": 0.0,
-     "buys": 121,
-     "note_dgmv": 2630.55,
-     "new_notes": 9,
-     "note_pv": 172488,
-     "read_pv": 14539
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 3228.08,
-     "zhibo": 0.0,
-     "shangbi": 2282.3,
-     "kbo": 0.0,
-     "shangka": 864.08,
-     "other": 81.7,
-     "buys": 99,
-     "note_dgmv": 2282.3,
-     "new_notes": 16,
-     "note_pv": 158554,
-     "read_pv": 13814
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 2430.42,
-     "zhibo": 0.0,
-     "shangbi": 1675.67,
-     "kbo": 0.0,
-     "shangka": 754.75,
-     "other": 0.0,
-     "buys": 88,
-     "note_dgmv": 1675.67,
-     "new_notes": 10,
-     "note_pv": 178162,
-     "read_pv": 16160
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 6071.48,
-     "zhibo": 0.0,
-     "shangbi": 1740.87,
-     "kbo": 0.0,
-     "shangka": 4242.11,
-     "other": 88.5,
-     "buys": 96,
-     "note_dgmv": 1740.87,
-     "new_notes": 9,
-     "note_pv": 158637,
-     "read_pv": 14197
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 2097元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "note",
-     "detail": "新发商笔10篇，当日商笔DGMV 2383元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔15篇，当日商笔DGMV 2104元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 2302元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "note",
-     "detail": "新发商笔6篇，当日商笔DGMV 2875元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "note",
-     "detail": "新发商笔5篇，当日商笔DGMV 3195元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 2631元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "note",
-     "detail": "新发商笔16篇，当日商笔DGMV 2282元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "note",
-     "detail": "新发商笔10篇，当日商笔DGMV 1676元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 1741元"
-    }
-   ]
-  },
-  {
-   "seller_id": "6400412839c16c0001c08d91",
-   "name": "山里的桃子的店",
-   "direction": "up",
-   "delta_day": 1883.77,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 2593.4,
-     "zhibo": 2093.7,
-     "shangbi": 149.0,
-     "kbo": 0.0,
-     "shangka": 327.7,
-     "other": 23.0,
-     "buys": 36,
-     "live_dgmv": 2093.7,
-     "live_rooms": 1,
-     "live_h": 1.6,
-     "live_uv": 20,
-     "gpm": 76.73,
-     "ctr": 0.05,
-     "note_dgmv": 149.0,
-     "new_notes": 0,
-     "note_pv": 3406,
-     "read_pv": 565
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 2539.1,
-     "zhibo": 2128.0,
-     "shangbi": 164.6,
-     "kbo": 0.0,
-     "shangka": 246.5,
-     "other": 0.0,
-     "buys": 28,
-     "live_dgmv": 2090.0,
-     "live_rooms": 1,
-     "live_h": 0.85,
-     "live_uv": 10,
-     "gpm": 109.73,
-     "ctr": 0.08,
-     "note_dgmv": 164.6,
-     "new_notes": 0,
-     "note_pv": 3688,
-     "read_pv": 553
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 1635.52,
-     "zhibo": 1454.5,
-     "shangbi": 123.0,
-     "kbo": 0.0,
-     "shangka": 58.02,
-     "other": 0.0,
-     "buys": 23,
-     "live_dgmv": 1535.96,
-     "live_rooms": 1,
-     "live_h": 1.26,
-     "live_uv": 14,
-     "gpm": 66.57,
-     "ctr": 0.06,
-     "note_dgmv": 123.0,
-     "new_notes": 0,
-     "note_pv": 3915,
-     "read_pv": 506
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 5106.37,
-     "zhibo": 4380.46,
-     "shangbi": 141.0,
-     "kbo": 0.0,
-     "shangka": 584.91,
-     "other": 0.0,
-     "buys": 32,
-     "live_dgmv": 4299.0,
-     "live_rooms": 1,
-     "live_h": 0.44,
-     "live_uv": 14,
-     "gpm": 416.01,
-     "ctr": 0.1,
-     "note_dgmv": 141.0,
-     "new_notes": 0,
-     "note_pv": 3060,
-     "read_pv": 428
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 2621.95,
-     "zhibo": 1782.0,
-     "shangbi": 120.95,
-     "kbo": 0.0,
-     "shangka": 681.0,
-     "other": 38.0,
-     "buys": 19,
-     "live_dgmv": 1782.0,
-     "live_rooms": 1,
-     "live_h": 0.46,
-     "live_uv": 8,
-     "gpm": 165.71,
-     "ctr": 0.17,
-     "note_dgmv": 120.95,
-     "new_notes": 0,
-     "note_pv": 3466,
-     "read_pv": 608
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 3092.98,
-     "zhibo": 2184.98,
-     "shangbi": 90.5,
-     "kbo": 0.0,
-     "shangka": 782.0,
-     "other": 35.5,
-     "buys": 30,
-     "live_dgmv": 2184.98,
-     "live_rooms": 1,
-     "live_h": 0.62,
-     "live_uv": 15,
-     "gpm": 173.12,
-     "ctr": 0.09,
-     "note_dgmv": 90.5,
-     "new_notes": 0,
-     "note_pv": 3000,
-     "read_pv": 495
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 4352.0,
-     "zhibo": 3841.48,
-     "shangbi": 178.5,
-     "kbo": 0.0,
-     "shangka": 294.02,
-     "other": 38.0,
-     "buys": 63,
-     "live_dgmv": 3841.48,
-     "live_rooms": 1,
-     "live_h": 1.62,
-     "live_uv": 34,
-     "gpm": 130.54,
-     "ctr": 0.06,
-     "note_dgmv": 178.5,
-     "new_notes": 0,
-     "note_pv": 2755,
-     "read_pv": 489
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 2529.86,
-     "zhibo": 1694.36,
-     "shangbi": 64.0,
-     "kbo": 0.0,
-     "shangka": 733.5,
-     "other": 38.0,
-     "buys": 25,
-     "live_dgmv": 1604.5,
-     "live_rooms": 1,
-     "live_h": 1.3,
-     "live_uv": 14,
-     "gpm": 79.14,
-     "ctr": 0.05,
-     "note_dgmv": 64.0,
-     "new_notes": 0,
-     "note_pv": 2438,
-     "read_pv": 396
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 1293.5,
-     "zhibo": 1129.0,
-     "shangbi": 94.0,
-     "kbo": 0.0,
-     "shangka": 70.5,
-     "other": 0.0,
-     "buys": 18,
-     "live_dgmv": 1129.0,
-     "live_rooms": 1,
-     "live_h": 1.29,
-     "live_uv": 12,
-     "gpm": 52.45,
-     "ctr": 0.06,
-     "note_dgmv": 94.0,
-     "new_notes": 0,
-     "note_pv": 2358,
-     "read_pv": 443
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 3177.27,
-     "zhibo": 2653.5,
-     "shangbi": 87.5,
-     "kbo": 0.0,
-     "shangka": 436.27,
-     "other": 0.0,
-     "buys": 43,
-     "live_dgmv": 2653.5,
-     "live_rooms": 1,
-     "live_h": 1.91,
-     "live_uv": 21,
-     "gpm": 113.2,
-     "ctr": 0.05,
-     "note_dgmv": 87.5,
-     "new_notes": 0,
-     "note_pv": 2402,
-     "read_pv": 473
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "live",
-     "detail": "店播开播1场、时长1.6h，自播DGMV 2094元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "live",
-     "detail": "店播开播1场、时长0.8h，自播DGMV 2090元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "live",
-     "detail": "店播开播1场、时长1.3h，自播DGMV 1536元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "live",
-     "detail": "店播开播1场、时长0.4h，自播DGMV 4299元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "live",
-     "detail": "店播开播1场、时长0.5h，自播DGMV 1782元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "live",
-     "detail": "店播开播1场、时长0.6h，自播DGMV 2185元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "live",
-     "detail": "店播开播1场、时长1.6h，自播DGMV 3841元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "live",
-     "detail": "店播开播1场、时长1.3h，自播DGMV 1604元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "live",
-     "detail": "店播开播1场、时长1.3h，自播DGMV 1129元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "live",
-     "detail": "店播开播1场、时长1.9h，自播DGMV 2654元"
-    }
-   ]
-  },
-  {
-   "seller_id": "6548bef8368edf00013df609",
-   "name": "全食物日记食品专卖店",
-   "direction": "up",
-   "delta_day": 1445.36,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 4948.41,
-     "zhibo": 0.0,
-     "shangbi": 1718.32,
-     "kbo": 1992.0,
-     "shangka": 1056.19,
-     "other": 181.9,
-     "buys": 38,
-     "note_dgmv": 1718.32,
-     "new_notes": 7,
-     "note_pv": 23332,
-     "read_pv": 3191
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 2501.13,
-     "zhibo": 0.0,
-     "shangbi": 1206.16,
-     "kbo": 0.0,
-     "shangka": 1248.97,
-     "other": 46.0,
-     "buys": 40,
-     "note_dgmv": 1206.16,
-     "new_notes": 7,
-     "note_pv": 22095,
-     "read_pv": 3395
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 2556.42,
-     "zhibo": 0.0,
-     "shangbi": 1520.42,
-     "kbo": 399.0,
-     "shangka": 357.0,
-     "other": 280.0,
-     "buys": 27,
-     "note_dgmv": 1520.42,
-     "new_notes": 4,
-     "note_pv": 19998,
-     "read_pv": 2948
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 4307.51,
-     "zhibo": 0.0,
-     "shangbi": 1312.9,
-     "kbo": 798.0,
-     "shangka": 1991.71,
-     "other": 204.9,
-     "buys": 28,
-     "note_dgmv": 1312.9,
-     "new_notes": 4,
-     "note_pv": 20434,
-     "read_pv": 2791
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 3261.18,
-     "zhibo": 0.0,
-     "shangbi": 511.0,
-     "kbo": 0.0,
-     "shangka": 2266.18,
-     "other": 484.0,
-     "buys": 26,
-     "note_dgmv": 511.0,
-     "new_notes": 6,
-     "note_pv": 21966,
-     "read_pv": 3286
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 1527.78,
-     "zhibo": 0.0,
-     "shangbi": 944.9,
-     "kbo": 0.0,
-     "shangka": 408.88,
-     "other": 174.0,
-     "buys": 28,
-     "note_dgmv": 944.9,
-     "new_notes": 5,
-     "note_pv": 23656,
-     "read_pv": 3470
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 3060.58,
-     "zhibo": 0.0,
-     "shangbi": 1103.48,
-     "kbo": 755.0,
-     "shangka": 1113.2,
-     "other": 88.9,
-     "buys": 32,
-     "note_dgmv": 1103.48,
-     "new_notes": 5,
-     "note_pv": 23955,
-     "read_pv": 3337
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 1178.7,
-     "zhibo": 0.0,
-     "shangbi": 462.0,
-     "kbo": 0.0,
-     "shangka": 517.26,
-     "other": 199.44,
-     "buys": 18,
-     "note_dgmv": 462.0,
-     "new_notes": 6,
-     "note_pv": 24572,
-     "read_pv": 3406
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 1792.88,
-     "zhibo": 0.0,
-     "shangbi": 831.9,
-     "kbo": 0.0,
-     "shangka": 944.52,
-     "other": 16.46,
-     "buys": 17,
-     "note_dgmv": 831.9,
-     "new_notes": 9,
-     "note_pv": 25938,
-     "read_pv": 3359
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 3238.24,
-     "zhibo": 0.0,
-     "shangbi": 2468.8,
-     "kbo": 0.0,
-     "shangka": 769.44,
-     "other": 0.0,
-     "buys": 18,
-     "note_dgmv": 2468.8,
-     "new_notes": 8,
-     "note_pv": 23113,
-     "read_pv": 3028
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "note",
-     "detail": "新发商笔7篇，当日商笔DGMV 1718元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "note",
-     "detail": "新发商笔7篇，当日商笔DGMV 1206元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 1520元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 1313元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "note",
-     "detail": "新发商笔6篇，当日商笔DGMV 511元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "note",
-     "detail": "新发商笔5篇，当日商笔DGMV 945元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "note",
-     "detail": "新发商笔5篇，当日商笔DGMV 1103元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "note",
-     "detail": "新发商笔6篇，当日商笔DGMV 462元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "note",
-     "detail": "新发商笔9篇，当日商笔DGMV 832元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔8篇，当日商笔DGMV 2469元"
-    }
-   ]
-  },
-  {
-   "seller_id": "68a08efcaa6c40001596c015",
-   "name": "大大吃一口的店",
-   "direction": "up",
-   "delta_day": 1262.84,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 0.0,
+     "dgmv": 299.7,
      "zhibo": 0.0,
      "shangbi": 0.0,
      "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1378,
-     "read_pv": 78
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1290,
-     "read_pv": 100
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1328,
-     "read_pv": 117
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 909,
-     "read_pv": 76
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1509,
-     "read_pv": 107
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1394,
-     "read_pv": 84
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1149,
-     "read_pv": 81
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1435,
-     "read_pv": 163
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 0.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 0,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1808,
-     "read_pv": 165
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 1262.84,
-     "zhibo": 0.0,
-     "shangbi": 538.31,
-     "kbo": 0.0,
-     "shangka": 724.53,
-     "other": 0.0,
-     "buys": 209,
-     "note_dgmv": 538.31,
-     "new_notes": 3,
-     "note_pv": 11918,
-     "read_pv": 1372
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 538元"
-    }
-   ]
-  },
-  {
-   "seller_id": "5f43628bf2774b00014df08e",
-   "name": "欧丽薇兰旗舰店",
-   "direction": "up",
-   "delta_day": 1164.2,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 1026.1,
-     "zhibo": 0.0,
-     "shangbi": 338.3,
-     "kbo": 0.0,
-     "shangka": 648.0,
-     "other": 39.8,
-     "buys": 23,
-     "note_dgmv": 338.3,
-     "new_notes": 4,
-     "note_pv": 14894,
-     "read_pv": 1232
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 834.8,
-     "zhibo": 0.0,
-     "shangbi": 653.1,
-     "kbo": 77.0,
-     "shangka": 104.7,
-     "other": 0.0,
-     "buys": 21,
-     "note_dgmv": 653.1,
-     "new_notes": 4,
-     "note_pv": 14595,
-     "read_pv": 1217
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 1096.08,
-     "zhibo": 0.0,
-     "shangbi": 407.9,
-     "kbo": 155.0,
-     "shangka": 454.18,
-     "other": 79.0,
-     "buys": 26,
-     "note_dgmv": 407.9,
-     "new_notes": 3,
-     "note_pv": 14795,
-     "read_pv": 1226
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 766.73,
-     "zhibo": 0.0,
-     "shangbi": 276.68,
-     "kbo": 129.0,
-     "shangka": 282.05,
-     "other": 79.0,
-     "buys": 18,
-     "note_dgmv": 276.68,
-     "new_notes": 2,
-     "note_pv": 13375,
-     "read_pv": 1138
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 1720.92,
-     "zhibo": 0.0,
-     "shangbi": 215.9,
-     "kbo": 962.99,
-     "shangka": 369.03,
-     "other": 173.0,
-     "buys": 37,
-     "note_dgmv": 215.9,
-     "new_notes": 0,
-     "note_pv": 12391,
-     "read_pv": 1128
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 780.4,
-     "zhibo": 0.0,
-     "shangbi": 337.4,
-     "kbo": 242.6,
-     "shangka": 200.4,
-     "other": 0.0,
-     "buys": 23,
-     "note_dgmv": 337.4,
-     "new_notes": 1,
-     "note_pv": 15151,
-     "read_pv": 1351
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 907.0,
-     "zhibo": 0.0,
-     "shangbi": 432.8,
-     "kbo": 121.07,
-     "shangka": 313.33,
-     "other": 39.8,
-     "buys": 25,
-     "note_dgmv": 432.8,
-     "new_notes": 4,
-     "note_pv": 16933,
-     "read_pv": 1452
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 1039.44,
-     "zhibo": 0.0,
-     "shangbi": 326.3,
-     "kbo": 618.64,
-     "shangka": 94.5,
-     "other": 0.0,
-     "buys": 26,
-     "note_dgmv": 326.3,
-     "new_notes": 4,
-     "note_pv": 18268,
-     "read_pv": 1436
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 768.99,
-     "zhibo": 0.0,
-     "shangbi": 422.22,
-     "kbo": 0.0,
-     "shangka": 326.87,
-     "other": 19.9,
-     "buys": 25,
-     "note_dgmv": 422.22,
-     "new_notes": 3,
-     "note_pv": 24763,
-     "read_pv": 1396
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 1933.19,
-     "zhibo": 0.0,
-     "shangbi": 577.91,
-     "kbo": 959.69,
-     "shangka": 316.59,
-     "other": 79.0,
-     "buys": 30,
-     "note_dgmv": 577.91,
-     "new_notes": 4,
-     "note_pv": 18327,
-     "read_pv": 1352
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 338元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 653元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 408元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔2篇，当日商笔DGMV 277元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "note",
-     "detail": "新发商笔1篇，当日商笔DGMV 337元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 433元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 326元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 422元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 578元"
-    }
-   ]
-  },
-  {
-   "seller_id": "600e27d526e07600010c6698",
-   "name": "十月稻田旗舰店",
-   "direction": "up",
-   "delta_day": 1031.66,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 1955.52,
-     "zhibo": 0.0,
-     "shangbi": 171.2,
-     "kbo": 99.7,
-     "shangka": 1537.22,
-     "other": 147.4,
-     "buys": 60,
-     "note_dgmv": 171.2,
-     "new_notes": 0,
-     "note_pv": 15178,
-     "read_pv": 1720
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 1400.61,
-     "zhibo": 0.0,
-     "shangbi": 89.6,
-     "kbo": 18.16,
-     "shangka": 1193.25,
-     "other": 99.6,
-     "buys": 53,
-     "note_dgmv": 89.6,
-     "new_notes": 0,
-     "note_pv": 10170,
-     "read_pv": 1743
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 1938.91,
-     "zhibo": 0.0,
-     "shangbi": 152.05,
-     "kbo": 319.2,
-     "shangka": 1118.96,
-     "other": 348.7,
-     "buys": 62,
-     "note_dgmv": 152.05,
-     "new_notes": 0,
-     "note_pv": 10858,
-     "read_pv": 2093
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 816.27,
-     "zhibo": 0.0,
-     "shangbi": 29.9,
-     "kbo": 39.9,
-     "shangka": 681.77,
-     "other": 64.7,
-     "buys": 33,
-     "note_dgmv": 29.9,
-     "new_notes": 0,
-     "note_pv": 11537,
-     "read_pv": 2325
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 1081.2,
-     "zhibo": 0.0,
-     "shangbi": 49.8,
-     "kbo": 39.9,
-     "shangka": 875.0,
-     "other": 116.5,
-     "buys": 35,
-     "note_dgmv": 49.8,
-     "new_notes": 0,
-     "note_pv": 10549,
-     "read_pv": 1468
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 1457.34,
-     "zhibo": 0.0,
-     "shangbi": 249.0,
-     "kbo": 66.11,
-     "shangka": 977.62,
-     "other": 164.61,
-     "buys": 49,
-     "note_dgmv": 249.0,
-     "new_notes": 0,
-     "note_pv": 10152,
-     "read_pv": 1572
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 1353.01,
-     "zhibo": 0.0,
-     "shangbi": 231.0,
-     "kbo": 18.91,
-     "shangka": 826.13,
-     "other": 276.97,
-     "buys": 52,
-     "note_dgmv": 231.0,
-     "new_notes": 0,
-     "note_pv": 12742,
-     "read_pv": 2881
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 1444.69,
-     "zhibo": 0.0,
-     "shangbi": 209.2,
-     "kbo": 152.6,
-     "shangka": 941.49,
-     "other": 141.4,
-     "buys": 46,
-     "note_dgmv": 209.2,
-     "new_notes": 0,
-     "note_pv": 13861,
-     "read_pv": 3354
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 861.62,
-     "zhibo": 0.0,
-     "shangbi": 99.6,
-     "kbo": 59.8,
-     "shangka": 542.72,
-     "other": 159.5,
-     "buys": 34,
-     "note_dgmv": 99.6,
-     "new_notes": 0,
-     "note_pv": 14031,
-     "read_pv": 3223
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 1893.28,
-     "zhibo": 0.0,
-     "shangbi": 39.8,
-     "kbo": 44.8,
-     "shangka": 1673.18,
-     "other": 135.5,
-     "buys": 43,
-     "note_dgmv": 39.8,
-     "new_notes": 0,
-     "note_pv": 11167,
-     "read_pv": 2896
-    }
-   ],
-   "events": []
-  },
-  {
-   "seller_id": "6926b98d68a55c0015118007",
-   "name": "节礼礼品定制的店",
-   "direction": "up",
-   "delta_day": 791.4,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 159.8,
-     "zhibo": 0.0,
-     "shangbi": 159.8,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 0.0,
-     "buys": 1,
-     "note_dgmv": 159.8,
-     "new_notes": 0,
-     "note_pv": 728,
-     "read_pv": 236
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 138.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 138.0,
-     "buys": 1,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 542,
-     "read_pv": 169
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 4214.0,
-     "zhibo": 0.0,
-     "shangbi": 606.0,
-     "kbo": 0.0,
-     "shangka": 3608.0,
-     "other": 0.0,
-     "buys": 10,
-     "note_dgmv": 606.0,
-     "new_notes": 0,
-     "note_pv": 376,
-     "read_pv": 67
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 331.6,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 179.8,
-     "other": 151.8,
+     "shangka": 199.8,
+     "other": 99.9,
      "buys": 3,
      "note_dgmv": 0.0,
      "new_notes": 0,
-     "note_pv": 294,
-     "read_pv": 23
+     "note_pv": 210,
+     "read_pv": 45
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 9.9,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 9.9,
+     "other": 0.0,
+     "buys": 1,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 117,
+     "read_pv": 25
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 0.0,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 0.0,
+     "other": 0.0,
+     "buys": 0,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 172,
+     "read_pv": 24
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 0.0,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 0.0,
+     "other": 0.0,
+     "buys": 0,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 288,
+     "read_pv": 62
     },
     {
      "date": "2026-09-05",
-     "dgmv": 769.4,
+     "dgmv": 331.66,
      "zhibo": 0.0,
      "shangbi": 0.0,
      "kbo": 0.0,
-     "shangka": 417.8,
-     "other": 351.6,
-     "buys": 8,
+     "shangka": 331.66,
+     "other": 0.0,
+     "buys": 4,
      "note_dgmv": 0.0,
      "new_notes": 0,
-     "note_pv": 293,
-     "read_pv": 76
+     "note_pv": 228,
+     "read_pv": 49
     },
     {
      "date": "2026-09-06",
-     "dgmv": 782.67,
+     "dgmv": 99.9,
      "zhibo": 0.0,
      "shangbi": 0.0,
      "kbo": 0.0,
-     "shangka": 405.07,
-     "other": 377.6,
-     "buys": 7,
+     "shangka": 0.0,
+     "other": 99.9,
+     "buys": 1,
      "note_dgmv": 0.0,
      "new_notes": 0,
-     "note_pv": 209,
-     "read_pv": 51
+     "note_pv": 252,
+     "read_pv": 52
     },
     {
      "date": "2026-09-07",
-     "dgmv": 611.24,
+     "dgmv": 0.0,
      "zhibo": 0.0,
      "shangbi": 0.0,
      "kbo": 0.0,
-     "shangka": 248.0,
-     "other": 363.24,
-     "buys": 5,
+     "shangka": 0.0,
+     "other": 0.0,
+     "buys": 0,
      "note_dgmv": 0.0,
      "new_notes": 0,
-     "note_pv": 209,
+     "note_pv": 218,
+     "read_pv": 45
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 99.9,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 0.0,
+     "other": 99.9,
+     "buys": 1,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 233,
+     "read_pv": 33
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 45.1,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 45.1,
+     "other": 0.0,
+     "buys": 1,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 157,
+     "read_pv": 21
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 0.0,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 0.0,
+     "other": 0.0,
+     "buys": 0,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 194,
      "read_pv": 28
     },
     {
-     "date": "2026-09-08",
-     "dgmv": 269.7,
+     "date": "2026-09-11",
+     "dgmv": 238.7,
      "zhibo": 0.0,
      "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 0.0,
-     "other": 269.7,
-     "buys": 2,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 362,
-     "read_pv": 53
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 573.6,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 303.9,
-     "other": 269.7,
-     "buys": 6,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 296,
-     "read_pv": 57
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 1365.0,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 1365.0,
+     "kbo": 179.7,
+     "shangka": 59.0,
      "other": 0.0,
-     "buys": 3,
+     "buys": 4,
      "note_dgmv": 0.0,
      "new_notes": 0,
-     "note_pv": 347,
-     "read_pv": 35
+     "note_pv": 180,
+     "read_pv": 30
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 15904.13,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 15754.4,
+     "shangka": 149.73,
+     "other": 0.0,
+     "buys": 284,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 532,
+     "read_pv": 70
     }
    ],
    "events": []
-  },
-  {
-   "seller_id": "646b3040937a2b0001588b29",
-   "name": "奥莱奥原生旗舰店",
-   "direction": "down",
-   "delta_day": -38206.53,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 2860.97,
-     "zhibo": 1164.16,
-     "shangbi": 0.0,
-     "kbo": 559.88,
-     "shangka": 1102.03,
-     "other": 34.9,
-     "buys": 14,
-     "live_dgmv": 1164.16,
-     "live_rooms": 1,
-     "live_h": 1.87,
-     "live_uv": 3,
-     "gpm": 280.18,
-     "ctr": 0.08,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1248,
-     "read_pv": 102
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 2663.9,
-     "zhibo": 363.0,
-     "shangbi": 0.0,
-     "kbo": 678.0,
-     "shangka": 1613.0,
-     "other": 9.9,
-     "buys": 11,
-     "live_dgmv": 363.0,
-     "live_rooms": 1,
-     "live_h": 1.97,
-     "live_uv": 1,
-     "gpm": 98.24,
-     "ctr": 0.13,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1269,
-     "read_pv": 104
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 1677.28,
-     "zhibo": 133.5,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 829.78,
-     "other": 714.0,
-     "buys": 11,
-     "live_dgmv": 133.5,
-     "live_rooms": 1,
-     "live_h": 2.04,
-     "live_uv": 1,
-     "gpm": 29.59,
-     "ctr": 0.07,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1455,
-     "read_pv": 158
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 1773.62,
-     "zhibo": 0.0,
-     "shangbi": 412.9,
-     "kbo": 238.0,
-     "shangka": 801.72,
-     "other": 321.0,
-     "buys": 13,
-     "live_dgmv": 0.0,
-     "live_rooms": 1,
-     "live_h": 2.01,
-     "live_uv": 0,
-     "gpm": 0.0,
-     "ctr": 0.12,
-     "note_dgmv": 412.9,
-     "new_notes": 1,
-     "note_pv": 1344,
-     "read_pv": 138
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 41048.83,
-     "zhibo": 1001.53,
-     "shangbi": 332.9,
-     "kbo": 34582.7,
-     "shangka": 4735.9,
-     "other": 395.8,
-     "buys": 356,
-     "live_dgmv": 1001.53,
-     "live_rooms": 1,
-     "live_h": 1.85,
-     "live_uv": 4,
-     "gpm": 255.43,
-     "ctr": 0.09,
-     "note_dgmv": 332.9,
-     "new_notes": 0,
-     "note_pv": 2067,
-     "read_pv": 183
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 4341.97,
-     "zhibo": 400.0,
-     "shangbi": 0.0,
-     "kbo": 1373.0,
-     "shangka": 1603.97,
-     "other": 965.0,
-     "buys": 33,
-     "live_dgmv": 400.0,
-     "live_rooms": 1,
-     "live_h": 1.9,
-     "live_uv": 1,
-     "gpm": 133.29,
-     "ctr": 0.11,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1535,
-     "read_pv": 156
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 3121.2,
-     "zhibo": 0.0,
-     "shangbi": 0.0,
-     "kbo": 1532.0,
-     "shangka": 1268.2,
-     "other": 321.0,
-     "buys": 21,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1402,
-     "read_pv": 180
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 8447.7,
-     "zhibo": 133.5,
-     "shangbi": 0.0,
-     "kbo": 6444.62,
-     "shangka": 1738.24,
-     "other": 131.34,
-     "buys": 79,
-     "live_dgmv": 133.5,
-     "live_rooms": 1,
-     "live_h": 1.98,
-     "live_uv": 1,
-     "gpm": 42.18,
-     "ctr": 0.1,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1376,
-     "read_pv": 174
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 47194.23,
-     "zhibo": 71.0,
-     "shangbi": 0.0,
-     "kbo": 43073.35,
-     "shangka": 3016.88,
-     "other": 1033.0,
-     "buys": 368,
-     "live_dgmv": 71.0,
-     "live_rooms": 1,
-     "live_h": 2.02,
-     "live_uv": 1,
-     "gpm": 27.62,
-     "ctr": 0.13,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 1383,
-     "read_pv": 147
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 8987.7,
-     "zhibo": 0.0,
-     "shangbi": 34.9,
-     "kbo": 4623.01,
-     "shangka": 1318.44,
-     "other": 3011.35,
-     "buys": 75,
-     "live_dgmv": 0.0,
-     "live_rooms": 1,
-     "live_h": 2.04,
-     "live_uv": 0,
-     "gpm": 0.0,
-     "ctr": 0.09,
-     "note_dgmv": 34.9,
-     "new_notes": 0,
-     "note_pv": 1302,
-     "read_pv": 152
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "live",
-     "detail": "店播开播1场、时长1.9h，自播DGMV 1164元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "live",
-     "detail": "店播开播1场、时长2.0h，自播DGMV 363元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "live",
-     "detail": "店播开播1场、时长2.0h，自播DGMV 134元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔1篇，当日商笔DGMV 413元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "live",
-     "detail": "店播开播1场、时长2.0h，自播DGMV 0元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "live",
-     "detail": "店播开播1场、时长1.9h，自播DGMV 1002元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "live",
-     "detail": "店播开播1场、时长1.9h，自播DGMV 400元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "live",
-     "detail": "店播开播1场、时长2.0h，自播DGMV 134元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "live",
-     "detail": "店播开播1场、时长2.0h，自播DGMV 71元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "live",
-     "detail": "店播开播1场、时长2.0h，自播DGMV 0元"
-    }
-   ]
-  },
-  {
-   "seller_id": "683d9b0bc3302a0015a9d5a8",
-   "name": "崔小元真选的店",
-   "direction": "down",
-   "delta_day": -6659.03,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 10505.2,
-     "zhibo": 6503.56,
-     "shangbi": 1306.97,
-     "kbo": 0.0,
-     "shangka": 2442.17,
-     "other": 252.5,
-     "buys": 130,
-     "live_dgmv": 6286.47,
-     "live_rooms": 1,
-     "live_h": 3.6,
-     "live_uv": 44,
-     "gpm": 153.75,
-     "ctr": 0.04,
-     "note_dgmv": 1306.97,
-     "new_notes": 0,
-     "note_pv": 7383,
-     "read_pv": 239
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 8221.76,
-     "zhibo": 3019.2,
-     "shangbi": 278.9,
-     "kbo": 0.0,
-     "shangka": 4923.66,
-     "other": 0.0,
-     "buys": 79,
-     "live_dgmv": 5606.85,
-     "live_rooms": 2,
-     "live_h": 3.26,
-     "live_uv": 26,
-     "gpm": 87.93,
-     "ctr": 0.02,
-     "note_dgmv": 278.9,
-     "new_notes": 0,
-     "note_pv": 7104,
-     "read_pv": 215
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 72741.17,
-     "zhibo": 58159.03,
-     "shangbi": 890.39,
-     "kbo": 0.0,
-     "shangka": 13631.85,
-     "other": 59.9,
-     "buys": 746,
-     "live_dgmv": 51005.86,
-     "live_rooms": 2,
-     "live_h": 10.73,
-     "live_uv": 189,
-     "gpm": 384.74,
-     "ctr": 0.05,
-     "note_dgmv": 890.39,
-     "new_notes": 1,
-     "note_pv": 7947,
-     "read_pv": 243
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 29809.67,
-     "zhibo": 24821.69,
-     "shangbi": 88.32,
-     "kbo": 0.0,
-     "shangka": 4863.82,
-     "other": 35.84,
-     "buys": 259,
-     "live_dgmv": 24314.13,
-     "live_rooms": 2,
-     "live_h": 8.5,
-     "live_uv": 65,
-     "gpm": 256.11,
-     "ctr": 0.04,
-     "note_dgmv": 88.32,
-     "new_notes": 0,
-     "note_pv": 8308,
-     "read_pv": 323
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 32708.88,
-     "zhibo": 23736.74,
-     "shangbi": 537.53,
-     "kbo": 0.0,
-     "shangka": 8389.61,
-     "other": 45.0,
-     "buys": 269,
-     "live_dgmv": 19814.06,
-     "live_rooms": 2,
-     "live_h": 7.52,
-     "live_uv": 84,
-     "gpm": 252.77,
-     "ctr": 0.04,
-     "note_dgmv": 537.53,
-     "new_notes": 0,
-     "note_pv": 7130,
-     "read_pv": 280
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 15601.0,
-     "zhibo": 8796.17,
-     "shangbi": 643.2,
-     "kbo": 0.0,
-     "shangka": 5690.83,
-     "other": 470.8,
-     "buys": 163,
-     "live_dgmv": 6864.81,
-     "live_rooms": 1,
-     "live_h": 4.05,
-     "live_uv": 44,
-     "gpm": 153.09,
-     "ctr": 0.04,
-     "note_dgmv": 643.2,
-     "new_notes": 0,
-     "note_pv": 7451,
-     "read_pv": 281
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 14371.06,
-     "zhibo": 10207.93,
-     "shangbi": 317.5,
-     "kbo": 0.0,
-     "shangka": 3324.63,
-     "other": 521.0,
-     "buys": 154,
-     "live_dgmv": 8273.89,
-     "live_rooms": 1,
-     "live_h": 4.5,
-     "live_uv": 40,
-     "gpm": 179.79,
-     "ctr": 0.03,
-     "note_dgmv": 317.5,
-     "new_notes": 0,
-     "note_pv": 6240,
-     "read_pv": 172
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 17466.59,
-     "zhibo": 11165.38,
-     "shangbi": 587.5,
-     "kbo": 0.0,
-     "shangka": 5663.81,
-     "other": 49.9,
-     "buys": 205,
-     "live_dgmv": 9677.3,
-     "live_rooms": 1,
-     "live_h": 3.57,
-     "live_uv": 66,
-     "gpm": 233.41,
-     "ctr": 0.04,
-     "note_dgmv": 587.5,
-     "new_notes": 0,
-     "note_pv": 6514,
-     "read_pv": 208
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 25713.2,
-     "zhibo": 17727.22,
-     "shangbi": 1629.6,
-     "kbo": 0.0,
-     "shangka": 6227.38,
-     "other": 129.0,
-     "buys": 241,
-     "live_dgmv": 16086.31,
-     "live_rooms": 2,
-     "live_h": 7.69,
-     "live_uv": 65,
-     "gpm": 231.44,
-     "ctr": 0.04,
-     "note_dgmv": 1629.6,
-     "new_notes": 0,
-     "note_pv": 6452,
-     "read_pv": 232
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 19054.17,
-     "zhibo": 13837.1,
-     "shangbi": 600.79,
-     "kbo": 0.0,
-     "shangka": 4472.87,
-     "other": 143.41,
-     "buys": 217,
-     "live_dgmv": 11095.46,
-     "live_rooms": 2,
-     "live_h": 6.51,
-     "live_uv": 61,
-     "gpm": 139.73,
-     "ctr": 0.03,
-     "note_dgmv": 600.79,
-     "new_notes": 0,
-     "note_pv": 5587,
-     "read_pv": 162
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "live",
-     "detail": "店播开播1场、时长3.6h，自播DGMV 6286元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "live",
-     "detail": "店播开播2场、时长3.3h，自播DGMV 5607元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔1篇，当日商笔DGMV 890元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "live",
-     "detail": "店播开播2场、时长10.7h，自播DGMV 51006元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "live",
-     "detail": "店播开播2场、时长8.5h，自播DGMV 24314元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "live",
-     "detail": "店播开播2场、时长7.5h，自播DGMV 19814元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "live",
-     "detail": "店播开播1场、时长4.0h，自播DGMV 6865元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "live",
-     "detail": "店播开播1场、时长4.5h，自播DGMV 8274元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "live",
-     "detail": "店播开播1场、时长3.6h，自播DGMV 9677元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "live",
-     "detail": "店播开播2场、时长7.7h，自播DGMV 16086元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "live",
-     "detail": "店播开播2场、时长6.5h，自播DGMV 11095元"
-    }
-   ]
-  },
-  {
-   "seller_id": "6613611faeebf8000165306b",
-   "name": "崔小元旗舰店",
-   "direction": "down",
-   "delta_day": -4362.79,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 9267.51,
-     "zhibo": 3218.45,
-     "shangbi": 1862.16,
-     "kbo": 0.0,
-     "shangka": 3964.0,
-     "other": 222.9,
-     "buys": 107,
-     "live_dgmv": 2593.12,
-     "live_rooms": 1,
-     "live_h": 3.19,
-     "live_uv": 20,
-     "gpm": 60.33,
-     "ctr": 0.03,
-     "note_dgmv": 1862.16,
-     "new_notes": 3,
-     "note_pv": 5053,
-     "read_pv": 304
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 8447.13,
-     "zhibo": 1972.4,
-     "shangbi": 362.21,
-     "kbo": 0.0,
-     "shangka": 6012.72,
-     "other": 99.8,
-     "buys": 107,
-     "live_dgmv": 2487.59,
-     "live_rooms": 1,
-     "live_h": 3.21,
-     "live_uv": 21,
-     "gpm": 60.23,
-     "ctr": 0.03,
-     "note_dgmv": 362.21,
-     "new_notes": 5,
-     "note_pv": 5488,
-     "read_pv": 329
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 19542.35,
-     "zhibo": 12270.25,
-     "shangbi": 1331.64,
-     "kbo": 0.0,
-     "shangka": 5940.46,
-     "other": 0.0,
-     "buys": 209,
-     "live_dgmv": 11231.88,
-     "live_rooms": 1,
-     "live_h": 4.19,
-     "live_uv": 38,
-     "gpm": 203.44,
-     "ctr": 0.04,
-     "note_dgmv": 1331.64,
-     "new_notes": 2,
-     "note_pv": 4833,
-     "read_pv": 460
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 10922.05,
-     "zhibo": 6344.21,
-     "shangbi": 188.4,
-     "kbo": 0.0,
-     "shangka": 4389.44,
-     "other": 0.0,
-     "buys": 113,
-     "live_dgmv": 4790.42,
-     "live_rooms": 1,
-     "live_h": 3.79,
-     "live_uv": 14,
-     "gpm": 106.75,
-     "ctr": 0.03,
-     "note_dgmv": 188.4,
-     "new_notes": 0,
-     "note_pv": 3175,
-     "read_pv": 359
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 7136.92,
-     "zhibo": 97.0,
-     "shangbi": 1279.16,
-     "kbo": 0.0,
-     "shangka": 5634.86,
-     "other": 125.9,
-     "buys": 80,
-     "note_dgmv": 1279.16,
-     "new_notes": 0,
-     "note_pv": 3052,
-     "read_pv": 248
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 4834.42,
-     "zhibo": 552.98,
-     "shangbi": 779.81,
-     "kbo": 0.0,
-     "shangka": 3501.63,
-     "other": 0.0,
-     "buys": 64,
-     "note_dgmv": 779.81,
-     "new_notes": 1,
-     "note_pv": 3176,
-     "read_pv": 196
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 10291.42,
-     "zhibo": 5407.66,
-     "shangbi": 617.6,
-     "kbo": 0.0,
-     "shangka": 4266.16,
-     "other": 0.0,
-     "buys": 117,
-     "live_dgmv": 5149.77,
-     "live_rooms": 1,
-     "live_h": 3.82,
-     "live_uv": 28,
-     "gpm": 86.23,
-     "ctr": 0.03,
-     "note_dgmv": 617.6,
-     "new_notes": 0,
-     "note_pv": 2877,
-     "read_pv": 218
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 11414.89,
-     "zhibo": 5638.56,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 5776.33,
-     "other": 0.0,
-     "buys": 115,
-     "live_dgmv": 5826.24,
-     "live_rooms": 1,
-     "live_h": 3.43,
-     "live_uv": 37,
-     "gpm": 110.55,
-     "ctr": 0.03,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 2616,
-     "read_pv": 163
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 11388.03,
-     "zhibo": 6070.03,
-     "shangbi": 1106.9,
-     "kbo": 0.0,
-     "shangka": 4211.1,
-     "other": 0.0,
-     "buys": 112,
-     "live_dgmv": 5531.17,
-     "live_rooms": 1,
-     "live_h": 3.02,
-     "live_uv": 34,
-     "gpm": 130.71,
-     "ctr": 0.04,
-     "note_dgmv": 1106.9,
-     "new_notes": 0,
-     "note_pv": 2664,
-     "read_pv": 219
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 7025.24,
-     "zhibo": 3894.87,
-     "shangbi": 0.0,
-     "kbo": 0.0,
-     "shangka": 3130.37,
-     "other": 0.0,
-     "buys": 69,
-     "live_dgmv": 3634.39,
-     "live_rooms": 1,
-     "live_h": 3.19,
-     "live_uv": 18,
-     "gpm": 92.05,
-     "ctr": 0.03,
-     "note_dgmv": 0.0,
-     "new_notes": 0,
-     "note_pv": 2159,
-     "read_pv": 87
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 1862元"
-    },
-    {
-     "date": "2026-09-01",
-     "type": "live",
-     "detail": "店播开播1场、时长3.2h，自播DGMV 2593元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "note",
-     "detail": "新发商笔5篇，当日商笔DGMV 362元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "live",
-     "detail": "店播开播1场、时长3.2h，自播DGMV 2488元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔2篇，当日商笔DGMV 1332元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "live",
-     "detail": "店播开播1场、时长4.2h，自播DGMV 11232元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "live",
-     "detail": "店播开播1场、时长3.8h，自播DGMV 4790元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "note",
-     "detail": "新发商笔1篇，当日商笔DGMV 780元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "live",
-     "detail": "店播开播1场、时长3.8h，自播DGMV 5150元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "live",
-     "detail": "店播开播1场、时长3.4h，自播DGMV 5826元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "live",
-     "detail": "店播开播1场、时长3.0h，自播DGMV 5531元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "live",
-     "detail": "店播开播1场、时长3.2h，自播DGMV 3634元"
-    }
-   ]
-  },
-  {
-   "seller_id": "647077c5937a2b000158c242",
-   "name": "原豆复兴Peasup旗舰店",
-   "direction": "down",
-   "delta_day": -4122.27,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 4226.97,
-     "zhibo": 159.4,
-     "shangbi": 2822.26,
-     "kbo": 396.08,
-     "shangka": 573.15,
-     "other": 276.08,
-     "buys": 111,
-     "live_dgmv": 159.4,
-     "live_rooms": 2,
-     "live_h": 0.76,
-     "live_uv": 5,
-     "gpm": 6.25,
-     "ctr": 0.06,
-     "note_dgmv": 2822.26,
-     "new_notes": 11,
-     "note_pv": 40957,
-     "read_pv": 2405
-    },
-    {
-     "date": "2026-09-02",
-     "dgmv": 3728.44,
-     "zhibo": 0.0,
-     "shangbi": 2665.71,
-     "kbo": 179.5,
-     "shangka": 544.23,
-     "other": 339.0,
-     "buys": 100,
-     "note_dgmv": 2665.71,
-     "new_notes": 12,
-     "note_pv": 37263,
-     "read_pv": 2330
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 5155.65,
-     "zhibo": 89.5,
-     "shangbi": 2242.02,
-     "kbo": 1704.37,
-     "shangka": 1040.06,
-     "other": 79.7,
-     "buys": 132,
-     "live_dgmv": 89.5,
-     "live_rooms": 2,
-     "live_h": 0.96,
-     "live_uv": 4,
-     "gpm": 2.86,
-     "ctr": 0.07,
-     "note_dgmv": 2242.02,
-     "new_notes": 10,
-     "note_pv": 38553,
-     "read_pv": 2552
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 3111.37,
-     "zhibo": 0.0,
-     "shangbi": 1971.28,
-     "kbo": 59.9,
-     "shangka": 907.49,
-     "other": 172.7,
-     "buys": 79,
-     "note_dgmv": 1971.28,
-     "new_notes": 10,
-     "note_pv": 38110,
-     "read_pv": 2577
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 3586.52,
-     "zhibo": 0.0,
-     "shangbi": 2560.1,
-     "kbo": 217.42,
-     "shangka": 584.8,
-     "other": 224.2,
-     "buys": 88,
-     "note_dgmv": 2560.1,
-     "new_notes": 11,
-     "note_pv": 39792,
-     "read_pv": 2731
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 3652.62,
-     "zhibo": 0.0,
-     "shangbi": 2371.36,
-     "kbo": 244.72,
-     "shangka": 966.84,
-     "other": 69.7,
-     "buys": 90,
-     "note_dgmv": 2371.36,
-     "new_notes": 11,
-     "note_pv": 39255,
-     "read_pv": 2747
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 6247.87,
-     "zhibo": 0.0,
-     "shangbi": 2429.23,
-     "kbo": 1115.89,
-     "shangka": 1083.82,
-     "other": 1618.93,
-     "buys": 133,
-     "note_dgmv": 2429.23,
-     "new_notes": 13,
-     "note_pv": 43754,
-     "read_pv": 2908
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 4409.57,
-     "zhibo": 219.2,
-     "shangbi": 1910.21,
-     "kbo": 519.33,
-     "shangka": 946.34,
-     "other": 814.49,
-     "buys": 101,
-     "live_dgmv": 219.2,
-     "live_rooms": 2,
-     "live_h": 0.94,
-     "live_uv": 5,
-     "gpm": 7.13,
-     "ctr": 0.06,
-     "note_dgmv": 1910.21,
-     "new_notes": 13,
-     "note_pv": 46132,
-     "read_pv": 3076
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 9376.79,
-     "zhibo": 0.0,
-     "shangbi": 2511.85,
-     "kbo": 5067.05,
-     "shangka": 806.98,
-     "other": 990.91,
-     "buys": 176,
-     "note_dgmv": 2511.85,
-     "new_notes": 13,
-     "note_pv": 39864,
-     "read_pv": 2753
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 5254.52,
-     "zhibo": 34.9,
-     "shangbi": 2462.36,
-     "kbo": 1261.39,
-     "shangka": 1074.77,
-     "other": 421.1,
-     "buys": 108,
-     "live_dgmv": 34.9,
-     "live_rooms": 2,
-     "live_h": 0.72,
-     "live_uv": 1,
-     "gpm": 1.79,
-     "ctr": 0.06,
-     "note_dgmv": 2462.36,
-     "new_notes": 13,
-     "note_pv": 40372,
-     "read_pv": 2665
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
-     "type": "note",
-     "detail": "新发商笔11篇，当日商笔DGMV 2822元"
-    },
-    {
-     "date": "2026-09-01",
-     "type": "live",
-     "detail": "店播开播2场、时长0.8h，自播DGMV 159元"
-    },
-    {
-     "date": "2026-09-02",
-     "type": "note",
-     "detail": "新发商笔12篇，当日商笔DGMV 2666元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔10篇，当日商笔DGMV 2242元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "live",
-     "detail": "店播开播2场、时长1.0h，自播DGMV 90元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔10篇，当日商笔DGMV 1971元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "note",
-     "detail": "新发商笔11篇，当日商笔DGMV 2560元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "note",
-     "detail": "新发商笔11篇，当日商笔DGMV 2371元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "note",
-     "detail": "新发商笔13篇，当日商笔DGMV 2429元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "note",
-     "detail": "新发商笔13篇，当日商笔DGMV 1910元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "live",
-     "detail": "店播开播2场、时长0.9h，自播DGMV 219元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "note",
-     "detail": "新发商笔13篇，当日商笔DGMV 2512元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔13篇，当日商笔DGMV 2462元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "live",
-     "detail": "店播开播2场、时长0.7h，自播DGMV 35元"
-    }
-   ]
   },
   {
    "seller_id": "65b368dd2cdd640001d6c207",
    "name": "小禾家零食分装的店",
-   "direction": "down",
-   "delta_day": -3848.74,
+   "direction": "up",
+   "delta_day": 13159.93,
    "days": [
     {
      "date": "2026-09-01",
@@ -2725,16 +378,56 @@
      "shangka": 6246.31,
      "other": 932.68,
      "buys": 1910,
-     "live_dgmv": 7904.68,
+     "live_dgmv": 8529.7,
      "live_rooms": 1,
-     "live_h": 15.0,
-     "live_uv": 94,
-     "gpm": 16.72,
+     "live_h": 16.0,
+     "live_uv": 108,
+     "gpm": 16.83,
      "ctr": 0.08,
      "note_dgmv": 871.26,
      "new_notes": 9,
      "note_pv": 87198,
      "read_pv": 13626
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 15451.27,
+     "zhibo": 9679.03,
+     "shangbi": 819.9,
+     "kbo": 0.0,
+     "shangka": 4338.43,
+     "other": 613.91,
+     "buys": 1510,
+     "live_dgmv": 9039.67,
+     "live_rooms": 1,
+     "live_h": 16.02,
+     "live_uv": 112,
+     "gpm": 18.66,
+     "ctr": 0.08,
+     "note_dgmv": 819.9,
+     "new_notes": 6,
+     "note_pv": 79850,
+     "read_pv": 12836
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 28611.2,
+     "zhibo": 13394.03,
+     "shangbi": 734.8,
+     "kbo": 0.0,
+     "shangka": 13214.03,
+     "other": 1268.34,
+     "buys": 2145,
+     "live_dgmv": 10127.73,
+     "live_rooms": 1,
+     "live_h": 15.17,
+     "live_uv": 130,
+     "gpm": 19.16,
+     "ctr": 0.09,
+     "note_dgmv": 734.8,
+     "new_notes": 7,
+     "note_pv": 75832,
+     "read_pv": 13117
     }
    ],
    "events": [
@@ -2836,325 +529,35 @@
     {
      "date": "2026-09-10",
      "type": "live",
-     "detail": "店播开播1场、时长15.0h，自播DGMV 7905元"
-    }
-   ]
-  },
-  {
-   "seller_id": "5c6f97f1bb06cd759f7438a5",
-   "name": "晟麦旗舰店",
-   "direction": "down",
-   "delta_day": -3176.81,
-   "days": [
-    {
-     "date": "2026-09-01",
-     "dgmv": 12933.37,
-     "zhibo": 3247.14,
-     "shangbi": 3299.72,
-     "kbo": 1394.36,
-     "shangka": 3246.92,
-     "other": 1745.23,
-     "buys": 227,
-     "live_dgmv": 3152.24,
-     "live_rooms": 1,
-     "live_h": 19.98,
-     "live_uv": 24,
-     "gpm": 51.16,
-     "ctr": 0.11,
-     "note_dgmv": 3299.72,
-     "new_notes": 2,
-     "note_pv": 63747,
-     "read_pv": 8390
+     "detail": "店播开播1场、时长16.0h，自播DGMV 8530元"
     },
     {
-     "date": "2026-09-02",
-     "dgmv": 12844.48,
-     "zhibo": 2131.67,
-     "shangbi": 4238.63,
-     "kbo": 1700.59,
-     "shangka": 3288.32,
-     "other": 1485.27,
-     "buys": 215,
-     "live_dgmv": 2165.87,
-     "live_rooms": 1,
-     "live_h": 19.98,
-     "live_uv": 23,
-     "gpm": 37.47,
-     "ctr": 0.1,
-     "note_dgmv": 4238.63,
-     "new_notes": 3,
-     "note_pv": 56875,
-     "read_pv": 8389
-    },
-    {
-     "date": "2026-09-03",
-     "dgmv": 12674.76,
-     "zhibo": 2997.05,
-     "shangbi": 2836.11,
-     "kbo": 1764.04,
-     "shangka": 3764.81,
-     "other": 1312.75,
-     "buys": 219,
-     "live_dgmv": 2588.61,
-     "live_rooms": 1,
-     "live_h": 20.01,
-     "live_uv": 20,
-     "gpm": 41.42,
-     "ctr": 0.1,
-     "note_dgmv": 2836.11,
-     "new_notes": 2,
-     "note_pv": 59680,
-     "read_pv": 6926
-    },
-    {
-     "date": "2026-09-04",
-     "dgmv": 12825.7,
-     "zhibo": 1979.72,
-     "shangbi": 3378.75,
-     "kbo": 1627.78,
-     "shangka": 3753.48,
-     "other": 2085.97,
-     "buys": 218,
-     "live_dgmv": 1778.4,
-     "live_rooms": 1,
-     "live_h": 20.0,
-     "live_uv": 13,
-     "gpm": 31.1,
-     "ctr": 0.1,
-     "note_dgmv": 3378.75,
-     "new_notes": 3,
-     "note_pv": 57592,
-     "read_pv": 8269
-    },
-    {
-     "date": "2026-09-05",
-     "dgmv": 18524.77,
-     "zhibo": 3221.18,
-     "shangbi": 3049.74,
-     "kbo": 6615.9,
-     "shangka": 3730.65,
-     "other": 1907.3,
-     "buys": 264,
-     "live_dgmv": 3111.18,
-     "live_rooms": 1,
-     "live_h": 20.02,
-     "live_uv": 36,
-     "gpm": 51.26,
-     "ctr": 0.12,
-     "note_dgmv": 3049.74,
-     "new_notes": 3,
-     "note_pv": 62124,
-     "read_pv": 8992
-    },
-    {
-     "date": "2026-09-06",
-     "dgmv": 15567.61,
-     "zhibo": 2796.81,
-     "shangbi": 3841.75,
-     "kbo": 652.06,
-     "shangka": 4671.45,
-     "other": 3605.54,
-     "buys": 243,
-     "live_dgmv": 2848.94,
-     "live_rooms": 1,
-     "live_h": 20.01,
-     "live_uv": 30,
-     "gpm": 39.57,
-     "ctr": 0.12,
-     "note_dgmv": 3841.75,
-     "new_notes": 4,
-     "note_pv": 75253,
-     "read_pv": 9466
-    },
-    {
-     "date": "2026-09-07",
-     "dgmv": 15130.28,
-     "zhibo": 3963.9,
-     "shangbi": 3517.27,
-     "kbo": 1350.93,
-     "shangka": 3739.98,
-     "other": 2558.2,
-     "buys": 260,
-     "live_dgmv": 4131.56,
-     "live_rooms": 1,
-     "live_h": 19.93,
-     "live_uv": 37,
-     "gpm": 65.98,
-     "ctr": 0.11,
-     "note_dgmv": 3517.27,
-     "new_notes": 3,
-     "note_pv": 62389,
-     "read_pv": 7666
-    },
-    {
-     "date": "2026-09-08",
-     "dgmv": 12130.81,
-     "zhibo": 2416.47,
-     "shangbi": 2898.92,
-     "kbo": 2195.84,
-     "shangka": 3093.28,
-     "other": 1526.3,
-     "buys": 188,
-     "live_dgmv": 1958.68,
-     "live_rooms": 2,
-     "live_h": 16.26,
-     "live_uv": 25,
-     "gpm": 32.77,
-     "ctr": 0.1,
-     "note_dgmv": 2898.92,
-     "new_notes": 3,
-     "note_pv": 74057,
-     "read_pv": 7874
-    },
-    {
-     "date": "2026-09-09",
-     "dgmv": 15751.81,
-     "zhibo": 4561.64,
-     "shangbi": 2470.48,
-     "kbo": 990.93,
-     "shangka": 5778.24,
-     "other": 1950.52,
-     "buys": 229,
-     "live_dgmv": 4369.0,
-     "live_rooms": 1,
-     "live_h": 20.0,
-     "live_uv": 36,
-     "gpm": 80.29,
-     "ctr": 0.11,
-     "note_dgmv": 2470.48,
-     "new_notes": 1,
-     "note_pv": 51441,
-     "read_pv": 5891
-    },
-    {
-     "date": "2026-09-10",
-     "dgmv": 12575.0,
-     "zhibo": 2332.66,
-     "shangbi": 2885.43,
-     "kbo": 1505.05,
-     "shangka": 3982.54,
-     "other": 1869.32,
-     "buys": 219,
-     "live_dgmv": 1932.81,
-     "live_rooms": 1,
-     "live_h": 17.99,
-     "live_uv": 20,
-     "gpm": 34.89,
-     "ctr": 0.11,
-     "note_dgmv": 2885.43,
-     "new_notes": 3,
-     "note_pv": 55902,
-     "read_pv": 6435
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-09-01",
+     "date": "2026-09-11",
      "type": "note",
-     "detail": "新发商笔2篇，当日商笔DGMV 3300元"
+     "detail": "新发商笔6篇，当日商笔DGMV 820元"
     },
     {
-     "date": "2026-09-01",
+     "date": "2026-09-11",
      "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 3152元"
+     "detail": "店播开播1场、时长16.0h，自播DGMV 9040元"
     },
     {
-     "date": "2026-09-02",
+     "date": "2026-09-12",
      "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 4239元"
+     "detail": "新发商笔7篇，当日商笔DGMV 735元"
     },
     {
-     "date": "2026-09-02",
+     "date": "2026-09-12",
      "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 2166元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "note",
-     "detail": "新发商笔2篇，当日商笔DGMV 2836元"
-    },
-    {
-     "date": "2026-09-03",
-     "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 2589元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 3379元"
-    },
-    {
-     "date": "2026-09-04",
-     "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 1778元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 3050元"
-    },
-    {
-     "date": "2026-09-05",
-     "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 3111元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "note",
-     "detail": "新发商笔4篇，当日商笔DGMV 3842元"
-    },
-    {
-     "date": "2026-09-06",
-     "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 2849元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 3517元"
-    },
-    {
-     "date": "2026-09-07",
-     "type": "live",
-     "detail": "店播开播1场、时长19.9h，自播DGMV 4132元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 2899元"
-    },
-    {
-     "date": "2026-09-08",
-     "type": "live",
-     "detail": "店播开播2场、时长16.3h，自播DGMV 1959元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "note",
-     "detail": "新发商笔1篇，当日商笔DGMV 2470元"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "live",
-     "detail": "店播开播1场、时长20.0h，自播DGMV 4369元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "note",
-     "detail": "新发商笔3篇，当日商笔DGMV 2885元"
-    },
-    {
-     "date": "2026-09-10",
-     "type": "live",
-     "detail": "店播开播1场、时长18.0h，自播DGMV 1933元"
+     "detail": "店播开播1场、时长15.2h，自播DGMV 10128元"
     }
    ]
   },
   {
    "seller_id": "64ccc00ba14d4e0001322a18",
    "name": "珍妮曲奇聪明小熊饼干旗舰店",
-   "direction": "down",
-   "delta_day": -3172.77,
+   "direction": "up",
+   "delta_day": 11864.86,
    "days": [
     {
      "date": "2026-09-01",
@@ -3345,16 +748,56 @@
      "shangka": 5924.93,
      "other": 567.54,
      "buys": 75,
-     "live_dgmv": 5435.41,
+     "live_dgmv": 5619.41,
      "live_rooms": 1,
      "live_h": 11.96,
-     "live_uv": 36,
-     "gpm": 21.31,
+     "live_uv": 38,
+     "gpm": 21.87,
      "ctr": 0.08,
      "note_dgmv": 715.0,
      "new_notes": 3,
      "note_pv": 25736,
      "read_pv": 1197
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 9702.54,
+     "zhibo": 4638.05,
+     "shangbi": 942.0,
+     "kbo": 366.0,
+     "shangka": 3106.49,
+     "other": 650.0,
+     "buys": 63,
+     "live_dgmv": 4866.05,
+     "live_rooms": 1,
+     "live_h": 11.99,
+     "live_uv": 27,
+     "gpm": 16.53,
+     "ctr": 0.08,
+     "note_dgmv": 942.0,
+     "new_notes": 3,
+     "note_pv": 26267,
+     "read_pv": 1377
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 21567.4,
+     "zhibo": 5272.27,
+     "shangbi": 1026.0,
+     "kbo": 9165.68,
+     "shangka": 5192.12,
+     "other": 911.33,
+     "buys": 148,
+     "live_dgmv": 4609.27,
+     "live_rooms": 1,
+     "live_h": 11.94,
+     "live_uv": 25,
+     "gpm": 22.61,
+     "ctr": 0.08,
+     "note_dgmv": 1026.0,
+     "new_notes": 3,
+     "note_pv": 33269,
+     "read_pv": 1333
     }
    ],
    "events": [
@@ -3456,7 +899,1412 @@
     {
      "date": "2026-09-10",
      "type": "live",
-     "detail": "店播开播1场、时长12.0h，自播DGMV 5435元"
+     "detail": "店播开播1场、时长12.0h，自播DGMV 5619元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 942元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长12.0h，自播DGMV 4866元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 1026元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长11.9h，自播DGMV 4609元"
+    }
+   ]
+  },
+  {
+   "seller_id": "66583c9ee5b8e60001263c98",
+   "name": "海伶山珍旗舰店",
+   "direction": "up",
+   "delta_day": 4032.02,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 4394.04,
+     "zhibo": 251.3,
+     "shangbi": 797.82,
+     "kbo": 32.72,
+     "shangka": 3124.37,
+     "other": 187.83,
+     "buys": 68,
+     "live_dgmv": 251.3,
+     "live_rooms": 1,
+     "live_h": 1.64,
+     "live_uv": 3,
+     "gpm": 23.89,
+     "ctr": 0.11,
+     "note_dgmv": 797.82,
+     "new_notes": 1,
+     "note_pv": 26491,
+     "read_pv": 3151
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 5886.4,
+     "zhibo": 258.0,
+     "shangbi": 1310.43,
+     "kbo": 90.89,
+     "shangka": 3763.08,
+     "other": 464.0,
+     "buys": 106,
+     "live_dgmv": 258.0,
+     "live_rooms": 1,
+     "live_h": 1.65,
+     "live_uv": 4,
+     "gpm": 27.49,
+     "ctr": 0.14,
+     "note_dgmv": 1310.43,
+     "new_notes": 3,
+     "note_pv": 26877,
+     "read_pv": 3076
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 3247.58,
+     "zhibo": 304.9,
+     "shangbi": 702.89,
+     "kbo": 117.7,
+     "shangka": 1580.76,
+     "other": 541.33,
+     "buys": 74,
+     "live_dgmv": 269.9,
+     "live_rooms": 1,
+     "live_h": 1.82,
+     "live_uv": 4,
+     "gpm": 22.06,
+     "ctr": 0.11,
+     "note_dgmv": 702.89,
+     "new_notes": 4,
+     "note_pv": 29987,
+     "read_pv": 3316
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 5749.13,
+     "zhibo": 0.0,
+     "shangbi": 1357.6,
+     "kbo": 35.0,
+     "shangka": 3702.63,
+     "other": 653.9,
+     "buys": 89,
+     "live_dgmv": 0.0,
+     "live_rooms": 1,
+     "live_h": 1.56,
+     "live_uv": 0,
+     "gpm": 0.0,
+     "ctr": 0.09,
+     "note_dgmv": 1357.6,
+     "new_notes": 2,
+     "note_pv": 27014,
+     "read_pv": 3244
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 5014.75,
+     "zhibo": 199.9,
+     "shangbi": 803.4,
+     "kbo": 1081.9,
+     "shangka": 2459.72,
+     "other": 469.83,
+     "buys": 78,
+     "live_dgmv": 114.9,
+     "live_rooms": 1,
+     "live_h": 1.93,
+     "live_uv": 1,
+     "gpm": 10.56,
+     "ctr": 0.11,
+     "note_dgmv": 803.4,
+     "new_notes": 1,
+     "note_pv": 24522,
+     "read_pv": 3331
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 3758.95,
+     "zhibo": 0.0,
+     "shangbi": 697.87,
+     "kbo": 0.0,
+     "shangka": 2677.28,
+     "other": 383.8,
+     "buys": 71,
+     "note_dgmv": 697.87,
+     "new_notes": 2,
+     "note_pv": 23884,
+     "read_pv": 3340
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 3015.53,
+     "zhibo": 35.0,
+     "shangbi": 982.45,
+     "kbo": 0.0,
+     "shangka": 1811.08,
+     "other": 187.0,
+     "buys": 60,
+     "live_dgmv": 35.0,
+     "live_rooms": 1,
+     "live_h": 1.32,
+     "live_uv": 1,
+     "gpm": 4.32,
+     "ctr": 0.09,
+     "note_dgmv": 982.45,
+     "new_notes": 1,
+     "note_pv": 24539,
+     "read_pv": 3632
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 3805.99,
+     "zhibo": 262.9,
+     "shangbi": 1005.83,
+     "kbo": 0.0,
+     "shangka": 2291.86,
+     "other": 245.4,
+     "buys": 69,
+     "live_dgmv": 262.9,
+     "live_rooms": 1,
+     "live_h": 1.75,
+     "live_uv": 4,
+     "gpm": 19.51,
+     "ctr": 0.1,
+     "note_dgmv": 1005.83,
+     "new_notes": 2,
+     "note_pv": 23175,
+     "read_pv": 3054
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 5465.36,
+     "zhibo": 431.8,
+     "shangbi": 766.5,
+     "kbo": 0.0,
+     "shangka": 3925.06,
+     "other": 342.0,
+     "buys": 93,
+     "live_dgmv": 431.8,
+     "live_rooms": 1,
+     "live_h": 2.62,
+     "live_uv": 7,
+     "gpm": 27.9,
+     "ctr": 0.12,
+     "note_dgmv": 766.5,
+     "new_notes": 3,
+     "note_pv": 28914,
+     "read_pv": 3108
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 4382.96,
+     "zhibo": 287.8,
+     "shangbi": 724.7,
+     "kbo": 96.18,
+     "shangka": 2799.93,
+     "other": 474.35,
+     "buys": 92,
+     "live_dgmv": 252.8,
+     "live_rooms": 1,
+     "live_h": 1.92,
+     "live_uv": 3,
+     "gpm": 24.98,
+     "ctr": 0.1,
+     "note_dgmv": 724.7,
+     "new_notes": 3,
+     "note_pv": 23294,
+     "read_pv": 3005
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 3480.78,
+     "zhibo": 84.0,
+     "shangbi": 1151.21,
+     "kbo": 0.0,
+     "shangka": 1835.1,
+     "other": 410.47,
+     "buys": 60,
+     "live_dgmv": 84.0,
+     "live_rooms": 1,
+     "live_h": 1.72,
+     "live_uv": 1,
+     "gpm": 9.61,
+     "ctr": 0.13,
+     "note_dgmv": 1151.21,
+     "new_notes": 5,
+     "note_pv": 23856,
+     "read_pv": 2968
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 7512.8,
+     "zhibo": 114.9,
+     "shangbi": 293.68,
+     "kbo": 4335.11,
+     "shangka": 2545.11,
+     "other": 224.0,
+     "buys": 113,
+     "live_dgmv": 114.9,
+     "live_rooms": 1,
+     "live_h": 1.66,
+     "live_uv": 2,
+     "gpm": 11.64,
+     "ctr": 0.09,
+     "note_dgmv": 293.68,
+     "new_notes": 4,
+     "note_pv": 22685,
+     "read_pv": 3646
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 798元"
+    },
+    {
+     "date": "2026-09-01",
+     "type": "live",
+     "detail": "店播开播1场、时长1.6h，自播DGMV 251元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 1310元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "live",
+     "detail": "店播开播1场、时长1.6h，自播DGMV 258元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 703元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播1场、时长1.8h，自播DGMV 270元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 1358元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "live",
+     "detail": "店播开播1场、时长1.6h，自播DGMV 0元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 803元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "live",
+     "detail": "店播开播1场、时长1.9h，自播DGMV 115元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 698元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 982元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "live",
+     "detail": "店播开播1场、时长1.3h，自播DGMV 35元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 1006元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播1场、时长1.8h，自播DGMV 263元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 766元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "live",
+     "detail": "店播开播1场、时长2.6h，自播DGMV 432元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 725元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "live",
+     "detail": "店播开播1场、时长1.9h，自播DGMV 253元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔5篇，当日商笔DGMV 1151元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长1.7h，自播DGMV 84元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 294元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长1.7h，自播DGMV 115元"
+    }
+   ]
+  },
+  {
+   "seller_id": "684fc0275fb9c50015ca88d6",
+   "name": "官耳滋补旗舰店",
+   "direction": "up",
+   "delta_day": 3310.33,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 4855.7,
+     "zhibo": 3917.6,
+     "shangbi": 501.66,
+     "kbo": 0.0,
+     "shangka": 436.44,
+     "other": 0.0,
+     "buys": 43,
+     "live_dgmv": 3682.48,
+     "live_rooms": 2,
+     "live_h": 15.94,
+     "live_uv": 30,
+     "gpm": 65.86,
+     "ctr": 0.19,
+     "note_dgmv": 501.66,
+     "new_notes": 0,
+     "note_pv": 38253,
+     "read_pv": 22447
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 5262.39,
+     "zhibo": 4373.96,
+     "shangbi": 45.9,
+     "kbo": 0.0,
+     "shangka": 742.73,
+     "other": 99.8,
+     "buys": 47,
+     "live_dgmv": 4589.79,
+     "live_rooms": 1,
+     "live_h": 16.0,
+     "live_uv": 34,
+     "gpm": 88.35,
+     "ctr": 0.18,
+     "note_dgmv": 45.9,
+     "new_notes": 0,
+     "note_pv": 31814,
+     "read_pv": 19040
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 5730.18,
+     "zhibo": 4617.13,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 1073.15,
+     "other": 39.9,
+     "buys": 47,
+     "live_dgmv": 4223.87,
+     "live_rooms": 1,
+     "live_h": 19.94,
+     "live_uv": 33,
+     "gpm": 59.41,
+     "ctr": 0.18,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 39921,
+     "read_pv": 13889
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 3379.75,
+     "zhibo": 2204.98,
+     "shangbi": 353.76,
+     "kbo": 0.0,
+     "shangka": 558.61,
+     "other": 262.4,
+     "buys": 38,
+     "live_dgmv": 2118.23,
+     "live_rooms": 1,
+     "live_h": 20.0,
+     "live_uv": 15,
+     "gpm": 43.97,
+     "ctr": 0.16,
+     "note_dgmv": 353.76,
+     "new_notes": 0,
+     "note_pv": 17875,
+     "read_pv": 5255
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 3122.09,
+     "zhibo": 2088.25,
+     "shangbi": 88.05,
+     "kbo": 0.0,
+     "shangka": 497.79,
+     "other": 448.0,
+     "buys": 32,
+     "live_dgmv": 3187.45,
+     "live_rooms": 1,
+     "live_h": 32.62,
+     "live_uv": 24,
+     "gpm": 47.04,
+     "ctr": 0.17,
+     "note_dgmv": 88.05,
+     "new_notes": 0,
+     "note_pv": 16917,
+     "read_pv": 5302
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 7577.69,
+     "zhibo": 6831.44,
+     "shangbi": 261.83,
+     "kbo": 0.0,
+     "shangka": 484.42,
+     "other": 0.0,
+     "buys": 63,
+     "live_dgmv": 6326.72,
+     "live_rooms": 1,
+     "live_h": 10.76,
+     "live_uv": 48,
+     "gpm": 98.14,
+     "ctr": 0.18,
+     "note_dgmv": 261.83,
+     "new_notes": 0,
+     "note_pv": 40403,
+     "read_pv": 19777
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 7165.92,
+     "zhibo": 6369.35,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 754.67,
+     "other": 41.9,
+     "buys": 70,
+     "live_dgmv": 5340.57,
+     "live_rooms": 2,
+     "live_h": 18.49,
+     "live_uv": 39,
+     "gpm": 88.0,
+     "ctr": 0.18,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 36720,
+     "read_pv": 23333
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 4472.67,
+     "zhibo": 3338.97,
+     "shangbi": 246.83,
+     "kbo": 0.0,
+     "shangka": 698.58,
+     "other": 188.29,
+     "buys": 41,
+     "live_dgmv": 2863.28,
+     "live_rooms": 1,
+     "live_h": 20.01,
+     "live_uv": 21,
+     "gpm": 60.19,
+     "ctr": 0.17,
+     "note_dgmv": 246.83,
+     "new_notes": 0,
+     "note_pv": 21092,
+     "read_pv": 8711
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 2852.35,
+     "zhibo": 2399.25,
+     "shangbi": 139.9,
+     "kbo": 0.0,
+     "shangka": 224.27,
+     "other": 88.93,
+     "buys": 23,
+     "live_dgmv": 2259.35,
+     "live_rooms": 1,
+     "live_h": 20.03,
+     "live_uv": 17,
+     "gpm": 48.13,
+     "ctr": 0.16,
+     "note_dgmv": 139.9,
+     "new_notes": 0,
+     "note_pv": 20811,
+     "read_pv": 4765
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 2654.25,
+     "zhibo": 2112.99,
+     "shangbi": 97.39,
+     "kbo": 0.0,
+     "shangka": 371.07,
+     "other": 72.8,
+     "buys": 23,
+     "live_dgmv": 1973.09,
+     "live_rooms": 1,
+     "live_h": 20.01,
+     "live_uv": 15,
+     "gpm": 43.73,
+     "ctr": 0.18,
+     "note_dgmv": 97.39,
+     "new_notes": 0,
+     "note_pv": 19709,
+     "read_pv": 7393
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 1783.75,
+     "zhibo": 1183.05,
+     "shangbi": 0.0,
+     "kbo": 39.9,
+     "shangka": 371.14,
+     "other": 189.66,
+     "buys": 22,
+     "live_dgmv": 1293.15,
+     "live_rooms": 1,
+     "live_h": 20.07,
+     "live_uv": 10,
+     "gpm": 33.56,
+     "ctr": 0.19,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 13351,
+     "read_pv": 3322
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 5094.08,
+     "zhibo": 3704.86,
+     "shangbi": 0.0,
+     "kbo": 89.8,
+     "shangka": 653.53,
+     "other": 645.89,
+     "buys": 46,
+     "live_dgmv": 3458.03,
+     "live_rooms": 1,
+     "live_h": 16.99,
+     "live_uv": 27,
+     "gpm": 71.15,
+     "ctr": 0.18,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 29216,
+     "read_pv": 9020
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "live",
+     "detail": "店播开播2场、时长15.9h，自播DGMV 3682元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "live",
+     "detail": "店播开播1场、时长16.0h，自播DGMV 4590元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播1场、时长19.9h，自播DGMV 4224元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 2118元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "live",
+     "detail": "店播开播1场、时长32.6h，自播DGMV 3187元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "live",
+     "detail": "店播开播1场、时长10.8h，自播DGMV 6327元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "live",
+     "detail": "店播开播2场、时长18.5h，自播DGMV 5341元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 2863元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 2259元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 1973元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长20.1h，自播DGMV 1293元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长17.0h，自播DGMV 3458元"
+    }
+   ]
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "name": "COCO&VOVO旗舰店",
+   "direction": "up",
+   "delta_day": 3221.32,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 12791.3,
+     "zhibo": 0.0,
+     "shangbi": 10365.55,
+     "kbo": 0.0,
+     "shangka": 2150.58,
+     "other": 275.17,
+     "buys": 119,
+     "note_dgmv": 10365.55,
+     "new_notes": 8,
+     "note_pv": 103377,
+     "read_pv": 17738
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 9356.86,
+     "zhibo": 0.0,
+     "shangbi": 7086.26,
+     "kbo": 73.95,
+     "shangka": 2012.21,
+     "other": 184.44,
+     "buys": 91,
+     "note_dgmv": 7086.26,
+     "new_notes": 7,
+     "note_pv": 76810,
+     "read_pv": 11710
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 14956.93,
+     "zhibo": 0.0,
+     "shangbi": 12147.63,
+     "kbo": 0.0,
+     "shangka": 2525.14,
+     "other": 284.16,
+     "buys": 141,
+     "note_dgmv": 12147.63,
+     "new_notes": 7,
+     "note_pv": 118271,
+     "read_pv": 15150
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 14797.04,
+     "zhibo": 0.0,
+     "shangbi": 13070.74,
+     "kbo": 0.0,
+     "shangka": 1726.3,
+     "other": 0.0,
+     "buys": 136,
+     "note_dgmv": 13070.74,
+     "new_notes": 7,
+     "note_pv": 141725,
+     "read_pv": 17655
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 18830.4,
+     "zhibo": 0.0,
+     "shangbi": 16150.73,
+     "kbo": 0.0,
+     "shangka": 1940.43,
+     "other": 739.24,
+     "buys": 174,
+     "note_dgmv": 16150.73,
+     "new_notes": 2,
+     "note_pv": 188302,
+     "read_pv": 67809
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 29298.65,
+     "zhibo": 0.0,
+     "shangbi": 26800.22,
+     "kbo": 0.0,
+     "shangka": 2124.55,
+     "other": 373.88,
+     "buys": 266,
+     "note_dgmv": 26800.22,
+     "new_notes": 0,
+     "note_pv": 297194,
+     "read_pv": 102094
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 15254.01,
+     "zhibo": 0.0,
+     "shangbi": 12069.65,
+     "kbo": 0.0,
+     "shangka": 2542.76,
+     "other": 641.6,
+     "buys": 141,
+     "note_dgmv": 12069.65,
+     "new_notes": 10,
+     "note_pv": 145617,
+     "read_pv": 37901
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 11469.94,
+     "zhibo": 0.0,
+     "shangbi": 8914.37,
+     "kbo": 0.0,
+     "shangka": 2366.13,
+     "other": 189.44,
+     "buys": 110,
+     "note_dgmv": 8914.37,
+     "new_notes": 9,
+     "note_pv": 109136,
+     "read_pv": 19787
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 8434.41,
+     "zhibo": 0.0,
+     "shangbi": 6739.37,
+     "kbo": 0.0,
+     "shangka": 1505.6,
+     "other": 189.44,
+     "buys": 78,
+     "note_dgmv": 6739.37,
+     "new_notes": 9,
+     "note_pv": 78054,
+     "read_pv": 14535
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 12949.88,
+     "zhibo": 0.0,
+     "shangbi": 11015.31,
+     "kbo": 0.0,
+     "shangka": 1745.13,
+     "other": 189.44,
+     "buys": 122,
+     "note_dgmv": 11015.31,
+     "new_notes": 10,
+     "note_pv": 105066,
+     "read_pv": 16393
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 12679.76,
+     "zhibo": 0.0,
+     "shangbi": 11201.27,
+     "kbo": 0.0,
+     "shangka": 1224.33,
+     "other": 254.16,
+     "buys": 117,
+     "note_dgmv": 11201.27,
+     "new_notes": 5,
+     "note_pv": 118532,
+     "read_pv": 16155
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 15901.08,
+     "zhibo": 0.0,
+     "shangbi": 13351.24,
+     "kbo": 0.0,
+     "shangka": 2549.84,
+     "other": 0.0,
+     "buys": 147,
+     "note_dgmv": 13351.24,
+     "new_notes": 2,
+     "note_pv": 174594,
+     "read_pv": 22991
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔8篇，当日商笔DGMV 10366元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔7篇，当日商笔DGMV 7086元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔7篇，当日商笔DGMV 12148元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔7篇，当日商笔DGMV 13071元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 16151元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 12070元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 8914元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 6739元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 11015元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔5篇，当日商笔DGMV 11201元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 13351元"
+    }
+   ]
+  },
+  {
+   "seller_id": "628210af5d85020001e8aa55",
+   "name": "新疆好时节农业有限公司的店",
+   "direction": "up",
+   "delta_day": 2984.53,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 3586.44,
+     "zhibo": 0.0,
+     "shangbi": 2096.09,
+     "kbo": 0.0,
+     "shangka": 1490.35,
+     "other": 0.0,
+     "buys": 109,
+     "note_dgmv": 2096.09,
+     "new_notes": 6,
+     "note_pv": 53488,
+     "read_pv": 3258
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 3616.74,
+     "zhibo": 0.0,
+     "shangbi": 2246.33,
+     "kbo": 0.0,
+     "shangka": 1370.41,
+     "other": 0.0,
+     "buys": 104,
+     "note_dgmv": 2246.33,
+     "new_notes": 0,
+     "note_pv": 52722,
+     "read_pv": 3438
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 4757.59,
+     "zhibo": 0.0,
+     "shangbi": 2931.52,
+     "kbo": 0.0,
+     "shangka": 1826.07,
+     "other": 0.0,
+     "buys": 140,
+     "note_dgmv": 2931.52,
+     "new_notes": 13,
+     "note_pv": 59196,
+     "read_pv": 3637
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 3326.02,
+     "zhibo": 0.0,
+     "shangbi": 2448.5,
+     "kbo": 0.0,
+     "shangka": 877.52,
+     "other": 0.0,
+     "buys": 101,
+     "note_dgmv": 2448.5,
+     "new_notes": 5,
+     "note_pv": 53938,
+     "read_pv": 3547
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 3578.71,
+     "zhibo": 0.0,
+     "shangbi": 2391.41,
+     "kbo": 21.0,
+     "shangka": 1166.3,
+     "other": 0.0,
+     "buys": 120,
+     "note_dgmv": 2391.41,
+     "new_notes": 13,
+     "note_pv": 54469,
+     "read_pv": 3731
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 4430.06,
+     "zhibo": 0.0,
+     "shangbi": 1999.18,
+     "kbo": 0.0,
+     "shangka": 2430.88,
+     "other": 0.0,
+     "buys": 119,
+     "note_dgmv": 1999.18,
+     "new_notes": 11,
+     "note_pv": 57415,
+     "read_pv": 3492
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 3618.42,
+     "zhibo": 0.0,
+     "shangbi": 2538.2,
+     "kbo": 0.0,
+     "shangka": 1061.32,
+     "other": 18.9,
+     "buys": 112,
+     "note_dgmv": 2538.2,
+     "new_notes": 5,
+     "note_pv": 45738,
+     "read_pv": 3371
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 3325.96,
+     "zhibo": 0.0,
+     "shangbi": 2044.43,
+     "kbo": 0.0,
+     "shangka": 1281.53,
+     "other": 0.0,
+     "buys": 106,
+     "note_dgmv": 2044.43,
+     "new_notes": 0,
+     "note_pv": 41782,
+     "read_pv": 2520
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 2740.31,
+     "zhibo": 0.0,
+     "shangbi": 2024.96,
+     "kbo": 0.0,
+     "shangka": 678.35,
+     "other": 37.0,
+     "buys": 90,
+     "note_dgmv": 2024.96,
+     "new_notes": 10,
+     "note_pv": 48435,
+     "read_pv": 3027
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 2653.55,
+     "zhibo": 0.0,
+     "shangbi": 2001.51,
+     "kbo": 0.0,
+     "shangka": 603.04,
+     "other": 49.0,
+     "buys": 80,
+     "note_dgmv": 2001.51,
+     "new_notes": 2,
+     "note_pv": 45274,
+     "read_pv": 2934
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 3526.45,
+     "zhibo": 203.02,
+     "shangbi": 1820.6,
+     "kbo": 0.0,
+     "shangka": 1502.83,
+     "other": 0.0,
+     "buys": 112,
+     "live_dgmv": 203.02,
+     "live_rooms": 1,
+     "live_h": 2.38,
+     "live_uv": 4,
+     "gpm": 14.93,
+     "ctr": 0.06,
+     "note_dgmv": 1820.6,
+     "new_notes": 0,
+     "note_pv": 48753,
+     "read_pv": 3140
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 6510.98,
+     "zhibo": 1291.06,
+     "shangbi": 3262.25,
+     "kbo": 0.0,
+     "shangka": 1829.04,
+     "other": 128.63,
+     "buys": 201,
+     "live_dgmv": 1291.06,
+     "live_rooms": 1,
+     "live_h": 4.18,
+     "live_uv": 20,
+     "gpm": 28.24,
+     "ctr": 0.06,
+     "note_dgmv": 3262.25,
+     "new_notes": 8,
+     "note_pv": 88283,
+     "read_pv": 6229
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔6篇，当日商笔DGMV 2096元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔13篇，当日商笔DGMV 2932元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔5篇，当日商笔DGMV 2449元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔13篇，当日商笔DGMV 2391元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔11篇，当日商笔DGMV 1999元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔5篇，当日商笔DGMV 2538元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 2025元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 2002元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长2.4h，自播DGMV 203元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔8篇，当日商笔DGMV 3262元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长4.2h，自播DGMV 1291元"
+    }
+   ]
+  },
+  {
+   "seller_id": "5e1441c6f488980001bcaadc",
+   "name": "ffit8旗舰店",
+   "direction": "up",
+   "delta_day": 2928.14,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 12737.01,
+     "zhibo": 0.0,
+     "shangbi": 9902.33,
+     "kbo": 83.41,
+     "shangka": 2593.95,
+     "other": 157.32,
+     "buys": 174,
+     "note_dgmv": 9902.33,
+     "new_notes": 7,
+     "note_pv": 259985,
+     "read_pv": 14995
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 12379.76,
+     "zhibo": 0.0,
+     "shangbi": 9658.53,
+     "kbo": 0.0,
+     "shangka": 2490.23,
+     "other": 231.0,
+     "buys": 164,
+     "note_dgmv": 9658.53,
+     "new_notes": 9,
+     "note_pv": 195252,
+     "read_pv": 11638
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 11136.45,
+     "zhibo": 0.0,
+     "shangbi": 9105.5,
+     "kbo": 0.0,
+     "shangka": 1664.45,
+     "other": 366.5,
+     "buys": 137,
+     "note_dgmv": 9105.5,
+     "new_notes": 9,
+     "note_pv": 193717,
+     "read_pv": 9456
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 9618.99,
+     "zhibo": 0.0,
+     "shangbi": 7339.23,
+     "kbo": 0.0,
+     "shangka": 1946.44,
+     "other": 333.32,
+     "buys": 132,
+     "note_dgmv": 7339.23,
+     "new_notes": 9,
+     "note_pv": 153502,
+     "read_pv": 6451
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 9415.68,
+     "zhibo": 0.0,
+     "shangbi": 7210.19,
+     "kbo": 0.0,
+     "shangka": 2126.49,
+     "other": 79.0,
+     "buys": 123,
+     "note_dgmv": 7210.19,
+     "new_notes": 9,
+     "note_pv": 146453,
+     "read_pv": 6952
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 8430.97,
+     "zhibo": 0.0,
+     "shangbi": 5771.05,
+     "kbo": 1203.3,
+     "shangka": 1434.05,
+     "other": 22.57,
+     "buys": 133,
+     "note_dgmv": 5771.05,
+     "new_notes": 9,
+     "note_pv": 123497,
+     "read_pv": 7588
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 7058.86,
+     "zhibo": 0.0,
+     "shangbi": 5126.81,
+     "kbo": 68.14,
+     "shangka": 1863.91,
+     "other": 0.0,
+     "buys": 101,
+     "note_dgmv": 5126.81,
+     "new_notes": 16,
+     "note_pv": 95285,
+     "read_pv": 6507
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 8391.27,
+     "zhibo": 0.0,
+     "shangbi": 6636.57,
+     "kbo": 0.0,
+     "shangka": 1710.0,
+     "other": 44.7,
+     "buys": 114,
+     "note_dgmv": 6636.57,
+     "new_notes": 16,
+     "note_pv": 148035,
+     "read_pv": 9980
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 6973.3,
+     "zhibo": 0.0,
+     "shangbi": 5314.52,
+     "kbo": 0.0,
+     "shangka": 1370.78,
+     "other": 288.0,
+     "buys": 107,
+     "note_dgmv": 5314.52,
+     "new_notes": 12,
+     "note_pv": 146393,
+     "read_pv": 10700
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 6186.31,
+     "zhibo": 0.0,
+     "shangbi": 3280.13,
+     "kbo": 0.0,
+     "shangka": 2906.18,
+     "other": 0.0,
+     "buys": 94,
+     "note_dgmv": 3280.13,
+     "new_notes": 20,
+     "note_pv": 85341,
+     "read_pv": 5593
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 3098.04,
+     "zhibo": 0.0,
+     "shangbi": 1998.75,
+     "kbo": 125.96,
+     "shangka": 943.43,
+     "other": 29.9,
+     "buys": 49,
+     "note_dgmv": 1998.75,
+     "new_notes": 18,
+     "note_pv": 52923,
+     "read_pv": 3725
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 6026.18,
+     "zhibo": 0.0,
+     "shangbi": 3701.08,
+     "kbo": 73.45,
+     "shangka": 2027.33,
+     "other": 224.32,
+     "buys": 88,
+     "note_dgmv": 3701.08,
+     "new_notes": 6,
+     "note_pv": 93096,
+     "read_pv": 8653
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔7篇，当日商笔DGMV 9902元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 9659元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 9105元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 7339元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 7210元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 5771元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔16篇，当日商笔DGMV 5127元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔16篇，当日商笔DGMV 6637元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔12篇，当日商笔DGMV 5315元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔20篇，当日商笔DGMV 3280元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔18篇，当日商笔DGMV 1999元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔6篇，当日商笔DGMV 3701元"
     }
    ]
   },
@@ -3464,7 +2312,7 @@
    "seller_id": "5ad98c8fd20f44553a4cc327",
    "name": "金燕耳旗舰店",
    "direction": "down",
-   "delta_day": -2857.29,
+   "delta_day": -12282.59,
    "days": [
     {
      "date": "2026-09-01",
@@ -3659,12 +2507,52 @@
      "live_rooms": 1,
      "live_h": 13.4,
      "live_uv": 31,
-     "gpm": 66.52,
+     "gpm": 66.2,
      "ctr": 0.13,
      "note_dgmv": 1001.6,
      "new_notes": 2,
      "note_pv": 50260,
      "read_pv": 9821
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 31048.06,
+     "zhibo": 3785.81,
+     "shangbi": 1396.6,
+     "kbo": 22230.55,
+     "shangka": 2715.23,
+     "other": 919.87,
+     "buys": 334,
+     "live_dgmv": 3865.71,
+     "live_rooms": 1,
+     "live_h": 13.42,
+     "live_uv": 30,
+     "gpm": 49.91,
+     "ctr": 0.12,
+     "note_dgmv": 1396.6,
+     "new_notes": 6,
+     "note_pv": 64937,
+     "read_pv": 11213
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 18765.47,
+     "zhibo": 5126.4,
+     "shangbi": 991.3,
+     "kbo": 6677.31,
+     "shangka": 3836.76,
+     "other": 2133.7,
+     "buys": 195,
+     "live_dgmv": 4896.7,
+     "live_rooms": 1,
+     "live_h": 13.41,
+     "live_uv": 31,
+     "gpm": 90.24,
+     "ctr": 0.13,
+     "note_dgmv": 991.3,
+     "new_notes": 1,
+     "note_pv": 41152,
+     "read_pv": 7805
     }
    ],
    "events": [
@@ -3752,6 +2640,2079 @@
      "date": "2026-09-10",
      "type": "live",
      "detail": "店播开播1场、时长13.4h，自播DGMV 4667元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔6篇，当日商笔DGMV 1397元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长13.4h，自播DGMV 3866元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 991元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长13.4h，自播DGMV 4897元"
+    }
+   ]
+  },
+  {
+   "seller_id": "683d9b0bc3302a0015a9d5a8",
+   "name": "崔小元真选的店",
+   "direction": "down",
+   "delta_day": -4965.61,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 10505.2,
+     "zhibo": 6503.56,
+     "shangbi": 1306.97,
+     "kbo": 0.0,
+     "shangka": 2442.17,
+     "other": 252.5,
+     "buys": 130,
+     "live_dgmv": 6286.47,
+     "live_rooms": 1,
+     "live_h": 3.6,
+     "live_uv": 44,
+     "gpm": 153.75,
+     "ctr": 0.04,
+     "note_dgmv": 1306.97,
+     "new_notes": 0,
+     "note_pv": 7383,
+     "read_pv": 239
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 8221.76,
+     "zhibo": 3019.2,
+     "shangbi": 278.9,
+     "kbo": 0.0,
+     "shangka": 4923.66,
+     "other": 0.0,
+     "buys": 79,
+     "live_dgmv": 5606.85,
+     "live_rooms": 2,
+     "live_h": 3.26,
+     "live_uv": 26,
+     "gpm": 87.93,
+     "ctr": 0.02,
+     "note_dgmv": 278.9,
+     "new_notes": 0,
+     "note_pv": 7104,
+     "read_pv": 215
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 72741.17,
+     "zhibo": 58159.03,
+     "shangbi": 890.39,
+     "kbo": 0.0,
+     "shangka": 13631.85,
+     "other": 59.9,
+     "buys": 746,
+     "live_dgmv": 51005.86,
+     "live_rooms": 2,
+     "live_h": 10.73,
+     "live_uv": 189,
+     "gpm": 384.74,
+     "ctr": 0.05,
+     "note_dgmv": 890.39,
+     "new_notes": 1,
+     "note_pv": 7947,
+     "read_pv": 243
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 29809.67,
+     "zhibo": 24821.69,
+     "shangbi": 88.32,
+     "kbo": 0.0,
+     "shangka": 4863.82,
+     "other": 35.84,
+     "buys": 259,
+     "live_dgmv": 24314.13,
+     "live_rooms": 2,
+     "live_h": 8.5,
+     "live_uv": 65,
+     "gpm": 256.11,
+     "ctr": 0.04,
+     "note_dgmv": 88.32,
+     "new_notes": 0,
+     "note_pv": 8308,
+     "read_pv": 323
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 32708.88,
+     "zhibo": 23736.74,
+     "shangbi": 537.53,
+     "kbo": 0.0,
+     "shangka": 8389.61,
+     "other": 45.0,
+     "buys": 269,
+     "live_dgmv": 19814.06,
+     "live_rooms": 2,
+     "live_h": 7.52,
+     "live_uv": 84,
+     "gpm": 252.77,
+     "ctr": 0.04,
+     "note_dgmv": 537.53,
+     "new_notes": 0,
+     "note_pv": 7130,
+     "read_pv": 280
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 15601.0,
+     "zhibo": 8796.17,
+     "shangbi": 643.2,
+     "kbo": 0.0,
+     "shangka": 5690.83,
+     "other": 470.8,
+     "buys": 163,
+     "live_dgmv": 6864.81,
+     "live_rooms": 1,
+     "live_h": 4.05,
+     "live_uv": 44,
+     "gpm": 153.09,
+     "ctr": 0.04,
+     "note_dgmv": 643.2,
+     "new_notes": 0,
+     "note_pv": 7451,
+     "read_pv": 281
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 14371.06,
+     "zhibo": 10207.93,
+     "shangbi": 317.5,
+     "kbo": 0.0,
+     "shangka": 3324.63,
+     "other": 521.0,
+     "buys": 154,
+     "live_dgmv": 8273.89,
+     "live_rooms": 1,
+     "live_h": 4.5,
+     "live_uv": 40,
+     "gpm": 179.79,
+     "ctr": 0.03,
+     "note_dgmv": 317.5,
+     "new_notes": 0,
+     "note_pv": 6240,
+     "read_pv": 172
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 17466.59,
+     "zhibo": 11165.38,
+     "shangbi": 587.5,
+     "kbo": 0.0,
+     "shangka": 5663.81,
+     "other": 49.9,
+     "buys": 205,
+     "live_dgmv": 9677.3,
+     "live_rooms": 1,
+     "live_h": 3.57,
+     "live_uv": 66,
+     "gpm": 233.41,
+     "ctr": 0.04,
+     "note_dgmv": 587.5,
+     "new_notes": 0,
+     "note_pv": 6514,
+     "read_pv": 208
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 25713.2,
+     "zhibo": 17727.22,
+     "shangbi": 1629.6,
+     "kbo": 0.0,
+     "shangka": 6227.38,
+     "other": 129.0,
+     "buys": 241,
+     "live_dgmv": 16086.31,
+     "live_rooms": 2,
+     "live_h": 7.69,
+     "live_uv": 65,
+     "gpm": 231.44,
+     "ctr": 0.04,
+     "note_dgmv": 1629.6,
+     "new_notes": 0,
+     "note_pv": 6452,
+     "read_pv": 232
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 19054.17,
+     "zhibo": 13837.1,
+     "shangbi": 600.79,
+     "kbo": 0.0,
+     "shangka": 4472.87,
+     "other": 143.41,
+     "buys": 217,
+     "live_dgmv": 11766.8,
+     "live_rooms": 2,
+     "live_h": 6.51,
+     "live_uv": 64,
+     "gpm": 146.62,
+     "ctr": 0.03,
+     "note_dgmv": 600.79,
+     "new_notes": 0,
+     "note_pv": 5587,
+     "read_pv": 162
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 16569.24,
+     "zhibo": 8325.02,
+     "shangbi": 492.9,
+     "kbo": 0.0,
+     "shangka": 7672.72,
+     "other": 78.6,
+     "buys": 150,
+     "live_dgmv": 6937.59,
+     "live_rooms": 1,
+     "live_h": 3.07,
+     "live_uv": 34,
+     "gpm": 217.13,
+     "ctr": 0.03,
+     "note_dgmv": 492.9,
+     "new_notes": 0,
+     "note_pv": 5648,
+     "read_pv": 213
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 11603.63,
+     "zhibo": 6654.1,
+     "shangbi": 79.8,
+     "kbo": 0.0,
+     "shangka": 4689.83,
+     "other": 179.9,
+     "buys": 129,
+     "live_dgmv": 4474.57,
+     "live_rooms": 1,
+     "live_h": 4.03,
+     "live_uv": 25,
+     "gpm": 130.13,
+     "ctr": 0.03,
+     "note_dgmv": 79.8,
+     "new_notes": 0,
+     "note_pv": 4978,
+     "read_pv": 102
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "live",
+     "detail": "店播开播1场、时长3.6h，自播DGMV 6286元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "live",
+     "detail": "店播开播2场、时长3.3h，自播DGMV 5607元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 890元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播2场、时长10.7h，自播DGMV 51006元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "live",
+     "detail": "店播开播2场、时长8.5h，自播DGMV 24314元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "live",
+     "detail": "店播开播2场、时长7.5h，自播DGMV 19814元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "live",
+     "detail": "店播开播1场、时长4.0h，自播DGMV 6865元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "live",
+     "detail": "店播开播1场、时长4.5h，自播DGMV 8274元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播1场、时长3.6h，自播DGMV 9677元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "live",
+     "detail": "店播开播2场、时长7.7h，自播DGMV 16086元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "live",
+     "detail": "店播开播2场、时长6.5h，自播DGMV 11767元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长3.1h，自播DGMV 6938元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长4.0h，自播DGMV 4475元"
+    }
+   ]
+  },
+  {
+   "seller_id": "6613611faeebf8000165306b",
+   "name": "崔小元旗舰店",
+   "direction": "down",
+   "delta_day": -3192.68,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 9267.51,
+     "zhibo": 3218.45,
+     "shangbi": 1862.16,
+     "kbo": 0.0,
+     "shangka": 3964.0,
+     "other": 222.9,
+     "buys": 107,
+     "live_dgmv": 2593.12,
+     "live_rooms": 1,
+     "live_h": 3.19,
+     "live_uv": 20,
+     "gpm": 60.33,
+     "ctr": 0.03,
+     "note_dgmv": 1862.16,
+     "new_notes": 3,
+     "note_pv": 5053,
+     "read_pv": 304
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 8447.13,
+     "zhibo": 1972.4,
+     "shangbi": 362.21,
+     "kbo": 0.0,
+     "shangka": 6012.72,
+     "other": 99.8,
+     "buys": 107,
+     "live_dgmv": 2487.59,
+     "live_rooms": 1,
+     "live_h": 3.21,
+     "live_uv": 21,
+     "gpm": 60.23,
+     "ctr": 0.03,
+     "note_dgmv": 362.21,
+     "new_notes": 5,
+     "note_pv": 5488,
+     "read_pv": 329
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 19542.35,
+     "zhibo": 12270.25,
+     "shangbi": 1331.64,
+     "kbo": 0.0,
+     "shangka": 5940.46,
+     "other": 0.0,
+     "buys": 209,
+     "live_dgmv": 11231.88,
+     "live_rooms": 1,
+     "live_h": 4.19,
+     "live_uv": 38,
+     "gpm": 203.44,
+     "ctr": 0.04,
+     "note_dgmv": 1331.64,
+     "new_notes": 2,
+     "note_pv": 4833,
+     "read_pv": 460
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 10922.05,
+     "zhibo": 6344.21,
+     "shangbi": 188.4,
+     "kbo": 0.0,
+     "shangka": 4389.44,
+     "other": 0.0,
+     "buys": 113,
+     "live_dgmv": 4790.42,
+     "live_rooms": 1,
+     "live_h": 3.79,
+     "live_uv": 14,
+     "gpm": 106.75,
+     "ctr": 0.03,
+     "note_dgmv": 188.4,
+     "new_notes": 0,
+     "note_pv": 3175,
+     "read_pv": 359
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 7136.92,
+     "zhibo": 97.0,
+     "shangbi": 1279.16,
+     "kbo": 0.0,
+     "shangka": 5634.86,
+     "other": 125.9,
+     "buys": 80,
+     "note_dgmv": 1279.16,
+     "new_notes": 0,
+     "note_pv": 3052,
+     "read_pv": 248
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 4834.42,
+     "zhibo": 552.98,
+     "shangbi": 779.81,
+     "kbo": 0.0,
+     "shangka": 3501.63,
+     "other": 0.0,
+     "buys": 64,
+     "note_dgmv": 779.81,
+     "new_notes": 1,
+     "note_pv": 3176,
+     "read_pv": 196
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 10291.42,
+     "zhibo": 5407.66,
+     "shangbi": 617.6,
+     "kbo": 0.0,
+     "shangka": 4266.16,
+     "other": 0.0,
+     "buys": 117,
+     "live_dgmv": 5149.77,
+     "live_rooms": 1,
+     "live_h": 3.82,
+     "live_uv": 28,
+     "gpm": 86.23,
+     "ctr": 0.03,
+     "note_dgmv": 617.6,
+     "new_notes": 0,
+     "note_pv": 2877,
+     "read_pv": 218
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 11414.89,
+     "zhibo": 5638.56,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 5776.33,
+     "other": 0.0,
+     "buys": 115,
+     "live_dgmv": 5826.24,
+     "live_rooms": 1,
+     "live_h": 3.43,
+     "live_uv": 37,
+     "gpm": 110.55,
+     "ctr": 0.03,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 2616,
+     "read_pv": 163
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 11388.03,
+     "zhibo": 6070.03,
+     "shangbi": 1106.9,
+     "kbo": 0.0,
+     "shangka": 4211.1,
+     "other": 0.0,
+     "buys": 112,
+     "live_dgmv": 5531.17,
+     "live_rooms": 1,
+     "live_h": 3.02,
+     "live_uv": 34,
+     "gpm": 130.71,
+     "ctr": 0.04,
+     "note_dgmv": 1106.9,
+     "new_notes": 0,
+     "note_pv": 2664,
+     "read_pv": 219
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 7025.24,
+     "zhibo": 3894.87,
+     "shangbi": 0.0,
+     "kbo": 0.0,
+     "shangka": 3130.37,
+     "other": 0.0,
+     "buys": 69,
+     "live_dgmv": 3694.29,
+     "live_rooms": 1,
+     "live_h": 3.19,
+     "live_uv": 19,
+     "gpm": 92.98,
+     "ctr": 0.03,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 2159,
+     "read_pv": 87
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 7525.47,
+     "zhibo": 2531.2,
+     "shangbi": 226.35,
+     "kbo": 0.0,
+     "shangka": 4767.92,
+     "other": 0.0,
+     "buys": 95,
+     "live_dgmv": 2328.2,
+     "live_rooms": 1,
+     "live_h": 3.22,
+     "live_uv": 20,
+     "gpm": 61.35,
+     "ctr": 0.04,
+     "note_dgmv": 226.35,
+     "new_notes": 0,
+     "note_pv": 1827,
+     "read_pv": 101
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 4332.79,
+     "zhibo": 237.01,
+     "shangbi": 734.2,
+     "kbo": 0.0,
+     "shangka": 3361.58,
+     "other": 0.0,
+     "buys": 53,
+     "note_dgmv": 734.2,
+     "new_notes": 0,
+     "note_pv": 1958,
+     "read_pv": 138
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 1862元"
+    },
+    {
+     "date": "2026-09-01",
+     "type": "live",
+     "detail": "店播开播1场、时长3.2h，自播DGMV 2593元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔5篇，当日商笔DGMV 362元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "live",
+     "detail": "店播开播1场、时长3.2h，自播DGMV 2488元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 1332元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播1场、时长4.2h，自播DGMV 11232元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "live",
+     "detail": "店播开播1场、时长3.8h，自播DGMV 4790元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 780元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "live",
+     "detail": "店播开播1场、时长3.8h，自播DGMV 5150元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播1场、时长3.4h，自播DGMV 5826元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "live",
+     "detail": "店播开播1场、时长3.0h，自播DGMV 5531元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "live",
+     "detail": "店播开播1场、时长3.2h，自播DGMV 3694元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长3.2h，自播DGMV 2328元"
+    }
+   ]
+  },
+  {
+   "seller_id": "5c6f97f1bb06cd759f7438a5",
+   "name": "晟麦旗舰店",
+   "direction": "down",
+   "delta_day": -2844.63,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 12933.37,
+     "zhibo": 3247.14,
+     "shangbi": 3299.72,
+     "kbo": 1394.36,
+     "shangka": 3246.92,
+     "other": 1745.23,
+     "buys": 227,
+     "live_dgmv": 3152.24,
+     "live_rooms": 1,
+     "live_h": 19.98,
+     "live_uv": 24,
+     "gpm": 51.16,
+     "ctr": 0.11,
+     "note_dgmv": 3299.72,
+     "new_notes": 2,
+     "note_pv": 63747,
+     "read_pv": 8390
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 12844.48,
+     "zhibo": 2131.67,
+     "shangbi": 4238.63,
+     "kbo": 1700.59,
+     "shangka": 3288.32,
+     "other": 1485.27,
+     "buys": 215,
+     "live_dgmv": 2165.87,
+     "live_rooms": 1,
+     "live_h": 19.98,
+     "live_uv": 23,
+     "gpm": 37.47,
+     "ctr": 0.1,
+     "note_dgmv": 4238.63,
+     "new_notes": 3,
+     "note_pv": 56875,
+     "read_pv": 8389
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 12674.76,
+     "zhibo": 2997.05,
+     "shangbi": 2836.11,
+     "kbo": 1764.04,
+     "shangka": 3764.81,
+     "other": 1312.75,
+     "buys": 219,
+     "live_dgmv": 2588.61,
+     "live_rooms": 1,
+     "live_h": 20.01,
+     "live_uv": 20,
+     "gpm": 41.42,
+     "ctr": 0.1,
+     "note_dgmv": 2836.11,
+     "new_notes": 2,
+     "note_pv": 59680,
+     "read_pv": 6926
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 12825.7,
+     "zhibo": 1979.72,
+     "shangbi": 3378.75,
+     "kbo": 1627.78,
+     "shangka": 3753.48,
+     "other": 2085.97,
+     "buys": 218,
+     "live_dgmv": 1778.4,
+     "live_rooms": 1,
+     "live_h": 20.0,
+     "live_uv": 13,
+     "gpm": 31.1,
+     "ctr": 0.1,
+     "note_dgmv": 3378.75,
+     "new_notes": 3,
+     "note_pv": 57592,
+     "read_pv": 8269
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 18524.77,
+     "zhibo": 3221.18,
+     "shangbi": 3049.74,
+     "kbo": 6615.9,
+     "shangka": 3730.65,
+     "other": 1907.3,
+     "buys": 264,
+     "live_dgmv": 3111.18,
+     "live_rooms": 1,
+     "live_h": 20.02,
+     "live_uv": 36,
+     "gpm": 51.26,
+     "ctr": 0.12,
+     "note_dgmv": 3049.74,
+     "new_notes": 3,
+     "note_pv": 62124,
+     "read_pv": 8992
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 15567.61,
+     "zhibo": 2796.81,
+     "shangbi": 3841.75,
+     "kbo": 652.06,
+     "shangka": 4671.45,
+     "other": 3605.54,
+     "buys": 243,
+     "live_dgmv": 2848.94,
+     "live_rooms": 1,
+     "live_h": 20.01,
+     "live_uv": 30,
+     "gpm": 39.57,
+     "ctr": 0.12,
+     "note_dgmv": 3841.75,
+     "new_notes": 4,
+     "note_pv": 75253,
+     "read_pv": 9466
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 15130.28,
+     "zhibo": 3963.9,
+     "shangbi": 3517.27,
+     "kbo": 1350.93,
+     "shangka": 3739.98,
+     "other": 2558.2,
+     "buys": 260,
+     "live_dgmv": 4131.56,
+     "live_rooms": 1,
+     "live_h": 19.93,
+     "live_uv": 37,
+     "gpm": 65.98,
+     "ctr": 0.11,
+     "note_dgmv": 3517.27,
+     "new_notes": 3,
+     "note_pv": 62389,
+     "read_pv": 7666
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 12130.81,
+     "zhibo": 2416.47,
+     "shangbi": 2898.92,
+     "kbo": 2195.84,
+     "shangka": 3093.28,
+     "other": 1526.3,
+     "buys": 188,
+     "live_dgmv": 1958.68,
+     "live_rooms": 2,
+     "live_h": 16.26,
+     "live_uv": 25,
+     "gpm": 32.77,
+     "ctr": 0.1,
+     "note_dgmv": 2898.92,
+     "new_notes": 3,
+     "note_pv": 74057,
+     "read_pv": 7874
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 15751.81,
+     "zhibo": 4561.64,
+     "shangbi": 2470.48,
+     "kbo": 990.93,
+     "shangka": 5778.24,
+     "other": 1950.52,
+     "buys": 229,
+     "live_dgmv": 4369.0,
+     "live_rooms": 1,
+     "live_h": 20.0,
+     "live_uv": 36,
+     "gpm": 80.29,
+     "ctr": 0.11,
+     "note_dgmv": 2470.48,
+     "new_notes": 1,
+     "note_pv": 51441,
+     "read_pv": 5891
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 12575.0,
+     "zhibo": 2332.66,
+     "shangbi": 2885.43,
+     "kbo": 1505.05,
+     "shangka": 3982.54,
+     "other": 1869.32,
+     "buys": 219,
+     "live_dgmv": 1992.41,
+     "live_rooms": 1,
+     "live_h": 19.99,
+     "live_uv": 22,
+     "gpm": 34.34,
+     "ctr": 0.11,
+     "note_dgmv": 2885.43,
+     "new_notes": 3,
+     "note_pv": 55902,
+     "read_pv": 6435
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 14076.43,
+     "zhibo": 3658.67,
+     "shangbi": 3006.29,
+     "kbo": 2052.34,
+     "shangka": 2953.13,
+     "other": 2406.0,
+     "buys": 211,
+     "live_dgmv": 3541.33,
+     "live_rooms": 1,
+     "live_h": 19.89,
+     "live_uv": 33,
+     "gpm": 72.77,
+     "ctr": 0.12,
+     "note_dgmv": 3006.29,
+     "new_notes": 3,
+     "note_pv": 45251,
+     "read_pv": 6105
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 11231.8,
+     "zhibo": 2835.94,
+     "shangbi": 2464.24,
+     "kbo": 1090.87,
+     "shangka": 3316.94,
+     "other": 1523.81,
+     "buys": 203,
+     "live_dgmv": 2816.04,
+     "live_rooms": 1,
+     "live_h": 17.99,
+     "live_uv": 26,
+     "gpm": 53.48,
+     "ctr": 0.11,
+     "note_dgmv": 2464.24,
+     "new_notes": 2,
+     "note_pv": 56141,
+     "read_pv": 9429
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 3300元"
+    },
+    {
+     "date": "2026-09-01",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 3152元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 4239元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 2166元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 2836元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 2589元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 3379元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 1778元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 3050元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 3111元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 3842元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 2849元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 3517元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "live",
+     "detail": "店播开播1场、时长19.9h，自播DGMV 4132元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 2899元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播2场、时长16.3h，自播DGMV 1959元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 2470元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 4369元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 2885元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "live",
+     "detail": "店播开播1场、时长20.0h，自播DGMV 1992元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 3006元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长19.9h，自播DGMV 3541元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 2464元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长18.0h，自播DGMV 2816元"
+    }
+   ]
+  },
+  {
+   "seller_id": "65e53c7456541c000122c30f",
+   "name": "弟弟的菌菇合作社的店",
+   "direction": "down",
+   "delta_day": -2439.94,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 2840.72,
+     "zhibo": 0.26,
+     "shangbi": 1982.0,
+     "kbo": 0.0,
+     "shangka": 789.46,
+     "other": 69.0,
+     "buys": 38,
+     "note_dgmv": 1982.0,
+     "new_notes": 1,
+     "note_pv": 31702,
+     "read_pv": 4266
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 6193.16,
+     "zhibo": 3225.23,
+     "shangbi": 1174.7,
+     "kbo": 0.0,
+     "shangka": 1239.3,
+     "other": 553.93,
+     "buys": 67,
+     "live_dgmv": 3166.23,
+     "live_rooms": 1,
+     "live_h": 6.77,
+     "live_uv": 23,
+     "gpm": 53.45,
+     "ctr": 0.11,
+     "note_dgmv": 1174.7,
+     "new_notes": 3,
+     "note_pv": 45751,
+     "read_pv": 5443
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 4221.78,
+     "zhibo": 1346.79,
+     "shangbi": 951.2,
+     "kbo": 39.9,
+     "shangka": 1734.89,
+     "other": 149.0,
+     "buys": 42,
+     "live_dgmv": 1217.79,
+     "live_rooms": 1,
+     "live_h": 6.82,
+     "live_uv": 11,
+     "gpm": 19.0,
+     "ctr": 0.1,
+     "note_dgmv": 951.2,
+     "new_notes": 3,
+     "note_pv": 32237,
+     "read_pv": 3851
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 2340.37,
+     "zhibo": 1221.8,
+     "shangbi": 544.72,
+     "kbo": 0.0,
+     "shangka": 504.85,
+     "other": 69.0,
+     "buys": 24,
+     "live_dgmv": 1072.8,
+     "live_rooms": 1,
+     "live_h": 3.88,
+     "live_uv": 9,
+     "gpm": 31.21,
+     "ctr": 0.1,
+     "note_dgmv": 544.72,
+     "new_notes": 2,
+     "note_pv": 23942,
+     "read_pv": 3181
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 2513.36,
+     "zhibo": 1022.8,
+     "shangbi": 603.0,
+     "kbo": 0.0,
+     "shangka": 887.56,
+     "other": 0.0,
+     "buys": 33,
+     "live_dgmv": 953.8,
+     "live_rooms": 1,
+     "live_h": 6.93,
+     "live_uv": 12,
+     "gpm": 18.96,
+     "ctr": 0.09,
+     "note_dgmv": 603.0,
+     "new_notes": 4,
+     "note_pv": 27970,
+     "read_pv": 3288
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 4867.58,
+     "zhibo": 1566.69,
+     "shangbi": 1369.9,
+     "kbo": 0.0,
+     "shangka": 1861.99,
+     "other": 69.0,
+     "buys": 44,
+     "live_dgmv": 1566.69,
+     "live_rooms": 1,
+     "live_h": 6.89,
+     "live_uv": 14,
+     "gpm": 28.65,
+     "ctr": 0.1,
+     "note_dgmv": 1369.9,
+     "new_notes": 3,
+     "note_pv": 33162,
+     "read_pv": 3993
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 3005.09,
+     "zhibo": 1003.8,
+     "shangbi": 1309.62,
+     "kbo": 0.0,
+     "shangka": 691.67,
+     "other": 0.0,
+     "buys": 36,
+     "live_dgmv": 1072.8,
+     "live_rooms": 1,
+     "live_h": 6.87,
+     "live_uv": 11,
+     "gpm": 22.06,
+     "ctr": 0.11,
+     "note_dgmv": 1309.62,
+     "new_notes": 3,
+     "note_pv": 30618,
+     "read_pv": 3815
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 5170.95,
+     "zhibo": 1781.8,
+     "shangbi": 820.0,
+     "kbo": 0.0,
+     "shangka": 2569.15,
+     "other": 0.0,
+     "buys": 45,
+     "live_dgmv": 1523.8,
+     "live_rooms": 1,
+     "live_h": 6.8,
+     "live_uv": 15,
+     "gpm": 30.18,
+     "ctr": 0.11,
+     "note_dgmv": 820.0,
+     "new_notes": 4,
+     "note_pv": 28574,
+     "read_pv": 3535
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 3416.65,
+     "zhibo": 914.7,
+     "shangbi": 1044.0,
+     "kbo": 0.0,
+     "shangka": 1457.95,
+     "other": 0.0,
+     "buys": 41,
+     "live_dgmv": 914.7,
+     "live_rooms": 1,
+     "live_h": 6.78,
+     "live_uv": 9,
+     "gpm": 22.97,
+     "ctr": 0.11,
+     "note_dgmv": 1044.0,
+     "new_notes": 4,
+     "note_pv": 21629,
+     "read_pv": 2796
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 2500.8,
+     "zhibo": 0.0,
+     "shangbi": 1107.0,
+     "kbo": 0.0,
+     "shangka": 1209.8,
+     "other": 184.0,
+     "buys": 24,
+     "note_dgmv": 1107.0,
+     "new_notes": 4,
+     "note_pv": 20571,
+     "read_pv": 3142
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 5308.31,
+     "zhibo": 2865.71,
+     "shangbi": 1347.0,
+     "kbo": 0.0,
+     "shangka": 907.6,
+     "other": 188.0,
+     "buys": 51,
+     "live_dgmv": 2827.77,
+     "live_rooms": 1,
+     "live_h": 6.9,
+     "live_uv": 14,
+     "gpm": 69.28,
+     "ctr": 0.09,
+     "note_dgmv": 1347.0,
+     "new_notes": 4,
+     "note_pv": 20709,
+     "read_pv": 2740
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 2868.37,
+     "zhibo": 980.28,
+     "shangbi": 997.9,
+     "kbo": 0.0,
+     "shangka": 808.29,
+     "other": 81.9,
+     "buys": 39,
+     "live_dgmv": 914.7,
+     "live_rooms": 1,
+     "live_h": 6.88,
+     "live_uv": 9,
+     "gpm": 19.93,
+     "ctr": 0.1,
+     "note_dgmv": 997.9,
+     "new_notes": 4,
+     "note_pv": 25272,
+     "read_pv": 3485
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 1982元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 1175元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "live",
+     "detail": "店播开播1场、时长6.8h，自播DGMV 3166元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 951元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播1场、时长6.8h，自播DGMV 1218元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔2篇，当日商笔DGMV 545元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "live",
+     "detail": "店播开播1场、时长3.9h，自播DGMV 1073元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 603元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "live",
+     "detail": "店播开播1场、时长6.9h，自播DGMV 954元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 1370元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "live",
+     "detail": "店播开播1场、时长6.9h，自播DGMV 1567元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔3篇，当日商笔DGMV 1310元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "live",
+     "detail": "店播开播1场、时长6.9h，自播DGMV 1073元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 820元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播1场、时长6.8h，自播DGMV 1524元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 1044元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "live",
+     "detail": "店播开播1场、时长6.8h，自播DGMV 915元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 1107元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 1347元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "live",
+     "detail": "店播开播1场、时长6.9h，自播DGMV 2828元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔4篇，当日商笔DGMV 998元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "live",
+     "detail": "店播开播1场、时长6.9h，自播DGMV 915元"
+    }
+   ]
+  },
+  {
+   "seller_id": "647077c5937a2b000158c242",
+   "name": "原豆复兴Peasup旗舰店",
+   "direction": "down",
+   "delta_day": -2241.49,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 4226.97,
+     "zhibo": 159.4,
+     "shangbi": 2822.26,
+     "kbo": 396.08,
+     "shangka": 573.15,
+     "other": 276.08,
+     "buys": 111,
+     "live_dgmv": 159.4,
+     "live_rooms": 2,
+     "live_h": 0.76,
+     "live_uv": 5,
+     "gpm": 6.25,
+     "ctr": 0.06,
+     "note_dgmv": 2822.26,
+     "new_notes": 11,
+     "note_pv": 40957,
+     "read_pv": 2405
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 3728.44,
+     "zhibo": 0.0,
+     "shangbi": 2665.71,
+     "kbo": 179.5,
+     "shangka": 544.23,
+     "other": 339.0,
+     "buys": 100,
+     "note_dgmv": 2665.71,
+     "new_notes": 12,
+     "note_pv": 37263,
+     "read_pv": 2330
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 5155.65,
+     "zhibo": 89.5,
+     "shangbi": 2242.02,
+     "kbo": 1704.37,
+     "shangka": 1040.06,
+     "other": 79.7,
+     "buys": 132,
+     "live_dgmv": 89.5,
+     "live_rooms": 2,
+     "live_h": 0.96,
+     "live_uv": 4,
+     "gpm": 2.86,
+     "ctr": 0.07,
+     "note_dgmv": 2242.02,
+     "new_notes": 10,
+     "note_pv": 38553,
+     "read_pv": 2552
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 3111.37,
+     "zhibo": 0.0,
+     "shangbi": 1971.28,
+     "kbo": 59.9,
+     "shangka": 907.49,
+     "other": 172.7,
+     "buys": 79,
+     "note_dgmv": 1971.28,
+     "new_notes": 10,
+     "note_pv": 38110,
+     "read_pv": 2577
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 3586.52,
+     "zhibo": 0.0,
+     "shangbi": 2560.1,
+     "kbo": 217.42,
+     "shangka": 584.8,
+     "other": 224.2,
+     "buys": 88,
+     "note_dgmv": 2560.1,
+     "new_notes": 11,
+     "note_pv": 39792,
+     "read_pv": 2731
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 3652.62,
+     "zhibo": 0.0,
+     "shangbi": 2371.36,
+     "kbo": 244.72,
+     "shangka": 966.84,
+     "other": 69.7,
+     "buys": 90,
+     "note_dgmv": 2371.36,
+     "new_notes": 11,
+     "note_pv": 39255,
+     "read_pv": 2747
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 6247.87,
+     "zhibo": 0.0,
+     "shangbi": 2429.23,
+     "kbo": 1115.89,
+     "shangka": 1083.82,
+     "other": 1618.93,
+     "buys": 133,
+     "note_dgmv": 2429.23,
+     "new_notes": 13,
+     "note_pv": 43754,
+     "read_pv": 2908
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 4409.57,
+     "zhibo": 219.2,
+     "shangbi": 1910.21,
+     "kbo": 519.33,
+     "shangka": 946.34,
+     "other": 814.49,
+     "buys": 101,
+     "live_dgmv": 219.2,
+     "live_rooms": 2,
+     "live_h": 0.94,
+     "live_uv": 5,
+     "gpm": 7.13,
+     "ctr": 0.06,
+     "note_dgmv": 1910.21,
+     "new_notes": 13,
+     "note_pv": 46132,
+     "read_pv": 3076
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 9376.79,
+     "zhibo": 0.0,
+     "shangbi": 2511.85,
+     "kbo": 5067.05,
+     "shangka": 806.98,
+     "other": 990.91,
+     "buys": 176,
+     "note_dgmv": 2511.85,
+     "new_notes": 13,
+     "note_pv": 39864,
+     "read_pv": 2753
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 5254.52,
+     "zhibo": 34.9,
+     "shangbi": 2462.36,
+     "kbo": 1261.39,
+     "shangka": 1074.77,
+     "other": 421.1,
+     "buys": 108,
+     "live_dgmv": 34.9,
+     "live_rooms": 2,
+     "live_h": 0.72,
+     "live_uv": 1,
+     "gpm": 1.79,
+     "ctr": 0.06,
+     "note_dgmv": 2462.36,
+     "new_notes": 13,
+     "note_pv": 40372,
+     "read_pv": 2665
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 4634.33,
+     "zhibo": 0.0,
+     "shangbi": 2560.41,
+     "kbo": 372.28,
+     "shangka": 998.81,
+     "other": 702.83,
+     "buys": 99,
+     "note_dgmv": 2560.41,
+     "new_notes": 12,
+     "note_pv": 42282,
+     "read_pv": 2778
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 2392.84,
+     "zhibo": 0.0,
+     "shangbi": 1190.79,
+     "kbo": 368.76,
+     "shangka": 649.32,
+     "other": 183.97,
+     "buys": 56,
+     "note_dgmv": 1190.79,
+     "new_notes": 9,
+     "note_pv": 32419,
+     "read_pv": 2302
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔11篇，当日商笔DGMV 2822元"
+    },
+    {
+     "date": "2026-09-01",
+     "type": "live",
+     "detail": "店播开播2场、时长0.8h，自播DGMV 159元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔12篇，当日商笔DGMV 2666元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 2242元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "live",
+     "detail": "店播开播2场、时长1.0h，自播DGMV 90元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 1971元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔11篇，当日商笔DGMV 2560元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔11篇，当日商笔DGMV 2371元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔13篇，当日商笔DGMV 2429元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔13篇，当日商笔DGMV 1910元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "live",
+     "detail": "店播开播2场、时长0.9h，自播DGMV 219元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔13篇，当日商笔DGMV 2512元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔13篇，当日商笔DGMV 2462元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "live",
+     "detail": "店播开播2场、时长0.7h，自播DGMV 35元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔12篇，当日商笔DGMV 2560元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 1191元"
+    }
+   ]
+  },
+  {
+   "seller_id": "649be05748b95a0001e0de54",
+   "name": "追肉记旗舰店",
+   "direction": "down",
+   "delta_day": -2009.69,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 2333.78,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 821.68,
+     "shangka": 1126.1,
+     "other": 386.0,
+     "buys": 67,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 188,
+     "read_pv": 14
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 9476.46,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 8428.3,
+     "shangka": 1048.16,
+     "other": 0.0,
+     "buys": 304,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 161,
+     "read_pv": 21
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 3139.28,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 1598.31,
+     "shangka": 1441.97,
+     "other": 99.0,
+     "buys": 98,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 163,
+     "read_pv": 15
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 4442.9,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 3367.9,
+     "shangka": 988.0,
+     "other": 87.0,
+     "buys": 146,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 146,
+     "read_pv": 11
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 1799.36,
+     "zhibo": 0.0,
+     "shangbi": 73.22,
+     "kbo": 705.19,
+     "shangka": 807.95,
+     "other": 213.0,
+     "buys": 50,
+     "note_dgmv": 73.22,
+     "new_notes": 0,
+     "note_pv": 118,
+     "read_pv": 16
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 1696.07,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 976.35,
+     "shangka": 620.72,
+     "other": 99.0,
+     "buys": 52,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 228,
+     "read_pv": 23
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 2660.2,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 1614.57,
+     "shangka": 1045.63,
+     "other": 0.0,
+     "buys": 83,
+     "note_dgmv": 0.0,
+     "new_notes": 0,
+     "note_pv": 179,
+     "read_pv": 14
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 2531.01,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 916.3,
+     "shangka": 1250.0,
+     "other": 364.71,
+     "buys": 77,
+     "note_dgmv": 0.0,
+     "new_notes": 1,
+     "note_pv": 665,
+     "read_pv": 55
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 4083.39,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 3074.67,
+     "shangka": 919.72,
+     "other": 89.0,
+     "buys": 130,
+     "note_dgmv": 0.0,
+     "new_notes": 1,
+     "note_pv": 757,
+     "read_pv": 48
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 2327.24,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 1008.68,
+     "shangka": 1224.56,
+     "other": 94.0,
+     "buys": 77,
+     "note_dgmv": 0.0,
+     "new_notes": 1,
+     "note_pv": 885,
+     "read_pv": 74
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 3170.46,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 2246.53,
+     "shangka": 645.93,
+     "other": 278.0,
+     "buys": 103,
+     "note_dgmv": 0.0,
+     "new_notes": 1,
+     "note_pv": 705,
+     "read_pv": 47
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 1160.77,
+     "zhibo": 0.0,
+     "shangbi": 0.0,
+     "kbo": 467.0,
+     "shangka": 693.77,
+     "other": 0.0,
+     "buys": 34,
+     "note_dgmv": 0.0,
+     "new_notes": 1,
+     "note_pv": 819,
+     "read_pv": 49
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 0元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 0元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 0元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 0元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔1篇，当日商笔DGMV 0元"
+    }
+   ]
+  },
+  {
+   "seller_id": "68cf65b45da8170015ad2e9c",
+   "name": "源物甄选的店",
+   "direction": "down",
+   "delta_day": -1684.28,
+   "days": [
+    {
+     "date": "2026-09-01",
+     "dgmv": 5502.55,
+     "zhibo": 0.0,
+     "shangbi": 5143.05,
+     "kbo": 0.0,
+     "shangka": 359.5,
+     "other": 0.0,
+     "buys": 125,
+     "note_dgmv": 5143.05,
+     "new_notes": 9,
+     "note_pv": 77896,
+     "read_pv": 7419
+    },
+    {
+     "date": "2026-09-02",
+     "dgmv": 5106.33,
+     "zhibo": 0.0,
+     "shangbi": 4791.13,
+     "kbo": 0.0,
+     "shangka": 285.3,
+     "other": 29.9,
+     "buys": 112,
+     "note_dgmv": 4791.13,
+     "new_notes": 9,
+     "note_pv": 69707,
+     "read_pv": 7110
+    },
+    {
+     "date": "2026-09-03",
+     "dgmv": 3831.31,
+     "zhibo": 0.0,
+     "shangbi": 3499.33,
+     "kbo": 0.0,
+     "shangka": 246.5,
+     "other": 85.48,
+     "buys": 97,
+     "note_dgmv": 3499.33,
+     "new_notes": 9,
+     "note_pv": 55992,
+     "read_pv": 5306
+    },
+    {
+     "date": "2026-09-04",
+     "dgmv": 2816.5,
+     "zhibo": 0.0,
+     "shangbi": 2631.34,
+     "kbo": 0.0,
+     "shangka": 185.16,
+     "other": 0.0,
+     "buys": 72,
+     "note_dgmv": 2631.34,
+     "new_notes": 12,
+     "note_pv": 57794,
+     "read_pv": 5770
+    },
+    {
+     "date": "2026-09-05",
+     "dgmv": 3836.06,
+     "zhibo": 0.0,
+     "shangbi": 3716.26,
+     "kbo": 0.0,
+     "shangka": 119.8,
+     "other": 0.0,
+     "buys": 88,
+     "note_dgmv": 3716.26,
+     "new_notes": 10,
+     "note_pv": 64802,
+     "read_pv": 7197
+    },
+    {
+     "date": "2026-09-06",
+     "dgmv": 4514.77,
+     "zhibo": 0.0,
+     "shangbi": 4248.17,
+     "kbo": 0.0,
+     "shangka": 266.6,
+     "other": 0.0,
+     "buys": 106,
+     "note_dgmv": 4248.17,
+     "new_notes": 11,
+     "note_pv": 85629,
+     "read_pv": 9863
+    },
+    {
+     "date": "2026-09-07",
+     "dgmv": 5649.36,
+     "zhibo": 0.0,
+     "shangbi": 5191.26,
+     "kbo": 0.0,
+     "shangka": 458.1,
+     "other": 0.0,
+     "buys": 128,
+     "note_dgmv": 5191.26,
+     "new_notes": 10,
+     "note_pv": 76266,
+     "read_pv": 9338
+    },
+    {
+     "date": "2026-09-08",
+     "dgmv": 3422.88,
+     "zhibo": 0.0,
+     "shangbi": 3091.08,
+     "kbo": 0.0,
+     "shangka": 331.8,
+     "other": 0.0,
+     "buys": 77,
+     "note_dgmv": 3091.08,
+     "new_notes": 8,
+     "note_pv": 62039,
+     "read_pv": 7942
+    },
+    {
+     "date": "2026-09-09",
+     "dgmv": 3717.01,
+     "zhibo": 0.0,
+     "shangbi": 2953.4,
+     "kbo": 0.0,
+     "shangka": 763.61,
+     "other": 0.0,
+     "buys": 84,
+     "note_dgmv": 2953.4,
+     "new_notes": 9,
+     "note_pv": 53427,
+     "read_pv": 6764
+    },
+    {
+     "date": "2026-09-10",
+     "dgmv": 3510.61,
+     "zhibo": 0.0,
+     "shangbi": 3031.61,
+     "kbo": 0.0,
+     "shangka": 479.0,
+     "other": 0.0,
+     "buys": 87,
+     "note_dgmv": 3031.61,
+     "new_notes": 9,
+     "note_pv": 58598,
+     "read_pv": 6923
+    },
+    {
+     "date": "2026-09-11",
+     "dgmv": 4666.46,
+     "zhibo": 0.0,
+     "shangbi": 4250.26,
+     "kbo": 0.0,
+     "shangka": 416.2,
+     "other": 0.0,
+     "buys": 86,
+     "note_dgmv": 4250.26,
+     "new_notes": 9,
+     "note_pv": 61617,
+     "read_pv": 7867
+    },
+    {
+     "date": "2026-09-12",
+     "dgmv": 2982.18,
+     "zhibo": 0.0,
+     "shangbi": 2804.08,
+     "kbo": 0.0,
+     "shangka": 178.1,
+     "other": 0.0,
+     "buys": 78,
+     "note_dgmv": 2804.08,
+     "new_notes": 10,
+     "note_pv": 51826,
+     "read_pv": 7527
+    }
+   ],
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 5143元"
+    },
+    {
+     "date": "2026-09-02",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 4791元"
+    },
+    {
+     "date": "2026-09-03",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 3499元"
+    },
+    {
+     "date": "2026-09-04",
+     "type": "note",
+     "detail": "新发商笔12篇，当日商笔DGMV 2631元"
+    },
+    {
+     "date": "2026-09-05",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 3716元"
+    },
+    {
+     "date": "2026-09-06",
+     "type": "note",
+     "detail": "新发商笔11篇，当日商笔DGMV 4248元"
+    },
+    {
+     "date": "2026-09-07",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 5191元"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "note",
+     "detail": "新发商笔8篇，当日商笔DGMV 3091元"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 2953元"
+    },
+    {
+     "date": "2026-09-10",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 3032元"
+    },
+    {
+     "date": "2026-09-11",
+     "type": "note",
+     "detail": "新发商笔9篇，当日商笔DGMV 4250元"
+    },
+    {
+     "date": "2026-09-12",
+     "type": "note",
+     "detail": "新发商笔10篇，当日商笔DGMV 2804元"
     }
    ]
   }
