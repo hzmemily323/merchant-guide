@@ -1,10 +1,10 @@
 {
  "meta": {
   "partition": "20260910",
-  "fetched_at": "2026-09-17 10:34:01",
+  "fetched_at": "2026-09-18 10:37:28",
   "window_note": "create_time 近90天",
   "total": 234,
-  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=3058735&cellId=cell_1789612461606_6&msgId=6bb49a2b-2f3a-41ca-bcd3-5462446551c1&viewType=TABLE"
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=3058735&cellId=cell_1789699070405_4&msgId=dbb7f7d6-98d2-4b6f-b35d-d5bc33283fde&viewType=TABLE"
  },
  "invitations": [
   {
@@ -324,20 +324,20 @@
   },
   {
    "seller_id": "6555e04b1c841300014bc3f0",
-   "distributor_id": "61c9949f0000000010009d99",
-   "status": 2,
-   "coo_type": 0,
-   "create_time": "2026-09-01 15:52:52",
-   "replay_time": "2026-09-01 17:35:36",
-   "is_read": 1
-  },
-  {
-   "seller_id": "6555e04b1c841300014bc3f0",
    "distributor_id": "6110f16b0000000001008d89",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-09-01 15:52:52",
    "replay_time": "2026-09-08 16:00:04",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6555e04b1c841300014bc3f0",
+   "distributor_id": "61c9949f0000000010009d99",
+   "status": 2,
+   "coo_type": 0,
+   "create_time": "2026-09-01 15:52:52",
+   "replay_time": "2026-09-01 17:35:36",
    "is_read": 1
   },
   {
@@ -513,6 +513,15 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "55dacf593397db4eab61e70b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "5fd1c8230000000001008a2a",
    "status": 15,
    "coo_type": 0,
@@ -523,6 +532,15 @@
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "5e425a630000000001002b64",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "59bbd47051783a17701140ab",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-21 13:31:01",
@@ -550,24 +568,6 @@
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "5a995f8311be105455a34d44",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-21 13:31:01",
-   "replay_time": "2026-08-28 13:40:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "59bbd47051783a17701140ab",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-21 13:31:01",
-   "replay_time": "2026-08-28 13:40:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "55dacf593397db4eab61e70b",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-21 13:31:01",
@@ -909,25 +909,7 @@
   },
   {
    "seller_id": "667275715d874700016fcfdd",
-   "distributor_id": "5571774324caa95fabc3dc6f",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-10 09:40:47",
-   "replay_time": "2026-08-17 09:50:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "667275715d874700016fcfdd",
    "distributor_id": "57553f0a6a6a695eec3df68a",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-10 09:40:47",
-   "replay_time": "2026-08-17 09:50:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "667275715d874700016fcfdd",
-   "distributor_id": "6110f16b0000000001008d89",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-10 09:40:47",
@@ -944,8 +926,35 @@
    "is_read": 1
   },
   {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "6110f16b0000000001008d89",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-17 09:50:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "667275715d874700016fcfdd",
+   "distributor_id": "5571774324caa95fabc3dc6f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-10 09:40:47",
+   "replay_time": "2026-08-17 09:50:03",
+   "is_read": 1
+  },
+  {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "5b4f3a6f6b58b708068de94f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:08:02",
+   "replay_time": "2026-08-14 11:10:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "56d3e598aed7583e931d9526",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-07 11:08:02",
@@ -963,29 +972,11 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "56d3e598aed7583e931d9526",
+   "distributor_id": "62de739b000000001e01ca35",
    "status": 15,
    "coo_type": 0,
-   "create_time": "2026-08-07 11:08:02",
+   "create_time": "2026-08-07 11:07:45",
    "replay_time": "2026-08-14 11:10:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "611167c00000000001006179",
-   "status": 1,
-   "coo_type": 0,
-   "create_time": "2026-08-07 11:07:45",
-   "replay_time": "2026-08-07 11:43:22",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "5c5e7fa700000000110382a3",
-   "status": 1,
-   "coo_type": 0,
-   "create_time": "2026-08-07 11:07:45",
-   "replay_time": "2026-08-07 14:33:43",
    "is_read": 1
   },
   {
@@ -999,11 +990,20 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "62de739b000000001e01ca35",
-   "status": 15,
+   "distributor_id": "5c5e7fa700000000110382a3",
+   "status": 1,
    "coo_type": 0,
    "create_time": "2026-08-07 11:07:45",
-   "replay_time": "2026-08-14 11:10:03",
+   "replay_time": "2026-08-07 14:33:43",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "611167c00000000001006179",
+   "status": 1,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:07:45",
+   "replay_time": "2026-08-07 11:43:22",
    "is_read": 1
   },
   {
@@ -1629,15 +1629,6 @@
   },
   {
    "seller_id": "6613611faeebf8000165306b",
-   "distributor_id": "5afde3794eacab4274364dd7",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-07-06 11:32:49",
-   "replay_time": "2026-07-13 11:40:04",
-   "is_read": 1
-  },
-  {
-   "seller_id": "6613611faeebf8000165306b",
    "distributor_id": "5c84a6a50000000012022f25",
    "status": 15,
    "coo_type": 0,
@@ -1652,6 +1643,15 @@
    "coo_type": 0,
    "create_time": "2026-07-06 11:32:49",
    "replay_time": "2026-07-06 12:06:20",
+   "is_read": 1
+  },
+  {
+   "seller_id": "6613611faeebf8000165306b",
+   "distributor_id": "5afde3794eacab4274364dd7",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-07-06 11:32:49",
+   "replay_time": "2026-07-13 11:40:04",
    "is_read": 1
   },
   {
