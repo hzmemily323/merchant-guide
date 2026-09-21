@@ -51,11 +51,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 53773.97,
-    "rooms": 7,
-    "duration_h": 72.1,
-    "buy_uv": 251,
-    "gpm": 26.57,
+    "dgmv": 62614.32,
+    "rooms": 9,
+    "duration_h": 84.6,
+    "buy_uv": 287,
+    "gpm": 25.59,
     "ctr": null
    }
   }
@@ -112,11 +112,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 51526.73,
-    "rooms": 6,
-    "duration_h": 95.1,
-    "buy_uv": 676,
-    "gpm": 16.28,
+    "dgmv": 60260.55,
+    "rooms": 7,
+    "duration_h": 111.1,
+    "buy_uv": 785,
+    "gpm": 16.11,
     "ctr": null
    }
   }
@@ -173,11 +173,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 30560.64,
-    "rooms": 7,
-    "duration_h": 22.7,
-    "buy_uv": 196,
-    "gpm": 141.65,
+    "dgmv": 45222.74,
+    "rooms": 8,
+    "duration_h": 28.7,
+    "buy_uv": 243,
+    "gpm": 170.18,
     "ctr": null
    }
   }
@@ -234,72 +234,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 30542.87,
+    "dgmv": 39740.0,
     "rooms": 7,
-    "duration_h": 100.4,
-    "buy_uv": 233,
-    "gpm": 70.61,
-    "ctr": null
-   }
-  }
- },
- {
-  "seller_id": "5ad98c8fd20f44553a4cc327",
-  "weeks": {
-   "W32": {
-    "dgmv": 21255.670000000006,
-    "rooms": 7,
-    "duration_h": 98.0,
-    "buy_uv": 173,
-    "gpm": 41.03,
-    "ctr": 0.1326
-   },
-   "W33": {
-    "dgmv": 17614.12,
-    "rooms": 7,
-    "duration_h": 97.9,
-    "buy_uv": 127,
-    "gpm": 44.53,
-    "ctr": 0.1307
-   },
-   "W34": {
-    "dgmv": 21570.590000000004,
-    "rooms": 8,
-    "duration_h": 97.7,
-    "buy_uv": 133,
-    "gpm": 52.64,
-    "ctr": 0.1196
-   },
-   "W35": {
-    "dgmv": 22645.170000000006,
-    "rooms": 7,
-    "duration_h": 98.0,
-    "buy_uv": 150,
-    "gpm": 56.74,
-    "ctr": 0.1141
-   },
-   "W36": {
-    "dgmv": 24509.6,
-    "rooms": 6,
-    "duration_h": 78.8,
-    "buy_uv": 154,
-    "gpm": 71.77,
-    "ctr": null
-   },
-   "W37": {
-    "dgmv": 32959.18,
-    "rooms": 8,
-    "duration_h": 93.2,
-    "buy_uv": 211,
-    "gpm": 69.9,
-    "ctr": null
-   },
-   "W38": {
-    "dgmv": 29471.06,
-    "rooms": 7,
-    "duration_h": 80.0,
-    "buy_uv": 190,
-    "gpm": 65.95,
+    "duration_h": 124.4,
+    "buy_uv": 304,
+    "gpm": 77.26,
     "ctr": null
    }
   }
@@ -356,11 +295,72 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 28502.15,
+    "dgmv": 37681.58,
+    "rooms": 7,
+    "duration_h": 27.1,
+    "buy_uv": 185,
+    "gpm": 121.39,
+    "ctr": null
+   }
+  }
+ },
+ {
+  "seller_id": "5ad98c8fd20f44553a4cc327",
+  "weeks": {
+   "W32": {
+    "dgmv": 21255.670000000006,
+    "rooms": 7,
+    "duration_h": 98.0,
+    "buy_uv": 173,
+    "gpm": 41.03,
+    "ctr": 0.1326
+   },
+   "W33": {
+    "dgmv": 17614.12,
+    "rooms": 7,
+    "duration_h": 97.9,
+    "buy_uv": 127,
+    "gpm": 44.53,
+    "ctr": 0.1307
+   },
+   "W34": {
+    "dgmv": 21570.590000000004,
+    "rooms": 8,
+    "duration_h": 97.7,
+    "buy_uv": 133,
+    "gpm": 52.64,
+    "ctr": 0.1196
+   },
+   "W35": {
+    "dgmv": 22645.170000000006,
+    "rooms": 7,
+    "duration_h": 98.0,
+    "buy_uv": 150,
+    "gpm": 56.74,
+    "ctr": 0.1141
+   },
+   "W36": {
+    "dgmv": 24509.6,
     "rooms": 6,
-    "duration_h": 22.6,
-    "buy_uv": 152,
-    "gpm": 104.34,
+    "duration_h": 78.8,
+    "buy_uv": 154,
+    "gpm": 71.77,
+    "ctr": null
+   },
+   "W37": {
+    "dgmv": 32959.18,
+    "rooms": 8,
+    "duration_h": 93.2,
+    "buy_uv": 211,
+    "gpm": 69.9,
+    "ctr": null
+   },
+   "W38": {
+    "dgmv": 33968.56,
+    "rooms": 8,
+    "duration_h": 93.4,
+    "buy_uv": 220,
+    "gpm": 64.87,
     "ctr": null
    }
   }
@@ -417,11 +417,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 24677.64,
-    "rooms": 6,
-    "duration_h": 118.0,
-    "buy_uv": 163,
-    "gpm": 64.63,
+    "dgmv": 26971.84,
+    "rooms": 7,
+    "duration_h": 138.0,
+    "buy_uv": 185,
+    "gpm": 60.79,
     "ctr": null
    }
   }
@@ -478,11 +478,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 16247.32,
-    "rooms": 6,
-    "duration_h": 8.9,
-    "buy_uv": 125,
-    "gpm": 132.23,
+    "dgmv": 19402.32,
+    "rooms": 7,
+    "duration_h": 10.3,
+    "buy_uv": 144,
+    "gpm": 137.64,
     "ctr": null
    }
   }
@@ -539,11 +539,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 15400.94,
-    "rooms": 7,
-    "duration_h": 134.7,
-    "buy_uv": 501,
-    "gpm": 19.05,
+    "dgmv": 17183.74,
+    "rooms": 8,
+    "duration_h": 158.7,
+    "buy_uv": 555,
+    "gpm": 18.81,
     "ctr": null
    }
   }
@@ -698,11 +698,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 8369.29,
-    "rooms": 5,
-    "duration_h": 31.3,
-    "buy_uv": 55,
-    "gpm": 47.37,
+    "dgmv": 9030.89,
+    "rooms": 6,
+    "duration_h": 38.2,
+    "buy_uv": 63,
+    "gpm": 42.09,
     "ctr": null
    }
   }
@@ -759,72 +759,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 6636.0,
-    "rooms": 6,
-    "duration_h": 28.1,
-    "buy_uv": 106,
-    "gpm": 7.38,
-    "ctr": null
-   }
-  }
- },
- {
-  "seller_id": "639bc9a5d6c9400001b419ab",
-  "weeks": {
-   "W32": {
-    "dgmv": 11500.289999999997,
-    "rooms": 16,
-    "duration_h": 32.2,
-    "buy_uv": 207,
-    "gpm": 19.74,
-    "ctr": 0.0995
-   },
-   "W33": {
-    "dgmv": 9039.41,
-    "rooms": 14,
-    "duration_h": 31.3,
-    "buy_uv": 132,
-    "gpm": 20.47,
-    "ctr": 0.1155
-   },
-   "W34": {
-    "dgmv": 5914.29,
-    "rooms": 14,
-    "duration_h": 30.2,
-    "buy_uv": 86,
-    "gpm": 15.48,
-    "ctr": 0.1212
-   },
-   "W35": {
-    "dgmv": 7919.859999999999,
-    "rooms": 14,
-    "duration_h": 30.4,
-    "buy_uv": 120,
-    "gpm": 22.53,
-    "ctr": 0.1325
-   },
-   "W36": {
-    "dgmv": 6406.53,
-    "rooms": 12,
-    "duration_h": 26.1,
-    "buy_uv": 97,
-    "gpm": 18.92,
-    "ctr": null
-   },
-   "W37": {
-    "dgmv": 7837.37,
-    "rooms": 13,
-    "duration_h": 27.8,
-    "buy_uv": 95,
-    "gpm": 25.25,
-    "ctr": null
-   },
-   "W38": {
-    "dgmv": 5759.22,
-    "rooms": 12,
-    "duration_h": 25.6,
-    "buy_uv": 74,
-    "gpm": 19.41,
+    "dgmv": 6963.2,
+    "rooms": 7,
+    "duration_h": 32.1,
+    "buy_uv": 112,
+    "gpm": 6.66,
     "ctr": null
    }
   }
@@ -881,11 +820,72 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 5298.95,
-    "rooms": 6,
-    "duration_h": 103.1,
-    "buy_uv": 193,
-    "gpm": 7.98,
+    "dgmv": 6237.95,
+    "rooms": 7,
+    "duration_h": 119.1,
+    "buy_uv": 229,
+    "gpm": 8.14,
+    "ctr": null
+   }
+  }
+ },
+ {
+  "seller_id": "639bc9a5d6c9400001b419ab",
+  "weeks": {
+   "W32": {
+    "dgmv": 11500.289999999997,
+    "rooms": 16,
+    "duration_h": 32.2,
+    "buy_uv": 207,
+    "gpm": 19.74,
+    "ctr": 0.0995
+   },
+   "W33": {
+    "dgmv": 9039.41,
+    "rooms": 14,
+    "duration_h": 31.3,
+    "buy_uv": 132,
+    "gpm": 20.47,
+    "ctr": 0.1155
+   },
+   "W34": {
+    "dgmv": 5914.29,
+    "rooms": 14,
+    "duration_h": 30.2,
+    "buy_uv": 86,
+    "gpm": 15.48,
+    "ctr": 0.1212
+   },
+   "W35": {
+    "dgmv": 7919.859999999999,
+    "rooms": 14,
+    "duration_h": 30.4,
+    "buy_uv": 120,
+    "gpm": 22.53,
+    "ctr": 0.1325
+   },
+   "W36": {
+    "dgmv": 6406.53,
+    "rooms": 12,
+    "duration_h": 26.1,
+    "buy_uv": 97,
+    "gpm": 18.92,
+    "ctr": null
+   },
+   "W37": {
+    "dgmv": 7837.37,
+    "rooms": 13,
+    "duration_h": 27.8,
+    "buy_uv": 95,
+    "gpm": 25.25,
+    "ctr": null
+   },
+   "W38": {
+    "dgmv": 6145.02,
+    "rooms": 14,
+    "duration_h": 29.8,
+    "buy_uv": 80,
+    "gpm": 17.88,
     "ctr": null
    }
   }
@@ -942,11 +942,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 4581.78,
-    "rooms": 6,
-    "duration_h": 45.8,
-    "buy_uv": 142,
-    "gpm": 8.7,
+    "dgmv": 4973.84,
+    "rooms": 7,
+    "duration_h": 53.8,
+    "buy_uv": 156,
+    "gpm": 8.21,
     "ctr": null
    }
   }
@@ -1003,11 +1003,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 3380.0,
-    "rooms": 6,
-    "duration_h": 53.8,
-    "buy_uv": 27,
-    "gpm": 25.09,
+    "dgmv": 4159.0,
+    "rooms": 7,
+    "duration_h": 62.8,
+    "buy_uv": 34,
+    "gpm": 25.71,
     "ctr": null
    }
   }
@@ -1064,11 +1064,11 @@
     "ctr": null
    },
    "W38": {
-    "dgmv": 1978.94,
-    "rooms": 5,
-    "duration_h": 10.5,
-    "buy_uv": 26,
-    "gpm": 26.93,
+    "dgmv": 2322.64,
+    "rooms": 6,
+    "duration_h": 12.2,
+    "buy_uv": 30,
+    "gpm": 28.24,
     "ctr": null
    }
   }
@@ -1126,10 +1126,63 @@
    },
    "W38": {
     "dgmv": 1343.4,
-    "rooms": 4,
-    "duration_h": 7.9,
+    "rooms": 5,
+    "duration_h": 9.9,
     "buy_uv": 5,
-    "gpm": 125.21,
+    "gpm": 100.17,
+    "ctr": null
+   }
+  }
+ },
+ {
+  "seller_id": "5d0c7ec4fcdfee0001d162af",
+  "weeks": {
+   "W33": {
+    "dgmv": 0.0,
+    "rooms": 2,
+    "duration_h": 0.0,
+    "buy_uv": 0,
+    "gpm": 0.0,
+    "ctr": 0.0
+   },
+   "W34": {
+    "dgmv": 43.9,
+    "rooms": 7,
+    "duration_h": 16.6,
+    "buy_uv": 1,
+    "gpm": 0.45,
+    "ctr": 0.0444
+   },
+   "W35": {
+    "dgmv": 45.8,
+    "rooms": 7,
+    "duration_h": 22.3,
+    "buy_uv": 1,
+    "gpm": 0.19,
+    "ctr": 0.05
+   },
+   "W36": {
+    "dgmv": 119.7,
+    "rooms": 7,
+    "duration_h": 21.0,
+    "buy_uv": 2,
+    "gpm": 2.11,
+    "ctr": null
+   },
+   "W37": {
+    "dgmv": 229.15,
+    "rooms": 9,
+    "duration_h": 30.6,
+    "buy_uv": 3,
+    "gpm": 3.65,
+    "ctr": null
+   },
+   "W38": {
+    "dgmv": 182.4,
+    "rooms": 7,
+    "duration_h": 23.5,
+    "buy_uv": 3,
+    "gpm": 2.99,
     "ctr": null
    }
   }
@@ -1183,59 +1236,6 @@
     "duration_h": 1.1,
     "buy_uv": 3,
     "gpm": 7.4,
-    "ctr": null
-   }
-  }
- },
- {
-  "seller_id": "5d0c7ec4fcdfee0001d162af",
-  "weeks": {
-   "W33": {
-    "dgmv": 0.0,
-    "rooms": 2,
-    "duration_h": 0.0,
-    "buy_uv": 0,
-    "gpm": 0.0,
-    "ctr": 0.0
-   },
-   "W34": {
-    "dgmv": 43.9,
-    "rooms": 7,
-    "duration_h": 16.6,
-    "buy_uv": 1,
-    "gpm": 0.45,
-    "ctr": 0.0444
-   },
-   "W35": {
-    "dgmv": 45.8,
-    "rooms": 7,
-    "duration_h": 22.3,
-    "buy_uv": 1,
-    "gpm": 0.19,
-    "ctr": 0.05
-   },
-   "W36": {
-    "dgmv": 119.7,
-    "rooms": 7,
-    "duration_h": 21.0,
-    "buy_uv": 2,
-    "gpm": 2.11,
-    "ctr": null
-   },
-   "W37": {
-    "dgmv": 229.15,
-    "rooms": 9,
-    "duration_h": 30.6,
-    "buy_uv": 3,
-    "gpm": 3.65,
-    "ctr": null
-   },
-   "W38": {
-    "dgmv": 90.7,
-    "rooms": 6,
-    "duration_h": 20.5,
-    "buy_uv": 2,
-    "gpm": 1.68,
     "ctr": null
    }
   }
@@ -1375,8 +1375,8 @@
    },
    "W38": {
     "dgmv": 0.0,
-    "rooms": 1,
-    "duration_h": 0.3,
+    "rooms": 4,
+    "duration_h": 1.6,
     "buy_uv": 0,
     "gpm": 0.0,
     "ctr": null
@@ -1526,10 +1526,10 @@
    },
    "W38": {
     "dgmv": 0.0,
-    "rooms": 1,
-    "duration_h": 4.2,
-    "buy_uv": 48,
-    "gpm": 47.38,
+    "rooms": 2,
+    "duration_h": 5.3,
+    "buy_uv": 53,
+    "gpm": 25.92,
     "ctr": null
    }
   }
@@ -2060,6 +2060,10 @@
  },
  {
   "seller_id": "66efd48da9bf3400163ab970",
+  "weeks": {}
+ },
+ {
+  "seller_id": "66d6af85a6e9d10016594bfe",
   "weeks": {}
  }
 ]
