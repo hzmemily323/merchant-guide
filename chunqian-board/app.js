@@ -7,17 +7,17 @@ const PERIOD_LABEL = {
 };
 const PREV = {this_week:"last_week", this_bimonth:"last_bimonth", last_bimonth:"yoy_bimonth"};
 const TABS = [
-  {key:"weekly", name:"周报"},
   {key:"overview", name:"总览"},
   {key:"note", name:"商笔"},
   {key:"live", name:"店播"},
   {key:"kbo", name:"K播"},
   {key:"sellers", name:"商家"},
   {key:"schedule", name:"排期与邀约"},
+  {key:"weekly", name:"周报"},
 ];
 const FIELDS = ["zhibo","shangbi","kbo","shangka","other"];
 const FIELD_NAME = {zhibo:"店播", shangbi:"商笔", kbo:"K播", shangka:"商卡", other:"其他"};
-let CUR_P = "this_week", CUR_T = "weekly";
+let CUR_P = "this_week", CUR_T = "overview";
 const CHARTS = [];
 
 const $=id=>document.getElementById(id);
