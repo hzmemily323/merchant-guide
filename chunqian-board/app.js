@@ -369,7 +369,7 @@ function renderSchedule(){
         const dur=(st&&en)?Math.max(1,Math.round((new Date(en)-new Date(st))/3600000))+"h":"—";
         const stt=x.live_schedule_status;
         return `<tr><td>${esc(x.shop_name||names[x.seller_id]||"—")}</td><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(x.live_schedule_title||"")}">${esc(x.live_schedule_title||"—")}</td><td>${fmtDT(st)}</td><td>${dur}</td>
-        <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${stt===2?'background:#fdebec;color:#c53038':stt===1?'background:#fff3e0;color:#e65100':'background:#f5f5f5;color:#999'}">${SCH_STATUS[stt]||stt}</span></td>
+        <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${stt===2?'background:#e8f5e9;color:#1b5e20':stt===1?'background:#fff3e0;color:#e65100':'background:#f5f5f5;color:#999'}">${SCH_STATUS[stt]||stt}</span></td>
         <td class="num">${x.live_schedule_goods_count||"—"}</td><td class="num">${x.live_schedule_sale_amont?fmtW(x.live_schedule_sale_amont):"—"}</td></tr>`}).join("")}</tbody></table>`
       :`<div style="color:var(--muted);padding:24px;text-align:center">146 家当前无未来排期——可以推动商家建计划</div>`}
     </div>
