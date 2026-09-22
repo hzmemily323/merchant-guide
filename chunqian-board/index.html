@@ -6,9 +6,9 @@
 <title>春千个人业绩看板</title>
 <style>
 :root{
-  --bg:#f7f7f9; --card:#fff; --ink:#222; --muted:#8a8f99;
-  --accent:#ff6700; --up:#16a34a; --down:#dc2626;
-  --border:#e8e8ee; --soft:#f2f3f7;
+  --bg:#faf9fb; --card:#fff; --ink:#2b2328; --muted:#9b939b;
+  --accent:#FF2442; --up:#e5484d; --down:#0f9d6e;
+  --border:#efeaf0; --soft:#f6f3f6;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
@@ -18,21 +18,21 @@ header h1{font-size:20px}
 header .sub{color:var(--muted);font-size:12px}
 .periods{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
 .periods button{border:1px solid var(--border);background:var(--card);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:13px}
-.periods button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.periods button.active{background:#fff1f3;color:var(--accent);border-color:#FF2442;font-weight:600}
 .tabs{display:flex;gap:8px;margin:0 0 14px;flex-wrap:wrap}
 .tabs button{border:1px solid var(--border);background:var(--card);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:13px}
-.tabs button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tabs button.active{background:#fff1f3;color:var(--accent);border-color:#FF2442;font-weight:600}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px 16px;box-shadow:0 1px 3px rgba(43,35,40,.04)}
 .card h3{font-size:14px;margin-bottom:10px}
 .card h3 small{color:var(--muted);font-weight:400;font-size:12px;margin-left:6px}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
-.kpi{background:var(--soft);border-radius:10px;padding:12px}
+.kpi{background:#fff;border:1px solid var(--border);border-radius:10px;padding:12px;box-shadow:0 1px 3px rgba(43,35,40,.04)}
 .kpi .v{font-size:21px;font-weight:700}
 .kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
 .kpi .d{font-size:12px;margin-top:2px;font-weight:600}
 .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
-.hero{background:linear-gradient(135deg,#fff7f0,#fff);border:1px solid #ffd9b3;border-radius:12px;padding:16px;margin-bottom:14px}
+.hero{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:14px;border-left:3px solid #ffc2cb}
 .hero h2{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 table{width:100%;border-collapse:collapse;font-size:13px}
 th{color:var(--muted);font-weight:500;text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
@@ -44,15 +44,15 @@ tr.total td{font-weight:700;background:var(--soft)}
 .full{grid-column:1/-1}
 #copy-btn{border:1px solid var(--border);background:transparent;border-radius:6px;padding:3px 10px;font-size:12px;cursor:pointer;margin-left:auto}
 .tag{display:inline-block;font-size:11px;border-radius:4px;padding:1px 6px;margin-left:4px}
-.tag-up{background:#e8f7ee;color:var(--up)} .tag-down{background:#fdeaea;color:var(--down)}
-.insight{background:#fffaf5;border:1px solid #ffd9b3;border-radius:8px;padding:10px 12px;font-size:13px;line-height:1.7}
+.tag-up{background:#fdebec;color:var(--up)} .tag-down{background:#e6f5ef;color:var(--down)}
+.insight{background:var(--card);border:1px solid var(--border);border-left:3px solid #ffc2cb;border-radius:8px;padding:10px 12px;font-size:13px;line-height:1.7}
 .insight b{color:var(--accent)}
 footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center;line-height:1.8}
 .delta{font-size:12px;font-weight:600}
 .bar-row{display:flex;align-items:center;gap:8px;padding:4px 0;font-size:13px}
 .bar-row .name{width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .bar-row .track{flex:1;background:var(--soft);border-radius:4px;height:12px;position:relative}
-.bar-row .fill{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ffb066,#ff6700)}
+.bar-row .fill{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ff8fa0,#FF2442)}
 .bar-row .val{width:64px;text-align:right;font-variant-numeric:tabular-nums}
 .bar-row .delta{width:56px;text-align:right}
 </style>
@@ -70,6 +70,6 @@ footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center;line-
   <footer>数据源：RedBI ds:1922 / ds:2479 / ds:5574 · 商家口径=146家挂接清单（AM字段数仓生效后可切换）<br>
   率类指标（GPM/CTR/转化率）为跨商家跨天平均值口径 · K播合作主播数/场次数疑似同源仅作量级参考</footer>
 </div>
-<script src="app.js?v=20260922v4"></script>
+<script src="app.js?v=20260922v8"></script>
 </body>
 </html>
