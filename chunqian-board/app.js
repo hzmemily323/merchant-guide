@@ -32,14 +32,15 @@ function aggWindow(p, sid){
   });
   return has?out:out;
 }
-function aggActive(p){ // 动销商家数
-  const dates=new Set(winDates(p));
+function aggActiveFor(dateArr){ // 动销商家数
+  const dates=new Set(dateArr);
   let n=0;
   (D.seller_daily.sellers||[]).forEach(s=>{
     for(const [d,v] of Object.entries(s.days||{})) if(dates.has(d)&&(v.dgmv||0)>0){n++;break}
   });
   return n;
 }
+function aggActive(p){ return aggActiveFor(winDates(p)); }
 function yoyWindow(p){
   // 去年同日历日期
   const dates=winDates(p);
@@ -85,11 +86,12 @@ function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt
 
 /* ---------- 总览 ---------- */
 function renderOverview(){
-  const p=CUR_P, prev=PREV[p];
+  const p=CUR_P;
+  const prevD=prevWinDates(p); const prev=prevD.length>0;
   const agg=aggWindow(p);
-  const pAgg=prev?aggWindow(prev):null;
+  const pAgg=prev?aggWindowFor(prevD):null;
   const yoy=yoyWindow(p);
-  const active=aggActive(p), pActive=prev?aggActive(prev):null;
+  const active=aggActive(p), pActive=prev?aggActiveFor(prevD):null;
   const m=$("main");
   const dates=winDates(p);
   const winLabel=`${dates[0]?.slice(5)}~${dates[dates.length-1]?.slice(5)}`;
@@ -106,14 +108,14 @@ function renderOverview(){
       ${kpi(active,"动销商家",prev&&pActive!=null?delta(active,pActive):"")}
       ${kpi(fmtN(agg.buys),"购买用户",prev&&pAgg?delta(agg.buys,pAgg.buys):"")}
       ${kpi(yoy.prev>0?((yoy.cur-yoy.prev)/yoy.prev*100).toFixed(1)+"%":"—","vs 去年同期","")}
-      ${kpi(prev&&pAgg&&pAgg.dgmv>0?((sum-pAgg.dgmv)/pAgg.dgmv*100).toFixed(1)+"%":"—",prev?"vs "+PERIOD_LABEL[prev]:"","")}
+      ${kpi(prev&&pAgg&&pAgg.dgmv>0?((sum-pAgg.dgmv)/pAgg.dgmv*100).toFixed(1)+"%":"—",prev?"vs "+prevLabel(p):"","")}
     </div>
   </div>
   <div class="grid">
     <div class="card full insight" id="insight-box"></div>
     <div class="card"><h3>场域结构<small>DGMV 按载体</small></h3><div class="chart-box" id="c-field" style="height:260px"></div></div>
     <div class="card"><h3>DGMV 趋势<small id="trend-range"></small></h3><div class="chart-box" id="c-trend" style="height:260px"></div></div>
-    <div class="card full"><h3>TOP10 商家${prev?`<small>含 vs ${PERIOD_LABEL[prev]}</small>`:""}</h3><div id="c-topsellers"></div></div>
+    <div class="card full"><h3>TOP10 商家${prev?`<small>含 vs ${prevLabel(p)}</small>`:""}</h3><div id="c-topsellers"></div></div>
   </div>`;
 
   // 场域饼图
@@ -159,7 +161,7 @@ function renderOverview(){
   const ins=[];
   if(prev&&pAgg&&pAgg.dgmv>0){
     const r=(sum-pAgg.dgmv)/pAgg.dgmv;
-    ins.push(`DGMV <b>${fmtW(sum)}</b>，vs ${PERIOD_LABEL[prev]} ${r>=0?"<span class='up'>↑"+(r*100).toFixed(1)+"%</span>":"<span class='down'>↓"+Math.abs(r*100).toFixed(1)+"%</span>"}（${fmtW(pAgg.dgmv)}）`);
+    ins.push(`DGMV <b>${fmtW(sum)}</b>，vs ${prevLabel(p)} ${r>=0?"<span class='up'>↑"+(r*100).toFixed(1)+"%</span>":"<span class='down'>↓"+Math.abs(r*100).toFixed(1)+"%</span>"}（${fmtW(pAgg.dgmv)}）`);
   }
   if(yoy.prev>0) ins.push(`vs 去年同期 ${yoy.cur>=yoy.prev?"<span class='up'>↑":"<span class='down'>↓"}${Math.abs((yoy.cur-yoy.prev)/yoy.prev*100).toFixed(1)}%</span>（去年同窗口 ${fmtW(yoy.prev)}）`);
   const top1=tops[0];
@@ -176,14 +178,15 @@ function deltaHTML(cur,prev){
 
 /* ---------- 商笔 ---------- */
 function renderNote(){
-  const p=CUR_P, prev=PREV[p];
-  const agg=aggWindow(p), pAgg=prev?aggWindow(prev):null;
+  const p=CUR_P;
+  const prevD=prevWinDates(p); const prev=prevD.length>0;
+  const agg=aggWindow(p), pAgg=prev?aggWindowFor(prevD):null;
   const sum=agg.dgmv;
   const sb=agg.shangbi;
   const g=(k)=>agg[k]||0, q=(k)=>pAgg?(pAgg[k]||0):null;
   $("main").innerHTML=`
   <div class="grid">
-    <div class="card full"><h3>商笔核心指标${prev?`<small>vs ${PERIOD_LABEL[prev]}</small>`:""}</h3>
+    <div class="card full"><h3>商笔核心指标${prev?`<small>vs ${prevLabel(p)}</small>`:""}</h3>
       <div class="kpis">
         ${kpi(fmtW(sb),"商笔DGMV",prev&&pAgg?delta(sb,q("shangbi")):"")}
         ${kpi(fmtN(Math.round(g("new_notes"))),"新发商笔数",prev&&pAgg?delta(Math.round(g("new_notes")),q("new_notes")!=null?Math.round(q("new_notes")):null):"")}
@@ -192,7 +195,7 @@ function renderNote(){
         ${kpi(sb>0?pct(g("note_dgmv")>0?g("note_pv")/sum*0+g("read_pv")/g("note_pv"):0):"—","阅读/曝光",prev&&pAgg&&q("read_pv")?delta(g("read_pv")/g("note_pv"),q("read_pv")/q("note_pv")):"")}
         ${kpi(g("new_notes")>0?"¥"+fmtN(sb/Math.round(g("new_notes"))):"—","单篇DGMV","")}
       </div></div>
-    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?PERIOD_LABEL[prev]:"—"} · 日窗口</small></h3>
+    <div class="card full"><h3>商笔 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?prevLabel(p):"—"} · 日窗口</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRowsDaily("shangbi",p,prev).up}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRowsDaily("shangbi",p,prev).down}</div>
@@ -207,8 +210,9 @@ function renderNote(){
 }
 
 function renderLive(){
-  const p=CUR_P, prev=PREV[p];
-  const agg=aggWindow(p), pAgg=prev?aggWindow(prev):null;
+  const p=CUR_P;
+  const prevD=prevWinDates(p); const prev=prevD.length>0;
+  const agg=aggWindow(p), pAgg=prev?aggWindowFor(prevD):null;
   const sum=agg.dgmv;
   const g=k=>agg[k]||0, q=k=>pAgg?(pAgg[k]||0):null;
   // GPM中位：按商家在窗口内的GPM取中位（日粒度gpm为当日单商家值，简单平均仍偏，取中位数）
@@ -225,7 +229,7 @@ function renderLive(){
   const medGpm=gpms.length?gpms[Math.floor(gpms.length/2)].toFixed(1):"—";
   $("main").innerHTML=`
   <div class="grid">
-    <div class="card full"><h3>店播核心指标${prev?`<small>vs ${PERIOD_LABEL[prev]}</small>`:""}</h3>
+    <div class="card full"><h3>店播核心指标${prev?`<small>vs ${prevLabel(p)}</small>`:""}</h3>
       <div class="kpis">
         ${kpi(fmtW(g("zhibo")),"店播DGMV",prev&&pAgg?delta(g("zhibo"),q("zhibo")):"")}
         ${kpi(fmtN(g("live_rooms")),"开播场次",prev&&pAgg?delta(g("live_rooms"),q("live_rooms")):"")}
@@ -235,7 +239,7 @@ function renderLive(){
         ${kpi(medGpm,"GPM(中位)","")}
         ${kpi(g("live_uv")>0?pct(g("buys")/g("live_uv")):"—","观看→购买率","")}
       </div></div>
-    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?PERIOD_LABEL[prev]:"—"} · 日窗口</small></h3>
+    <div class="card full"><h3>店播 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?prevLabel(p):"—"} · 日窗口</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRowsDaily("zhibo",p,prev).up}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRowsDaily("zhibo",p,prev).down}</div>
@@ -251,18 +255,19 @@ function renderLive(){
 
 /* ---------- K播 ---------- *//* ---------- K播 ---------- */
 function renderKbo(){
-  const p=CUR_P, prev=PREV[p];
-  const agg=aggWindow(p), pAgg=prev?aggWindow(prev):null;
+  const p=CUR_P;
+  const prevD=prevWinDates(p); const prev=prevD.length>0;
+  const agg=aggWindow(p), pAgg=prev?aggWindowFor(prevD):null;
   const sum=agg.dgmv;
   const g=k=>agg[k]||0, q=k=>pAgg?(pAgg[k]||0):null;
   $("main").innerHTML=`
   <div class="grid">
-    <div class="card full"><h3>K播核心指标${prev?`<small>vs ${PERIOD_LABEL[prev]}</small>`:""}</h3>
+    <div class="card full"><h3>K播核心指标${prev?`<small>vs ${prevLabel(p)}</small>`:""}</h3>
       <div class="kpis">
         ${kpi(fmtW(g("kbo")),"K播DGMV",prev&&pAgg?delta(g("kbo"),q("kbo")):"")}
         ${kpi(sum>0?pct(g("kbo")/sum):"—","占总DGMV","")}
       </div></div>
-    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?PERIOD_LABEL[prev]:"—"} · 日窗口</small></h3>
+    <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?prevLabel(p):"—"} · 日窗口</small></h3>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
         <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRowsDaily("kbo",p,prev).up}</div>
         <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRowsDaily("kbo",p,prev).down}</div>
@@ -376,8 +381,8 @@ function renderSchedule(){
 }
 
 function renderSellers(){
-  const p=CUR_P, prevP=PREV[p];
-  const dates=new Set(winDates(p)), pdates=prevP?new Set(winDates(prevP)):null;
+  const p=CUR_P;
+  const dates=new Set(winDates(p));
   // 日窗口全量聚合
   const buildAllRows=()=>{
     const sd=D.seller_daily&&D.seller_daily.sellers||[];
