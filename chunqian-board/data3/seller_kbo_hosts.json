@@ -5042,16 +5042,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56ddb0eb84edcd1a7c5bbc58",
-      "nickname": "容颜不老",
-      "dgmv": 0.0,
-      "sessions": 4
-     },
-     {
       "anchor_id": "60669029000000000101e5d5",
       "nickname": "小狗四一（声控助眠）",
       "dgmv": 0.0,
       "sessions": 6
+     },
+     {
+      "anchor_id": "56ddb0eb84edcd1a7c5bbc58",
+      "nickname": "容颜不老",
+      "dgmv": 0.0,
+      "sessions": 4
      },
      {
       "anchor_id": "58b58bed6a6a69035fb61c29",
@@ -5108,16 +5108,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5bcb39e75597250001e28e8c",
-      "nickname": "柠檬吃不饱🍓",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "65f2ffb3000000000500fa1f",
       "nickname": null,
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "5bcb39e75597250001e28e8c",
+      "nickname": "柠檬吃不饱🍓",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "62c9a93b000000000e00cf95",
@@ -5774,14 +5774,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "69c4cea700000000330388e2",
-      "nickname": "宇曦同行（ 晚6点50播",
+      "anchor_id": "590c7f996a6a691d57a20d52",
+      "nickname": "欧淋莉",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "590c7f996a6a691d57a20d52",
-      "nickname": "欧淋莉",
+      "anchor_id": "69c4cea700000000330388e2",
+      "nickname": "宇曦同行（ 晚6点50播",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -6187,14 +6187,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "65d43bb7000000000401df9f",
-      "nickname": "晓飞好物分享",
+      "anchor_id": "5c100317000000000601dbde",
+      "nickname": "有个男的叫老刘",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5c100317000000000601dbde",
-      "nickname": "有个男的叫老刘",
+      "anchor_id": "65d43bb7000000000401df9f",
+      "nickname": "晓飞好物分享",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -7356,16 +7356,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "54ca218ae7798979bdd896ca",
-      "nickname": "Sophie怎么肥四",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "6a7737ea0000000013032400",
       "nickname": "瑞瑞团购官",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "54ca218ae7798979bdd896ca",
+      "nickname": "Sophie怎么肥四",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "68d7f023000000002102da2b",
@@ -7626,14 +7626,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "5b36411d11be106ed3696250",
-      "nickname": "Lookocherry.大徐",
+      "anchor_id": "69539991000000003702db0b",
+      "nickname": "高小小饰品分享",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "69539991000000003702db0b",
-      "nickname": "高小小饰品分享",
+      "anchor_id": "5b36411d11be106ed3696250",
+      "nickname": "Lookocherry.大徐",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -7764,14 +7764,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "6138a524000000000201e0eb",
-      "nickname": "撤柜女鞋专场",
+      "anchor_id": "68713a6a000000001e03c3b9",
+      "nickname": "夏禾屿studio",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "68713a6a000000001e03c3b9",
-      "nickname": "夏禾屿studio",
+      "anchor_id": "6138a524000000000201e0eb",
+      "nickname": "撤柜女鞋专场",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -7838,6 +7838,227 @@
      {
       "anchor_id": "5afe71d4e8ac2b0b16efcaf0",
       "nickname": "一碗阿粥粥z",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 31.7,
+    "hosts": [
+     {
+      "anchor_id": "5b73ef0b6bd7380001804e39",
+      "nickname": "事儿逼她老板",
+      "dgmv": 31.7,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "60702519000000000100310b",
+      "nickname": "一鸣超爱吃🍟",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "637344de000000001f015319",
+      "nickname": "云南淋可可表姐",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5bf90eff463f0d0001723ef9",
+      "nickname": "Food流油的老包",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5651ac5d67bc65191a79cb9d",
+      "nickname": "洋气妈咪",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "672460ad000000001d02de4e",
+      "nickname": "泡泡星河",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65c3a4c700000000110144ad",
+      "nickname": "小月月帮你尝",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64d60f9e0000000001012782",
+      "nickname": null,
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b698b704eacab635aff8af3",
+      "nickname": "邱黎",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "694a1d740000000037028305",
+      "nickname": "林下之风",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6881a15d000000001d008646",
+      "nickname": "樱桃恋人",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f7028350000000001009714",
+      "nickname": "菠萝吹铁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641c55680000000012010ca4",
+      "nickname": "OKK KIDS 2店",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69a92ae0000000003400a38e",
+      "nickname": "阿龙",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62562dea000000001000e2f1",
+      "nickname": "小荣哥羊绒羊毛",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bdab293b4c8b70001bca830",
+      "nickname": "大宝的植物旅行",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68c4c97d000000001903d535",
+      "nickname": "吴总文具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "670777e2000000001d021f42",
+      "nickname": "果然哆哆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60669029000000000101e5d5",
+      "nickname": "小狗四一（声控助眠）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c3afbcb0000000007024179",
+      "nickname": "馋人老田",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "614d9171000000000201d9c9",
+      "nickname": "深美节日礼品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bb38fe918e5970001bd4b7b",
+      "nickname": "美芋日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54f2e005d39ea234b2d48bab",
+      "nickname": "Jessica671",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61eb0181000000001000f2e4",
+      "nickname": "不二日食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66028c5d000000000600c16d",
+      "nickname": "肖骁有好货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff04718000000000101fbcc",
+      "nickname": "FeiFei飞飞女鞋",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69db513f000000003303a375",
+      "nickname": "好物多多",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69bf52350000000033039fcf",
+      "nickname": "花生威化小铺",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7441ac4eacab0d942174c0",
+      "nickname": "泽叔唠妆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a7737ea0000000013032400",
+      "nickname": "瑞瑞团购官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5dd0baa40000000001005dfa",
+      "nickname": "Lovinyiyi",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5cbd749200000000170055b0",
+      "nickname": "小泽哥生活馆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "595864b050c4b41ba4cb9426",
+      "nickname": "兔兔轻奢手工穿戴甲",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "656adf49000000003d035152",
+      "nickname": "黄袍加身（负债逾期版",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69db935e000000003401862f",
+      "nickname": "一口枣香软煎饼",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -8899,6 +9120,47 @@
      {
       "anchor_id": "5bee70e851783a21c54e4848",
       "nickname": "邢哥真行",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "6a07ece60000000002001400",
+      "nickname": "麦多多",
+      "dgmv": 0.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "676bba38000000001801c4d7",
+      "nickname": "老爸爱玩泥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa8686811be1044f19b6514",
+      "nickname": "默麻美食小铺",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6663df810000000007006c47",
+      "nickname": "老可K",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65268cb7000000002a037531",
+      "nickname": "朱朱炫饭",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "606bcf92000000000101d77e",
+      "nickname": "带刺的玫瑰（凉拌公主）",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -13006,14 +13268,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a734df80000000013032800",
-      "nickname": "每日练嘴",
+      "anchor_id": "59ae79e56a6a697a67c60e6b",
+      "nickname": "扬毛卷！！",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59ae79e56a6a697a67c60e6b",
-      "nickname": "扬毛卷！！",
+      "anchor_id": "6a734df80000000013032800",
+      "nickname": "每日练嘴",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -13467,14 +13729,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "63cf4f71000000002702a029",
-      "nickname": "四川小魏支书",
+      "anchor_id": "63fd7d15000000002a00ad78",
+      "nickname": "易大嫂国风美学女装",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "63fd7d15000000002a00ad78",
-      "nickname": "易大嫂国风美学女装",
+      "anchor_id": "63cf4f71000000002702a029",
+      "nickname": "四川小魏支书",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -13922,16 +14184,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "66408c3400000000030315f6",
-      "nickname": "小草有好货",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "630230fc000000000f007fcc",
       "nickname": "延边恩妮",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "66408c3400000000030315f6",
+      "nickname": "小草有好货",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "62e42a09000000001902118f",
@@ -14240,14 +14502,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "58ebab6a82ec390cd9e6c17b",
-      "nickname": "小白和蓉蓉",
+      "anchor_id": "541be516b4c4d678c05b06de",
+      "nickname": "一颗榴莲树啊",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "541be516b4c4d678c05b06de",
-      "nickname": "一颗榴莲树啊",
+      "anchor_id": "58ebab6a82ec390cd9e6c17b",
+      "nickname": "小白和蓉蓉",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -14422,6 +14684,83 @@
      {
       "anchor_id": "60c7701f0000000001008ca2",
       "nickname": "小井家",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5af0672ce8ac2b2220bf972f",
+      "nickname": "乔瑶瑶",
+      "dgmv": 0.0,
+      "sessions": 4
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5ad748c54eacab10a45ab72d",
+      "nickname": "周灵薇",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6314ba7b000000001200eeaa",
+      "nickname": "卉哒哒",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5d1d3ddd00000000110045d7",
+      "nickname": "球球很笃定",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e96a6570000000001006c29",
+      "nickname": "陈师兄",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68bbed3c0000000019021caa",
+      "nickname": "曼曼高定女装成衣",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "600982ae0000000001000ee4",
+      "nickname": "董洁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5db2d6af0000000001008e32",
+      "nickname": "张小某",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ac9e9984eacab7ab69ed957",
+      "nickname": "明月的锅锅",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -17838,6 +18177,197 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 2194.52,
+    "hosts": [
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 1385.14,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba09e4511be10190e0c612d",
+      "nickname": "杨子姗",
+      "dgmv": 335.48,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55bd601267bc653fea5862da",
+      "nickname": "丸子Tina",
+      "dgmv": 207.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54675a9bd6e4a91915a47d9e",
+      "nickname": "三胎妈妈黄黄",
+      "dgmv": 169.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5aad8e8711be10160fdf5de1",
+      "nickname": "张俪",
+      "dgmv": 97.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "621b5a36000000001000576f",
+      "nickname": "小助理是sam的小迷妹",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5c878d39000000001202d5e0",
+      "nickname": "李诞",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5477593ad6e4a93b070f5e07",
+      "nickname": "扣哥",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5a5eaa3011be105d993b4942",
+      "nickname": "lyumay",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "653a1840000000000d00454d",
+      "nickname": "詹青云",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "57fca8f082ec395d19cbecc1",
+      "nickname": "lucky小幸幸",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69bb5e9000000000320376d3",
+      "nickname": "苦海无涯",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66345e5700000000030322c0",
+      "nickname": "大奖的家",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "586301ed6a6a697cf501dc9b",
+      "nickname": "天才老王",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "561e859e33f60c42513af398",
+      "nickname": "是胖妈呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa0b8fe4eacab579d75ff0d",
+      "nickname": "一枚妞妞子来了",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bf41e9266099b0001538e31",
+      "nickname": "开心呀KAIXIN",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a977d24e8ac2b787e4b36a0",
+      "nickname": "大虎Tiger👀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c0e70b4f7e8b9080dd404d9",
+      "nickname": "蔡成的菜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61b1c233000000001000ba99",
+      "nickname": "棉花的棉吖Cottonia",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58b862b850c4b47714e97c5b",
+      "nickname": "文森特别饿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bd96e347ab6e400018fbab1",
+      "nickname": "明道",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6078433a0000000001000a5f",
+      "nickname": "国际宫and乡土莉",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60b32505000000000100158a",
+      "nickname": "蔡蔡妈咪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61ecc134000000001000d267",
+      "nickname": "设计师妈咪睿睿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641bfd990000000012010886",
+      "nickname": "邓阿姨",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64ad87370000000011000e8e",
+      "nickname": "cooky设计买手",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5deb5d740000000001004f22",
+      "nickname": "Lucky66",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f72dd6d0000000001004f1a",
+      "nickname": "小林哥品百巍",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "595279576a6a697ec5c839e1",
+      "nickname": "老少女阿珂",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -20808,6 +21338,71 @@
      {
       "anchor_id": "5fd6e38000000000010065db",
       "nickname": "萨日朗内蒙古特产",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "60b32505000000000100158a",
+      "nickname": "蔡蔡妈咪",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "66028c5d000000000600c16d",
+      "nickname": "肖骁有好货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60dd9def0000000020028716",
+      "nickname": "家的角落",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a05310f0000000002000c01",
+      "nickname": null,
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55dd2305e4b1cf3a2aa27f2d",
+      "nickname": "就是气气",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f9be2580000000001007472",
+      "nickname": "林鹿溪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68cbe2be000000002202585d",
+      "nickname": "大榕树",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bb7945594605e0001e51784",
+      "nickname": "吴速玲 Shuling",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "693fe82e000000003702af93",
+      "nickname": "纯银禧禾",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "610b6a93000000000101f6b7",
+      "nickname": "远嫁的莎莎",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -28732,14 +29327,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "63c0d1740000000026005a71",
-      "nickname": "太极易筋唐师",
+      "anchor_id": "5e119525000000000100609f",
+      "nickname": "着急让你瘦的荣小荣",
       "dgmv": 0.0,
       "sessions": 3
      },
      {
-      "anchor_id": "5e119525000000000100609f",
-      "nickname": "着急让你瘦的荣小荣",
+      "anchor_id": "63c0d1740000000026005a71",
+      "nickname": "太极易筋唐师",
       "dgmv": 0.0,
       "sessions": 3
      },
@@ -30051,14 +30646,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5897a5106a6a69620f12a358",
-      "nickname": "你浩媽",
+      "anchor_id": "5fc5a934000000000100288d",
+      "nickname": "白萝卜宅家吃练",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5fc5a934000000000100288d",
-      "nickname": "白萝卜宅家吃练",
+      "anchor_id": "5897a5106a6a69620f12a358",
+      "nickname": "你浩媽",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -30291,16 +30886,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "60afcc47000000000100aec9",
-      "nickname": "糊奔奔",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "65facc4f000000000600c486",
       "nickname": "明媚与叶直播号",
       "dgmv": 0.0,
       "sessions": 4
+     },
+     {
+      "anchor_id": "60afcc47000000000100aec9",
+      "nickname": "糊奔奔",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "61c63c84000000002102182d",
@@ -30309,16 +30904,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56b379e4cb35fb0ef5572711",
-      "nickname": "CallMe王阿姨",
-      "dgmv": 0.0,
-      "sessions": 4
-     },
-     {
       "anchor_id": "557c53ba41a2b3657b998584",
       "nickname": "白白日记",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "56b379e4cb35fb0ef5572711",
+      "nickname": "CallMe王阿姨",
+      "dgmv": 0.0,
+      "sessions": 4
      },
      {
       "anchor_id": "5a99088e4eacab4427a98a76",
@@ -30873,14 +31468,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "563eb0b5c2bdeb79c8595dd3",
-      "nickname": "腿毛阿姨_",
+      "anchor_id": "554b6e0cb203d950a8bae2f1",
+      "nickname": "在下小趴菜菜菜",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "554b6e0cb203d950a8bae2f1",
-      "nickname": "在下小趴菜菜菜",
+      "anchor_id": "563eb0b5c2bdeb79c8595dd3",
+      "nickname": "腿毛阿姨_",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -31269,14 +31864,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5e73512d00000000010031ae",
-      "nickname": "邓璐也叫璐小仙",
+      "anchor_id": "5a895a594eacab2555bb1c26",
+      "nickname": "减肥的小章鱼（控糖中）",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5a895a594eacab2555bb1c26",
-      "nickname": "减肥的小章鱼（控糖中）",
+      "anchor_id": "5e73512d00000000010031ae",
+      "nickname": "邓璐也叫璐小仙",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -31311,14 +31906,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56ed812484edcd2e77194bc2",
-      "nickname": "大果大果赵大果",
+      "anchor_id": "54e6ba79d39ea20e6a58d7d8",
+      "nickname": "包包姐在瑞士",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "54e6ba79d39ea20e6a58d7d8",
-      "nickname": "包包姐在瑞士",
+      "anchor_id": "56ed812484edcd2e77194bc2",
+      "nickname": "大果大果赵大果",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -32342,16 +32937,16 @@
       "sessions": 2
      },
      {
-      "anchor_id": "5485a2792e1d9372720bc386",
-      "nickname": "大脸噗噗只卖正品",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5985215082ec3921f42fbd27",
       "nickname": "雪雪老师舞蹈服",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "5485a2792e1d9372720bc386",
+      "nickname": "大脸噗噗只卖正品",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "5b0190c2e8ac2b75c27f686c",
@@ -32468,16 +33063,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56b82a9d84edcd52944a46f1",
-      "nickname": "姗胖胖Joyce",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5c312cf80000000005011c4d",
       "nickname": "大萍姐健身",
       "dgmv": 0.0,
       "sessions": 5
+     },
+     {
+      "anchor_id": "56b82a9d84edcd52944a46f1",
+      "nickname": "姗胖胖Joyce",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "5e68ce5900000000010075ff",
@@ -32744,16 +33339,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5b0415684eacab139f92754f",
-      "nickname": "左佳霓",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "60c54e790000000001002664",
       "nickname": "四个娃组合生活",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "5b0415684eacab139f92754f",
+      "nickname": "左佳霓",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "68842d2d000000000d02c7d0",
@@ -32840,16 +33435,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "595577a36a6a69658d171bc6",
-      "nickname": "amandathemeow",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "556b5a7ba75c9560e37de7a3",
       "nickname": "Emma桃桃桃",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "595577a36a6a69658d171bc6",
+      "nickname": "amandathemeow",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "6132e05c0000000002026af6",
@@ -32924,14 +33519,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "686796cb000000000d02c58d",
-      "nickname": "Maggie营养美学",
+      "anchor_id": "660ba4690000000017019bc5",
+      "nickname": "是曼曼呀",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "660ba4690000000017019bc5",
-      "nickname": "是曼曼呀",
+      "anchor_id": "686796cb000000000d02c58d",
+      "nickname": "Maggie营养美学",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -33196,6 +33791,533 @@
      {
       "anchor_id": "5cfbc3f10000000018023ebb",
       "nickname": "刘雨鑫JASON",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 2536.0,
+    "hosts": [
+     {
+      "anchor_id": "5b2ba62bf7e8b97438dcaf41",
+      "nickname": "兰姐",
+      "dgmv": 1541.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5afde3794eacab4274364dd7",
+      "nickname": "云朵的美味佳肴",
+      "dgmv": 319.5,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5940f32182ec3947cc227ebe",
+      "nickname": "日食记",
+      "dgmv": 196.5,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa752f811be1042d687adbe",
+      "nickname": "张张是个养生佳",
+      "dgmv": 188.9,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6259e6ef000000001000c8f5",
+      "nickname": "微姐vivi",
+      "dgmv": 73.18,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 59.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5380ef68b4c4d65abe43b106",
+      "nickname": "沈辰辰辰辰",
+      "dgmv": 59.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f7028350000000001009714",
+      "nickname": "菠萝吹铁",
+      "dgmv": 57.22,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 39.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "564afa3de58d134ed15e742c",
+      "nickname": "洋气杨",
+      "dgmv": 0.0,
+      "sessions": 4
+     },
+     {
+      "anchor_id": "6002a08a0000000001001f03",
+      "nickname": "宇宽时间管理",
+      "dgmv": 0.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "5da8590600000000010026ad",
+      "nickname": "三妞妈在匈牙利",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "607043ce000000000100b23f",
+      "nickname": "汤圆妈妈爱健身",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "69e48185000000000103e004",
+      "nickname": "遇见乌托邦莎莎的抗炎饮食",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "682c14b6000000000e01f90e",
+      "nickname": "小新在厨房（七年美食博主）",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5b49fdb84eacab4f4c4f5a43",
+      "nickname": "李坦坦爱新疆",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6653ea420000000007005153",
+      "nickname": "食养为先",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5cdd72a7000000001103d0d0",
+      "nickname": "是汪老师呀.普拉提塑型运动",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "69a520c6000000001c03a489",
+      "nickname": "小贺夫妇说育儿",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5cb865220000000012007d23",
+      "nickname": "主厨广坦",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5f3f2220000000000100333f",
+      "nickname": "克里斯的厨房",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b42f894e8ac2b0ca5935e92",
+      "nickname": "好好姐爱食养",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa364f211be10787b18f5f3",
+      "nickname": "许赛文",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d32b59f000000001000154d",
+      "nickname": "张宝儿Bowie",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66c9949b000000000d0265e6",
+      "nickname": "M姐（已瘦50斤）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c603406000000001b02fbd5",
+      "nickname": "大苏教你吃",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6578e511be106f1f608c46",
+      "nickname": "丫丫黄芳",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "63744db5000000001f01e858",
+      "nickname": "Summer讲营养（收徒）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c0e70b4f7e8b9080dd404d9",
+      "nickname": "蔡成的菜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55c9e2f958944677f024fde2",
+      "nickname": "怒火小赛（已🔽30！",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f65b96c0000000001003b00",
+      "nickname": "忙忙叨叨的小明爸",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "621a2b20000000001000886b",
+      "nickname": "大茶呀（孕晚期）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c652f9f00000000100019bc",
+      "nickname": "大头韩国",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5919829e50c4b43c7420bb81",
+      "nickname": "早餐-瓷木一道",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54b1f759b4c4d65f85e77c26",
+      "nickname": "肖肖肖肖肖肖儿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f5a1aea00000000010037ef",
+      "nickname": "杰西纯饮食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5765f9175e87e73f93f1f13b",
+      "nickname": "是vivi呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e0acc330000000001001c5e",
+      "nickname": "🍬糖77",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a6c68ff4eacab2e6efb691c",
+      "nickname": "就叫天天",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a99088e4eacab4427a98a76",
+      "nickname": "CCisccc",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d19e36f000000001002bd59",
+      "nickname": "Lucia璐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f8bb8cb0000000001004ae8",
+      "nickname": "张大胆吃挺好",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "583ba88d6a6a6922800bb072",
+      "nickname": "温熊猫",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6904a2ba0000000037005ac5",
+      "nickname": "抗炎饮食 Jerry",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "590e89be50c4b45e4ae66453",
+      "nickname": "Akiiiko",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a35529b4eacab7d47fe0ef3",
+      "nickname": "西红柿炒自己",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66d801cd000000001d03184c",
+      "nickname": "阿菲是大油女",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66e9dc7b000000001d023be1",
+      "nickname": "李先生-营养生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a4a3f69e8ac2b636d4b15e8",
+      "nickname": "miao大小姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69d743ac00000000330276f7",
+      "nickname": "麦麦甜甜圈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c12728400000000070386af",
+      "nickname": "佩佩教你瘦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "609cf2e9000000000101f32b",
+      "nickname": "小溪姐慢养肾",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c05431800000000080119f1",
+      "nickname": "查理宝宝慢点长大",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60a4d7b900000000010048aa",
+      "nickname": "农村小新记录爸妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5657ca2b4476085cef0380e8",
+      "nickname": "饼干妈妈爱吃饼干",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56a24e7c4775a7666f7e9964",
+      "nickname": "奇居良品创始人夫妇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff27996000000000100230a",
+      "nickname": "赵唯伊",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bc54f3901c2a70001015355",
+      "nickname": "yannieyuen",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60d9a9aa000000002002a75b",
+      "nickname": "拉面熊和螃蟹姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66d08ba4000000001d0230fe",
+      "nickname": "青于蓝生鲜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59da3454de5fb427a054ad25",
+      "nickname": "老板甩锅（智慧厨房）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "63d0b57f0000000027029953",
+      "nickname": "元气小姨面部养颜（周二休息）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "636896d0000000001f01f6cd",
+      "nickname": "逆糖实战派Tina",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "626895da00000000210258e7",
+      "nickname": "木棉要自律",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5717ea7c1c07df3036038fcb",
+      "nickname": "子时当归",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59f18906e8ac2b5547337488",
+      "nickname": "演员张瑶",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54e6ba79d39ea20e6a58d7d8",
+      "nickname": "包包姐在瑞士",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "657bace6000000001902f8c0",
+      "nickname": "逗逗力量塑形训练",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61ba047d0000000021027b58",
+      "nickname": "阿靖靖靖",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56b379e4cb35fb0ef5572711",
+      "nickname": "CallMe王阿姨",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "583c386950c4b4302fec725c",
+      "nickname": "是雀西姐姐呦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6385a599000000001f01c701",
+      "nickname": "高凡（纯饮食）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67ab0ba8000000000d00b288",
+      "nickname": "程雷",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c312cf80000000005011c4d",
+      "nickname": "大萍姐健身",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "63662b68000000001f01d57d",
+      "nickname": "扬帆外贸HK",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "57c7a92f50c4b43607d8d550",
+      "nickname": "逆龄津姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59139eec5e87e724228f8a64",
+      "nickname": "Aili是中文名",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6412f63000000000110205f2",
+      "nickname": "憨豆豆👀有氧&体态管理",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55a1195467bc6516e873f84f",
+      "nickname": "静姐姐Lumos",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6391318b000000001f015501",
+      "nickname": "李先生-食养日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61b34714000000001000b754",
+      "nickname": "阿呼仔",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5cbd749200000000170055b0",
+      "nickname": "小泽哥生活馆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b1bdc1811be106fab79b4fe",
+      "nickname": "营养师小旬",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6982ffbf0000000021010e68",
+      "nickname": "智博妈妈重生",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -33852,6 +34974,29 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "62a0b032000000001b02b5a4",
+      "nickname": "爱生活的毛毛呀",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "66de11f7000000001d030ec3",
+      "nickname": "乖宝小橙",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68427bfe000000001b020574",
+      "nickname": "玥宝精选",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -34224,6 +35369,47 @@
      {
       "anchor_id": "5ca6e41300000000160226c0",
       "nickname": "AXuannnn-",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5c345a8d000000000601c6ae",
+      "nickname": "（48岁月子中）备孕抗衰营养师mandy",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "682c14b6000000000e01f90e",
+      "nickname": "小新在厨房（七年美食博主）",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "56a76c3dcb35fb3493e0ec0f",
+      "nickname": "真哥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55a1195467bc6516e873f84f",
+      "nickname": "静姐姐Lumos",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "595397345e87e74d8b701a92",
+      "nickname": "是Yi诺妈妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "590c7f996a6a691d57a20d52",
+      "nickname": "欧淋莉",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -35548,6 +36734,41 @@
      {
       "anchor_id": "668a24c50000000003030078",
       "nickname": "果果鲜",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "625a5a7b000000002102201a",
+      "nickname": "蔡伟仔优选",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "65b8b1b2000000000903d7ae",
+      "nickname": "大橘子妈咪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d5e142500000000010096e0",
+      "nickname": "咩-薇吃饱了",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5db6ab8500000000010011ee",
+      "nickname": "花花吃不饱啊",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69c8ac050000000033027a5a",
+      "nickname": "Kids生活馆",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -36938,6 +38159,71 @@
      {
       "anchor_id": "6043650c000000000101d045",
       "nickname": "慕慕爱生活的日常",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 34.8,
+    "hosts": [
+     {
+      "anchor_id": "555b444c67bc657c88ca96d2",
+      "nickname": "泡泡烘焙不藏私",
+      "dgmv": 34.8,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f181d9500000000010021ab",
+      "nickname": "知微做面包",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ebcb42a0000000001006575",
+      "nickname": "中加生活lb",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6033b0b60000000001006333",
+      "nickname": "当下（互关）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68186af6000000000a03f7ae",
+      "nickname": "多米金金",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6043650c000000000101d045",
+      "nickname": "慕慕爱生活的日常",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "630e1c1b0000000012002eab",
+      "nickname": "凌凌de花园",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "616aad8d000000000202265c",
+      "nickname": "布丁奶奶做辅食",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -41092,6 +42378,203 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 19.9,
+    "hosts": [
+     {
+      "anchor_id": "6391318b000000001f015501",
+      "nickname": "李先生-食养日记",
+      "dgmv": 19.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69e48185000000000103e004",
+      "nickname": "遇见乌托邦莎莎的抗炎饮食",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "631d7da8000000002303fc5a",
+      "nickname": "刘老六不是很6",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5b1bdc1811be106fab79b4fe",
+      "nickname": "营养师小旬",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5a4a3f69e8ac2b636d4b15e8",
+      "nickname": "miao大小姐",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6653ea420000000007005153",
+      "nickname": "食养为先",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "67282aa7000000001d02ff88",
+      "nickname": "宇博士中式食养",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5fc5a934000000000100288d",
+      "nickname": "白萝卜宅家吃练",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bc54f3901c2a70001015355",
+      "nickname": "yannieyuen",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54e6ba79d39ea20e6a58d7d8",
+      "nickname": "包包姐在瑞士",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68afd12f000000001901b36c",
+      "nickname": "阿锐的健康生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e51c9ec0000000001000aa0",
+      "nickname": "70后运养师星泽",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ce3c0ea0000000018038aa4",
+      "nickname": "喜宝ya🍒",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5422e41ce77989553dab079d",
+      "nickname": "陆妍淇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b42f894e8ac2b0ca5935e92",
+      "nickname": "好好姐爱食养",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b1643c311be1060152f412f",
+      "nickname": "叙禾有机严选",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1ed5cf000000001601f692",
+      "nickname": "湘野红姐9.21丰收节直播",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "693ab28d000000003201b903",
+      "nickname": "李老师-逆龄保鲜站",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c12728400000000070386af",
+      "nickname": "佩佩教你瘦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "566a48e0e00dd820586409e1",
+      "nickname": "一花啦啦啦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62c197af000000001501978e",
+      "nickname": "噜啦啦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa4b10011be1013b9a2e51b",
+      "nickname": "凡奶奶一家人",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66c9949b000000000d0265e6",
+      "nickname": "M姐（已瘦50斤）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58cdc05450c4b41366fce463",
+      "nickname": "Chloe蔻一跑遍全世界",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "626895da00000000210258e7",
+      "nickname": "木棉要自律",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a35529b4eacab7d47fe0ef3",
+      "nickname": "西红柿炒自己",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "609dfe5c000000000101f7b6",
+      "nickname": "大新（纯饮食）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6904a2ba0000000037005ac5",
+      "nickname": "抗炎饮食 Jerry",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa68ca9e8ac2b6a06202fac",
+      "nickname": "陶子逆龄笔记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64436d3d0000000014011a06",
+      "nickname": "十七（产后减脂生发版）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f9441f4000000000101c199",
+      "nickname": "张开花37",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -43576,14 +45059,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a549035000000000f03ac03",
-      "nickname": "招财鹿kids",
+      "anchor_id": "5e5a730600000000010028cb",
+      "nickname": "宋涵宇Chris",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5e5a730600000000010028cb",
-      "nickname": "宋涵宇Chris",
+      "anchor_id": "6a549035000000000f03ac03",
+      "nickname": "招财鹿kids",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -43708,16 +45191,16 @@
       "sessions": 5
      },
      {
-      "anchor_id": "68c4c97d000000001903d535",
-      "nickname": "吴总文具",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5b8aa1e6c32e0700013d36cc",
       "nickname": "160斤大龄女",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "68c4c97d000000001903d535",
+      "nickname": "吴总文具",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "60e3351c000000002002c8c5",
@@ -44859,14 +46342,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a5a1e92000000000e03cc01",
-      "nickname": "云南昭通红露丑苹果基地",
+      "anchor_id": "683f23f1000000001b0205b1",
+      "nickname": "琪琪的考研日记",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "683f23f1000000001b0205b1",
-      "nickname": "琪琪的考研日记",
+      "anchor_id": "6a5a1e92000000000e03cc01",
+      "nickname": "云南昭通红露丑苹果基地",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -45267,14 +46750,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6702b967000000001d02032a",
-      "nickname": "李总的文具百货源头仓",
+      "anchor_id": "5f27dbb5000000000101ee88",
+      "nickname": "盗月社食遇记",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5f27dbb5000000000101ee88",
-      "nickname": "盗月社食遇记",
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -45380,14 +46863,14 @@
       "sessions": 4
      },
      {
-      "anchor_id": "5f9441f4000000000101c199",
-      "nickname": "张开花37",
+      "anchor_id": "603490d9000000000100aac2",
+      "nickname": "疯狂大叔",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "603490d9000000000100aac2",
-      "nickname": "疯狂大叔",
+      "anchor_id": "5f9441f4000000000101c199",
+      "nickname": "张开花37",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -45656,16 +47139,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6325d13a000000002303bd09",
-      "nickname": "小可乐妈妈呀",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "64cb1e18000000000e0251d8",
       "nickname": "野生俊子",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "6325d13a000000002303bd09",
+      "nickname": "小可乐妈妈呀",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "689e139d000000001901a66f",
@@ -45854,14 +47337,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a95833c11be1074cb16d611",
-      "nickname": "9块9和ok妹",
+      "anchor_id": "69be989a000000003201bba5",
+      "nickname": "家居家具百货",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "69be989a000000003201bba5",
-      "nickname": "家居家具百货",
+      "anchor_id": "5a95833c11be1074cb16d611",
+      "nickname": "9块9和ok妹",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -46012,6 +47495,95 @@
      {
       "anchor_id": "635643b0000000001901e123",
       "nickname": "大白日韩潮牌工厂店",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6639776e00000000030317d3",
+      "nickname": "万汇书店",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "567a6de6cb35fb4ff0ae7d83",
+      "nickname": "Needshop1娜娜子",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff473ff00000000010022ab",
+      "nickname": "森森宠物用品批发",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e1671ac0000000001003079",
+      "nickname": "少语嬛嬛",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65990c880000000022008ced",
+      "nickname": "葵花家居绿植",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "650a4a5b000000000200d834",
+      "nickname": "大冰和小四",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5485a2792e1d9372720bc386",
+      "nickname": "大脸噗噗只卖正品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1ed5cf000000001601f692",
+      "nickname": "湘野红姐9.21丰收节直播",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6150c56b58b741e26b8c7f",
+      "nickname": "还是叫吴富贵吧",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ea764d2000000000100b604",
+      "nickname": "翔爸和淳儿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67ce9f63000000000a03c446",
+      "nickname": "毛兰侃谈优选",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a9d6db011be10405f8ae6e8",
+      "nickname": "厨娘小何",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -51326,14 +52898,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "555698e7c2bdeb1980f94ae8",
-      "nickname": "大静Ginn",
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "588eb2aa82ec396bf502b5fe",
-      "nickname": "penny",
+      "anchor_id": "555698e7c2bdeb1980f94ae8",
+      "nickname": "大静Ginn",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -51560,14 +53132,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a377eab0000000010000800",
-      "nickname": "何佳欣",
+      "anchor_id": "64776d1a0000000012037261",
+      "nickname": "yeylem叶子",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "64776d1a0000000012037261",
-      "nickname": "yeylem叶子",
+      "anchor_id": "6a377eab0000000010000800",
+      "nickname": "何佳欣",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -52783,14 +54355,14 @@
       "sessions": 3
      },
      {
-      "anchor_id": "68c4c97d000000001903d535",
-      "nickname": "吴总文具",
+      "anchor_id": "5adef3744eacab14c01dae7e",
+      "nickname": "鱼儿很鱼",
       "dgmv": 0.0,
       "sessions": 2
      },
      {
-      "anchor_id": "5adef3744eacab14c01dae7e",
-      "nickname": "鱼儿很鱼",
+      "anchor_id": "68c4c97d000000001903d535",
+      "nickname": "吴总文具",
       "dgmv": 0.0,
       "sessions": 2
      },
@@ -52891,16 +54463,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "64d5a8b2000000000101582f",
-      "nickname": "眼眸有星辰",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "682c0d29000000000a03ffbc",
       "nickname": "谭什么谭",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "64d5a8b2000000000101582f",
+      "nickname": "眼眸有星辰",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "5890612d50c4b4104a025cc2",
@@ -52915,12 +54487,6 @@
       "sessions": 2
      },
      {
-      "anchor_id": "5b0835f54eacab76546096da",
-      "nickname": "卞大宝宝",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5ab85f274eacab35c4937c37",
       "nickname": "甜余-杜媛春子",
       "dgmv": 0.0,
@@ -52931,6 +54497,12 @@
       "nickname": "周琪CHOWKI",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "5b0835f54eacab76546096da",
+      "nickname": "卞大宝宝",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "60b09a4c000000000100b575",
@@ -52987,14 +54559,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56d6e1934775a7130e107aca",
-      "nickname": "麦子MZ呀",
+      "anchor_id": "55cc19575894463c139a42e6",
+      "nickname": "是四一呀",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "55cc19575894463c139a42e6",
-      "nickname": "是四一呀",
+      "anchor_id": "56d6e1934775a7130e107aca",
+      "nickname": "麦子MZ呀",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -53035,16 +54607,16 @@
       "sessions": 4
      },
      {
-      "anchor_id": "63241d60000000002303c004",
-      "nickname": "农科优品",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5b2b31fe6b58b76236e580ca",
       "nickname": "熊猫叮🐼",
       "dgmv": 0.0,
       "sessions": 4
+     },
+     {
+      "anchor_id": "63241d60000000002303c004",
+      "nickname": "农科优品",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "58f642145e87e73141546802",
@@ -53065,16 +54637,16 @@
       "sessions": 3
      },
      {
-      "anchor_id": "653a1840000000000d00454d",
-      "nickname": "詹青云",
-      "dgmv": 0.0,
-      "sessions": 5
-     },
-     {
       "anchor_id": "6078ebd0000000000101d283",
       "nickname": "天天英语口语听读",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "653a1840000000000d00454d",
+      "nickname": "詹青云",
+      "dgmv": 0.0,
+      "sessions": 5
      },
      {
       "anchor_id": "642b98b900000000120103a6",
@@ -53131,14 +54703,20 @@
       "sessions": 1
      },
      {
+      "anchor_id": "5a991fd8e8ac2b34ff04f0db",
+      "nickname": "T-Toughcookie",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
       "anchor_id": "55e669e567bc655948d08020",
       "nickname": "胖妮儿&肥仔",
       "dgmv": 0.0,
       "sessions": 4
      },
      {
-      "anchor_id": "5a991fd8e8ac2b34ff04f0db",
-      "nickname": "T-Toughcookie",
+      "anchor_id": "5bcdc8ffe5d3470001990f95",
+      "nickname": "我是摩羯",
       "dgmv": 0.0,
       "sessions": 2
      },
@@ -53147,12 +54725,6 @@
       "nickname": "是迪亚不是嗲_",
       "dgmv": 0.0,
       "sessions": 1
-     },
-     {
-      "anchor_id": "5bcdc8ffe5d3470001990f95",
-      "nickname": "我是摩羯",
-      "dgmv": 0.0,
-      "sessions": 2
      },
      {
       "anchor_id": "605054de0000000001007f8a",
@@ -53227,16 +54799,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "59071bdd82ec39144d86b517",
-      "nickname": "潘潘起飞",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5979753350c4b458a6bb465e",
       "nickname": "糖泡泡",
       "dgmv": 0.0,
       "sessions": 4
+     },
+     {
+      "anchor_id": "59071bdd82ec39144d86b517",
+      "nickname": "潘潘起飞",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "632b3a4200000000230380fc",
@@ -53311,14 +54883,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "605a3bf5000000000100621f",
-      "nickname": "Flora C",
+      "anchor_id": "59a858805e87e76b43e63516",
+      "nickname": "Ariel",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59a858805e87e76b43e63516",
-      "nickname": "Ariel",
+      "anchor_id": "605a3bf5000000000100621f",
+      "nickname": "Flora C",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -53359,14 +54931,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5b0415684eacab139f92754f",
-      "nickname": "左佳霓",
+      "anchor_id": "5abb8ef611be10200045a115",
+      "nickname": "方小同不是大同",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5abb8ef611be10200045a115",
-      "nickname": "方小同不是大同",
+      "anchor_id": "5b0415684eacab139f92754f",
+      "nickname": "左佳霓",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -53377,14 +54949,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "65ffb4ad000000000600f037",
-      "nickname": "亲爱的小涵姐呀",
+      "anchor_id": "6914940400000000320149f9",
+      "nickname": "温迪来拆卡（原神版）",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6914940400000000320149f9",
-      "nickname": "温迪来拆卡（原神版）",
+      "anchor_id": "65ffb4ad000000000600f037",
+      "nickname": "亲爱的小涵姐呀",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -53635,16 +55207,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "555698e7c2bdeb1980f94ae8",
-      "nickname": "大静Ginn",
-      "dgmv": 0.0,
-      "sessions": 3
-     },
-     {
       "anchor_id": "6197af9e000000001000ecbd",
       "nickname": "oni家（9月4日上新）",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "555698e7c2bdeb1980f94ae8",
+      "nickname": "大静Ginn",
+      "dgmv": 0.0,
+      "sessions": 3
      },
      {
       "anchor_id": "541be516b4c4d678c05b06de",
@@ -53665,16 +55237,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "55d851f2a75c950ec17e259e",
-      "nickname": "女神の漫画家",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "55713b2f3fef9237b9c4adb6",
       "nickname": "嘟妈的小生活",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "55d851f2a75c950ec17e259e",
+      "nickname": "女神の漫画家",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "67f8c856000000000e01ef5e",
@@ -53731,16 +55303,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "560a35a43f95a30afed521d0",
-      "nickname": "董KIKI",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5c56048c0000000010021653",
       "nickname": "泡椒味桃子",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "560a35a43f95a30afed521d0",
+      "nickname": "董KIKI",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "64e1e58200000000010139ca",
@@ -53815,14 +55387,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56ea434e4775a74845caa31d",
-      "nickname": "呜呜怪",
+      "anchor_id": "56f950df6a6a69536cf73ce6",
+      "nickname": "王门牙",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "56f950df6a6a69536cf73ce6",
-      "nickname": "王门牙",
+      "anchor_id": "56ea434e4775a74845caa31d",
+      "nickname": "呜呜怪",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -53851,14 +55423,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5c43e65d00000000050384ba",
-      "nickname": "蒋美美呀",
+      "anchor_id": "662cf18f0000000007005c5b",
+      "nickname": "安琪家居",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "662cf18f0000000007005c5b",
-      "nickname": "安琪家居",
+      "anchor_id": "5c43e65d00000000050384ba",
+      "nickname": "蒋美美呀",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54007,14 +55579,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "595663006a6a694302623d8d",
-      "nickname": "LH_口口",
+      "anchor_id": "60b76ab4000000000100254d",
+      "nickname": "晨曦缘",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "60b76ab4000000000100254d",
-      "nickname": "晨曦缘",
+      "anchor_id": "595663006a6a694302623d8d",
+      "nickname": "LH_口口",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54085,14 +55657,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "60e6388a00000000010062c8",
-      "nickname": "发什么疯💨（贴纸版）",
+      "anchor_id": "5f09aa7e0000000001001a6d",
+      "nickname": "李子李",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5f09aa7e0000000001001a6d",
-      "nickname": "李子李",
+      "anchor_id": "60e6388a00000000010062c8",
+      "nickname": "发什么疯💨（贴纸版）",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54127,16 +55699,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "64436d3d0000000014011a06",
-      "nickname": "十七（产后减脂生发版）",
-      "dgmv": 0.0,
-      "sessions": 5
-     },
-     {
       "anchor_id": "59892b656a6a6922a37352c5",
       "nickname": "洋气薇",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "64436d3d0000000014011a06",
+      "nickname": "十七（产后减脂生发版）",
+      "dgmv": 0.0,
+      "sessions": 5
      },
      {
       "anchor_id": "689de4be000000001903d500",
@@ -54199,14 +55771,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "630afd58000000001200f07f",
-      "nickname": "云朵的学习日记",
+      "anchor_id": "5bf41e9266099b0001538e31",
+      "nickname": "开心呀KAIXIN",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5bf41e9266099b0001538e31",
-      "nickname": "开心呀KAIXIN",
+      "anchor_id": "630afd58000000001200f07f",
+      "nickname": "云朵的学习日记",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54271,14 +55843,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a64c09d11be1071d7658ef3",
-      "nickname": "霍珂月Kue",
+      "anchor_id": "63ff11510000000029016c62",
+      "nickname": "大纯舞蹈教学",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "63ff11510000000029016c62",
-      "nickname": "大纯舞蹈教学",
+      "anchor_id": "5a64c09d11be1071d7658ef3",
+      "nickname": "霍珂月Kue",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54427,14 +55999,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "646f63f6000000002503533f",
-      "nickname": "多妈来了",
+      "anchor_id": "6a7737ea0000000013032400",
+      "nickname": "瑞瑞团购官",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6a7737ea0000000013032400",
-      "nickname": "瑞瑞团购官",
+      "anchor_id": "646f63f6000000002503533f",
+      "nickname": "多妈来了",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54445,14 +56017,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a718fe711be10673ff08769",
-      "nickname": "Echo_余彤",
+      "anchor_id": "56c6002eaed75869fb526485",
+      "nickname": "宽脸羊",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "56c6002eaed75869fb526485",
-      "nickname": "宽脸羊",
+      "anchor_id": "5a718fe711be10673ff08769",
+      "nickname": "Echo_余彤",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -54883,14 +56455,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5b158f616b58b75149fd604e",
-      "nickname": "霖依",
+      "anchor_id": "5ab935e4e8ac2b1e868cda46",
+      "nickname": "设计师蘭玉",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5ab935e4e8ac2b1e868cda46",
-      "nickname": "设计师蘭玉",
+      "anchor_id": "5b158f616b58b75149fd604e",
+      "nickname": "霖依",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -55045,14 +56617,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56d1d09c1c07df44a24139fd",
-      "nickname": "熊爸打天下",
+      "anchor_id": "6743db3c0000000008009ace",
+      "nickname": "地道英语莱恩老师",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6743db3c0000000008009ace",
-      "nickname": "地道英语莱恩老师",
+      "anchor_id": "56d1d09c1c07df44a24139fd",
+      "nickname": "熊爸打天下",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -55117,14 +56689,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "58c55b2e50c4b472712afd8b",
-      "nickname": "丝遇SIYULOU",
+      "anchor_id": "58f335b150c4b42c51ce8427",
+      "nickname": "檀智雄ANTHONY.T",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "58f335b150c4b42c51ce8427",
-      "nickname": "檀智雄ANTHONY.T",
+      "anchor_id": "58c55b2e50c4b472712afd8b",
+      "nickname": "丝遇SIYULOU",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -55321,14 +56893,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a6a797511be103dcd5661b4",
-      "nickname": "M&V",
+      "anchor_id": "59f1fb4d4eacab38ece0ae62",
+      "nickname": "赵丢丢",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59f1fb4d4eacab38ece0ae62",
-      "nickname": "赵丢丢",
+      "anchor_id": "5a6a797511be103dcd5661b4",
+      "nickname": "M&V",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -55944,14 +57516,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "69caa2910000000032019b6c",
-      "nickname": "临期食品一折go",
+      "anchor_id": "545565a8d6e4a9075d7dd4b9",
+      "nickname": "HZIRISXY",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "545565a8d6e4a9075d7dd4b9",
-      "nickname": "HZIRISXY",
+      "anchor_id": "69caa2910000000032019b6c",
+      "nickname": "临期食品一折go",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -56010,16 +57582,16 @@
       "sessions": 6
      },
      {
-      "anchor_id": "658c51780000000022001716",
-      "nickname": "王万",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5ea7b35a0000000001000347",
       "nickname": "滇西小哥",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "658c51780000000022001716",
+      "nickname": "王万",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "623147fe0000000010009f4a",
@@ -56100,14 +57672,14 @@
       "sessions": 5
      },
      {
-      "anchor_id": "5bf76bbb97f48a000193ce7d",
-      "nickname": "FOREST",
+      "anchor_id": "6476f3fa0000000010034a61",
+      "nickname": "鸡汁潮流屋",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6476f3fa0000000010034a61",
-      "nickname": "鸡汁潮流屋",
+      "anchor_id": "5bf76bbb97f48a000193ce7d",
+      "nickname": "FOREST",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -56886,14 +58458,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "61ba047d0000000021027b58",
-      "nickname": "阿靖靖靖",
+      "anchor_id": "63be1fe4000000002702bb91",
+      "nickname": "芮王爷",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "63be1fe4000000002702bb91",
-      "nickname": "芮王爷",
+      "anchor_id": "61ba047d0000000021027b58",
+      "nickname": "阿靖靖靖",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -57018,14 +58590,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "59b7763b5e87e714010a62e7",
-      "nickname": "金九九",
+      "anchor_id": "5c3b5871000000000503acaa",
+      "nickname": "小野桃儿",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5c3b5871000000000503acaa",
-      "nickname": "小野桃儿",
+      "anchor_id": "59b7763b5e87e714010a62e7",
+      "nickname": "金九九",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -57612,14 +59184,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a5a057ee8ac2b041b2f920a",
-      "nickname": "方落落",
+      "anchor_id": "5b0d5c3ee8ac2b534d77f4f6",
+      "nickname": "江映蓉Vivi",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5b0d5c3ee8ac2b534d77f4f6",
-      "nickname": "江映蓉Vivi",
+      "anchor_id": "5a5a057ee8ac2b041b2f920a",
+      "nickname": "方落落",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -57654,14 +59226,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "697eccb00000000021007069",
-      "nickname": "南油买手轻奢购",
+      "anchor_id": "64cdd486000000000b00bcbe",
+      "nickname": "请叫我小天才",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "64cdd486000000000b00bcbe",
-      "nickname": "请叫我小天才",
+      "anchor_id": "697eccb00000000021007069",
+      "nickname": "南油买手轻奢购",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -57804,14 +59376,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "558cbdfc3397db0f3ca5e10d",
-      "nickname": "诺诺NN",
+      "anchor_id": "5aa364f211be10787b18f5f3",
+      "nickname": "许赛文",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5aa364f211be10787b18f5f3",
-      "nickname": "许赛文",
+      "anchor_id": "558cbdfc3397db0f3ca5e10d",
+      "nickname": "诺诺NN",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -58056,14 +59628,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "57c1949b7fc5b81aab58816a",
-      "nickname": "张张昕籽",
+      "anchor_id": "56ca75b384edcd3659f7a8a3",
+      "nickname": "只小萌",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "56ca75b384edcd3659f7a8a3",
-      "nickname": "只小萌",
+      "anchor_id": "57c1949b7fc5b81aab58816a",
+      "nickname": "张张昕籽",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -58380,14 +59952,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "67947e2a000000000601f396",
-      "nickname": "TT设计师",
+      "anchor_id": "5979753350c4b458a6bb465e",
+      "nickname": "糖泡泡",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5979753350c4b458a6bb465e",
-      "nickname": "糖泡泡",
+      "anchor_id": "67947e2a000000000601f396",
+      "nickname": "TT设计师",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -58448,6 +60020,335 @@
      {
       "anchor_id": "5dd8f41f000000000100a501",
       "nickname": "debby",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 104.72,
+    "hosts": [
+     {
+      "anchor_id": "54bb1325e779892bd39f28d3",
+      "nickname": "岸川",
+      "dgmv": 48.22,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6110f16b0000000001008d89",
+      "nickname": "佛系张阿怼的小卖部",
+      "dgmv": 19.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54831e86d6e4a91b59b9c483",
+      "nickname": "二宝妈茶室",
+      "dgmv": 18.93,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60376430000000000101e776",
+      "nickname": "苏胖的美食笔记",
+      "dgmv": 17.67,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b48620d11be10754f2573f4",
+      "nickname": "玛勒海盗",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5ad598d9e8ac2b46b796d8c2",
+      "nickname": "168的秋秋（减肥版）",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5dd14d48000000000100a6b4",
+      "nickname": "小小",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "632ac93b000000002303a402",
+      "nickname": "文小斋",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5bc5bddf9fc6ff0001a2b48a",
+      "nickname": "猫有饭",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "61eb0181000000001000f2e4",
+      "nickname": "不二日食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64d60f9e0000000001012782",
+      "nickname": null,
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65268cb7000000002a037531",
+      "nickname": "朱朱炫饭",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68a6fc8f000000001900fbea",
+      "nickname": "枫哥说S.",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64ab8c64000000000b0145e6",
+      "nickname": "PoPoglow🌸滴勾",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60018a6f000000000101ee7c",
+      "nickname": "雅趣Yaqu",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5558afc7484fb63cb51e5baa",
+      "nickname": "雪宝兒ANM",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6788d42c000000000801b75e",
+      "nickname": "小红薯678A19D9",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "650a4a5b000000000200d834",
+      "nickname": "大冰和小四",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f5171070000000001002eaa",
+      "nickname": "石榴滋滋",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e10b5f40000000001007b92",
+      "nickname": "番茄公主只想做公主",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69c3ea42000000003203f5e7",
+      "nickname": "半夏猫",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6150c56b58b741e26b8c7f",
+      "nickname": "还是叫吴富贵吧",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "564afa3de58d134ed15e742c",
+      "nickname": "洋气杨",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7eac6011be1028cd46a9c0",
+      "nickname": "酸菜鱼多来一份（孕晚期）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60f83e2b0000000001017238",
+      "nickname": "桃大娘家",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58e140035e87e75839e96c44",
+      "nickname": "吃瘦的丢丢",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "632b3a4200000000230380fc",
+      "nickname": "Jude小书房",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55a98b61f5a2632b88f8d76d",
+      "nickname": "兔兔想要去度假",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "629e459a0000000019028acd",
+      "nickname": "谭不甜吃吃吃",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62a0b032000000001b02b5a4",
+      "nickname": "爱生活的毛毛呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67230777000000001d02f904",
+      "nickname": "皓宇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55294b0eb203d92177db3922",
+      "nickname": "ABCD妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d5e142500000000010096e0",
+      "nickname": "咩-薇吃饱了",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f7028350000000001009714",
+      "nickname": "菠萝吹铁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "611df03500000000010039b0",
+      "nickname": "沫沫爱吃辣",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59c87e5a44363b2cccb9dfc2",
+      "nickname": "小小莎老师",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60d9a9aa000000002002a75b",
+      "nickname": "拉面熊和螃蟹姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "57db736950c4b43e696c3a36",
+      "nickname": "阿欧家",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "575256955e87e751e4b5e52b",
+      "nickname": "何闪闪Sandra",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68104e80000000000e01c298",
+      "nickname": "番茄头mei头",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "588d8c015e87e7258a7b0d0c",
+      "nickname": "💭Lisssa李撒拉",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f65b96c0000000001003b00",
+      "nickname": "忙忙叨叨的小明爸",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6578e511be106f1f608c46",
+      "nickname": "丫丫黄芳",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ae9d8f811be100bef3d3545",
+      "nickname": "大王Ava",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a977d24e8ac2b787e4b36a0",
+      "nickname": "大虎Tiger👀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "653a1840000000000d00454d",
+      "nickname": "詹青云",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68230459000000000e010b62",
+      "nickname": "咖妃尹 | 返点🈴勿扰",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e68f5c1000000000100672a",
+      "nickname": "狮三姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58b93a24a9b2ed527458ad9f",
+      "nickname": "哈哈妈妈爱厨房",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5de9f491000000000100499b",
+      "nickname": "小张的溏心蛋",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b03c68a6b58b73383d5fc0d",
+      "nickname": "钱坤钱博士",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64436d3d0000000014011a06",
+      "nickname": "十七（产后减脂生发版）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6209af1b00000000210236e1",
+      "nickname": "泽西岛岛主",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -61078,6 +62979,59 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "62b06781000000001902a39e",
+      "nickname": "阿洋啥都有",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a3d1a3c000000000e03cc01",
+      "nickname": "徐多米好物分享",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6674e75a0000000007006936",
+      "nickname": "COCOYOYO专柜女包",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a5e3ac7000000000e03dc00",
+      "nickname": "冬枣种植基地",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a87e0bd0000000013032802",
+      "nickname": "时光的秘密",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "586301ed6a6a697cf501dc9b",
+      "nickname": "天才老王",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c12728400000000070386af",
+      "nickname": "佩佩教你瘦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c05431800000000080119f1",
+      "nickname": "查理宝宝慢点长大",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -63459,14 +65413,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5c12ec810000000006003823",
-      "nickname": "云啡是旅美咖啡馆和烘焙厂主",
+      "anchor_id": "541be516b4c4d678c05b06de",
+      "nickname": "一颗榴莲树啊",
       "dgmv": 0.0,
       "sessions": 3
      },
      {
-      "anchor_id": "541be516b4c4d678c05b06de",
-      "nickname": "一颗榴莲树啊",
+      "anchor_id": "5c12ec810000000006003823",
+      "nickname": "云啡是旅美咖啡馆和烘焙厂主",
       "dgmv": 0.0,
       "sessions": 3
      },
@@ -64096,6 +66050,113 @@
      {
       "anchor_id": "60f8f5c70000000001009cba",
       "nickname": "自摘园",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "613add04000000000201f1fa",
+      "nickname": "安安力量塑形",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6475a7740000000010036ac9",
+      "nickname": "🌻小蛮腰爱运动",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "68adc3b1000000001900dd5f",
+      "nickname": "黔乡杨杨",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5dd769ea000000000100143e",
+      "nickname": "Lina先生",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5f5c2bd4000000000100377e",
+      "nickname": "萌萌努力生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59c4ff5744363b628c90cddb",
+      "nickname": "Seven777",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66c9949b000000000d0265e6",
+      "nickname": "M姐（已瘦50斤）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a7737ea0000000013032400",
+      "nickname": "瑞瑞团购官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aedba1ae8ac2b68e7f5b651",
+      "nickname": "聂诗芸Demi",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66d6b2a0000000001d021214",
+      "nickname": "吉隆之喜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f5a1aea00000000010037ef",
+      "nickname": "杰西纯饮食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5abb15dd4eacab6fbea4d384",
+      "nickname": "吴昕",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bee70e851783a21c54e4848",
+      "nickname": "邢哥真行",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6078433a0000000001000a5f",
+      "nickname": "国际宫and乡土莉",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -66080,6 +68141,71 @@
      {
       "anchor_id": "54f1c279d39ea22c83043b8e",
       "nickname": "晓迪的书房",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 65.0,
+    "hosts": [
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 65.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5757f3a76a6a69204cb32e0a",
+      "nickname": "何雨虹",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "632ac93b000000002303a402",
+      "nickname": "文小斋",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "58b55c0050c4b421c4061875",
+      "nickname": "我是珍珠啊",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65b8b1b2000000000903d7ae",
+      "nickname": "大橘子妈咪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5eb3adde0000000001001803",
+      "nickname": "Suki妮",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "562ded7782718c3f16155ee8",
+      "nickname": "Charlene",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5484733fd6e4a9285b1b76c1",
+      "nickname": "半壁Bambi",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66345e5700000000030322c0",
+      "nickname": "大奖的家",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5639d8dca75c9568d551bf1d",
+      "nickname": "然然麻麻",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -72072,16 +74198,16 @@
       "sessions": 4
      },
      {
-      "anchor_id": "666817b30000000007007f0b",
-      "nickname": "思思悦己日志(sisi-anqi)",
-      "dgmv": 0.0,
-      "sessions": 5
-     },
-     {
       "anchor_id": "5a9c1a22e8ac2b1eb275ed75",
       "nickname": "土司在拍照",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "666817b30000000007007f0b",
+      "nickname": "思思悦己日志(sisi-anqi)",
+      "dgmv": 0.0,
+      "sessions": 5
      },
      {
       "anchor_id": "5d1b377e000000001100d734",
@@ -72246,16 +74372,16 @@
       "sessions": 3
      },
      {
-      "anchor_id": "52ff1518b4c4d632848756d7",
-      "nickname": "小甜甜不搓泥",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5ea7b35a0000000001000347",
       "nickname": "滇西小哥",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "52ff1518b4c4d632848756d7",
+      "nickname": "小甜甜不搓泥",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "5ba78ea6e839fb0001ed8125",
@@ -73487,14 +75613,14 @@
       "sessions": 3
      },
      {
-      "anchor_id": "5c60c94a00000000120389c4",
-      "nickname": "李施嬅 Selena",
+      "anchor_id": "62df3ef0000000001e01da70",
+      "nickname": "火姐减脂",
       "dgmv": 0.0,
       "sessions": 2
      },
      {
-      "anchor_id": "62df3ef0000000001e01da70",
-      "nickname": "火姐减脂",
+      "anchor_id": "5c60c94a00000000120389c4",
+      "nickname": "李施嬅 Selena",
       "dgmv": 0.0,
       "sessions": 2
      },
@@ -73733,14 +75859,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "55ebaf4ce4b1cf770fce6b9a",
-      "nickname": "lindsay",
+      "anchor_id": "566e4a8b82ec395043cd332b",
+      "nickname": "六公子",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "566e4a8b82ec395043cd332b",
-      "nickname": "六公子",
+      "anchor_id": "55ebaf4ce4b1cf770fce6b9a",
+      "nickname": "lindsay",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -75220,16 +77346,16 @@
       "sessions": 2
      },
      {
-      "anchor_id": "60650330000000000101c2e4",
-      "nickname": "丘山",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "55181c49b203d91fc24de443",
       "nickname": "嘿姐Heje Heje",
       "dgmv": 0.0,
       "sessions": 3
+     },
+     {
+      "anchor_id": "60650330000000000101c2e4",
+      "nickname": "丘山",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "5655cb4344760876429b06e0",
@@ -75394,14 +77520,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "55a98b61f5a2632b88f8d76d",
-      "nickname": "兔兔想要去度假",
+      "anchor_id": "5e27c3e100000000010056cf",
+      "nickname": "Arielle能健康活200岁",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5e27c3e100000000010056cf",
-      "nickname": "Arielle能健康活200岁",
+      "anchor_id": "55a98b61f5a2632b88f8d76d",
+      "nickname": "兔兔想要去度假",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -75786,6 +77912,407 @@
      {
       "anchor_id": "5aa9135de8ac2b1e3b03ade4",
       "nickname": "吴佳尼niki",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 2428.85,
+    "hosts": [
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 754.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 313.8,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "589c03c96a6a6974e14ac0a4",
+      "nickname": "七月小羊🐏🐏",
+      "dgmv": 288.64,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5dd14d48000000000100a6b4",
+      "nickname": "小小",
+      "dgmv": 248.2,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6325d13a000000002303bd09",
+      "nickname": "小可乐妈妈呀",
+      "dgmv": 198.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bc614ebfd49670001450bfe",
+      "nickname": "薛佳凝",
+      "dgmv": 194.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "578d96306a6a6949a51da911",
+      "nickname": "古晨",
+      "dgmv": 178.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54e474fa2e1d932883fa7add",
+      "nickname": "慢慢的快跑",
+      "dgmv": 129.8,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5853b8e26a6a6927bf7788dc",
+      "nickname": "Lingling",
+      "dgmv": 43.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 41.77,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "543dbbaed6e4a9787138ff2c",
+      "nickname": "小雅徐徐子",
+      "dgmv": 37.84,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "5a4a3f69e8ac2b636d4b15e8",
+      "nickname": "miao大小姐",
+      "dgmv": 0.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "541be516b4c4d678c05b06de",
+      "nickname": "一颗榴莲树啊",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5ad748c54eacab10a45ab72d",
+      "nickname": "周灵薇",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "565e83a650c4b4045c88fef6",
+      "nickname": "吃货赵圆圆",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "58ebab6a82ec390cd9e6c17b",
+      "nickname": "小白和蓉蓉",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "62a0b032000000001b02b5a4",
+      "nickname": "爱生活的毛毛呀",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5c878d39000000001202d5e0",
+      "nickname": "李诞",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "55a98b61f5a2632b88f8d76d",
+      "nickname": "兔兔想要去度假",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5533b368d39ea26edc10d6ea",
+      "nickname": "小溪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a977d24e8ac2b787e4b36a0",
+      "nickname": "大虎Tiger👀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55710547e58d1336b134b24e",
+      "nickname": "CICI爱书爱生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6270495500000000210246bf",
+      "nickname": "慧慧在减肥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6344fccc000000001901f91c",
+      "nickname": "茶好了怡姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ac2a15411be1071cc7f534f",
+      "nickname": "张哈哈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66de11f7000000001d030ec3",
+      "nickname": "乖宝小橙",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c43e65d00000000050384ba",
+      "nickname": "蒋美美呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56ecd2caaed75855353f02e9",
+      "nickname": "敏希妈还可以",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5afde3794eacab4274364dd7",
+      "nickname": "云朵的美味佳肴",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "586301ed6a6a697cf501dc9b",
+      "nickname": "天才老王",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a9d6db011be10405f8ae6e8",
+      "nickname": "厨娘小何",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bd872cc37ce40000127d82e",
+      "nickname": "林不优秀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a10162b0000000002002802",
+      "nickname": "米朵妈咪🌱",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5558afc7484fb63cb51e5baa",
+      "nickname": "雪宝兒ANM",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f891d8e0000000001002288",
+      "nickname": "葛夕",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6055e2040000000001002ae2",
+      "nickname": "热心市民啾啾妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62cd494f000000000e00e2ec",
+      "nickname": "Haha孙满意",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5fb79b92000000000101daa4",
+      "nickname": "沈琳",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "564afa3de58d134ed15e742c",
+      "nickname": "洋气杨",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58b862b850c4b47714e97c5b",
+      "nickname": "文森特别饿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5717ea7c1c07df3036038fcb",
+      "nickname": "子时当归",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f7028350000000001009714",
+      "nickname": "菠萝吹铁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ad598d9e8ac2b46b796d8c2",
+      "nickname": "168的秋秋（减肥版）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa68ca9e8ac2b6a06202fac",
+      "nickname": "陶子逆龄笔记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56c476414775a76c5a5134cb",
+      "nickname": "金牌女生璐英流",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58b93a24a9b2ed527458ad9f",
+      "nickname": "哈哈妈妈爱厨房",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "572f243182ec39401e6b4f57",
+      "nickname": "较真的可乐姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7d63de11be100fb60f5da0",
+      "nickname": "lilymum闹妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "583ba88d6a6a6922800bb072",
+      "nickname": "温熊猫",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "594b2ed782ec392f06d3defc",
+      "nickname": "北大妈妈诺言",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa64337e8ac2b4b3d41523c",
+      "nickname": "章龄之",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "601241e00000000001008a72",
+      "nickname": "那知上麻妃Asahi",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a9c1a22e8ac2b1eb275ed75",
+      "nickname": "土司在拍照",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54bb1325e779892bd39f28d3",
+      "nickname": "岸川",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d19e36f000000001002bd59",
+      "nickname": "Lucia璐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59eb425ae8ac2b649a87caac",
+      "nickname": "于淼的美丽生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "581362176a6a694a6e66b9ce",
+      "nickname": "阿狗的妈咪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "57fca8f082ec395d19cbecc1",
+      "nickname": "lucky小幸幸",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bb6c9951783a6cd4fd04b8",
+      "nickname": "茜茜爱佑佑",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa4b10011be1013b9a2e51b",
+      "nickname": "凡奶奶一家人",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5adef3744eacab14c01dae7e",
+      "nickname": "鱼儿很鱼",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5fe6bde0000000000101e57f",
+      "nickname": "LLL",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55bd601267bc653fea5862da",
+      "nickname": "丸子Tina",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bf41e9266099b0001538e31",
+      "nickname": "开心呀KAIXIN",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -80151,14 +82678,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "57f8881e5e87e725ed4d5414",
-      "nickname": "Suteki Yuki",
+      "anchor_id": "5bee70e851783a21c54e4848",
+      "nickname": "邢哥真行",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5bee70e851783a21c54e4848",
-      "nickname": "邢哥真行",
+      "anchor_id": "57f8881e5e87e725ed4d5414",
+      "nickname": "Suteki Yuki",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -80241,16 +82768,16 @@
       "sessions": 2
      },
      {
-      "anchor_id": "5758dd80a9b2ed14607202b7",
-      "nickname": "王冠",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "594123a55e87e750e5db5916",
       "nickname": "星星坠满天",
       "dgmv": 0.0,
       "sessions": 3
+     },
+     {
+      "anchor_id": "5758dd80a9b2ed14607202b7",
+      "nickname": "王冠",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "56ecd2caaed75855353f02e9",
@@ -81022,6 +83549,227 @@
      {
       "anchor_id": "5a9a4202e8ac2b258d4a874b",
       "nickname": "爱养生的艳子会食养",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 3019.6,
+    "hosts": [
+     {
+      "anchor_id": "5f7028350000000001009714",
+      "nickname": "菠萝吹铁",
+      "dgmv": 2087.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64436d3d0000000014011a06",
+      "nickname": "十七（产后减脂生发版）",
+      "dgmv": 338.6,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 297.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5432a5e8d6e4a978191c1536",
+      "nickname": "BoBo Special",
+      "dgmv": 99.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "58ebab6a82ec390cd9e6c17b",
+      "nickname": "小白和蓉蓉",
+      "dgmv": 99.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55a98b61f5a2632b88f8d76d",
+      "nickname": "兔兔想要去度假",
+      "dgmv": 99.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a6ad6b94eacab014b17b7e5",
+      "nickname": "Healerzzz",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5ad598d9e8ac2b46b796d8c2",
+      "nickname": "168的秋秋（减肥版）",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5d19e36f000000001002bd59",
+      "nickname": "Lucia璐",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5dd14d48000000000100a6b4",
+      "nickname": "小小",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "56b82a9d84edcd52944a46f1",
+      "nickname": "姗胖胖Joyce",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55da68e567bc65136670e8a0",
+      "nickname": "小rong",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58db2dd350c4b444512c124e",
+      "nickname": "夏一文Lily",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55aa7a5bb7ba220530846f5e",
+      "nickname": "RoRo弱弱",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65ee9b2b000000000500f284",
+      "nickname": "菇菇颖",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59b9db645e87e755300d85ba",
+      "nickname": "喂余师傅",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58b635215e87e71267f6a2c0",
+      "nickname": "晚柠也是个妈妈了",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7514fbe8ac2b1e0011d397",
+      "nickname": "77是我",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c0e70b4f7e8b9080dd404d9",
+      "nickname": "蔡成的菜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5558afc7484fb63cb51e5baa",
+      "nickname": "雪宝兒ANM",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f1a7efd0000000001007035",
+      "nickname": "中年美妆博母杨光",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54bb1325e779892bd39f28d3",
+      "nickname": "岸川",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f5b27bf00000000010039fd",
+      "nickname": "泰国苏薇&王三岁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "541be516b4c4d678c05b06de",
+      "nickname": "一颗榴莲树啊",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "586301ed6a6a697cf501dc9b",
+      "nickname": "天才老王",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c0cc804000000000703acdf",
+      "nickname": "Jane是丸子豹",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "566a48e0e00dd820586409e1",
+      "nickname": "一花啦啦啦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "629e459a0000000019028acd",
+      "nickname": "谭不甜吃吃吃",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "57ea0f8650c4b44e42c66f9a",
+      "nickname": "洁洁减脂日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6270495500000000210246bf",
+      "nickname": "慧慧在减肥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5afde3794eacab4274364dd7",
+      "nickname": "云朵的美味佳肴",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61eb0181000000001000f2e4",
+      "nickname": "不二日食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "653a1840000000000d00454d",
+      "nickname": "詹青云",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "611df03500000000010039b0",
+      "nickname": "沫沫爱吃辣",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b2ba62bf7e8b97438dcaf41",
+      "nickname": "兰姐",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -82384,6 +85132,101 @@
      {
       "anchor_id": "69ca29e10000000033019dff",
       "nickname": "森林面包",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 36.6,
+    "hosts": [
+     {
+      "anchor_id": "68afd12f000000001901b36c",
+      "nickname": "阿锐的健康生活",
+      "dgmv": 36.6,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a07ece60000000002001400",
+      "nickname": "麦多多",
+      "dgmv": 0.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "59bfde5444363b717f028f90",
+      "nickname": "七七爱运动",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5a939f654eacab20752d123e",
+      "nickname": "莫莫营养健康",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a8bb57c11be1034f578ef74",
+      "nickname": "禾木妮妮",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6060c29f0000000001001f3e",
+      "nickname": "朵朵教美食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a8454c311be1039ee02cc4b",
+      "nickname": "朵拉爱美食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "600982ae0000000001000ee4",
+      "nickname": "董洁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "575e306c82ec397fc2158762",
+      "nickname": "阿静聊三餐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68c4c97d000000001903d535",
+      "nickname": "吴总文具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b42f894e8ac2b0ca5935e92",
+      "nickname": "好好姐爱食养",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "683e8d67000000001d01429e",
+      "nickname": "女包工厂-小红",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69d743ac00000000330276f7",
+      "nickname": "麦麦甜甜圈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ebcb42a0000000001006575",
+      "nickname": "中加生活lb",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68edba8c000000003702f0fb",
+      "nickname": "只要开心",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -87744,16 +90587,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5e8eba19000000000100bef4",
-      "nickname": "Anna智贤",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "565e83a650c4b4045c88fef6",
       "nickname": "吃货赵圆圆",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "5e8eba19000000000100bef4",
+      "nickname": "Anna智贤",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "5c100317000000000601dbde",
@@ -88565,16 +91408,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "623147fe0000000010009f4a",
-      "nickname": "玫瑰是玫瑰",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "63e8f0e50000000026005dbd",
       "nickname": "简单点_",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "623147fe0000000010009f4a",
+      "nickname": "玫瑰是玫瑰",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "667c3c6500000000030324b8",
@@ -90114,6 +92957,131 @@
      {
       "anchor_id": "59b9db645e87e755300d85ba",
       "nickname": "喂余师傅",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 144.37,
+    "hosts": [
+     {
+      "anchor_id": "5b6578e511be106f1f608c46",
+      "nickname": "丫丫黄芳",
+      "dgmv": 74.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 70.37,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5485b070d6e4a92d737bf7e1",
+      "nickname": "薇家全球好物",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56b82a9d84edcd52944a46f1",
+      "nickname": "姗胖胖Joyce",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "699b9e30000000002303d033",
+      "nickname": "京城skp禾饱饱",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6057032e000000000100bb39",
+      "nickname": "酱酱酱江",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5558afc7484fb63cb51e5baa",
+      "nickname": "雪宝兒ANM",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5cbd749200000000170055b0",
+      "nickname": "小泽哥生活馆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641d98c800000000110235b9",
+      "nickname": "铲屎官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54f3ffd42e1d935a6d58db75",
+      "nickname": "番茄罐头ChloMato",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54b1f759b4c4d65f85e77c26",
+      "nickname": "肖肖肖肖肖肖儿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff27996000000000100230a",
+      "nickname": "赵唯伊",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5db2d6af0000000001008e32",
+      "nickname": "张小某",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7d63de11be100fb60f5da0",
+      "nickname": "lilymum闹妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61678696000000000202375f",
+      "nickname": "小马33",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65b8b1b2000000000903d7ae",
+      "nickname": "大橘子妈咪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "614e84960000000002021b0b",
+      "nickname": "厨师徐嘉乐（个人号）",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -94282,16 +97250,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "69dfaf93000000003202d7bf",
-      "nickname": "条子",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5485a2792e1d9372720bc386",
       "nickname": "大脸噗噗只卖正品",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "69dfaf93000000003202d7bf",
+      "nickname": "条子",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "6a48d346000000000c001801",
@@ -94438,14 +97406,14 @@
       "sessions": 3
      },
      {
-      "anchor_id": "6110f16b0000000001008d89",
-      "nickname": "佛系张阿怼的小卖部",
+      "anchor_id": "611e36cc00000000200287c1",
+      "nickname": "小啾啾",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "611e36cc00000000200287c1",
-      "nickname": "小啾啾",
+      "anchor_id": "6110f16b0000000001008d89",
+      "nickname": "佛系张阿怼的小卖部",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -94474,14 +97442,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6953b7ef0000000037005a55",
-      "nickname": "绿植基地",
+      "anchor_id": "5e09ee0b0000000001009644",
+      "nickname": "美丽局局长",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5e09ee0b0000000001009644",
-      "nickname": "美丽局局长",
+      "anchor_id": "6953b7ef0000000037005a55",
+      "nickname": "绿植基地",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -94582,14 +97550,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5f9388f8000000000101f821",
-      "nickname": "Maggie懂营养",
+      "anchor_id": "5d29e8010000000012025e49",
+      "nickname": "小晶灵bibi｜派派",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5d29e8010000000012025e49",
-      "nickname": "小晶灵bibi｜派派",
+      "anchor_id": "5f9388f8000000000101f821",
+      "nickname": "Maggie懂营养",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -94888,26 +97856,26 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a4cb60f0000000010001000",
-      "nickname": "小早不早睡",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5482e60ee779891841b657ec",
       "nickname": "WindyXin",
       "dgmv": 0.0,
       "sessions": 2
      },
      {
-      "anchor_id": "59684d4150c4b418aba17848",
-      "nickname": "少奶奶",
+      "anchor_id": "6a4cb60f0000000010001000",
+      "nickname": "小早不早睡",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
       "anchor_id": "6344fccc000000001901f91c",
       "nickname": "茶好了怡姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59684d4150c4b418aba17848",
+      "nickname": "少奶奶",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -95332,16 +98300,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "623147fe0000000010009f4a",
-      "nickname": "玫瑰是玫瑰",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5c72d2bd00000000100200c6",
       "nickname": "睡不着的晚晚",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "623147fe0000000010009f4a",
+      "nickname": "玫瑰是玫瑰",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "6967155f000000000b03a203",
@@ -95512,26 +98480,26 @@
       "sessions": 1
      },
      {
-      "anchor_id": "66a2e5ec000000001e00f01b",
-      "nickname": "墨旭童装青岛外贸工厂",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5afde3794eacab4274364dd7",
       "nickname": "云朵的美味佳肴",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "67a2211a000000000e01fd31",
-      "nickname": "伤心小椰子",
+      "anchor_id": "66a2e5ec000000001e00f01b",
+      "nickname": "墨旭童装青岛外贸工厂",
       "dgmv": 0.0,
-      "sessions": 1
+      "sessions": 2
      },
      {
       "anchor_id": "6a8a73ee0000000013020c01",
       "nickname": "中亚国际食品仓｜聚力中国亚欧博览会",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67a2211a000000000e01fd31",
+      "nickname": "伤心小椰子",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -95584,14 +98552,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "66c41dae000000000d025ea0",
-      "nickname": "一只mini念",
+      "anchor_id": "5c597ddd0000000012013dd7",
+      "nickname": "大爽深圳南油老板娘（批发）",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5c597ddd0000000012013dd7",
-      "nickname": "大爽深圳南油老板娘（批发）",
+      "anchor_id": "66c41dae000000000d025ea0",
+      "nickname": "一只mini念",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -96100,14 +99068,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5ae2d2b911be104392f6593d",
-      "nickname": "Sherry雪真",
+      "anchor_id": "5c5b9b73000000001d0197b2",
+      "nickname": "Mr彦 Alex",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5c5b9b73000000001d0197b2",
-      "nickname": "Mr彦 Alex",
+      "anchor_id": "5ae2d2b911be104392f6593d",
+      "nickname": "Sherry雪真",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -96399,16 +99367,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56ecd2caaed75855353f02e9",
-      "nickname": "敏希妈还可以",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5ad598d9e8ac2b46b796d8c2",
       "nickname": "168的秋秋（减肥版）",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "56ecd2caaed75855353f02e9",
+      "nickname": "敏希妈还可以",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "59f3036111be1050ab3baa1c",
@@ -96963,14 +99931,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "621b5a36000000001000576f",
-      "nickname": "小助理是sam的小迷妹",
+      "anchor_id": "5569c8aa484fb6015727449d",
+      "nickname": "Ciko姐",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5569c8aa484fb6015727449d",
-      "nickname": "Ciko姐",
+      "anchor_id": "621b5a36000000001000576f",
+      "nickname": "小助理是sam的小迷妹",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -97089,16 +100057,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6.6262009e+23",
-      "nickname": "郁橙🍊",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5bc2e26fe61afa000130de84",
       "nickname": "元气文子",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "6.6262009e+23",
+      "nickname": "郁橙🍊",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "6227e4f800000000210208f9",
@@ -97119,14 +100087,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "63bef0500000000026004d98",
-      "nickname": "蟹老板_最强供应链霸总",
+      "anchor_id": "69bbe8c10000000032037ad0",
+      "nickname": "文具供应链1号仓",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "69bbe8c10000000032037ad0",
-      "nickname": "文具供应链1号仓",
+      "anchor_id": "63bef0500000000026004d98",
+      "nickname": "蟹老板_最强供应链霸总",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -97149,14 +100117,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "68bbdc9e000000001901e178",
-      "nickname": "柚子文具",
+      "anchor_id": "670778c0000000001d031b02",
+      "nickname": "LulusMiracle",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "670778c0000000001d031b02",
-      "nickname": "LulusMiracle",
+      "anchor_id": "68bbdc9e000000001901e178",
+      "nickname": "柚子文具",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -97395,14 +100363,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "68d46aa50000000021025f49",
-      "nickname": "一苒珠宝",
+      "anchor_id": "650a4a5b000000000200d834",
+      "nickname": "大冰和小四",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "650a4a5b000000000200d834",
-      "nickname": "大冰和小四",
+      "anchor_id": "68d46aa50000000021025f49",
+      "nickname": "一苒珠宝",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -97928,14 +100896,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "69bf52350000000033039fcf",
-      "nickname": "花生威化小铺",
+      "anchor_id": "660bf2d1000000000600f83f",
+      "nickname": "老咪哥运动瑜伽服",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "660bf2d1000000000600f83f",
-      "nickname": "老咪哥运动瑜伽服",
+      "anchor_id": "69bf52350000000033039fcf",
+      "nickname": "花生威化小铺",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -98030,16 +100998,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6387748c000000001f01ddf1",
-      "nickname": "Miss Mestine",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5ef58c00000000000101e974",
       "nickname": "阿梓不可爱",
       "dgmv": 0.0,
       "sessions": 3
+     },
+     {
+      "anchor_id": "6387748c000000001f01ddf1",
+      "nickname": "Miss Mestine",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "66604dc80000000003032d01",
@@ -98138,16 +101106,16 @@
       "sessions": 3
      },
      {
-      "anchor_id": "69cdb9b30000000032028eeb",
-      "nickname": "手作吐司",
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "685e6620000000001d018cd0",
       "nickname": "丽君普拉提",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "69cdb9b30000000032028eeb",
+      "nickname": "手作吐司",
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "593cbc1d6a6a694d485208d9",
@@ -98582,14 +101550,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5df5b5fd000000000100a53f",
-      "nickname": "韩安冉Abby（二胎宝妈）",
+      "anchor_id": "5f8294a9000000000101cd63",
+      "nickname": "灵灵发",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5f8294a9000000000101cd63",
-      "nickname": "灵灵发",
+      "anchor_id": "5df5b5fd000000000100a53f",
+      "nickname": "韩安冉Abby（二胎宝妈）",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -98600,14 +101568,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "650a4a5b000000000200d834",
-      "nickname": "大冰和小四",
+      "anchor_id": "57fca8f082ec395d19cbecc1",
+      "nickname": "lucky小幸幸",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "57fca8f082ec395d19cbecc1",
-      "nickname": "lucky小幸幸",
+      "anchor_id": "650a4a5b000000000200d834",
+      "nickname": "大冰和小四",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -98666,14 +101634,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "56faa54184edcd4100ce2598",
-      "nickname": "balixiaorain",
+      "anchor_id": "60bbf31d00000000010041b4",
+      "nickname": "每天学英语",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "60bbf31d00000000010041b4",
-      "nickname": "每天学英语",
+      "anchor_id": "56faa54184edcd4100ce2598",
+      "nickname": "balixiaorain",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -98738,14 +101706,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "67614a020000000018014c35",
-      "nickname": "可可西里",
+      "anchor_id": "5a992b724eacab51119d9091",
+      "nickname": "虎视眈儿",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5a992b724eacab51119d9091",
-      "nickname": "虎视眈儿",
+      "anchor_id": "67614a020000000018014c35",
+      "nickname": "可可西里",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -98894,14 +101862,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5cfbc3f10000000018023ebb",
-      "nickname": "刘雨鑫JASON",
+      "anchor_id": "5eeb515f0000000001007a77",
+      "nickname": "番茄弟弟",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5eeb515f0000000001007a77",
-      "nickname": "番茄弟弟",
+      "anchor_id": "5cfbc3f10000000018023ebb",
+      "nickname": "刘雨鑫JASON",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -98996,14 +101964,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "62590f7d0000000021020320",
-      "nickname": "王大奇奇",
+      "anchor_id": "5f3c03fd00000000010097ea",
+      "nickname": "KcorI",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5f3c03fd00000000010097ea",
-      "nickname": "KcorI",
+      "anchor_id": "62590f7d0000000021020320",
+      "nickname": "王大奇奇",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -99248,14 +102216,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "63830957000000001f017b40",
-      "nickname": "甜酸角大王",
+      "anchor_id": "68b40918000000001a027b27",
+      "nickname": "自由生长 轻奢家居绿植",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "68b40918000000001a027b27",
-      "nickname": "自由生长 轻奢家居绿植",
+      "anchor_id": "63830957000000001f017b40",
+      "nickname": "甜酸角大王",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -99272,14 +102240,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a549035000000000f03ac03",
-      "nickname": "招财鹿kids",
+      "anchor_id": "591873206a6a69101d3e8033",
+      "nickname": "冬雪胖胖吖",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "591873206a6a69101d3e8033",
-      "nickname": "冬雪胖胖吖",
+      "anchor_id": "6a549035000000000f03ac03",
+      "nickname": "招财鹿kids",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -99478,6 +102446,287 @@
      {
       "anchor_id": "59f1918311be104958d53a1b",
       "nickname": "演员李晓峰",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5b6578e511be106f1f608c46",
+      "nickname": "丫丫黄芳",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a59d613000000000e03dc00",
+      "nickname": "甜甜的小樱桃",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b2ba62bf7e8b97438dcaf41",
+      "nickname": "兰姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5678ccb2b8c8b43231e18f30",
+      "nickname": "墨琼MQ-高端汉麻源头品牌",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "683bfd75000000001d014371",
+      "nickname": "吴老师文史课堂",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69d73111000000003202b73e",
+      "nickname": "小堂文具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66a2e5ec000000001e00f01b",
+      "nickname": "墨旭童装青岛外贸工厂",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bb7945594605e0001e51784",
+      "nickname": "吴速玲 Shuling",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68ee46fc000000003700bcda",
+      "nickname": "欢喜集",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69bf52350000000033039fcf",
+      "nickname": "花生威化小铺",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "611a821c000000002002f836",
+      "nickname": "小尹的快乐生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e36ae740000000001008879",
+      "nickname": "杨冷冷_",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "574a9b4bbd0da5148bc046f6",
+      "nickname": "达娜Dana",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e0acc330000000001001c5e",
+      "nickname": "🍬糖77",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66a211d7000000000b032379",
+      "nickname": "陌里姐姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66a7455e000000001d021798",
+      "nickname": "YAYA CHIC轻奢饰品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5485b070d6e4a92d737bf7e1",
+      "nickname": "薇家全球好物",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba09e4511be10190e0c612d",
+      "nickname": "杨子姗",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5485a2792e1d9372720bc386",
+      "nickname": "大脸噗噗只卖正品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "583ba88d6a6a6922800bb072",
+      "nickname": "温熊猫",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "614e84960000000002021b0b",
+      "nickname": "厨师徐嘉乐（个人号）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "632bb348000000002303cf41",
+      "nickname": "京东家政全国预约中心",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69a92d1e0000000033030b0d",
+      "nickname": "爆小龙",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6953b7ef0000000037005a55",
+      "nickname": "绿植基地",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67fbc44e000000000a03c9f4",
+      "nickname": "JD家政保洁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5422e41ce77989553dab079d",
+      "nickname": "陆妍淇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "680f34e0000000000a03c4fe",
+      "nickname": "花间物语",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69cdb9b30000000032028eeb",
+      "nickname": "手作吐司",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "692703b3000000003700a178",
+      "nickname": "破产老板",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62cd494f000000000e00e2ec",
+      "nickname": "Haha孙满意",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "640c92cb0000000029011a97",
+      "nickname": "柳州螺蛳女王",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "599bb1196a6a69430b704f54",
+      "nickname": "芬姐精选滋补品养生美食分享",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61eacc2f0000000021024a1c",
+      "nickname": "王大可的小鸡们",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a07df6311be10155751c12a",
+      "nickname": "vico_",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54f2e005d39ea234b2d48bab",
+      "nickname": "Jessica671",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a7737ea0000000013032400",
+      "nickname": "瑞瑞团购官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "604c1f9f000000000101c21b",
+      "nickname": "菲姐亮哥五口之家",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff3e0ee0000000001004d1c",
+      "nickname": "是柠檬呀🍋",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6.3452719e+247",
+      "nickname": "了不起的榴莲",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f72dd6d0000000001004f1a",
+      "nickname": "小林哥品百巍",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "600982ae0000000001000ee4",
+      "nickname": "董洁",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a22e73b000000000800a800",
+      "nickname": "可乐麦迪",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -105878,16 +109127,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5f5ebf390000000001001d18",
-      "nickname": "仙人埠张奎",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5b209e8e4eacab1f1c6d5bc1",
       "nickname": "80后退休少女夏天",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "5f5ebf390000000001001d18",
+      "nickname": "仙人埠张奎",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "6a49c574000000000f039003",
@@ -106208,14 +109457,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "656b727a000000002003130a",
-      "nickname": "佟彤",
+      "anchor_id": "6132e05c0000000002026af6",
+      "nickname": "尹芩川",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6132e05c0000000002026af6",
-      "nickname": "尹芩川",
+      "anchor_id": "656b727a000000002003130a",
+      "nickname": "佟彤",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -106418,14 +109667,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6a425e9e0000000010000c00",
-      "nickname": "科科",
+      "anchor_id": "5b8926b4779bd5000102c4c9",
+      "nickname": "松青学姐",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5b8926b4779bd5000102c4c9",
-      "nickname": "松青学姐",
+      "anchor_id": "6a425e9e0000000010000c00",
+      "nickname": "科科",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -106658,14 +109907,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "65507b1900000000020375e0",
-      "nickname": "黄爸爸脑科学育儿",
+      "anchor_id": "5affecd74eacab28f58ada53",
+      "nickname": "笑颜在成长",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5affecd74eacab28f58ada53",
-      "nickname": "笑颜在成长",
+      "anchor_id": "65507b1900000000020375e0",
+      "nickname": "黄爸爸脑科学育儿",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -106706,14 +109955,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a2648c4e8ac2b316c8e7e76",
-      "nickname": "Pinko.",
+      "anchor_id": "59adfa5a50c4b4201625c43a",
+      "nickname": "YUNXI云曦的花园",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59adfa5a50c4b4201625c43a",
-      "nickname": "YUNXI云曦的花园",
+      "anchor_id": "5a2648c4e8ac2b316c8e7e76",
+      "nickname": "Pinko.",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -107024,14 +110273,235 @@
       "sessions": 1
      },
      {
-      "anchor_id": "69c24b33000000003301b293",
-      "nickname": "姑娘果种植园",
+      "anchor_id": "692182a6000000003702bde1",
+      "nickname": "黛an芬清货号",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "692182a6000000003702bde1",
-      "nickname": "黛an芬清货号",
+      "anchor_id": "69c24b33000000003301b293",
+      "nickname": "姑娘果种植园",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 4
+     },
+     {
+      "anchor_id": "625a5a7b000000002102201a",
+      "nickname": "蔡伟仔优选",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5a0bab504eacab17394e009a",
+      "nickname": "ZY喜哥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641d98c800000000110235b9",
+      "nickname": "铲屎官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf27a3f002e300012d84a1",
+      "nickname": "是婷姐呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69d743ac00000000330276f7",
+      "nickname": "麦麦甜甜圈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c34870c0000000007008eb2",
+      "nickname": "厨匠东哥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "670777e2000000001d021f42",
+      "nickname": "果然哆哆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa4b10011be1013b9a2e51b",
+      "nickname": "凡奶奶一家人",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62b06781000000001902a39e",
+      "nickname": "阿洋啥都有",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6299e7e90000000021027f00",
+      "nickname": "天使之毅",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62edce45000000001f007afe",
+      "nickname": "小城森林",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66028c5d000000000600c16d",
+      "nickname": "肖骁有好货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61b5c59a0000000010005e81",
+      "nickname": "抢走它的胡萝卜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68c4c97d000000001903d535",
+      "nickname": "吴总文具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ac9e9984eacab7ab69ed957",
+      "nickname": "明月的锅锅",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "680f34e0000000000a03c4fe",
+      "nickname": "花间物语",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1d3ddd00000000110045d7",
+      "nickname": "球球很笃定",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6150c56b58b741e26b8c7f",
+      "nickname": "还是叫吴富贵吧",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69cf607500000000320248de",
+      "nickname": "壹壹变美日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67e8a91d000000000a03e043",
+      "nickname": "木幼事童装",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5feaad5d0000000001007e2d",
+      "nickname": "下班吃什么",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a4362100000000010000800",
+      "nickname": "肖骁生活汇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5678ccb2b8c8b43231e18f30",
+      "nickname": "墨琼MQ-高端汉麻源头品牌",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68cbe2be000000002202585d",
+      "nickname": "大榕树",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59eb425ae8ac2b649a87caac",
+      "nickname": "于淼的美丽生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f256d8b0000000001008342",
+      "nickname": "周记香云纱工厂店",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a2d2771000000000e03cc04",
+      "nickname": "云南人参果种植基地",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67865b7e000000000803f9d6",
+      "nickname": "至茗茶器",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65990c880000000022008ced",
+      "nickname": "葵花家居绿植",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68bbed3c0000000019021caa",
+      "nickname": "曼曼高定女装成衣",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6428624a000000002a00a35c",
+      "nickname": "露营的大雨",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66f422dd000000001d030d90",
+      "nickname": "SUPOR苏泊尔厨具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65f65067000000000600c4a6",
+      "nickname": "双双外贸",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -107305,14 +110775,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "635643b0000000001901e123",
-      "nickname": "大白日韩潮牌工厂店",
+      "anchor_id": "6a51ea96000000000f03b402",
+      "nickname": "是小雨呀y",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6a51ea96000000000f03b402",
-      "nickname": "是小雨呀y",
+      "anchor_id": "635643b0000000001901e123",
+      "nickname": "大白日韩潮牌工厂店",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -107827,14 +111297,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "63830957000000001f017b40",
-      "nickname": "甜酸角大王",
+      "anchor_id": "5afa40694eacab0ff65cfda4",
+      "nickname": "小喵麻麻",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5afa40694eacab0ff65cfda4",
-      "nickname": "小喵麻麻",
+      "anchor_id": "63830957000000001f017b40",
+      "nickname": "甜酸角大王",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -107881,14 +111351,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "575769f282ec3930d8471485",
-      "nickname": "BC美物分享家",
+      "anchor_id": "6805fe69000000000a03cd2d",
+      "nickname": "三姐的生活",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6805fe69000000000a03cd2d",
-      "nickname": "三姐的生活",
+      "anchor_id": "575769f282ec3930d8471485",
+      "nickname": "BC美物分享家",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -108024,16 +111494,16 @@
       "sessions": 4
      },
      {
-      "anchor_id": "64d60f9e0000000001012782",
-      "nickname": null,
-      "dgmv": 0.0,
-      "sessions": 2
-     },
-     {
       "anchor_id": "5d1d3ddd00000000110045d7",
       "nickname": "球球很笃定",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "64d60f9e0000000001012782",
+      "nickname": null,
+      "dgmv": 0.0,
+      "sessions": 2
      },
      {
       "anchor_id": "6098e2ec0000000001009f6c",
@@ -108252,16 +111722,16 @@
       "sessions": 2
      },
      {
-      "anchor_id": "642631cc00000000110208a5",
-      "nickname": "杜格格",
-      "dgmv": 0.0,
-      "sessions": 4
-     },
-     {
       "anchor_id": "6656a5a80000000007006550",
       "nickname": "晴晴外贸韩系工厂",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "642631cc00000000110208a5",
+      "nickname": "杜格格",
+      "dgmv": 0.0,
+      "sessions": 4
      },
      {
       "anchor_id": "5ad6fa3211be1057289f2cbf",
@@ -108438,16 +111908,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6702b967000000001d02032a",
-      "nickname": "李总的文具百货源头仓",
-      "dgmv": 0.0,
-      "sessions": 6
-     },
-     {
       "anchor_id": "56b82a9d84edcd52944a46f1",
       "nickname": "姗胖胖Joyce",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 6
      },
      {
       "anchor_id": "5bcdc8ffe5d3470001990f95",
@@ -108702,14 +112172,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "60d0a1a3000000000101f8c4",
-      "nickname": "壹叁零服饰",
+      "anchor_id": "58f9a0dd5e87e74b7f924325",
+      "nickname": "廖文靓",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "58f9a0dd5e87e74b7f924325",
-      "nickname": "廖文靓",
+      "anchor_id": "60d0a1a3000000000101f8c4",
+      "nickname": "壹叁零服饰",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -109272,16 +112742,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "6912ba6400000000370304e9",
-      "nickname": "格格",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "64619ff5000000000f007205",
       "nickname": "（kuai）醒醒",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "6912ba6400000000370304e9",
+      "nickname": "格格",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "5bdab293b4c8b70001bca830",
@@ -113358,16 +116828,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "667912a10000000003030455",
-      "nickname": "李大脑子",
-      "dgmv": 0.0,
-      "sessions": 3
-     },
-     {
       "anchor_id": "59f1918311be104958d53a1b",
       "nickname": "演员李晓峰",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "667912a10000000003030455",
+      "nickname": "李大脑子",
+      "dgmv": 0.0,
+      "sessions": 3
      },
      {
       "anchor_id": "62ff7cf2000000000f00692c",
@@ -114215,14 +117685,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "64b20faf000000001001f65e",
-      "nickname": "大婉酱微胖定制小个子肉肉",
+      "anchor_id": "63355ac9000000001802bdd0",
+      "nickname": "酱多多大大王",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "63355ac9000000001802bdd0",
-      "nickname": "酱多多大大王",
+      "anchor_id": "64b20faf000000001001f65e",
+      "nickname": "大婉酱微胖定制小个子肉肉",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -115006,16 +118476,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "58b55c0050c4b421c4061875",
-      "nickname": "我是珍珠啊",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "5fc3bde60000000001006c1c",
       "nickname": "小牙一杯",
       "dgmv": 0.0,
       "sessions": 2
+     },
+     {
+      "anchor_id": "58b55c0050c4b421c4061875",
+      "nickname": "我是珍珠啊",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "5a2d676b4eacab0a40203dc7",
@@ -115398,6 +118868,167 @@
      {
       "anchor_id": "67c90a79000000000e01c482",
       "nickname": "海绵宝宝爱吃饭",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 76.0,
+    "hosts": [
+     {
+      "anchor_id": "5a977d24e8ac2b787e4b36a0",
+      "nickname": "大虎Tiger👀",
+      "dgmv": 76.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ea40cba0000000001003d16",
+      "nickname": "龙爸在努力",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5651ac5d67bc65191a79cb9d",
+      "nickname": "洋气妈咪",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5c878d39000000001202d5e0",
+      "nickname": "李诞",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "600982ae0000000001000ee4",
+      "nickname": "董洁",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6.6139395e+23",
+      "nickname": "香粉嘟嘟",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68cbe2be000000002202585d",
+      "nickname": "大榕树",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c3b5871000000000503acaa",
+      "nickname": "小野桃儿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5422e41ce77989553dab079d",
+      "nickname": "陆妍淇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54f2e005d39ea234b2d48bab",
+      "nickname": "Jessica671",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "565e83a650c4b4045c88fef6",
+      "nickname": "吃货赵圆圆",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c2d9b7f000000000500a69b",
+      "nickname": "苍蝇拍子_",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff27996000000000100230a",
+      "nickname": "赵唯伊",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69be9da800000000340183f3",
+      "nickname": "冲吗精选",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b0e48476b58b703cdf51552",
+      "nickname": "小铁锤",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60d950fe000000000101d31c",
+      "nickname": "大脸潘子",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6344fccc000000001901f91c",
+      "nickname": "茶好了怡姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "685633d2000000001b023b2a",
+      "nickname": "兰玉在成长",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69bb5e9000000000320376d3",
+      "nickname": "苦海无涯",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "645b6810000000000f007050",
+      "nickname": "安楠AN",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "565bc5fe03eb841546598cf9",
+      "nickname": "钳钳妈阿曼达呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "649bc485000000000b017f06",
+      "nickname": "155的珠珠呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69106b2d0000000037002b28",
+      "nickname": "国货之光",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c4ef4ca000000001100f304",
+      "nickname": "杨乐",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -116692,6 +120323,29 @@
      {
       "anchor_id": "6852d2a2000000001d017e97",
       "nickname": "张九九呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "584ad95f50c4b41f3a6eecc0",
+      "nickname": "梦诗Nicole",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "6a4db991000000000f038400",
+      "nickname": "薯省省Studio",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "637317e0000000001f01c740",
+      "nickname": "无飯不斯",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -120036,6 +123690,41 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "67a6b2930000000006011039",
+      "nickname": "中信书店直播间",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f9be2580000000001007472",
+      "nickname": "林鹿溪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66028c5d000000000600c16d",
+      "nickname": "肖骁有好货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "593314c45e87e74c3f419015",
+      "nickname": "小迷糊阿彬",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b4cb954e8ac2b5da6c37ed8",
+      "nickname": "_毛酱_",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -122482,6 +126171,119 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 3128.76,
+    "hosts": [
+     {
+      "anchor_id": "58b862b850c4b47714e97c5b",
+      "nickname": "文森特别饿",
+      "dgmv": 1698.76,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a07d1d00000000002002801",
+      "nickname": "圆元超元气🍊",
+      "dgmv": 864.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54f3ffd42e1d935a6d58db75",
+      "nickname": "番茄罐头ChloMato",
+      "dgmv": 566.0,
+      "sessions": 5
+     },
+     {
+      "anchor_id": "564afa3de58d134ed15e742c",
+      "nickname": "洋气杨",
+      "dgmv": 0.0,
+      "sessions": 5
+     },
+     {
+      "anchor_id": "56b82a9d84edcd52944a46f1",
+      "nickname": "姗胖胖Joyce",
+      "dgmv": 0.0,
+      "sessions": 4
+     },
+     {
+      "anchor_id": "563edd40a40e182c8c67f171",
+      "nickname": "任芸丽",
+      "dgmv": 0.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "5a55c7b3e8ac2b2f1342a7b7",
+      "nickname": "丹的生活笔记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69cf607500000000320248de",
+      "nickname": "壹壹变美日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60fbb7f80000000001009e84",
+      "nickname": "大胡艾夏夫妇",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c4ef4ca000000001100f304",
+      "nickname": "杨乐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61ecc134000000001000d267",
+      "nickname": "设计师妈咪睿睿",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "57fca8f082ec395d19cbecc1",
+      "nickname": "lucky小幸幸",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d19e36f000000001002bd59",
+      "nickname": "Lucia璐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58b93a24a9b2ed527458ad9f",
+      "nickname": "哈哈妈妈爱厨房",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "614e84960000000002021b0b",
+      "nickname": "厨师徐嘉乐（个人号）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa68ca9e8ac2b6a06202fac",
+      "nickname": "陶子逆龄笔记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54e6ba79d39ea20e6a58d7d8",
+      "nickname": "包包姐在瑞士",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -124038,6 +127840,17 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -125238,6 +129051,29 @@
      {
       "anchor_id": "65c5eb0c0000000011016789",
       "nickname": "Winnie家悦悦",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 20.5,
+    "hosts": [
+     {
+      "anchor_id": "54f2e005d39ea234b2d48bab",
+      "nickname": "Jessica671",
+      "dgmv": 20.5,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "587ba39e6a6a693a2c83ae68",
+      "nickname": "宇宙的蓝猴",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -129332,6 +133168,83 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "564afa3de58d134ed15e742c",
+      "nickname": "洋气杨",
+      "dgmv": 0.0,
+      "sessions": 3
+     },
+     {
+      "anchor_id": "625a5a7b000000002102201a",
+      "nickname": "蔡伟仔优选",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "59a79c886a6a6903d6689d13",
+      "nickname": "bibibiu",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6150c56b58b741e26b8c7f",
+      "nickname": "还是叫吴富贵吧",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c242f45000000000701a287",
+      "nickname": "爱吃番茄的猫⭐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6809f947000000000d00bcff",
+      "nickname": "青青生活小记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ad598d9e8ac2b46b796d8c2",
+      "nickname": "168的秋秋（减肥版）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69eee24e0000000002001802",
+      "nickname": "拥抱未来",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "62d01b51000000000303e4a3",
+      "nickname": "曾经",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641d98c800000000110235b9",
+      "nickname": "铲屎官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68bd5434000000001901bb1d",
+      "nickname": "小傅崽崽儿👼（家有小月龄）",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -129866,6 +133779,29 @@
      {
       "anchor_id": "54704db7d6e4a9617b3e459b",
       "nickname": "困困爱生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68afd12f000000001901b36c",
+      "nickname": "阿锐的健康生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5fd70dc9000000000100421a",
+      "nickname": "小白一家在美国",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "680e49ff000000000d008f36",
+      "nickname": "Sue的抗炎食记",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -132821,14 +136757,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "5c72891600000000110014eb",
-      "nickname": "演员周瑞",
+      "anchor_id": "6953b7ef0000000037005a55",
+      "nickname": "绿植基地",
       "dgmv": 0.0,
       "sessions": 2
      },
      {
-      "anchor_id": "6953b7ef0000000037005a55",
-      "nickname": "绿植基地",
+      "anchor_id": "5c72891600000000110014eb",
+      "nickname": "演员周瑞",
       "dgmv": 0.0,
       "sessions": 2
      },
@@ -134020,6 +137956,83 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "625a5a7b000000002102201a",
+      "nickname": "蔡伟仔优选",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "68c4c97d000000001903d535",
+      "nickname": "吴总文具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a4a0091000000000f038803",
+      "nickname": "Miss Lin大牌买手店",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5de9f491000000000100499b",
+      "nickname": "小张的溏心蛋",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59b9db645e87e755300d85ba",
+      "nickname": "喂余师傅",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "614d9171000000000201d9c9",
+      "nickname": "深美节日礼品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a91165b0000000013031001",
+      "nickname": "养乐多",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aa4b10011be1013b9a2e51b",
+      "nickname": "凡奶奶一家人",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6927e0e2000000000300ee40",
+      "nickname": "时透无一郎",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "642d200c0000000012010aab",
+      "nickname": "158的溪溪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a4db991000000000f038400",
+      "nickname": "薯省省Studio",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -134266,6 +138279,17 @@
      {
       "anchor_id": "69caa2910000000032019b6c",
       "nickname": "临期食品一折go",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "61eb0181000000001000f2e4",
+      "nickname": "不二日食",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -135059,6 +139083,77 @@
      {
       "anchor_id": "5e8eba19000000000100bef4",
       "nickname": "Anna智贤",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5b1bdc1811be106fab79b4fe",
+      "nickname": "营养师小旬",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "685633d2000000001b023b2a",
+      "nickname": "兰玉在成长",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6533ead4000000000301d348",
+      "nickname": "Fountain E 咕噜噜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "670a71fe000000000d025553",
+      "nickname": "跟霖姐学明星抗老",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5919829e50c4b43c7420bb81",
+      "nickname": "早餐-瓷木一道",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5db7e73f0000000001005174",
+      "nickname": "卡奈斯CANAICY",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "636896d0000000001f01f6cd",
+      "nickname": "逆糖实战派Tina",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c12728400000000070386af",
+      "nickname": "佩佩教你瘦",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56baadb4b8ce1a722445e5aa",
+      "nickname": "宣儿麻麻",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bd96a924b96bc00018db263",
+      "nickname": "查查健身精准塑形",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -138324,14 +142419,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5d15ee840000000010022c8b",
-      "nickname": "七个佩奇妈妈文文",
+      "anchor_id": "5c85de980000000016028d1a",
+      "nickname": "宝石爱跳",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5c85de980000000016028d1a",
-      "nickname": "宝石爱跳",
+      "anchor_id": "5d15ee840000000010022c8b",
+      "nickname": "七个佩奇妈妈文文",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -139474,14 +143569,14 @@
       "sessions": 2
      },
      {
-      "anchor_id": "64187e0a0000000012011fe8",
-      "nickname": "杉拾叁",
+      "anchor_id": "63a19fa50000000026007150",
+      "nickname": "毛兰侃谈",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "63a19fa50000000026007150",
-      "nickname": "毛兰侃谈",
+      "anchor_id": "64187e0a0000000012011fe8",
+      "nickname": "杉拾叁",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -139846,6 +143941,59 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "68eb9a19000000003801f01a",
+      "nickname": "兜兜有米",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68e209460000000037030c4f",
+      "nickname": "早早国际外贸仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5651ac5d67bc65191a79cb9d",
+      "nickname": "洋气妈咪",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "661f6ee50000000007004699",
+      "nickname": "YUEJI悦己定制女装",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641d98c800000000110235b9",
+      "nickname": "铲屎官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a5a1e92000000000e03cc01",
+      "nickname": "云南昭通红露丑苹果基地",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6809e3eb000000000e012064",
+      "nickname": "黎米女鞋",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "603860c9000000000100a793",
+      "nickname": "胖子卖螺蛳粉",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -140122,6 +144270,23 @@
      {
       "anchor_id": "5bea5d66b0953a0001aa0e7a",
       "nickname": "贪吃又爱买的安安",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5e81a33c000000000100a192",
+      "nickname": "洛洛Lorna",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5daeccc50000000001008e99",
+      "nickname": "十盅醉",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -143408,14 +147573,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "59c87e5a44363b2cccb9dfc2",
-      "nickname": "小小莎老师",
+      "anchor_id": "55d0a148e4b1cf422da98b21",
+      "nickname": "萧萧Clara",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "55d0a148e4b1cf422da98b21",
-      "nickname": "萧萧Clara",
+      "anchor_id": "59c87e5a44363b2cccb9dfc2",
+      "nickname": "小小莎老师",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -143450,14 +147615,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5a6ad6b94eacab014b17b7e5",
-      "nickname": "Healerzzz",
+      "anchor_id": "682d99b9000000000e0110ad",
+      "nickname": "臭屁坨夫妇",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "682d99b9000000000e0110ad",
-      "nickname": "臭屁坨夫妇",
+      "anchor_id": "5a6ad6b94eacab014b17b7e5",
+      "nickname": "Healerzzz",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -143774,14 +147939,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5db2d6af0000000001008e32",
-      "nickname": "张小某",
+      "anchor_id": "566c425ae00dd84edcc61e9e",
+      "nickname": "VIVIENNE's",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "566c425ae00dd84edcc61e9e",
-      "nickname": "VIVIENNE's",
+      "anchor_id": "5db2d6af0000000001008e32",
+      "nickname": "张小某",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -144079,16 +148244,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "60ee280e000000000100b04b",
-      "nickname": "洛杉矶瑞星进出口贸易公司",
-      "dgmv": 0.0,
-      "sessions": 3
-     },
-     {
       "anchor_id": "54cd4264b4c4d615fc2c8785",
       "nickname": "夜忙症",
       "dgmv": 0.0,
       "sessions": 1
+     },
+     {
+      "anchor_id": "60ee280e000000000100b04b",
+      "nickname": "洛杉矶瑞星进出口贸易公司",
+      "dgmv": 0.0,
+      "sessions": 3
      },
      {
       "anchor_id": "566c425ae00dd84edcc61e9e",
@@ -144097,14 +148262,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "59bbd47051783a17701140ab",
-      "nickname": "蔚蔚然",
+      "anchor_id": "5758dd80a9b2ed14607202b7",
+      "nickname": "王冠",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5758dd80a9b2ed14607202b7",
-      "nickname": "王冠",
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -144625,14 +148790,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "572f243182ec39401e6b4f57",
-      "nickname": "较真的可乐姐",
+      "anchor_id": "59a4fb4982ec397f096b0ef8",
+      "nickname": "风华绝代的石榴姐",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59a4fb4982ec397f096b0ef8",
-      "nickname": "风华绝代的石榴姐",
+      "anchor_id": "572f243182ec39401e6b4f57",
+      "nickname": "较真的可乐姐",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -145140,14 +149305,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5e0f00570000000001000c9c",
-      "nickname": "豆豆是我",
+      "anchor_id": "58e339426a6a69534dbe7123",
+      "nickname": "吐提古丽热杰",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "58e339426a6a69534dbe7123",
-      "nickname": "吐提古丽热杰",
+      "anchor_id": "5e0f00570000000001000c9c",
+      "nickname": "豆豆是我",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -145364,6 +149529,209 @@
      {
       "anchor_id": "62934085000000001501b764",
       "nickname": "王同学1号",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 2725.84,
+    "hosts": [
+     {
+      "anchor_id": "5717ea7c1c07df3036038fcb",
+      "nickname": "子时当归",
+      "dgmv": 1760.24,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba09e4511be10190e0c612d",
+      "nickname": "杨子姗",
+      "dgmv": 400.2,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aedba1ae8ac2b68e7f5b651",
+      "nickname": "聂诗芸Demi",
+      "dgmv": 219.4,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b49fdb84eacab4f4c4f5a43",
+      "nickname": "李坦坦爱新疆",
+      "dgmv": 109.5,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 59.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "595c7bef82ec394d6baf8ea3",
+      "nickname": "野孩子gogo",
+      "dgmv": 59.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58bd229d82ec3955724f7899",
+      "nickname": "李欢在厨房",
+      "dgmv": 59.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "54b1f759b4c4d65f85e77c26",
+      "nickname": "肖肖肖肖肖肖儿",
+      "dgmv": 56.8,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "565e83a650c4b4045c88fef6",
+      "nickname": "吃货赵圆圆",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5d5e142500000000010096e0",
+      "nickname": "咩-薇吃饱了",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69d743ac00000000330276f7",
+      "nickname": "麦麦甜甜圈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1ed5cf000000001601f692",
+      "nickname": "湘野红姐9.21丰收节直播",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ebcb42a0000000001006575",
+      "nickname": "中加生活lb",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "653a1840000000000d00454d",
+      "nickname": "詹青云",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68afd12f000000001901b36c",
+      "nickname": "阿锐的健康生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "574a61b25e87e7144d5ad336",
+      "nickname": "杜饼干呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7514fbe8ac2b1e0011d397",
+      "nickname": "77是我",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5380ef68b4c4d65abe43b106",
+      "nickname": "沈辰辰辰辰",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69cf607500000000320248de",
+      "nickname": "壹壹变美日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69ba35900000000032024d90",
+      "nickname": "Motobaby童车玩具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56b82a9d84edcd52944a46f1",
+      "nickname": "姗胖胖Joyce",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "55a1195467bc6516e873f84f",
+      "nickname": "静姐姐Lumos",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "63afb0fa0000000026005005",
+      "nickname": "憾",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "56e6679c1c07df3d554a003f",
+      "nickname": "康康什么楠",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "61eb0181000000001000f2e4",
+      "nickname": "不二日食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e5d2593000000000100097c",
+      "nickname": "大宋的健康笔记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e89ea3d000000000100a832",
+      "nickname": "咔吃夫妇（雯儿姐&刚哥）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6423b677000000001201094f",
+      "nickname": "二胎曼仔妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "663c94ee000000000d0272ab",
+      "nickname": "营养科学胡一只",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -146454,6 +150822,17 @@
      {
       "anchor_id": "5a6a797511be103dcd5661b4",
       "nickname": "M&V",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "69d743ac00000000330276f7",
+      "nickname": "麦麦甜甜圈",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -148622,6 +153001,95 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 2307.67,
+    "hosts": [
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 1134.84,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b2ba62bf7e8b97438dcaf41",
+      "nickname": "兰姐",
+      "dgmv": 774.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba49e199e74920001cc5128",
+      "nickname": "邓个个",
+      "dgmv": 271.6,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 127.23,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "588eb2aa82ec396bf502b5fe",
+      "nickname": "penny",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "574a9b4bbd0da5148bc046f6",
+      "nickname": "达娜Dana",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5a9c1a22e8ac2b1eb275ed75",
+      "nickname": "土司在拍照",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "629e459a0000000019028acd",
+      "nickname": "谭不甜吃吃吃",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c0e70b4f7e8b9080dd404d9",
+      "nickname": "蔡成的菜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d19e36f000000001002bd59",
+      "nickname": "Lucia璐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "590c7f996a6a691d57a20d52",
+      "nickname": "欧淋莉",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6385a599000000001f01c701",
+      "nickname": "高凡（纯饮食）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "58d8f1616a6a6928947b8934",
+      "nickname": "vivianxiao_",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59dc361fdb2e601ae168a60f",
+      "nickname": "是面包耶",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -150244,6 +154712,47 @@
      }
     ]
    },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5c345a8d000000000601c6ae",
+      "nickname": "（48岁月子中）备孕抗衰营养师mandy",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "60c54e790000000001002664",
+      "nickname": "四个娃组合生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a5dfe3e000000000e03d800",
+      "nickname": "企鹅星星",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5e50ee7e0000000001007cf1",
+      "nickname": "小嘻美食记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ba09e4511be10190e0c612d",
+      "nickname": "杨子姗",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59947352f89a9279cf37e63f",
+      "nickname": "丹姐瘦了40（纯饮食）",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
    "W37": {
     "dgmv_total": 179.44,
     "hosts": [
@@ -150314,14 +154823,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "55ebc3c7f5a2635f0eed85c8",
-      "nickname": "小熊维妮",
+      "anchor_id": "59c330ab44363b411c04a268",
+      "nickname": "足各Wang",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59c330ab44363b411c04a268",
-      "nickname": "足各Wang",
+      "anchor_id": "55ebc3c7f5a2635f0eed85c8",
+      "nickname": "小熊维妮",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -151710,6 +156219,17 @@
      }
     ]
    },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5da8590600000000010026ad",
+      "nickname": "三妞妈在匈牙利",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
    "W37": {
     "dgmv_total": 469.93,
     "hosts": [
@@ -152056,6 +156576,17 @@
      {
       "anchor_id": "5aa48a91e8ac2b7830d5c2c7",
       "nickname": "小美是我",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "54b1f759b4c4d65f85e77c26",
+      "nickname": "肖肖肖肖肖肖儿",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -156813,6 +161344,29 @@
      {
       "anchor_id": "57c93c946a6a697a3517c3bd",
       "nickname": "福星酱",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "57a848ac5e87e742deb46702",
+      "nickname": "大象姐姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5c1904ae0000000005014caa",
+      "nickname": "阿大设计师CHUNXILI",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -162983,14 +167537,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "636ce940000000001f01d616",
-      "nickname": "温妮的森林",
+      "anchor_id": "59d6b79b6eea882bf3ba0ea3",
+      "nickname": "周沫儿",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "59d6b79b6eea882bf3ba0ea3",
-      "nickname": "周沫儿",
+      "anchor_id": "636ce940000000001f01d616",
+      "nickname": "温妮的森林",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -164068,6 +168622,65 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "61bf0c4e0000000010009a70",
+      "nickname": "澳门酒店推荐官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "656ff69d0000000019011f1c",
+      "nickname": "姜大福休闲穿搭分享",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a64c9af0000000013033803",
+      "nickname": "都行",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67c7fb9e000000000d00b2ae",
+      "nickname": "人生路遥",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68be7a50000000001a00ec1a",
+      "nickname": "Kittyliio^ ^",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a4a3f69e8ac2b636d4b15e8",
+      "nickname": "miao大小姐",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66f67dd9000000001d0207bc",
+      "nickname": "秋月梨种植基地",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67282aa7000000001d02ff88",
+      "nickname": "宇博士中式食养",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a6a797511be103dcd5661b4",
+      "nickname": "M&V",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -164561,6 +169174,23 @@
      {
       "anchor_id": "6662a47800000000030320d2",
       "nickname": "章莹颖父亲（章荣高）",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "6a5b4fbf0000000010000c00",
+      "nickname": "舒萌",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a939f654eacab20752d123e",
+      "nickname": "莫莫营养健康",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -166214,6 +170844,17 @@
      {
       "anchor_id": "6015435d000000000100b055",
       "nickname": "Ting2在厂里",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "694a1d740000000037028305",
+      "nickname": "林下之风",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -168096,6 +172737,35 @@
      {
       "anchor_id": "6702b967000000001d02032a",
       "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5f012359000000000101fae8",
+      "nickname": "小梁妈妈的胶东美食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ff9cbfd0000000001005fd0",
+      "nickname": "俗女很抠",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f72dd6d0000000001004f1a",
+      "nickname": "小林哥品百巍",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641d98c800000000110235b9",
+      "nickname": "铲屎官",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -171351,14 +176021,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5fb13dfc000000000101f903",
-      "nickname": "一个时装公司老板 民间设计师高手",
+      "anchor_id": "6a4e0c6e000000000e03d001",
+      "nickname": "石榴种植基地",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "6a4e0c6e000000000e03d001",
-      "nickname": "石榴种植基地",
+      "anchor_id": "5fb13dfc000000000101f903",
+      "nickname": "一个时装公司老板 民间设计师高手",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -171682,6 +176352,41 @@
      {
       "anchor_id": "65fbc739000000000b03334c",
       "nickname": "迪迪教你化妆",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "63241d60000000002303c004",
+      "nickname": "农科优品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6129e5520000000001008366",
+      "nickname": "倩倩收纳日记",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5717ea7c1c07df3036038fcb",
+      "nickname": "子时当归",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1ed5cf000000001601f692",
+      "nickname": "湘野红姐9.21丰收节直播",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "631d7da8000000002303fc5a",
+      "nickname": "刘老六不是很6",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -172454,6 +177159,17 @@
      {
       "anchor_id": "6a89007e000000000301c6d3",
       "nickname": "刀盾狗的快乐",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "69d743ac00000000330276f7",
+      "nickname": "麦麦甜甜圈",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -174139,14 +178855,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "68cbe2be000000002202585d",
-      "nickname": "大榕树",
+      "anchor_id": "5b53fe44e8ac2b502dee980d",
+      "nickname": "小美的窝",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5b53fe44e8ac2b502dee980d",
-      "nickname": "小美的窝",
+      "anchor_id": "68cbe2be000000002202585d",
+      "nickname": "大榕树",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -174301,14 +179017,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "60fa87e50000000001016451",
-      "nickname": "橙橙的仓库",
+      "anchor_id": "5c0cc804000000000703acdf",
+      "nickname": "Jane是丸子豹",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "5c0cc804000000000703acdf",
-      "nickname": "Jane是丸子豹",
+      "anchor_id": "60fa87e50000000001016451",
+      "nickname": "橙橙的仓库",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -174715,14 +179431,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "61d4733300000000100098c5",
-      "nickname": "红仔仔",
+      "anchor_id": "685a7e1a000000001d00a720",
+      "nickname": "云禾桃桃",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "685a7e1a000000001d00a720",
-      "nickname": "云禾桃桃",
+      "anchor_id": "61d4733300000000100098c5",
+      "nickname": "红仔仔",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -175277,14 +179993,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "5c4581eb000000000501a495",
-      "nickname": "湖南妹子嫁韩国",
+      "anchor_id": "63098593000000001200d88a",
+      "nickname": "莲花味精厂",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "63098593000000001200d88a",
-      "nickname": "莲花味精厂",
+      "anchor_id": "5c4581eb000000000501a495",
+      "nickname": "湖南妹子嫁韩国",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -175457,14 +180173,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "68303800000000000e01d88e",
-      "nickname": "维妮Winnie",
+      "anchor_id": "604dc699000000000101ed93",
+      "nickname": "阿波的幸福生活",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "604dc699000000000101ed93",
-      "nickname": "阿波的幸福生活",
+      "anchor_id": "68303800000000000e01d88e",
+      "nickname": "维妮Winnie",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -175633,6 +180349,65 @@
      {
       "anchor_id": "65defd1e000000000500a7b4",
       "nickname": "马饼饼的饼",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "637f64b2000000001f01687e",
+      "nickname": "俊俊舒适勃肯鞋JunJunComFort",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6702b967000000001d02032a",
+      "nickname": "李总的文具百货源头仓",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67865b7e000000000803f9d6",
+      "nickname": "至茗茶器",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f891d8e0000000001002288",
+      "nickname": "葛夕",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d9c7ad1000000000101a49b",
+      "nickname": "孙大姐做美食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66043526000000000600c1db",
+      "nickname": "瑞幸福利官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "630230fc000000000f007fcc",
+      "nickname": "延边恩妮",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60b4bbbc0000000001006304",
+      "nickname": "小小苏🦋",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -177816,6 +182591,47 @@
      }
     ]
    },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "55ec8a71e4b1cf2145613d17",
+      "nickname": "九斤九斤",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a4db991000000000f038400",
+      "nickname": "薯省省Studio",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a309962000000000f038800",
+      "nickname": "暖暖的小店",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a7737ea0000000013032400",
+      "nickname": "瑞瑞团购官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "63662b68000000001f01d57d",
+      "nickname": "扬帆外贸HK",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a7b08780000000013031400",
+      "nickname": "一只树叶",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
    "W37": {
     "dgmv_total": 0.0,
     "hosts": [
@@ -178119,16 +182935,16 @@
       "sessions": 1
      },
      {
-      "anchor_id": "55ebc3c7f5a2635f0eed85c8",
-      "nickname": "小熊维妮",
-      "dgmv": 0.0,
-      "sessions": 1
-     },
-     {
       "anchor_id": "65f2ffb3000000000500fa1f",
       "nickname": null,
       "dgmv": 0.0,
       "sessions": 3
+     },
+     {
+      "anchor_id": "55ebc3c7f5a2635f0eed85c8",
+      "nickname": "小熊维妮",
+      "dgmv": 0.0,
+      "sessions": 1
      },
      {
       "anchor_id": "630afd58000000001200f07f",
@@ -180688,6 +185504,47 @@
      {
       "anchor_id": "6662a47800000000030320d2",
       "nickname": "章莹颖父亲（章荣高）",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "68dd499400000000370329a7",
+      "nickname": "房东的猫在叫唤",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a8f75f70000000013030800",
+      "nickname": "连家小铺",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66d6b2a0000000001d021214",
+      "nickname": "吉隆之喜",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "641d98c800000000110235b9",
+      "nickname": "铲屎官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5485a2792e1d9372720bc386",
+      "nickname": "大脸噗噗只卖正品",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "684245bd000000001d0174a2",
+      "nickname": "莎莎优选",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -183725,6 +188582,89 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "69db935e000000003401862f",
+      "nickname": "一口枣香软煎饼",
+      "dgmv": 0.0,
+      "sessions": 2
+     },
+     {
+      "anchor_id": "5c4581eb000000000501a495",
+      "nickname": "湖南妹子嫁韩国",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6852d2a2000000001d017e97",
+      "nickname": "张九九呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60fa797b0000000001009a77",
+      "nickname": "梦幻",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a7737ea0000000013032400",
+      "nickname": "瑞瑞团购官",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "665b659d0000000003033ddb",
+      "nickname": "柒二服饰",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d11056b0000000011023ec5",
+      "nickname": "DQ冰淇淋团购",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b6150c56b58b741e26b8c7f",
+      "nickname": "还是叫吴富贵吧",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69045b1f0000000037006163",
+      "nickname": "喜喜studio韩系穿搭",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "63b652a8000000002601215c",
+      "nickname": "自由dreaM",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64d60f9e0000000001012782",
+      "nickname": null,
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69cdb9b30000000032028eeb",
+      "nickname": "手作吐司",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -184734,6 +189674,17 @@
       "anchor_id": "66408c3400000000030315f6",
       "nickname": "小草有好货",
       "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 293.69,
+    "hosts": [
+     {
+      "anchor_id": "5e65fcac0000000001009bfb",
+      "nickname": "母婴刘老板 只讲真话",
+      "dgmv": 293.69,
       "sessions": 1
      }
     ]
@@ -186380,14 +191331,14 @@
       "sessions": 5
      },
      {
-      "anchor_id": "55dd2305e4b1cf3a2aa27f2d",
-      "nickname": "就是气气",
+      "anchor_id": "69a2fa5d000000002100a3df",
+      "nickname": "阿嫲的黑芝麻米月饼",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "69a2fa5d000000002100a3df",
-      "nickname": "阿嫲的黑芝麻米月饼",
+      "anchor_id": "55dd2305e4b1cf3a2aa27f2d",
+      "nickname": "就是气气",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -186981,6 +191932,41 @@
      {
       "anchor_id": "576fd36650c4b45be222dc01",
       "nickname": "奶昔穿搭分享",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "63eb788600000000260138b6",
+      "nickname": "璃想主义",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60a4d7b900000000010048aa",
+      "nickname": "农村小新记录爸妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "60dd9def0000000020028716",
+      "nickname": "家的角落",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69ba35900000000032024d90",
+      "nickname": "Motobaby童车玩具",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ac9e9984eacab7ab69ed957",
+      "nickname": "明月的锅锅",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -188298,14 +193284,14 @@
       "sessions": 1
      },
      {
-      "anchor_id": "69eee24e0000000002001802",
-      "nickname": "拥抱未来",
+      "anchor_id": "56ecd2caaed75855353f02e9",
+      "nickname": "敏希妈还可以",
       "dgmv": 0.0,
       "sessions": 1
      },
      {
-      "anchor_id": "56ecd2caaed75855353f02e9",
-      "nickname": "敏希妈还可以",
+      "anchor_id": "69eee24e0000000002001802",
+      "nickname": "拥抱未来",
       "dgmv": 0.0,
       "sessions": 1
      },
@@ -188963,6 +193949,59 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "63662b68000000001f01d57d",
+      "nickname": "扬帆外贸HK",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "65e18fab000000000500ec5f",
+      "nickname": "俊俊舒适勃肯（小号试鞋版）JunJunCft",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a588e78000000000f03b002",
+      "nickname": "江浙沪大表哥（大疆集市）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59b9db645e87e755300d85ba",
+      "nickname": "喂余师傅",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5bbf86c800e530000144c21b",
+      "nickname": "伊能静",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68186af6000000000a03f7ae",
+      "nickname": "多米金金",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69c66e8f0000000032037807",
+      "nickname": "Ivy",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "69eee24e0000000002001802",
+      "nickname": "拥抱未来",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -189333,6 +194372,17 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "68be2119000000001900c38f",
+      "nickname": "晨光-得力品牌文具店",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -189677,6 +194727,29 @@
      {
       "anchor_id": "645b6810000000000f007050",
       "nickname": "安楠AN",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5bcd9f707de934000187999c",
+      "nickname": "燕麦行游",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "604dc699000000000101ed93",
+      "nickname": "阿波的幸福生活",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1ed5cf000000001601f692",
+      "nickname": "湘野红姐9.21丰收节直播",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -190382,6 +195455,17 @@
      {
       "anchor_id": "667f790700000000030327b1",
       "nickname": "YOU-GUO优果外贸",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "54f2e005d39ea234b2d48bab",
+      "nickname": "Jessica671",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -191159,6 +196243,29 @@
      {
       "anchor_id": "67ee710c000000000e01dbb1",
       "nickname": "蛋卷汤圆",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 60.9,
+    "hosts": [
+     {
+      "anchor_id": "69106dab000000003702d045",
+      "nickname": "龙飞凤舞",
+      "dgmv": 60.9,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "68cbe2be000000002202585d",
+      "nickname": "大榕树",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59dc361fdb2e601ae168a60f",
+      "nickname": "是面包耶",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -192229,6 +197336,35 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "6852932f000000001d008ae8",
+      "nickname": "老邹真丝周周",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "631d7da8000000002303fc5a",
+      "nickname": "刘老六不是很6",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "64776d1a0000000012037261",
+      "nickname": "yeylem叶子",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -192681,6 +197817,47 @@
      {
       "anchor_id": "60dd9def0000000020028716",
       "nickname": "家的角落",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 119.8,
+    "hosts": [
+     {
+      "anchor_id": "58b58bed6a6a69035fb61c29",
+      "nickname": "fit4life",
+      "dgmv": 119.8,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66028c5d000000000600c16d",
+      "nickname": "肖骁有好货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "565bc5fe03eb841546598cf9",
+      "nickname": "钳钳妈阿曼达呀",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "614e84960000000002021b0b",
+      "nickname": "厨师徐嘉乐（个人号）",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5ef61eb70000000001001782",
+      "nickname": "达达达布溜",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -194781,6 +199958,35 @@
      {
       "anchor_id": "5ac0afbf4eacab35ebf496e4",
       "nickname": "沈梦辰",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "59bbd47051783a17701140ab",
+      "nickname": "蔚蔚然",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5a7140ed11be102a9e773ef9",
+      "nickname": "巾 凡 子",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "564afa3de58d134ed15e742c",
+      "nickname": "洋气杨",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "604d909c000000000100a45d",
+      "nickname": "优果蔬农产品",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -196981,6 +202187,53 @@
      {
       "anchor_id": "61d4733300000000100098c5",
       "nickname": "红仔仔",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "54f2e005d39ea234b2d48bab",
+      "nickname": "Jessica671",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "644a1b4e0000000029013c56",
+      "nickname": "理想的家",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "67c897a1000000000e01ece5",
+      "nickname": "爱吃麦麦汉堡",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "66028c5d000000000600c16d",
+      "nickname": "肖骁有好货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "57fca8f082ec395d19cbecc1",
+      "nickname": "lucky小幸幸",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5b2b31fe6b58b76236e580ca",
+      "nickname": "熊猫叮🐼",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6a87e0bd0000000013032802",
+      "nickname": "时光的秘密",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -199758,6 +205011,29 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "65e57679000000000500c552",
+      "nickname": "木子静鞋服",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5f012359000000000101fae8",
+      "nickname": "小梁妈妈的胶东美食",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5d1ed5cf000000001601f692",
+      "nickname": "湘野红姐9.21丰收节直播",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -200164,6 +205440,29 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "69be989a000000003201bba5",
+      "nickname": "家居家具百货",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "5aec0860e8ac2b1d92a7aaa0",
+      "nickname": "蛋炒饭的喂🍍",
+      "dgmv": 0.0,
+      "sessions": 1
+     },
+     {
+      "anchor_id": "6536235c000000000d007b00",
+      "nickname": "陕西美食琳琳",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -200511,6 +205810,17 @@
      {
       "anchor_id": "5e65fcac0000000001009bfb",
       "nickname": "母婴刘老板 只讲真话",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5b0395944eacab5c69e74c23",
+      "nickname": "二豆妈",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -201179,6 +206489,17 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "555698e7c2bdeb1980f94ae8",
+      "nickname": "大静Ginn",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -201622,6 +206943,17 @@
      {
       "anchor_id": "5cc522dc0000000010030505",
       "nickname": "云南不山",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "5fd5d46c000000000101e0f8",
+      "nickname": "Lumière Y",
       "dgmv": 0.0,
       "sessions": 1
      }
@@ -205261,6 +210593,17 @@
       "sessions": 1
      }
     ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "6a4db991000000000f038400",
+      "nickname": "薯省省Studio",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
    }
   }
  },
@@ -206389,6 +211732,17 @@
      {
       "anchor_id": "6030f219000000000100893d",
       "nickname": "芮芮老师教化妆",
+      "dgmv": 0.0,
+      "sessions": 1
+     }
+    ]
+   },
+   "W39": {
+    "dgmv_total": 0.0,
+    "hosts": [
+     {
+      "anchor_id": "59b9db645e87e755300d85ba",
+      "nickname": "喂余师傅",
       "dgmv": 0.0,
       "sessions": 1
      }
