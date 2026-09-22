@@ -268,6 +268,72 @@ function renderLive(){
 }
 
 /* ---------- K播 ---------- *//* ---------- K播 ---------- */
+
+/* ---------- K播买手场次 ---------- */
+function kboBuyerBlocks(p){
+  const S=D.kbo_daily_sessions||{};
+  const H=D.kbo_buyer_history||{};
+  if(!S.sessions||!S.sessions.length) return "";
+  const dates=winDates(p);
+  const showAll=KBO_ALL;
+  // 数据只有最新分区一天：仅当"今天/昨日"等窗口包含该日时展示
+  if(!S.meta||!S.meta.date||!dates.includes(S.meta.date)) return "";
+  const sess=S.sessions;
+  const Hb=H.by_buyer||{};
+  // 按买手聚合当天场次
+  const byBuyer={};
+  sess.forEach(x=>{
+    const k=x.buyer_name+"|"+x.anchor_id;
+    (byBuyer[k]=byBuyer[k]||{buyer_name:x.buyer_name,anchor_id:x.anchor_id,n:0,dgmv:0,sellers:new Set(),sids:{}}).n++;
+    byBuyer[k].dgmv+=(x.dgmv||0);
+    byBuyer[k].sellers.add(x.seller_name||x.seller_id);
+    (byBuyer[k].sids[x.seller_id]=byBuyer[k].sids[x.seller_id]||{name:x.seller_name,dgmv:0,n:0}).dgmv+=(x.dgmv||0);
+    byBuyer[k].sids[x.seller_id].n++;
+  });
+  let rows=Object.values(byBuyer);
+  const totalN=sess.length, totalD=rows.reduce((a,b)=>a+b.dgmv,0);
+  if(!showAll) rows=rows.filter(r=>r.dgmv>0);
+  rows.sort((a,b)=>b.dgmv-a.dgmv);
+  const dayLbl=S.meta.date.slice(5);
+  return `
+  <div class="card full"><h3>🎙 当天合作买手 · ${S.meta.date}<small>${S.meta.sessions}场 / ${S.meta.sellers}家商家 / ${rows.length}个买手（${showAll?"含0成交":"仅看有成交"}）· DGMV ${fmtW(totalD)}<button id="kboToggle" style="margin-left:10px;font-size:11px;padding:2px 10px;border:1px solid var(--border);background:var(--soft);border-radius:10px;cursor:pointer">${showAll?"只看有成交":"显示全部"}</button></small></h3>
+    <div style="overflow:auto;max-height:420px"><table style="min-width:640px">
+      <thead><tr><th>买手</th><th>场次</th><th>当日DGMV</th><th>合作商家数</th><th>过往合作（9/1以来）</th><th></th></tr></thead>
+      <tbody>${rows.slice(0,KBO_ALL?9999:80).map(r=>{
+        const h=Hb[r.anchor_id];
+        const hist=h?`总${fmtW(h.total_dgmv)} / ${h.sessions}场 / ${h.sellers_count}家`:"—";
+        return `<tr>
+        <td><b>${esc(r.buyer_name)}</b></td>
+        <td class="num">${r.n}</td>
+        <td class="num"><b>${fmtW(r.dgmv)}</b></td>
+        <td class="num">${r.sellers.size}</td>
+        <td class="num" style="color:var(--muted);font-size:12px">${hist}</td>
+        <td><button class="buyer-btn" data-anchor="${esc(r.anchor_id)}" data-name="${esc(r.buyer_name)}" style="font-size:11px;padding:2px 8px;border:1px solid #ddd;background:#fff;border-radius:10px;cursor:pointer">🔍</button></td>
+      </tr>`}).join("")}</tbody>
+    </table></div>
+    <div class="muted" style="font-size:12px;margin-top:6px">数据口径：ds:577143 场次宽表，已剔自播；过往合作=2026-09-01~${S.meta.date}</div>
+  </div>
+  <div class="card full" id="kboBuyerDetail" style="display:none"></div>`;
+}
+function renderBuyerDetail(anchorId, name){
+  const H=(D.kbo_buyer_history||{}).by_buyer||{};
+  const S=D.kbo_daily_sessions||{};
+  const h=H[anchorId];
+  const box=$("kboBuyerDetail");
+  if(!h){ box.style.display="block"; box.innerHTML=`<h3>🎙 ${esc(name)}</h3><div class="muted">窗口内无历史合作记录</div>`; return; }
+  const sellers=[...(h.sellers||[])].sort((a,b)=>b.dgmv-a.dgmv);
+  box.style.display="block";
+  box.innerHTML=`<h3>🎙 ${esc(h.buyer_name||name)} · 过往合作明细<small>2026-09-01以来 · 总DGMV ${fmtW(h.total_dgmv)} / ${h.sessions}场 / ${h.sellers_count}家商家 / 活跃${h.days_active||"—"}天</small></h3>
+  <div style="overflow:auto;max-height:360px"><table>
+  <thead><tr><th>商家</th><th>合作DGMV</th><th>场次</th><th>末次合作</th></tr></thead>
+  <tbody>${sellers.map(x=>`<tr>
+    <td>${esc(x.seller_name||x.seller_id)}</td>
+    <td class="num"><b>${fmtW(x.dgmv)}</b></td>
+    <td class="num">${x.sessions}</td>
+    <td class="num">${x.last_date?x.last_date.slice(5):"—"}</td>
+  </tr>`).join("")}</tbody></table></div>`;
+}
+let KBO_ALL=false;
 function renderKbo(){
   const p=CUR_P;
   const prevD=prevWinDates(p); const prev=prevD.length>0;
@@ -282,10 +348,10 @@ function renderKbo(){
         ${kpi(sum>0?pct(g("kbo")/sum):"—","占总DGMV","")}
       </div></div>
     <div class="card full"><h3>K播 · 涨跌 TOP5 商家<small>${PERIOD_LABEL[p]} vs ${prev?prevLabel(p):"—"} · 日窗口</small></h3>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 20px">
-        <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRowsDaily("kbo",p,prev).up}</div>
-        <div><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRowsDaily("kbo",p,prev).down}</div>
-      </div></div>
+      <div><div style="font-weight:600;color:var(--up);margin-bottom:4px">📈 拉升 TOP5</div>${moverRowsDaily("kbo",p,prev).up}</div>
+      <div style="margin-top:10px"><div style="font-weight:600;color:var(--down);margin-bottom:4px">📉 衰减 TOP5</div>${moverRowsDaily("kbo",p,prev).down}</div>
+    </div>
+    ${kboBuyerBlocks(p)}
     <div class="card full insight">
       <div style="font-weight:600;margin-bottom:6px">🔍 K播诊断</div>
       <div>· K播贡献 <b>${fmtW(g("kbo"))}</b>${sum>0?`，占总盘 <b>${pct(g("kbo")/sum)}</b>`:""}</div>
@@ -508,6 +574,10 @@ function renderPeriods(){
 document.addEventListener("click",e=>{
   const btn=e.target.closest(".drill-btn");
   if(btn&&btn.dataset.sid){ renderDrill(btn.dataset.sid); }
+  const tog=e.target.closest("#kboToggle");
+  if(tog){ KBO_ALL=!KBO_ALL; renderKbo(); }
+  const bb=e.target.closest(".buyer-btn");
+  if(bb){ renderBuyerDetail(bb.dataset.anchor, bb.dataset.name); document.getElementById("kboBuyerDetail").scrollIntoView({behavior:"smooth",block:"start"}); }
 });
 function renderTab(){
   CHARTS.forEach(c=>c.dispose()); CHARTS.length=0;
@@ -531,8 +601,7 @@ window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
-const files3=["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations","distributor_names","daily_total_yoy"]){
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations","distributor_names","daily_total_yoy","kbo_daily_sessions","kbo_buyer_history"]){
     try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
   try{ D.drillSellers=(D.seller_daily_drill&&D.seller_daily_drill.sellers)||[]; }catch(e){ D.drillSellers=[]; }
