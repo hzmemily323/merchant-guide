@@ -121,8 +121,8 @@ function renderOverview(){
       ${kpi(fmtW(sum),"DGMV",prev&&pAgg&&pAgg.dgmv>0?delta(sum,pAgg.dgmv):"")}
       ${kpi(active,"动销商家",prev&&pActive!=null?delta(active,pActive):"")}
       ${kpi(fmtN(agg.buys),"购买用户",prev&&pAgg?delta(agg.buys,pAgg.buys):"")}
-      ${kpi(yoy.prev>0?((yoy.cur-yoy.prev)/yoy.prev*100).toFixed(1)+"%":"—","vs 去年同期","")}
-      ${kpi(prev&&pAgg&&pAgg.dgmv>0?((sum-pAgg.dgmv)/pAgg.dgmv*100).toFixed(1)+"%":"—",prev?"vs "+prevLabel(p):"","")}
+      ${kpi(yoy.prev>0?(yoy.cur>=yoy.prev?"↑":"↓")+Math.abs((yoy.cur-yoy.prev)/yoy.prev*100).toFixed(1)+"%":"—","vs 去年同期",yoy.prev>0?delta(yoy.cur,yoy.prev):"")}
+      ${kpi(prev&&pAgg&&pAgg.dgmv>0?((sum-pAgg.dgmv)/pAgg.dgmv>=0?"↑":"↓")+Math.abs((sum-pAgg.dgmv)/pAgg.dgmv*100).toFixed(1)+"%":"—",prev?"vs "+prevLabel(p):"",prev&&pAgg&&pAgg.dgmv>0?delta(sum,pAgg.dgmv):"")}
     </div>
   </div>
   <div class="grid">
@@ -149,7 +149,7 @@ function renderOverview(){
     xAxis:{type:"category",data:dts,axisLabel:{fontSize:10}},
     yAxis:{type:"value",axisLabel:{formatter:v=>fmtW(v),fontSize:10},splitLine:{lineStyle:{color:"#eee"}}},
     dataZoom:[{type:"inside"}],
-    series:[{type:"line",data:vals.map((v,i)=>({value:v,itemStyle:{color:inWin(i)?"#ff6700":"#c9ced9"},lineStyle:{color:"#c9ced9",width:1.5},symbol:"none"})),
+    series:[{type:"line",data:vals.map((v,i)=>({value:v,itemStyle:{color:inWin(i)?"#FF2442":"#d5d0d5"},lineStyle:{color:"#c9ced9",width:1.5},symbol:"none"})),
       areaStyle:{color:"rgba(255,103,0,.06)"}}]});
 
   // TOP商家（日窗口聚合）
@@ -369,7 +369,7 @@ function renderSchedule(){
         const dur=(st&&en)?Math.max(1,Math.round((new Date(en)-new Date(st))/3600000))+"h":"—";
         const stt=x.live_schedule_status;
         return `<tr><td>${esc(x.shop_name||names[x.seller_id]||"—")}</td><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(x.live_schedule_title||"")}">${esc(x.live_schedule_title||"—")}</td><td>${fmtDT(st)}</td><td>${dur}</td>
-        <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${stt===2?'background:#e8f5e9;color:#1b5e20':stt===1?'background:#fff3e0;color:#e65100':'background:#f5f5f5;color:#999'}">${SCH_STATUS[stt]||stt}</span></td>
+        <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${stt===2?'background:#fdebec;color:#c53038':stt===1?'background:#fff3e0;color:#e65100':'background:#f5f5f5;color:#999'}">${SCH_STATUS[stt]||stt}</span></td>
         <td class="num">${x.live_schedule_goods_count||"—"}</td><td class="num">${x.live_schedule_sale_amont?fmtW(x.live_schedule_sale_amont):"—"}</td></tr>`}).join("")}</tbody></table>`
       :`<div style="color:var(--muted);padding:24px;text-align:center">146 家当前无未来排期——可以推动商家建计划</div>`}
     </div>
@@ -378,7 +378,7 @@ function renderSchedule(){
         <div class="card" style="margin:0"><h3>🤝 K播邀约 · 进行中<small>待响应/已读未回 · ${pending.length}条</small></h3>
           ${pending.length?`<div style="max-height:640px;overflow-y:auto"><table><thead><tr><th>商家</th><th>达人</th><th>发出</th><th>状态</th></tr></thead>
           <tbody>${pending.sort((a,b)=>a.create_time<b.create_time?1:-1).map(x=>`<tr><td style="font-size:12px">${esc(x.sname)}</td><td style="font-size:12px">${esc(distName(x.distributor_id))}</td><td style="font-size:11.5px;color:#666">${fmtDT(x.create_time)}</td>
-          <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${x.status===0?'background:#e3f2fd;color:#0d47a1':'background:#fff8e1;color:#e65100'}">${INV_STATUS[x.status]}</span></td></tr>`).join("")}</tbody></table></div>`
+          <td><span style="padding:2px 8px;border-radius:10px;font-size:11px;${x.status===0?'background:#eef1fb;color:#4457b8':'background:#fdf3e3;color:#b06a1f'}">${INV_STATUS[x.status]}</span></td></tr>`).join("")}</tbody></table></div>`
           :`<div style="color:var(--muted);padding:24px;text-align:center">无进行中邀约</div>`}
         </div>
         <div class="card" style="margin:0"><h3>✅ K播邀约 · 已接受<small>近90天 · ${accepted.length}条</small></h3>
@@ -475,10 +475,10 @@ function renderSellers(){
       <tr>
         <td style="padding:5px 6px" title="${r.seller_id}">${esc(r.name)}</td>
         <td class="num">${r.dgmv?fmtW(r.dgmv):'—'}</td>
-        <td class="num" style="color:${r.zhibo>0?'#ff6700':'#ccc'}">${r.zhibo?fmtW(r.zhibo):'—'}</td>
-        <td class="num" style="color:${r.shangbi>0?'#3b82f6':'#ccc'}">${r.shangbi?fmtW(r.shangbi):'—'}</td>
-        <td class="num" style="color:${r.kbo>0?'#8b5cf6':'#ccc'}">${r.kbo?fmtW(r.kbo):'—'}</td>
-        <td class="num" style="color:${r.shangka>0?'#10b981':'#ccc'}">${r.shangka?fmtW(r.shangka):'—'}</td>
+        <td class="num" style="color:${r.zhibo>0?'#FF2442':'#ccc'}">${r.zhibo?fmtW(r.zhibo):'—'}</td>
+        <td class="num" style="color:${r.shangbi>0?'#5b8def':'#ccc'}">${r.shangbi?fmtW(r.shangbi):'—'}</td>
+        <td class="num" style="color:${r.kbo>0?'#a688e8':'#ccc'}">${r.kbo?fmtW(r.kbo):'—'}</td>
+        <td class="num" style="color:${r.shangka>0?'#3fbf9f':'#ccc'}">${r.shangka?fmtW(r.shangka):'—'}</td>
         <td class="num">${r.live_rooms||'—'}</td>
         <td class="num">${r.new_notes||'—'}</td>
         <td><button class="drill-btn" data-sid="${r.seller_id}" style="font-size:11px;padding:2px 8px;border:1px solid #ddd;background:#fff;border-radius:10px;cursor:pointer">🔍</button></td>
@@ -594,7 +594,7 @@ function renderDrill(seller_id){
   </div>`;
   // ECharts 堆叠柱
   const chart=echarts.init($("drill-chart"));
-  const F=[["zhibo","店播","#ff6700"],["shangbi","商笔","#3b82f6"],["kbo","K播","#8b5cf6"],["shangka","商卡","#10b981"],["other","其他","#cbd5e1"]];
+  const F=[["zhibo","店播","#FF2442"],["shangbi","商笔","#5b8def"],["kbo","K播","#a688e8"],["shangka","商卡","#3fbf9f"],["other","其他","#d8d3d8"]];
   chart.setOption({
     animation:false,
     tooltip:{trigger:"axis",valueFormatter:v=>v>=10000?(v/10000).toFixed(1)+"万":Math.round(v)},
