@@ -1,13 +1,13 @@
 {
  "meta": {
   "partition": "20260910",
-  "fetched_at": "2026-09-21 10:41:00",
+  "fetched_at": "2026-09-22 10:35:00",
   "window": [
    "2026-09-10",
    "2026-09-25"
   ],
   "total": 19,
-  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=3058735&cellId=cell_1789958461385_3&msgId=91572bf5-02cd-4447-bb5d-e0b7c77c163c&viewType=TABLE"
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=3058735&cellId=cell_1790044502755_7&msgId=95531c01-2ab6-462c-a227-de173c8bb11a&viewType=TABLE"
  },
  "schedules": [
   {
