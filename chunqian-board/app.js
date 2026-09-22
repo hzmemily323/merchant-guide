@@ -2,7 +2,21 @@
 const D = {}; // 数据仓库
 const PERIODS = ["today","yesterday","d7","d14","d30"];
 const PERIOD_LABEL = {today:"今天", yesterday:"昨日", d7:"近7天", d14:"近14天", d30:"近30天"};
-const PREV = {today:"yesterday", yesterday:"d7", d7:"d14", d14:"d30", d30:null};
+/* 对比基准：当前窗口整体前移7天（同星期对齐——周一vs上周一） */
+function prevWinDates(p){
+  const dates=winDates(p);
+  if(!dates.length) return [];
+  const all=(D.daily_series.daily||[]).map(r=>r.date).filter(d=>d<=DAY_END());
+  const s=all.indexOf(dates[0]), e=all.indexOf(dates[dates.length-1]);
+  if(s<0||e<0||s-7<0) return [];
+  const pd=all.slice(s-7, e-6);
+  return (pd[0]>=DAY_START())?pd:[];
+}
+function prevLabel(p){
+  const d=prevWinDates(p);
+  if(!d.length) return "上期(数据未覆盖)";
+  return d.length===1?`上周同日 ${d[0].slice(5)}`:`上期 ${d[0].slice(5)}~${d[d.length-1].slice(5)}`;
+}
 /* 日窗口聚合器：从 seller_daily 日粒度主表实时算 */
 function DAY_END(){ try{ return D.seller_daily.meta.end }catch(e){ return "2026-09-21" } }
 function DAY_START(){ try{ return D.seller_daily.meta.start }catch(e){ return "2026-09-01" } }
@@ -17,9 +31,8 @@ function winDates(p){
   if(p==="d30") return dates.slice(-30);
   return dates;
 }
-function aggWindow(p, sid){
-  // 返回 {dgmv,zhibo,shangbi,kbo,shangka,other,buys,live_rooms,live_h,live_uv,new_notes,note_dgmv,note_pv,read_pv,days,active}
-  const dates=new Set(winDates(p));
+function aggWindowFor(dateArr, sid){
+  const dates=new Set(dateArr);
   const out={dgmv:0,zhibo:0,shangbi:0,kbo:0,shangka:0,other:0,buys:0,live_rooms:0,live_h:0,live_uv:0,new_notes:0,note_dgmv:0,note_pv:0,read_pv:0,days:0};
   const sellers=sid!=null ? (D.seller_daily.sellers||[]).filter(x=>x.seller_id===sid) : (D.seller_daily.sellers||[]);
   let has=false;
@@ -32,6 +45,7 @@ function aggWindow(p, sid){
   });
   return has?out:out;
 }
+function aggWindow(p, sid){ return aggWindowFor(winDates(p), sid); }
 function aggActiveFor(dateArr){ // 动销商家数
   const dates=new Set(dateArr);
   let n=0;
@@ -283,8 +297,8 @@ function renderKbo(){
 /* ---------- 品类 ---------- *//* ---------- 商家 ---------- *//* ---------- 商家 ---------- */
 /* 日窗口涨跌TOP */
 function topMoversDaily(field, p, prevP, n=5){
-  if(!prevP) return {up:[],down:[]};
-  const cur=new Set(winDates(p)), pv=new Set(winDates(prevP));
+  const cur=new Set(winDates(p)), pv=new Set(prevWinDates(p));
+  if(!pv.size) return {up:[],down:[]};
   const rows=(D.seller_daily.sellers||[]).map(sd=>{
     let c=0, q=0;
     Object.entries(sd.days||{}).forEach(([d,v])=>{
