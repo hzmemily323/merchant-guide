@@ -34,9 +34,12 @@ header .sub{color:var(--muted);font-size:12px}
 .up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
 .hero{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:14px;border-left:3px solid #ffc2cb}
 .hero h2{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th{color:var(--muted);font-weight:500;text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed}
+th{text-align:left;font-weight:500;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--border);white-space:nowrap}
+th.num{text-align:right}
 td{padding:6px 8px;border-bottom:1px solid var(--soft)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+
 tr.total td{font-weight:700;background:var(--soft)}
 .num{text-align:right;font-variant-numeric:tabular-nums}
 .muted{color:var(--muted);font-size:12px}
@@ -70,6 +73,6 @@ footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center;line-
   <footer>数据源：RedBI ds:1922 / ds:2479 / ds:5574 · 商家口径=146家挂接清单（AM字段数仓生效后可切换）<br>
   率类指标（GPM/CTR/转化率）为跨商家跨天平均值口径 · K播合作主播数/场次数疑似同源仅作量级参考</footer>
 </div>
-<script src="app.js?v=20260923v1"></script>
+<script src="app.js?v=20260923v2"></script>
 </body>
 </html>
