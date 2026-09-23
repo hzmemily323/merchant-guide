@@ -76,6 +76,7 @@ const TABS = [
   {key:"live", name:"店播"},
   {key:"kbo", name:"K播"},
   {key:"sellers", name:"商家"},
+  {key:"watch", name:"盯盘"},
   {key:"schedule", name:"排期与邀约"},
 ];
 const FIELDS = ["zhibo","shangbi","kbo","shangka","other"];
@@ -334,6 +335,88 @@ function renderBuyerDetail(anchorId, name){
   </tr>`).join("")}</tbody></table></div>`;
 }
 let KBO_ALL=false;
+
+/* ---------- 苍穹盯盘对齐（分层跃迁/商品/过程指标） ---------- */
+function renderWatch(){
+  const p=CUR_P, dates=winDates(p);
+  const T=D.seller_tier||{}, U=D.seller_uv_daily||{}, P=D.top_products_daily||{};
+  const names={}; (D.seller_weekly||[]).forEach(r=>names[r.seller_id]=r.name);
+  const nm=sid=>names[sid]||sid.slice(0,8);
+  // 分层卡
+  const tierOrder=["B6","B5","B4","B3","B2","B1","B0"];
+  const tiers=(T.tiers)||{};
+  const tierRows=tierOrder.filter(k=>tiers[k]&&tiers[k].count>0).map(k=>{
+    const t=tiers[k];
+    return `<tr><td><b>${k}</b></td><td class="num">${t.count}</td><td class="num">${fmtW(t.dgmv_30d)}</td><td class="num">${pct(t.dgmv_share||0)}</td></tr>`;
+  }).join("");
+  const ups=Object.entries(T.upgrades||{}).map(([k,v])=>`${k}：${v.count}家（${v.sellers.map(nm).slice(0,3).join("、")}${v.count>3?"等":""}）`).join("　");
+  // 过程指标（当前窗口）
+  const wset=new Set(dates);
+  let dgmv=0,buys=0,buv=0,vuv=0;
+  (U.sellers||[]).forEach(sd=>{ Object.entries(sd.days||{}).forEach(([d,v])=>{
+    if(wset.has(d)){ dgmv+=(v.dgmv||0); buys+=(v.buys||0); buv+=(v.buy_uv||0); vuv+=(v.view_uv||0); }
+  });});
+  const aov=buv>0?dgmv/buv:null, cvr=vuv>0?buv/vuv:null;
+  // 上期过程指标
+  const prevD=prevWinDates(p); let pdgmv=0,pbuv=0,pvuv=0;
+  if(prevD.length){ const ps=new Set(prevD);
+    (U.sellers||[]).forEach(sd=>{ Object.entries(sd.days||{}).forEach(([d,v])=>{
+      if(ps.has(d)){ pdgmv+=(v.dgmv||0); pbuv+=(v.buy_uv||0); pvuv+=(v.view_uv||0); }
+    });});
+  }
+  const paov=pbuv>0?pdgmv/pbuv:null, pcvr=pvuv>0?pbuv/pvuv:null;
+  const dl=(c,pv)=>pv==null?"—":delta(c,pv);
+  // TOP商品（当前窗口 vs 上期）
+  const prodAgg={};
+  (P.rows||[]).forEach(r=>{ if(!wset.has(r.date)) return;
+    const k=r.item_id;
+    (prodAgg[k]=prodAgg[k]||{name:r.name,sid:r.seller_id,cur:0,buys:0}).cur+=r.dgmv;
+    prodAgg[k].buys+=r.buys||0;
+  });
+  const prevProdAgg={};
+  if(prevD.length){ const ps=new Set(prevD);
+    (P.rows||[]).forEach(r=>{ if(!ps.has(r.date)) return;
+      prevProdAgg[r.item_id]=(prevProdAgg[r.item_id]||0)+r.dgmv; });
+  }
+  let prodRows=Object.entries(prodAgg).map(([k,v])=>({k,name:v.name,seller:nm(v.sid),cur:v.cur,buys:v.buys,prev:prevProdAgg[k]||0}))
+    .sort((a,b)=>b.cur-a.cur).slice(0,10);
+  const tierMeta=(T.meta||{})||{};
+  $("main").innerHTML=`
+  <div class="grid">
+    <div class="card full"><h3>客户分层（近30天滚动）<small>快照 2026-09-22 · 总DGMV(30d) ${fmtW(T.total_dgmv_30d||0)}</small></h3>
+      <table style="min-width:480px"><thead><tr><th>层级</th><th>商家数</th><th>DGMV(30d)</th><th>占比</th></tr></thead><tbody>${tierRows}</tbody></table>
+      ${ups?`<div style="margin-top:8px;font-size:12px;color:var(--muted)">30天跃迁：${ups}</div>`:""}
+    </div>
+    <div class="card full"><h3>成交过程指标${dates.length?`<small>${dates[0].slice(5)}~${dates[dates.length-1].slice(5)} vs ${prevD.length?prevLabel(p):"—"}</small>`:""}</h3>
+      <div class="kpis">
+        ${kpi(fmtW(dgmv),"成交DGMV",prevD.length?delta(dgmv,pdgmv):"")}
+        ${kpi(buv?buv.toLocaleString():"—","购买UV",prevD.length?delta(buv,pbuv):"")}
+        ${kpi(aov?aov.toFixed(2):"—","客单价",dl(aov,paov))}
+        ${kpi(cvr?pct(cvr):"—","购买转化率",dl(cvr,pcvr))}
+        ${kpi(buys?buys.toLocaleString():"—","购买件数","")}
+      </div>
+      <div class="muted" style="font-size:12px;margin-top:6px">购买转化率=购买UV/商详访问UV；客单价=DGMV/购买UV</div>
+    </div>
+    <div class="card full"><h3>TOP10 成交商品<small>${PERIOD_LABEL[p]} · 环比=${prevD.length?prevLabel(p):"数据未覆盖"}</small></h3>
+      <div style="overflow:auto"><table style="min-width:640px">
+      <thead><tr><th>#</th><th>商品</th><th>商家</th><th>DGMV</th><th>件数</th><th>环比</th></tr></thead>
+      <tbody>${prodRows.length?prodRows.map((r,i)=>`<tr>
+        <td>${i+1}</td>
+        <td style="max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(r.name)}">${esc(r.name)}</td>
+        <td style="font-size:12px">${esc(r.seller)}</td>
+        <td class="num"><b>${fmtW(r.cur)}</b></td>
+        <td class="num">${r.buys.toLocaleString()}</td>
+        <td class="num">${r.prev>0?deltaHTML(r.cur,r.prev):`<span class="delta flat">新上榜</span>`}</td>
+      </tr>`).join(""):`<tr><td colspan="6" class="muted">本窗口无成交商品数据</td></tr>`}</tbody></table></div>
+    </div>
+    <div class="card full insight">
+      <div style="font-weight:600;margin-bottom:6px">📌 口径说明</div>
+      <div>· 分层/跃迁：供给宽表 9/22 vs 8/24 快照，DGMV 为近30天滚动（8/24~9/22），与苍穹盯盘核对一致</div>
+      <div>· 过程指标、商品：ds:1922 人货场成交，购买UV=countd(购买用户)，转化率分母为商详访问UV</div>
+    </div>
+  </div>`;
+}
+
 function renderKbo(){
   const p=CUR_P;
   const prevD=prevWinDates(p); const prev=prevD.length>0;
@@ -595,13 +678,14 @@ function renderTab(){
   else if(CUR_T==="live")renderLive();
   else if(CUR_T==="kbo")renderKbo();
   else if(CUR_T==="sellers")renderSellers();
+  else if(CUR_T==="watch")renderWatch();
   window.scrollTo({top:0});
 }
 window.addEventListener("resize",()=>CHARTS.forEach(c=>c.resize()));
 
 (async()=>{
   const files=["summary","field_dist","daily_series","top_sellers","top_products","category_dist","note_metrics","store_live","k_live","new_old","seller_structure"];
-  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations","distributor_names","daily_total_yoy","kbo_daily_sessions","kbo_buyer_history"]){
+  for(const f of ["seller_weekly","seller_live_weekly","seller_note_weekly","yoy_weekly","seller_kbo_hosts","seller_daily_drill","seller_daily","live_schedule","kbo_invitations","distributor_names","daily_total_yoy","kbo_daily_sessions","kbo_buyer_history","seller_tier","top_products_daily","seller_uv_daily"]){
     try{ D[f]=await (await fetch(`data3/${f}.json`)).json(); }catch(e){ D[f]={}; }
   }
   try{ D.drillSellers=(D.seller_daily_drill&&D.seller_daily_drill.sellers)||[]; }catch(e){ D.drillSellers=[]; }
