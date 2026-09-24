@@ -22,10 +22,14 @@ var D11_DATA={"meta": {"zhijiang": {"n": "单品直降（85折起）", "s": "单
   function reset(){cur=null;clearAll();panel.style.display='none';}
   document.addEventListener('click',function(e){
     var j=e.target.closest('[data-jump]');
-    if(j){apply(j.getAttribute('data-jump'));return;}
+    if(j){apply(j.getAttribute('data-jump'));
+      var t=document.querySelector('.pill[data-id="'+j.getAttribute('data-jump')+'"]');if(t)t.open=true;return;}
     var p=e.target.closest('.pill[data-id]');
-    if(p){var id=p.getAttribute('data-id');if(cur===id){reset();}else{apply(id);}return;}
-    if(cur&&!e.target.closest('#dpanel')){reset();}
+    if(p){var id=p.getAttribute('data-id');
+      if(cur===id){reset();}
+      else{apply(id);p.open=true;}
+      return;}
+    if(cur&&!e.target.closest('#dpanel')&&!e.target.closest('.pill')){reset();}
   });
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){reset();}});
 })();
