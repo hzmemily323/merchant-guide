@@ -473,7 +473,44 @@ tr:hover td { background:#f3f4f6; cursor:pointer; }
   <div id="dp-head"><span id="dp-title"></span><button id="dp-close">✕</button></div>
   <div id="dp-body"></div>
 </div>
+
 <script src="d11-pills-data.js"></script>
+<script>
+(function(){
+  var D=D11_DATA, META=D.meta, REL=D.rel, ALL=D.order, cur=null;
+  var panel=document.getElementById('dpanel');
+  function neutral(id){var r=REL[id]||{s:[],x:[]};return ALL.filter(function(x){return x!==id&&r.s.indexOf(x)<0&&r.x.indexOf(x)<0;});}
+  function setCls(id,cls){document.querySelectorAll('.pill[data-id="'+id+'"]').forEach(function(el){el.classList.add(cls);});}
+  function clearAll(){document.querySelectorAll('.pill').forEach(function(el){el.classList.remove('sel','r-stack','r-ex','r-neutral');});}
+  function chip(pid,cls){return '<span class="dp-chip '+cls+'" data-jump="'+pid+'">'+META[pid].s+'</span>';}
+  function render(id){
+    var m=META[id],r=REL[id]||{s:[],x:[]},n=neutral(id),h='';
+    document.getElementById('dp-title').textContent=m.n;
+    h+='<div class="dp-lane">'+m.lane+' · '+m.tag+'</div>';
+    h+='<div class="dp-cost"><span class="p-mer">商家出: '+m.m+'</span><span class="p-plat">平台出: '+m.p+'</span></div>';
+    h+='<div class="dp-row"><b class="dp-ok">✅ 可叠加 '+r.s.length+'</b>'+(r.s.length?r.s.map(function(p){return chip(p,'c-ok');}).join(''):'<span class="dp-none">—</span>')+'</div>';
+    h+='<div class="dp-row"><b class="dp-no">⛔ 互斥 '+r.x.length+'</b>'+(r.x.length?r.x.map(function(p){return chip(p,'c-no');}).join(''):'<span class="dp-none">无</span>')+'</div>';
+    h+='<div class="dp-row"><b class="dp-nu">➖ 未明确 '+n.length+'</b>'+n.map(function(p){return chip(p,'c-nu');}).join('')+'<span class="dp-hint">同组竞替或口径未明确，以结算页实际算价为准</span></div>';
+    if(m.note){h+='<div class="dp-note">📌 '+m.note+'</div>';}
+    document.getElementById('dp-body').innerHTML=h;
+  }
+  function apply(id){cur=id;clearAll();setCls(id,'sel');(REL[id]||{s:[],x:[]}).s.forEach(function(p){setCls(p,'r-stack');});(REL[id]||{s:[],x:[]}).x.forEach(function(p){setCls(p,'r-ex');});neutral(id).forEach(function(p){setCls(p,'r-neutral');});render(id);panel.style.display='block';}
+  function reset(){cur=null;clearAll();panel.style.display='none';}
+  document.addEventListener('click',function(e){
+    var j=e.target.closest('[data-jump]');
+    if(j){apply(j.getAttribute('data-jump'));
+      var t=document.querySelector('.pill[data-id="'+j.getAttribute('data-jump')+'"]');if(t)t.open=true;return;}
+    var p=e.target.closest('.pill[data-id]');
+    if(p){var id=p.getAttribute('data-id');
+      if(cur===id){reset();}
+      else{apply(id);p.open=true;}
+      return;}
+    if(cur&&!e.target.closest('#dpanel')&&!e.target.closest('.pill')){reset();}
+  });
+  document.getElementById('dp-close').addEventListener('click',function(ev){ev.stopPropagation();reset();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){reset();}});
+})();
+</script>
 </main>
 
 <script>
