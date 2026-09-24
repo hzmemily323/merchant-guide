@@ -31,5 +31,6 @@ var D11_DATA={"meta": {"zhijiang": {"n": "单品直降（85折起）", "s": "单
       return;}
     if(cur&&!e.target.closest('#dpanel')&&!e.target.closest('.pill')){reset();}
   });
+  document.getElementById('dp-close').addEventListener('click',function(ev){ev.stopPropagation();reset();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){reset();}});
 })();
