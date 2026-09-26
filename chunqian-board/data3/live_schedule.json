@@ -1,20 +1,20 @@
 {
  "meta": {
   "partition": "20260910",
-  "fetched_at": "2026-09-24 11:29:46",
+  "fetched_at": "2026-09-26 10:33:02",
   "window": [
    "2026-09-10",
    "2026-09-25"
   ],
   "total": 19,
-  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=4530759&cellId=cell_1790220587441_4&msgId=21e4a91a-4db2-4446-9197-cea640e790bf&viewType=TABLE"
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=4530759&cellId=cell_1790389983980_9&msgId=ad9dcb8b-d6d6-4aa3-beec-f55af1c53a2b&viewType=TABLE"
  },
  "schedules": [
   {
-   "seller_id": "684fc0275fb9c50015ca88d6",
-   "shop_name": "官耳滋补旗舰店",
+   "seller_id": "5c6f97f1bb06cd759f7438a5",
+   "shop_name": "晟麦旗舰店",
    "goods_live_anchor_type": "店",
-   "live_schedule_title": "0910",
+   "live_schedule_title": "晟麦健康营养油",
    "live_schedule_status": 2,
    "live_schedule_start_time": "2026-09-10 06:00:00",
    "live_schedule_end_time": "2026-09-10 07:00:00",
@@ -23,10 +23,10 @@
    "live_schedule_source": 41
   },
   {
-   "seller_id": "5c6f97f1bb06cd759f7438a5",
-   "shop_name": "晟麦旗舰店",
+   "seller_id": "684fc0275fb9c50015ca88d6",
+   "shop_name": "官耳滋补旗舰店",
    "goods_live_anchor_type": "店",
-   "live_schedule_title": "晟麦健康营养油",
+   "live_schedule_title": "0910",
    "live_schedule_status": 2,
    "live_schedule_start_time": "2026-09-10 06:00:00",
    "live_schedule_end_time": "2026-09-10 07:00:00",
