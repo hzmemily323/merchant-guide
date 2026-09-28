@@ -23,11 +23,11 @@ var D11_DATA={"meta": {"zhijiang": {"n": "单品直降（1年1度85折起）", "
   document.addEventListener('click',function(e){
     var j=e.target.closest('[data-jump]');
     if(j){apply(j.getAttribute('data-jump'));
-      var t=document.querySelector('.pill[data-id="'+j.getAttribute('data-jump')+'"]');if(t)t.open=true;return;}
+      var t=document.querySelector('.pill[data-id="'+j.getAttribute('data-jump')+'"]');if(t)t.scrollIntoView({behavior:'smooth',block:'center'});return;}
     var p=e.target.closest('.pill[data-id]');
     if(p){var id=p.getAttribute('data-id');
       if(cur===id){reset();}
-      else{apply(id);p.open=true;}
+      else{apply(id);}
       return;}
     if(cur&&!e.target.closest('#dpanel')&&!e.target.closest('.pill')){reset();}
   });
