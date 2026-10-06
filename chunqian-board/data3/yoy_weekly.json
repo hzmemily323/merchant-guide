@@ -61,5 +61,12 @@
   "yoy_dgmv": 2833008.53,
   "yoy_sellers": 105,
   "yoy_ratio": -0.5204
+ },
+ "W41": {
+  "this_dgmv": 211453.96,
+  "this_sellers": 113,
+  "yoy_dgmv": 456942.55,
+  "yoy_sellers": 104,
+  "yoy_ratio": -0.5372
  }
 }
