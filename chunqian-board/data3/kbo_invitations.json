@@ -1,10 +1,10 @@
 {
  "meta": {
   "partition": "20260910",
-  "fetched_at": "2026-10-19 10:42:28",
+  "fetched_at": "2026-10-20 10:44:18",
   "window_note": "create_time 近90天",
   "total": 234,
-  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=4865155&cellId=cell_1792377762661_6&msgId=e451a6b5-e14f-4656-a10e-89d26550034c&viewType=TABLE"
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=4865155&cellId=cell_1792464275030_0&msgId=fdaf1128-f47e-497d-bc6c-57485916ac6d&viewType=TABLE"
  },
  "invitations": [
   {
@@ -549,6 +549,15 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5fd1c8230000000001008a2a",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "6423b677000000001201094f",
    "status": 15,
    "coo_type": 0,
@@ -568,15 +577,6 @@
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "57953a7c5e87e714a6c91ee2",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-21 13:31:01",
-   "replay_time": "2026-08-28 13:40:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "5fd1c8230000000001008a2a",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-21 13:31:01",
