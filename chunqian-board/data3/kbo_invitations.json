@@ -1,10 +1,10 @@
 {
  "meta": {
   "partition": "20260910",
-  "fetched_at": "2026-10-23 10:36:30",
+  "fetched_at": "2026-10-24 10:33:29",
   "window_note": "create_time 近90天",
   "total": 234,
-  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=5038195&cellId=cell_1792723007188_1&msgId=ec0fba4c-f93d-4631-a8df-88bc6461b71d&viewType=TABLE"
+  "dor": "https://data.devops.xiaohongshu.com/dor/index?taskId=5038195&cellId=cell_1792809219104_1&msgId=d07bcfc4-01ea-49b4-9d7c-6d30614ca44d&viewType=TABLE"
  },
  "invitations": [
   {
@@ -513,15 +513,6 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "5fd1c8230000000001008a2a",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-21 13:31:01",
-   "replay_time": "2026-08-28 13:40:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "5a3f2986e8ac2b535a17a3f3",
    "status": 15,
    "coo_type": 0,
@@ -532,6 +523,15 @@
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "55dacf593397db4eab61e70b",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-21 13:31:01",
+   "replay_time": "2026-08-28 13:40:03",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5e425a630000000001002b64",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-21 13:31:01",
@@ -558,7 +558,7 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "5e425a630000000001002b64",
+   "distributor_id": "5fd1c8230000000001008a2a",
    "status": 15,
    "coo_type": 0,
    "create_time": "2026-08-21 13:31:01",
@@ -945,15 +945,6 @@
   },
   {
    "seller_id": "5cd3d73e9bfcfb0001220fe8",
-   "distributor_id": "5b4f3a6f6b58b708068de94f",
-   "status": 15,
-   "coo_type": 0,
-   "create_time": "2026-08-07 11:08:02",
-   "replay_time": "2026-08-14 11:10:03",
-   "is_read": 1
-  },
-  {
-   "seller_id": "5cd3d73e9bfcfb0001220fe8",
    "distributor_id": "56d3e598aed7583e931d9526",
    "status": 15,
    "coo_type": 0,
@@ -968,6 +959,15 @@
    "coo_type": 0,
    "create_time": "2026-08-07 11:08:02",
    "replay_time": "2026-08-07 11:12:41",
+   "is_read": 1
+  },
+  {
+   "seller_id": "5cd3d73e9bfcfb0001220fe8",
+   "distributor_id": "5b4f3a6f6b58b708068de94f",
+   "status": 15,
+   "coo_type": 0,
+   "create_time": "2026-08-07 11:08:02",
+   "replay_time": "2026-08-14 11:10:03",
    "is_read": 1
   },
   {
