@@ -82,5 +82,12 @@
   "yoy_dgmv": 4523940.69,
   "yoy_sellers": 109,
   "yoy_ratio": -0.4811
+ },
+ "W44": {
+  "this_dgmv": 310882.78,
+  "this_sellers": 115,
+  "yoy_dgmv": 611946.9,
+  "yoy_sellers": 106,
+  "yoy_ratio": -0.492
  }
 }
