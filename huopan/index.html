@@ -10,7 +10,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;background:var(--bg);color:var(--ink);line-height:1.65;
 background-image:radial-gradient(circle at 12% 8%,rgba(245,158,11,.10),transparent 32%),radial-gradient(circle at 88% 4%,rgba(217,52,43,.07),transparent 30%)}
-.wrap{max-width:960px;margin:0 auto;padding:24px 14px 60px}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 14px 60px}
 header{text-align:center;padding:14px 0 6px}
 .kicker{display:inline-block;font-size:12px;letter-spacing:.2em;color:var(--red-deep);background:#FDE8D8;border-radius:999px;padding:4px 14px;margin-bottom:10px}
 h1{font-size:26px;font-weight:800;color:var(--ink)}
@@ -20,7 +20,8 @@ h1 em{font-style:normal;color:var(--red)}
 .intro-box p{font-size:13px;color:var(--ink2);margin-bottom:8px}
 .intro-box b{color:var(--ink)}
 .filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0 26px}
-.bb{border:1.5px dashed #E8C79A;background:#FFF8EE;color:#B45309;font-weight:600}.bb.on{background:#FEF3C7;color:#92400E;border:1.5px solid #F59E0B;box-shadow:none}.flabel{font-size:12px;color:var(--muted);align-self:center}.filters button{border:1.5px solid #E8C79A;background:var(--card);border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink2);cursor:pointer;font-weight:500}
+.flabel{font-size:12px;color:var(--muted);align-self:center}.filters button{border:1.5px solid #E8C79A;background:var(--card);border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink2);cursor:pointer;font-weight:500}
+.bb{background:#92400E!important;background-image:linear-gradient(135deg,#B45309,#92400E)!important;color:#FFF8EE!important;border:none!important;box-shadow:0 2px 6px rgba(146,64,14,.25);cursor:default}
 .filters button.on{background:linear-gradient(135deg,var(--red),#E85D3A);color:#fff;border-color:transparent;box-shadow:0 3px 10px rgba(217,52,43,.25)}
 .shop{margin-bottom:34px}
 .shop-hd{display:flex;align-items:center;gap:12px;margin-bottom:4px}
@@ -31,7 +32,7 @@ h1 em{font-style:normal;color:var(--red)}
 .intro{font-size:12.5px;color:var(--ink2);background:var(--cream);border-left:3px solid var(--amber);border-radius:0 8px 8px 0;padding:8px 12px;margin:8px 0 10px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
 .tags span{font-size:11.5px;color:var(--leaf);background:#EEF4E4;border-radius:6px;padding:2px 9px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
 .card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .15s,box-shadow .15s}
 .card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(180,100,30,.16)}
 .ph{position:relative;width:100%;aspect-ratio:1/1;background:var(--cream);display:flex;align-items:center;justify-content:center;overflow:hidden}
@@ -57,7 +58,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
   <h1>🧺 粮油干货<em>&</em>饼干膨化零食货盘</h1>
 </header>
 <div class="filters" id="filters"><button class="on" data-f="all">全部</button><button data-f="零食坚果">零食坚果</button><button data-f="粮油主食">粮油主食</button><button data-f="调味酱类">调味酱类</button></div>
-<div class="filters" id="bbubbles"><span class="flabel">适配买手</span><button class="bb on" data-b="all">全部</button><button class="bb" data-b="health">健康轻食/成分党</button><button class="bb" data-b="family">家庭烹饪/品质厨房</button><button class="bb" data-b="baby">母婴/家庭营养</button><button class="bb" data-b="snack">零食测评/解馋</button></div>
+<div class="filters" id="bbubbles"><span class="flabel">适配买手</span><button class="bb" data-b="health">健康轻食/成分党</button><button class="bb" data-b="family">家庭烹饪/品质厨房</button><button class="bb" data-b="baby">母婴/家庭营养</button><button class="bb" data-b="snack">零食测评/解馋</button></div>
 
 <section class="shop" data-buyer="baby"><div class="shop-hd"><div class="badge">奥</div>
     <div class="shop-tt"><h2>奥莱奥旗舰店</h2><p>西班牙精品庄园橄榄油</p></div><div class="cnt">5 品</div></div>
