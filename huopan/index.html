@@ -20,7 +20,7 @@ h1 em{font-style:normal;color:var(--red)}
 .intro-box p{font-size:13px;color:var(--ink2);margin-bottom:8px}
 .intro-box b{color:var(--ink)}
 .filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0 26px}
-.flabel{font-size:12px;color:var(--muted);align-self:center}.filters button{border:1.5px solid #E8C79A;background:var(--card);border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink2);cursor:pointer;font-weight:500}
+.bb{border:1.5px dashed #E8C79A;background:#FFF8EE;color:#B45309;font-weight:600}.bb.on{background:#FEF3C7;color:#92400E;border:1.5px solid #F59E0B;box-shadow:none}.flabel{font-size:12px;color:var(--muted);align-self:center}.filters button{border:1.5px solid #E8C79A;background:var(--card);border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink2);cursor:pointer;font-weight:500}
 .filters button.on{background:linear-gradient(135deg,var(--red),#E85D3A);color:#fff;border-color:transparent;box-shadow:0 3px 10px rgba(217,52,43,.25)}
 .shop{margin-bottom:34px}
 .shop-hd{display:flex;align-items:center;gap:12px;margin-bottom:4px}
@@ -57,9 +57,9 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
   <h1>🧺 粮油干货<em>&</em>饼干膨化零食货盘</h1>
 </header>
 <div class="filters" id="filters"><button class="on" data-f="all">全部</button><button data-f="零食坚果">零食坚果</button><button data-f="粮油主食">粮油主食</button><button data-f="调味酱类">调味酱类</button></div>
-<div class="filters" id="bbubbles"><span class="flabel">按买手</span><button data-b="all">全部买手</button><button data-b="health">健康轻食/成分党</button><button data-b="family">家庭烹饪/品质厨房</button><button data-b="snack">零食测评/解馋</button></div>
+<div class="filters" id="bbubbles"><span class="flabel">适配买手</span><button class="bb on" data-b="all">全部</button><button class="bb" data-b="health">健康轻食/成分党</button><button class="bb" data-b="family">家庭烹饪/品质厨房</button><button class="bb" data-b="baby">母婴/家庭营养</button><button class="bb" data-b="snack">零食测评/解馋</button></div>
 
-<section class="shop" data-buyer="family"><div class="shop-hd"><div class="badge">奥</div>
+<section class="shop" data-buyer="baby"><div class="shop-hd"><div class="badge">奥</div>
     <div class="shop-tt"><h2>奥莱奥旗舰店</h2><p>西班牙精品庄园橄榄油</p></div><div class="cnt">5 品</div></div>
     <p class="intro">西班牙PDO原产地认证的精品庄园油，生物酚含量400ppm+，适合做油品深度测评、进口好物推荐的买手，切入方向：油品溯源、生饮抗炎、辅食月子油。</p>
     <div class="tags"><span>欧盟PDO原产地保护</span><span>一瓶一码可追溯</span><span>生物酚400ppm+</span></div>
@@ -88,7 +88,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">500ml/瓶（四果种混配）</div>
         <div class="prices"><span class="deal">283元/瓶｜447元/2瓶</span><span class="orig">—</span><span class="cmsn">佣金详谈</span></div>
         <span class="gift">🎁 送礼盒/品油杯</span><div class="sell">酸度≤0.15%，11月第一周采摘，果味中位值4.5+。</div>
-        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="health"><div class="shop-hd"><div class="badge">豆</div>
+        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="health baby"><div class="shop-hd"><div class="badge">豆</div>
     <div class="shop-tt"><h2>原豆复兴Peasup</h2><p>超级食物鹰嘴豆 · 轻食调味</p></div><div class="cnt">11 品</div></div>
     <p class="intro">国内首家专注鹰嘴豆的超级食物品牌，张静初直播同款，配料表干净，适合健康轻食、成分党买手，切入方向：植物蛋白、减脂轻食、控卡零食。</p>
     <div class="tags"><span>国内首家专注鹰嘴豆</span><span>张静初直播同款</span><span>清洁配料表</span></div>
@@ -371,7 +371,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <span class="gift">🎁 /</span><div class="sell">1. 干净配方，全家都能放心吃的锅巴
 2. 轻油轻盐，酥脆不油不腻，解馋无压力
 3. 30年老品牌，专研锅巴，极致酥脆的黄金        原料配比</div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="family"><div class="shop-hd"><div class="badge">金</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="family baby"><div class="shop-hd"><div class="badge">金</div>
     <div class="shop-tt"><h2>金龙鱼粮油旗舰店</h2><p>粮油大牌 · 低GI健康主食</p></div><div class="cnt">13 品</div></div>
     <p class="intro">粮油大牌金龙鱼的丰益堂健康系列，低GI认证，大牌背书机制稳，适合家庭主食健康化、控糖科普买手，切入方向：控糖主食替换、三高人群膳食、慢升糖科普。</p>
     <div class="tags"><span>丰益堂健康系列</span><span>低GI认证</span><span>大牌背书机制稳</span></div>
@@ -478,7 +478,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">200ml*2（喷雾型）</div>
         <div class="prices"><span class="deal">158元</span><span class="orig">188元</span><span class="cmsn">30%</span></div>
         <div class="sell">一喷控油，轻食健身人群友好。</div>
-        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="health"><div class="shop-hd"><div class="badge">晟</div>
+        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="baby"><div class="shop-hd"><div class="badge">晟</div>
     <div class="shop-tt"><h2>晟麦旗舰店</h2><p>有机小油种 · 营养油脂专家</p></div><div class="cnt">8 品</div></div>
     <p class="intro">有机认证的小油种营养油脂专家，亚麻籽油/紫苏籽油高佣40%，适合健身减脂、内调抗衰买手，切入方向：直饮好油、减脂沙拉、孕期营养。</p>
     <div class="tags"><span>有机认证</span><span>亚麻籽/紫苏籽油</span><span>高佣40%</span></div>
