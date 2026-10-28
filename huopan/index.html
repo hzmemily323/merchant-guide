@@ -20,7 +20,7 @@ h1 em{font-style:normal;color:var(--red)}
 .intro-box p{font-size:13px;color:var(--ink2);margin-bottom:8px}
 .intro-box b{color:var(--ink)}
 .filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0 26px}
-.filters button{border:1.5px solid #E8C79A;background:var(--card);border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink2);cursor:pointer;font-weight:500}
+.flabel{font-size:12px;color:var(--muted);align-self:center}.filters button{border:1.5px solid #E8C79A;background:var(--card);border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink2);cursor:pointer;font-weight:500}
 .filters button.on{background:linear-gradient(135deg,var(--red),#E85D3A);color:#fff;border-color:transparent;box-shadow:0 3px 10px rgba(217,52,43,.25)}
 .shop{margin-bottom:34px}
 .shop-hd{display:flex;align-items:center;gap:12px;margin-bottom:4px}
@@ -56,14 +56,10 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
   <span class="kicker">小红书电商 · 五组休食</span>
   <h1>🧺 粮油干货<em>&</em>饼干膨化零食货盘</h1>
 </header>
-<div class="intro-box">
-  <h3>🤝 这份货盘适合谁、怎么切入</h3>
-  <p><b>健康轻食/成分党买手</b>：主推原豆复兴鹰嘴豆系列、ffit8蛋白零食、晟麦有机小油种，切入植物蛋白、减脂代餐、清洁配料表。</p>
-  <p><b>家庭烹饪/品质厨房买手</b>：主推欧丽薇兰、奥莱奥、贝蒂斯橄榄油和金龙鱼丰益堂低GI主食，切入控油健康厨房、控糖主食替换、节日囤货送礼。</p>
-  <p><b>零食测评/解馋买手</b>：主推熟道国潮点心、珍妮曲奇、黄飞红麻辣花生、运康锅巴，切入追剧搭子、下午茶出片、新中式伴手礼。</p>
-</div>
+<div class="filters" id="bfilters"><span class="flabel">按买手</span><button class="on" data-b="all">全部买手</button><button data-b="health">健康轻食/成分党</button><button data-b="family">家庭烹饪/品质厨房</button><button data-b="snack">零食测评/解馋</button></div>
 <div class="filters" id="filters"><button class="on" data-f="all">全部</button><button data-f="零食坚果">零食坚果</button><button data-f="粮油主食">粮油主食</button><button data-f="调味酱类">调味酱类</button></div>
-<section class="shop"><div class="shop-hd"><div class="badge">奥</div>
+
+<section class="shop" data-buyer="family"><div class="shop-hd"><div class="badge">奥</div>
     <div class="shop-tt"><h2>奥莱奥旗舰店</h2><p>西班牙精品庄园橄榄油</p></div><div class="cnt">5 品</div></div>
     <p class="intro">西班牙PDO原产地认证的精品庄园油，生物酚含量400ppm+，适合做油品深度测评、进口好物推荐的买手，切入方向：油品溯源、生饮抗炎、辅食月子油。</p>
     <div class="tags"><span>欧盟PDO原产地保护</span><span>一瓶一码可追溯</span><span>生物酚400ppm+</span></div>
@@ -92,7 +88,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">500ml/瓶（四果种混配）</div>
         <div class="prices"><span class="deal">283元/瓶｜447元/2瓶</span><span class="orig">—</span><span class="cmsn">佣金详谈</span></div>
         <span class="gift">🎁 送礼盒/品油杯</span><div class="sell">酸度≤0.15%，11月第一周采摘，果味中位值4.5+。</div>
-        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">豆</div>
+        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="health"><div class="shop-hd"><div class="badge">豆</div>
     <div class="shop-tt"><h2>原豆复兴Peasup</h2><p>超级食物鹰嘴豆 · 轻食调味</p></div><div class="cnt">11 品</div></div>
     <p class="intro">国内首家专注鹰嘴豆的超级食物品牌，张静初直播同款，配料表干净，适合健康轻食、成分党买手，切入方向：植物蛋白、减脂轻食、控卡零食。</p>
     <div class="tags"><span>国内首家专注鹰嘴豆</span><span>张静初直播同款</span><span>清洁配料表</span></div>
@@ -189,7 +185,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">153g/盒（约17袋）｜可可/椰香/紫薯/奇亚籽味</div>
         <div class="prices"><span class="deal">29.9元/盒</span><span class="cmsn">20%（可谈）</span></div>
         <div class="sell">核心卖点：谷物多多更高纤。鹰嘴豆、燕麦、奇亚籽、黑巧多种超级食物结合的高纤健康零食。盒马、711同款，抖音全麦饼干销量TOP1。</div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">熟</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="snack"><div class="shop-hd"><div class="badge">熟</div>
     <div class="shop-tt"><h2>熟道</h2><p>国潮点心 · 东方酥脆</p></div><div class="cnt">6 品</div></div>
     <p class="intro">国潮点心品牌，108层叠酥工艺、整颗坚果可见，礼盒场景齐全，适合中式点心、伴手礼买手，切入方向：新中式茶点、节日送礼、出片下午茶。</p>
     <div class="tags"><span>非遗手艺 · 108层叠酥</span><span>整颗坚果可见</span><span>礼盒场景齐全</span></div>
@@ -223,7 +219,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">92g/盒（7根）×3盒｜原味/抹茶/黑芝麻</div>
         <div class="prices"><span class="deal">69元/3盒</span><span class="orig">99元/3盒</span><span class="cmsn">0.2</span></div>
         <div class="sell">蛋卷新升级，「有心」更满足。浓醇牛轧奶香包裹金黄蛋皮，微波轻热3秒内馅拉丝绵软；新西兰安佳黄油，0添加固化剂膨松剂。</div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">熊</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="snack"><div class="shop-hd"><div class="badge">熊</div>
     <div class="shop-tt"><h2>珍妮曲奇聪明小熊饼干旗舰店</h2><p>香港制造 · 经典曲奇伴手礼</p></div><div class="cnt">2 品</div></div>
     <p class="intro">2005年源自香港赤柱的经典曲奇，门店常年排队，无防腐剂无香精，适合港风好物、伴手礼买手，切入方向：香港手信、节日礼盒、经典味道。</p>
     <div class="tags"><span>2005年源自香港赤柱</span><span>香港门店常年排队</span><span>无防腐剂无香精</span></div>
@@ -242,7 +238,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
 4. 萌趣铁盒包装：标志性小熊铁盒包装45天一换，颜值高吃完可当收纳盒，自带打卡话题度
 6. 硬核品牌背书：香港手信TOP1，20年线下排队王，游客行李箱必备，社交媒体自带流量
 </div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">8</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="health"><div class="shop-hd"><div class="badge">8</div>
     <div class="shop-tt"><h2>ffit8旗舰店</h2><p>体重管理 · 蛋白零食</p></div><div class="cnt">9 品</div></div>
     <p class="intro">专注体重管理的蛋白零食品牌，超模同款，高蛋白低负担，适合健身减脂、身材管理买手，切入方向：代餐零食、健身补给、控卡解馋。</p>
     <div class="tags"><span>专注体重管理</span><span>超模同款</span><span>高蛋白低负担</span></div>
@@ -303,7 +299,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">25g*4根/盒</div>
         <div class="prices"><span class="deal">59.6/4盒</span><span class="orig">79.6/4盒</span><span class="cmsn">20%</span></div>
         <div class="sell">轻热量、好吃又饱腹的威化饼干！</div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">黄</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="snack"><div class="shop-hd"><div class="badge">黄</div>
     <div class="shop-tt"><h2>黄飞红旗舰店</h2><p>欣和旗下 · 麻辣零食老牌</p></div><div class="cnt">5 品</div></div>
     <p class="intro">欣和旗下2000年诞生的麻辣零食老牌，远销30+国家，花生锅巴全矩阵，适合零食测评、下饭解馋买手，切入方向：麻辣上头零食、追剧搭子、国货零食。</p>
     <div class="tags"><span>2000年诞生 · 欣和旗下</span><span>远销30+国家</span><span>花生锅巴全矩阵</span></div>
@@ -344,7 +340,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
 2、工艺好：慢卤冷萃，高温煮透+冷卤慢泡，卤香从外渗透到芯，入味不硬芯，保证花生的脆甜和颗颗爆汁；
 味道好：五香和香辣两种口味，满足消费者多种口味需求；
 3、包装好：双层包装，内袋锁鲜，外袋收纳花生壳，不用担心扔壳问题，复合锁鲜更卫生，脆爽安心吃；</div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">运</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="snack"><div class="shop-hd"><div class="badge">运</div>
     <div class="shop-tt"><h2>运康锅巴旗舰店</h2><p>山西运城 · 纯粮食锅巴</p></div><div class="cnt">3 品</div></div>
     <p class="intro">山西运城28年老厂，纯粮食锅巴，0防腐剂0反式脂肪，适合怀旧零食、学生党买手，切入方向：老牌锅巴、平价大碗、酥脆解馋。</p>
     <div class="tags"><span>1996年 · 28年老厂</span><span>0防腐剂0反式脂肪</span><span>山西省放心食品</span></div>
@@ -375,7 +371,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <span class="gift">🎁 /</span><div class="sell">1. 干净配方，全家都能放心吃的锅巴
 2. 轻油轻盐，酥脆不油不腻，解馋无压力
 3. 30年老品牌，专研锅巴，极致酥脆的黄金        原料配比</div>
-        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">金</div>
+        <div class="meta"><span>零食坚果</span></div></div></a></div></section><section class="shop" data-buyer="family"><div class="shop-hd"><div class="badge">金</div>
     <div class="shop-tt"><h2>金龙鱼粮油旗舰店</h2><p>粮油大牌 · 低GI健康主食</p></div><div class="cnt">13 品</div></div>
     <p class="intro">粮油大牌金龙鱼的丰益堂健康系列，低GI认证，大牌背书机制稳，适合家庭主食健康化、控糖科普买手，切入方向：控糖主食替换、三高人群膳食、慢升糖科普。</p>
     <div class="tags"><span>丰益堂健康系列</span><span>低GI认证</span><span>大牌背书机制稳</span></div>
@@ -444,7 +440,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">4L/瓶</div>
         <div class="prices"><span class="deal">199元/瓶</span><span class="orig">269元</span><span class="cmsn">20%</span></div>
         <div class="sell">国家批准新食品原料，菜籽油基底DAG≥40%，长期食用减轻身体负担。</div>
-        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">欧</div>
+        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="family"><div class="shop-hd"><div class="badge">欧</div>
     <div class="shop-tt"><h2>欧丽薇兰旗舰店</h2><p>橄榄油头部品牌 · IOC双认证</p></div><div class="cnt">2 品</div></div>
     <p class="intro">橄榄油头部品牌，IOC权威检测、米其林指南合作伙伴，适配中式热烹，适合家庭烹饪、美食教程买手，切入方向：控油健康厨房、中式热炒。</p>
     <div class="tags"><span>米其林指南合作伙伴</span><span>IOC权威检测</span><span>中式热烹适配</span></div>
@@ -458,7 +454,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">100ml/瓶</div>
         <div class="prices"><span class="deal">16.9元/瓶｜24.9元*2瓶</span><span class="orig">59.9元/瓶｜67.9元*2瓶</span><span class="cmsn">10%</span></div>
         <div class="sell">IOC双权威检测，头道低温冷榨，小瓶装尝鲜首选。</div>
-        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">贝</div>
+        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="family"><div class="shop-hd"><div class="badge">贝</div>
     <div class="shop-tt"><h2>贝蒂斯旗舰店</h2><p>西班牙原装进口橄榄油</p></div><div class="cnt">4 品</div></div>
     <p class="intro">西班牙原瓶进口的百年橄榄油品牌，礼盒装体面，适合家庭囤货、品质生活买手，切入方向：皇室用油百年品牌故事、节日送礼。</p>
     <div class="tags"><span>西班牙原瓶进口</span><span>百年橄榄油品牌</span><span>礼盒装体面</span></div>
@@ -482,7 +478,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="spec">200ml*2（喷雾型）</div>
         <div class="prices"><span class="deal">158元</span><span class="orig">188元</span><span class="cmsn">30%</span></div>
         <div class="sell">一喷控油，轻食健身人群友好。</div>
-        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop"><div class="shop-hd"><div class="badge">晟</div>
+        <div class="meta"><span>粮油主食</span></div></div></a></div></section><section class="shop" data-buyer="health"><div class="shop-hd"><div class="badge">晟</div>
     <div class="shop-tt"><h2>晟麦旗舰店</h2><p>有机小油种 · 营养油脂专家</p></div><div class="cnt">8 品</div></div>
     <p class="intro">有机认证的小油种营养油脂专家，亚麻籽油/紫苏籽油高佣40%，适合健身减脂、内调抗衰买手，切入方向：直饮好油、减脂沙拉、孕期营养。</p>
     <div class="tags"><span>有机认证</span><span>亚麻籽/紫苏籽油</span><span>高佣40%</span></div>
@@ -530,17 +526,28 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
 <footer>小红书电商 · 五组休食 · 粮油干货&饼干膨化零食货盘 · 长期更新</footer>
 </div>
 <script>
+const B=document.getElementById('bfilters');
+let BF='all';
+B.addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  B.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
+  BF=b.dataset.b;applyF();
+});
 const F=document.getElementById('filters');
+let CF='all';
 F.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
   F.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b));
-  const f=b.dataset.f;
+  CF=b.dataset.f;applyF();
+});
+function applyF(){
   document.querySelectorAll('.shop').forEach(sec=>{
     let vis=0;
-    sec.querySelectorAll('.card').forEach(c=>{const show=f==='all'||c.dataset.cat===f;c.style.display=show?'':'none';if(show)vis++;});
-    sec.style.display=vis?'':'none';
+    sec.querySelectorAll('.card').forEach(c=>{const show=(CF==='all'||c.dataset.cat===CF);c.style.display=show?'':'none';if(show)vis++;});
+    const bs=BF==='all'||sec.dataset.buyer===BF;
+    sec.style.display=(vis&&bs)?'':'none';
   });
-});
+}
 </script>
 </body>
 </html>
