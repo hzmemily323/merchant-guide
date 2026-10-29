@@ -260,9 +260,6 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="prices"><span class="deal">56.9元/瓶｜109.9元/2瓶</span><span class="orig">109元/瓶</span><span class="cmsn">20%</span></div>
         <div class="sell">低温烹饪、直饮。</div>
         <div class="meta"><span>粮油主食</span></div></div></a></div></section>
-<footer>小红书电商 · 五组休食 · 粮油干货&饼干膨化零食货盘 · 长期更新</footer>
-</div>
-
 <section class="shop" data-buyer="snack"><div class="shop-hd"><div class="badge">熊</div>
     <div class="shop-tt"><h2>珍妮曲奇聪明小熊饼干旗舰店</h2><p>香港制造 · 经典曲奇伴手礼</p></div><div class="cnt">2 品</div></div>
     <p class="intro">2005年源自香港赤柱的经典曲奇，香港门店常年排队，无防腐剂无香精，是港风手信和节日礼盒里最稳的经典味道。</p>
@@ -523,6 +520,7 @@ footer{text-align:center;font-size:12px;color:var(--muted);margin-top:36px}
         <div class="prices"><span class="deal">158元</span><span class="orig">188元</span><span class="cmsn">30%</span></div>
         <div class="sell">一喷控油，轻食健身人群友好。</div>
         <div class="meta"><span>粮油主食</span></div></div></a></div></section>
+
 <footer>小红书电商 · 五组休食 · 粮油干货&饼干膨化零食货盘 · 长期更新</footer>
 </div>
 <script>
@@ -537,7 +535,7 @@ function applyF(){
   document.querySelectorAll('.shop').forEach(sec=>{
     let vis=0;
     sec.querySelectorAll('.card').forEach(c=>{const show=(CF==='all'||c.dataset.cat===CF);c.style.display=show?'':'none';if(show)vis++;});
-    sec.style.display=vis?'':'none';
+    sec.style.display=(vis&&bs)?'':'none';
   });
 }
 </script>
