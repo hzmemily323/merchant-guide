@@ -75,176 +75,10 @@
     "read_pv": 102045
    },
    "W44": {
-    "note_dgmv": 61428.439999999995,
+    "note_dgmv": 69082.67,
     "new_notes": 53,
-    "note_pv": 725914,
-    "read_pv": 90390
-   }
-  }
- },
- {
-  "seller_id": "64814828ebbcb2000160c841",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 12915.569999999998,
-    "new_notes": 13,
-    "note_pv": 407658,
-    "read_pv": 30363
-   },
-   "W33": {
-    "note_dgmv": 14084.420000000004,
-    "new_notes": 13,
-    "note_pv": 409361,
-    "read_pv": 31470
-   },
-   "W34": {
-    "note_dgmv": 19910.220000000005,
-    "new_notes": 13,
-    "note_pv": 385991,
-    "read_pv": 27895
-   },
-   "W35": {
-    "note_dgmv": 18271.490000000005,
-    "new_notes": 13,
-    "note_pv": 373694,
-    "read_pv": 26456
-   },
-   "W36": {
-    "note_dgmv": 13580.100000000002,
-    "new_notes": 10,
-    "note_pv": 281604,
-    "read_pv": 19294
-   },
-   "W37": {
-    "note_dgmv": 16635.89,
-    "new_notes": 14,
-    "note_pv": 378422,
-    "read_pv": 25979
-   },
-   "W38": {
-    "note_dgmv": 21880.980000000007,
-    "new_notes": 17,
-    "note_pv": 392445,
-    "read_pv": 28477
-   },
-   "W39": {
-    "note_dgmv": 16491.950000000004,
-    "new_notes": 13,
-    "note_pv": 324338,
-    "read_pv": 26719
-   },
-   "W40": {
-    "note_dgmv": 14884.900000000003,
-    "new_notes": 8,
-    "note_pv": 301941,
-    "read_pv": 27939
-   },
-   "W41": {
-    "note_dgmv": 18659.640000000003,
-    "new_notes": 14,
-    "note_pv": 334824,
-    "read_pv": 30122
-   },
-   "W42": {
-    "note_dgmv": 16306.870000000004,
-    "new_notes": 22,
-    "note_pv": 335385,
-    "read_pv": 36939
-   },
-   "W43": {
-    "note_dgmv": 22138.060000000005,
-    "new_notes": 19,
-    "note_pv": 356340,
-    "read_pv": 35295
-   },
-   "W44": {
-    "note_dgmv": 24574.220000000005,
-    "new_notes": 18,
-    "note_pv": 451422,
-    "read_pv": 34891
-   }
-  }
- },
- {
-  "seller_id": "5e1441c6f488980001bcaadc",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 55904.40999999999,
-    "new_notes": 71,
-    "note_pv": 1418487,
-    "read_pv": 103191
-   },
-   "W33": {
-    "note_dgmv": 39045.049999999996,
-    "new_notes": 69,
-    "note_pv": 1216278,
-    "read_pv": 93349
-   },
-   "W34": {
-    "note_dgmv": 30498.63,
-    "new_notes": 53,
-    "note_pv": 797589,
-    "read_pv": 57169
-   },
-   "W35": {
-    "note_dgmv": 47223.229999999996,
-    "new_notes": 49,
-    "note_pv": 1138710,
-    "read_pv": 72514
-   },
-   "W36": {
-    "note_dgmv": 48986.82999999999,
-    "new_notes": 52,
-    "note_pv": 1072406,
-    "read_pv": 57080
-   },
-   "W37": {
-    "note_dgmv": 29858.57,
-    "new_notes": 93,
-    "note_pv": 716053,
-    "read_pv": 53443
-   },
-   "W38": {
-    "note_dgmv": 53481.40999999999,
-    "new_notes": 75,
-    "note_pv": 1382036,
-    "read_pv": 87754
-   },
-   "W39": {
-    "note_dgmv": 21096.79,
-    "new_notes": 95,
-    "note_pv": 578384,
-    "read_pv": 36657
-   },
-   "W40": {
-    "note_dgmv": 32251.43,
-    "new_notes": 95,
-    "note_pv": 820994,
-    "read_pv": 48958
-   },
-   "W41": {
-    "note_dgmv": 53413.890000000014,
-    "new_notes": 98,
-    "note_pv": 1216240,
-    "read_pv": 83903
-   },
-   "W42": {
-    "note_dgmv": 69485.05,
-    "new_notes": 104,
-    "note_pv": 2025803,
-    "read_pv": 96529
-   },
-   "W43": {
-    "note_dgmv": 40744.99,
-    "new_notes": 100,
-    "note_pv": 1088621,
-    "read_pv": 61418
-   },
-   "W44": {
-    "note_dgmv": 24545.620000000003,
-    "new_notes": 83,
-    "note_pv": 581868,
-    "read_pv": 30316
+    "note_pv": 811761,
+    "read_pv": 102687
    }
   }
  },
@@ -324,93 +158,176 @@
     "read_pv": 56607
    },
    "W44": {
-    "note_dgmv": 24061.64,
-    "new_notes": 35,
-    "note_pv": 517958,
-    "read_pv": 30450
+    "note_dgmv": 29163.52,
+    "new_notes": 41,
+    "note_pv": 625564,
+    "read_pv": 36259
    }
   }
  },
  {
-  "seller_id": "64b5017ab81c530001cefb46",
+  "seller_id": "64814828ebbcb2000160c841",
   "weeks": {
    "W32": {
-    "note_dgmv": 38556.930000000066,
-    "new_notes": 91,
-    "note_pv": 2365366,
-    "read_pv": 221905
+    "note_dgmv": 12915.569999999998,
+    "new_notes": 13,
+    "note_pv": 407658,
+    "read_pv": 30363
    },
    "W33": {
-    "note_dgmv": 39941.040000000066,
-    "new_notes": 62,
-    "note_pv": 2365726,
-    "read_pv": 252275
+    "note_dgmv": 14084.420000000004,
+    "new_notes": 13,
+    "note_pv": 409361,
+    "read_pv": 31470
    },
    "W34": {
-    "note_dgmv": 33489.47000000002,
-    "new_notes": 88,
-    "note_pv": 1688337,
-    "read_pv": 166422
+    "note_dgmv": 19910.220000000005,
+    "new_notes": 13,
+    "note_pv": 385991,
+    "read_pv": 27895
    },
    "W35": {
-    "note_dgmv": 34735.73000000003,
-    "new_notes": 88,
-    "note_pv": 1688554,
-    "read_pv": 196059
+    "note_dgmv": 18271.490000000005,
+    "new_notes": 13,
+    "note_pv": 373694,
+    "read_pv": 26456
    },
    "W36": {
-    "note_dgmv": 32141.79000000005,
-    "new_notes": 79,
-    "note_pv": 1666410,
-    "read_pv": 188044
+    "note_dgmv": 13580.100000000002,
+    "new_notes": 10,
+    "note_pv": 281604,
+    "read_pv": 19294
    },
    "W37": {
-    "note_dgmv": 37742.170000000086,
-    "new_notes": 116,
-    "note_pv": 2123496,
-    "read_pv": 263158
+    "note_dgmv": 16635.89,
+    "new_notes": 14,
+    "note_pv": 378422,
+    "read_pv": 25979
    },
    "W38": {
-    "note_dgmv": 37665.19000000005,
-    "new_notes": 112,
-    "note_pv": 1974068,
-    "read_pv": 230915
+    "note_dgmv": 21880.980000000007,
+    "new_notes": 17,
+    "note_pv": 392445,
+    "read_pv": 28477
    },
    "W39": {
-    "note_dgmv": 24086.98999999999,
-    "new_notes": 72,
-    "note_pv": 1694789,
-    "read_pv": 198984
+    "note_dgmv": 16491.950000000004,
+    "new_notes": 13,
+    "note_pv": 324338,
+    "read_pv": 26719
    },
    "W40": {
-    "note_dgmv": 20409.57999999999,
-    "new_notes": 64,
-    "note_pv": 1385749,
-    "read_pv": 171816
+    "note_dgmv": 14884.900000000003,
+    "new_notes": 8,
+    "note_pv": 301941,
+    "read_pv": 27939
    },
    "W41": {
-    "note_dgmv": 22471.840000000004,
-    "new_notes": 76,
-    "note_pv": 1300668,
-    "read_pv": 149085
+    "note_dgmv": 18659.640000000003,
+    "new_notes": 14,
+    "note_pv": 334824,
+    "read_pv": 30122
    },
    "W42": {
-    "note_dgmv": 23987.94000000001,
-    "new_notes": 99,
-    "note_pv": 1385298,
-    "read_pv": 146762
+    "note_dgmv": 16306.870000000004,
+    "new_notes": 22,
+    "note_pv": 335385,
+    "read_pv": 36939
    },
    "W43": {
-    "note_dgmv": 21941.610000000004,
-    "new_notes": 89,
-    "note_pv": 1309848,
-    "read_pv": 150599
+    "note_dgmv": 22138.060000000005,
+    "new_notes": 19,
+    "note_pv": 356340,
+    "read_pv": 35295
    },
    "W44": {
-    "note_dgmv": 21131.000000000015,
+    "note_dgmv": 29015.990000000005,
+    "new_notes": 19,
+    "note_pv": 543847,
+    "read_pv": 42100
+   }
+  }
+ },
+ {
+  "seller_id": "5e1441c6f488980001bcaadc",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 55904.40999999999,
     "new_notes": 71,
-    "note_pv": 1277109,
-    "read_pv": 129144
+    "note_pv": 1418487,
+    "read_pv": 103191
+   },
+   "W33": {
+    "note_dgmv": 39045.049999999996,
+    "new_notes": 69,
+    "note_pv": 1216278,
+    "read_pv": 93349
+   },
+   "W34": {
+    "note_dgmv": 30498.63,
+    "new_notes": 53,
+    "note_pv": 797589,
+    "read_pv": 57169
+   },
+   "W35": {
+    "note_dgmv": 47223.229999999996,
+    "new_notes": 49,
+    "note_pv": 1138710,
+    "read_pv": 72514
+   },
+   "W36": {
+    "note_dgmv": 48986.82999999999,
+    "new_notes": 52,
+    "note_pv": 1072406,
+    "read_pv": 57080
+   },
+   "W37": {
+    "note_dgmv": 29858.57,
+    "new_notes": 93,
+    "note_pv": 716053,
+    "read_pv": 53443
+   },
+   "W38": {
+    "note_dgmv": 53481.40999999999,
+    "new_notes": 75,
+    "note_pv": 1382036,
+    "read_pv": 87754
+   },
+   "W39": {
+    "note_dgmv": 21096.79,
+    "new_notes": 95,
+    "note_pv": 578384,
+    "read_pv": 36657
+   },
+   "W40": {
+    "note_dgmv": 32251.43,
+    "new_notes": 95,
+    "note_pv": 820994,
+    "read_pv": 48958
+   },
+   "W41": {
+    "note_dgmv": 53413.890000000014,
+    "new_notes": 98,
+    "note_pv": 1216240,
+    "read_pv": 83903
+   },
+   "W42": {
+    "note_dgmv": 69485.05,
+    "new_notes": 104,
+    "note_pv": 2025803,
+    "read_pv": 96529
+   },
+   "W43": {
+    "note_dgmv": 40744.99,
+    "new_notes": 100,
+    "note_pv": 1088621,
+    "read_pv": 61418
+   },
+   "W44": {
+    "note_dgmv": 27602.43,
+    "new_notes": 96,
+    "note_pv": 677909,
+    "read_pv": 35915
    }
   }
  },
@@ -490,93 +407,93 @@
     "read_pv": 95114
    },
    "W44": {
-    "note_dgmv": 20609.14000000003,
-    "new_notes": 85,
-    "note_pv": 723347,
-    "read_pv": 123938
+    "note_dgmv": 24973.000000000033,
+    "new_notes": 88,
+    "note_pv": 840749,
+    "read_pv": 142233
    }
   }
  },
  {
-  "seller_id": "64108f5d3a4a690001e17788",
+  "seller_id": "64b5017ab81c530001cefb46",
   "weeks": {
    "W32": {
-    "note_dgmv": 13327.949999999986,
-    "new_notes": 101,
-    "note_pv": 948525,
-    "read_pv": 112024
+    "note_dgmv": 38556.930000000066,
+    "new_notes": 91,
+    "note_pv": 2365366,
+    "read_pv": 221905
    },
    "W33": {
-    "note_dgmv": 23933.12000000005,
-    "new_notes": 104,
-    "note_pv": 1640244,
-    "read_pv": 182116
+    "note_dgmv": 39941.040000000066,
+    "new_notes": 62,
+    "note_pv": 2365726,
+    "read_pv": 252275
    },
    "W34": {
-    "note_dgmv": 11351.249999999989,
-    "new_notes": 81,
-    "note_pv": 800054,
-    "read_pv": 93283
+    "note_dgmv": 33489.47000000002,
+    "new_notes": 88,
+    "note_pv": 1688337,
+    "read_pv": 166422
    },
    "W35": {
-    "note_dgmv": 15750.019999999997,
-    "new_notes": 83,
-    "note_pv": 1105334,
-    "read_pv": 114144
+    "note_dgmv": 34735.73000000003,
+    "new_notes": 88,
+    "note_pv": 1688554,
+    "read_pv": 196059
    },
    "W36": {
-    "note_dgmv": 16725.000000000015,
-    "new_notes": 45,
-    "note_pv": 1231799,
-    "read_pv": 113201
+    "note_dgmv": 32141.79000000005,
+    "new_notes": 79,
+    "note_pv": 1666410,
+    "read_pv": 188044
    },
    "W37": {
-    "note_dgmv": 21134.440000000024,
-    "new_notes": 72,
-    "note_pv": 1541750,
-    "read_pv": 137682
+    "note_dgmv": 37742.170000000086,
+    "new_notes": 116,
+    "note_pv": 2123496,
+    "read_pv": 263158
    },
    "W38": {
-    "note_dgmv": 14634.419999999998,
-    "new_notes": 74,
-    "note_pv": 1156048,
-    "read_pv": 104335
+    "note_dgmv": 37665.19000000005,
+    "new_notes": 112,
+    "note_pv": 1974068,
+    "read_pv": 230915
    },
    "W39": {
-    "note_dgmv": 12723.49999999999,
-    "new_notes": 90,
-    "note_pv": 1220163,
-    "read_pv": 101350
+    "note_dgmv": 24086.98999999999,
+    "new_notes": 72,
+    "note_pv": 1694789,
+    "read_pv": 198984
    },
    "W40": {
-    "note_dgmv": 10635.479999999989,
-    "new_notes": 67,
-    "note_pv": 985253,
-    "read_pv": 87309
+    "note_dgmv": 20409.57999999999,
+    "new_notes": 64,
+    "note_pv": 1385749,
+    "read_pv": 171816
    },
    "W41": {
-    "note_dgmv": 13220.019999999988,
-    "new_notes": 71,
-    "note_pv": 1122084,
-    "read_pv": 99310
+    "note_dgmv": 22471.840000000004,
+    "new_notes": 76,
+    "note_pv": 1300668,
+    "read_pv": 149085
    },
    "W42": {
-    "note_dgmv": 9745.949999999988,
-    "new_notes": 95,
-    "note_pv": 987473,
-    "read_pv": 86775
+    "note_dgmv": 23987.94000000001,
+    "new_notes": 99,
+    "note_pv": 1385298,
+    "read_pv": 146762
    },
    "W43": {
-    "note_dgmv": 13428.119999999992,
+    "note_dgmv": 21941.610000000004,
     "new_notes": 89,
-    "note_pv": 1080096,
-    "read_pv": 97460
+    "note_pv": 1309848,
+    "read_pv": 150599
    },
    "W44": {
-    "note_dgmv": 17994.940000000024,
-    "new_notes": 92,
-    "note_pv": 1202853,
-    "read_pv": 106812
+    "note_dgmv": 24218.080000000016,
+    "new_notes": 82,
+    "note_pv": 1440421,
+    "read_pv": 145193
    }
   }
  },
@@ -656,93 +573,93 @@
     "read_pv": 71564
    },
    "W44": {
-    "note_dgmv": 17686.41000000001,
-    "new_notes": 11,
-    "note_pv": 324868,
-    "read_pv": 49477
+    "note_dgmv": 22802.21000000001,
+    "new_notes": 13,
+    "note_pv": 386279,
+    "read_pv": 60746
    }
   }
  },
  {
-  "seller_id": "6613611faeebf8000165306b",
+  "seller_id": "64108f5d3a4a690001e17788",
   "weeks": {
    "W32": {
-    "note_dgmv": 12024.87,
-    "new_notes": 22,
-    "note_pv": 137663,
-    "read_pv": 7291
+    "note_dgmv": 13327.949999999986,
+    "new_notes": 101,
+    "note_pv": 948525,
+    "read_pv": 112024
    },
    "W33": {
-    "note_dgmv": 22306.780000000006,
-    "new_notes": 22,
-    "note_pv": 367503,
-    "read_pv": 28904
+    "note_dgmv": 23933.12000000005,
+    "new_notes": 104,
+    "note_pv": 1640244,
+    "read_pv": 182116
    },
    "W34": {
-    "note_dgmv": 32217.600000000006,
-    "new_notes": 29,
-    "note_pv": 427639,
-    "read_pv": 34106
+    "note_dgmv": 11351.249999999989,
+    "new_notes": 81,
+    "note_pv": 800054,
+    "read_pv": 93283
    },
    "W35": {
-    "note_dgmv": 31576.959999999995,
-    "new_notes": 28,
-    "note_pv": 362631,
-    "read_pv": 17814
+    "note_dgmv": 15750.019999999997,
+    "new_notes": 83,
+    "note_pv": 1105334,
+    "read_pv": 114144
    },
    "W36": {
-    "note_dgmv": 5803.379999999999,
-    "new_notes": 11,
-    "note_pv": 24777,
-    "read_pv": 1896
+    "note_dgmv": 16725.000000000015,
+    "new_notes": 45,
+    "note_pv": 1231799,
+    "read_pv": 113201
    },
    "W37": {
-    "note_dgmv": 2897.8300000000004,
-    "new_notes": 0,
-    "note_pv": 16745,
-    "read_pv": 1049
+    "note_dgmv": 21134.440000000024,
+    "new_notes": 72,
+    "note_pv": 1541750,
+    "read_pv": 137682
    },
    "W38": {
-    "note_dgmv": 2027.64,
-    "new_notes": 2,
-    "note_pv": 19229,
-    "read_pv": 1427
+    "note_dgmv": 14634.419999999998,
+    "new_notes": 74,
+    "note_pv": 1156048,
+    "read_pv": 104335
    },
    "W39": {
-    "note_dgmv": 852.81,
-    "new_notes": 2,
-    "note_pv": 14435,
-    "read_pv": 1362
+    "note_dgmv": 12723.49999999999,
+    "new_notes": 90,
+    "note_pv": 1220163,
+    "read_pv": 101350
    },
    "W40": {
-    "note_dgmv": 12373.0,
-    "new_notes": 21,
-    "note_pv": 128419,
-    "read_pv": 5574
+    "note_dgmv": 10635.479999999989,
+    "new_notes": 67,
+    "note_pv": 985253,
+    "read_pv": 87309
    },
    "W41": {
-    "note_dgmv": 20688.280000000002,
-    "new_notes": 31,
-    "note_pv": 231426,
-    "read_pv": 8962
+    "note_dgmv": 13220.019999999988,
+    "new_notes": 71,
+    "note_pv": 1122084,
+    "read_pv": 99310
    },
    "W42": {
-    "note_dgmv": 29990.150000000005,
-    "new_notes": 25,
-    "note_pv": 204354,
-    "read_pv": 10044
+    "note_dgmv": 9745.949999999988,
+    "new_notes": 95,
+    "note_pv": 987473,
+    "read_pv": 86775
    },
    "W43": {
-    "note_dgmv": 15942.53,
-    "new_notes": 26,
-    "note_pv": 192100,
-    "read_pv": 9555
+    "note_dgmv": 13428.119999999992,
+    "new_notes": 89,
+    "note_pv": 1080096,
+    "read_pv": 97460
    },
    "W44": {
-    "note_dgmv": 15768.369999999999,
-    "new_notes": 38,
-    "note_pv": 154427,
-    "read_pv": 5606
+    "note_dgmv": 20219.870000000024,
+    "new_notes": 98,
+    "note_pv": 1359537,
+    "read_pv": 119946
    }
   }
  },
@@ -822,93 +739,93 @@
     "read_pv": 57251
    },
    "W44": {
-    "note_dgmv": 15501.93000000001,
-    "new_notes": 12,
-    "note_pv": 618128,
-    "read_pv": 65292
+    "note_dgmv": 18687.070000000014,
+    "new_notes": 16,
+    "note_pv": 738828,
+    "read_pv": 82382
    }
   }
  },
  {
-  "seller_id": "5d0c7ec4fcdfee0001d162af",
+  "seller_id": "6613611faeebf8000165306b",
   "weeks": {
    "W32": {
-    "note_dgmv": 17146.28,
-    "new_notes": 6,
-    "note_pv": 1114780,
-    "read_pv": 66139
+    "note_dgmv": 12024.87,
+    "new_notes": 22,
+    "note_pv": 137663,
+    "read_pv": 7291
    },
    "W33": {
-    "note_dgmv": 14500.980000000003,
-    "new_notes": 6,
-    "note_pv": 666223,
-    "read_pv": 35689
+    "note_dgmv": 22306.780000000006,
+    "new_notes": 22,
+    "note_pv": 367503,
+    "read_pv": 28904
    },
    "W34": {
-    "note_dgmv": 10877.129999999997,
-    "new_notes": 5,
-    "note_pv": 443901,
-    "read_pv": 25542
+    "note_dgmv": 32217.600000000006,
+    "new_notes": 29,
+    "note_pv": 427639,
+    "read_pv": 34106
    },
    "W35": {
-    "note_dgmv": 14533.12,
-    "new_notes": 4,
-    "note_pv": 676104,
-    "read_pv": 31163
+    "note_dgmv": 31576.959999999995,
+    "new_notes": 28,
+    "note_pv": 362631,
+    "read_pv": 17814
    },
    "W36": {
-    "note_dgmv": 6067.66,
-    "new_notes": 5,
-    "note_pv": 220076,
-    "read_pv": 15628
+    "note_dgmv": 5803.379999999999,
+    "new_notes": 11,
+    "note_pv": 24777,
+    "read_pv": 1896
    },
    "W37": {
-    "note_dgmv": 6234.679999999999,
-    "new_notes": 6,
-    "note_pv": 255921,
-    "read_pv": 19085
+    "note_dgmv": 2897.8300000000004,
+    "new_notes": 0,
+    "note_pv": 16745,
+    "read_pv": 1049
    },
    "W38": {
-    "note_dgmv": 6720.9299999999985,
-    "new_notes": 5,
-    "note_pv": 284367,
-    "read_pv": 18520
+    "note_dgmv": 2027.64,
+    "new_notes": 2,
+    "note_pv": 19229,
+    "read_pv": 1427
    },
    "W39": {
-    "note_dgmv": 8207.419999999996,
-    "new_notes": 6,
-    "note_pv": 289911,
-    "read_pv": 18036
+    "note_dgmv": 852.81,
+    "new_notes": 2,
+    "note_pv": 14435,
+    "read_pv": 1362
    },
    "W40": {
-    "note_dgmv": 12498.979999999996,
-    "new_notes": 2,
-    "note_pv": 656064,
-    "read_pv": 38141
+    "note_dgmv": 12373.0,
+    "new_notes": 21,
+    "note_pv": 128419,
+    "read_pv": 5574
    },
    "W41": {
-    "note_dgmv": 8357.699999999999,
-    "new_notes": 5,
-    "note_pv": 365577,
-    "read_pv": 26727
+    "note_dgmv": 20688.280000000002,
+    "new_notes": 31,
+    "note_pv": 231426,
+    "read_pv": 8962
    },
    "W42": {
-    "note_dgmv": 71242.63999999993,
-    "new_notes": 8,
-    "note_pv": 2694989,
-    "read_pv": 150075
+    "note_dgmv": 29990.150000000005,
+    "new_notes": 25,
+    "note_pv": 204354,
+    "read_pv": 10044
    },
    "W43": {
-    "note_dgmv": 101263.04999999984,
-    "new_notes": 7,
-    "note_pv": 4378204,
-    "read_pv": 445128
+    "note_dgmv": 15942.53,
+    "new_notes": 26,
+    "note_pv": 192100,
+    "read_pv": 9555
    },
    "W44": {
-    "note_dgmv": 14141.98,
-    "new_notes": 5,
-    "note_pv": 1041483,
-    "read_pv": 176472
+    "note_dgmv": 17638.07,
+    "new_notes": 44,
+    "note_pv": 183728,
+    "read_pv": 6721
    }
   }
  },
@@ -988,10 +905,93 @@
     "read_pv": 26590
    },
    "W44": {
-    "note_dgmv": 13548.870000000003,
+    "note_dgmv": 15192.160000000003,
     "new_notes": 41,
-    "note_pv": 400222,
-    "read_pv": 23550
+    "note_pv": 446516,
+    "read_pv": 26535
+   }
+  }
+ },
+ {
+  "seller_id": "5d0c7ec4fcdfee0001d162af",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 17146.28,
+    "new_notes": 6,
+    "note_pv": 1114780,
+    "read_pv": 66139
+   },
+   "W33": {
+    "note_dgmv": 14500.980000000003,
+    "new_notes": 6,
+    "note_pv": 666223,
+    "read_pv": 35689
+   },
+   "W34": {
+    "note_dgmv": 10877.129999999997,
+    "new_notes": 5,
+    "note_pv": 443901,
+    "read_pv": 25542
+   },
+   "W35": {
+    "note_dgmv": 14533.12,
+    "new_notes": 4,
+    "note_pv": 676104,
+    "read_pv": 31163
+   },
+   "W36": {
+    "note_dgmv": 6067.66,
+    "new_notes": 5,
+    "note_pv": 220076,
+    "read_pv": 15628
+   },
+   "W37": {
+    "note_dgmv": 6234.679999999999,
+    "new_notes": 6,
+    "note_pv": 255921,
+    "read_pv": 19085
+   },
+   "W38": {
+    "note_dgmv": 6720.9299999999985,
+    "new_notes": 5,
+    "note_pv": 284367,
+    "read_pv": 18520
+   },
+   "W39": {
+    "note_dgmv": 8207.419999999996,
+    "new_notes": 6,
+    "note_pv": 289911,
+    "read_pv": 18036
+   },
+   "W40": {
+    "note_dgmv": 12498.979999999996,
+    "new_notes": 2,
+    "note_pv": 656064,
+    "read_pv": 38141
+   },
+   "W41": {
+    "note_dgmv": 8357.699999999999,
+    "new_notes": 5,
+    "note_pv": 365577,
+    "read_pv": 26727
+   },
+   "W42": {
+    "note_dgmv": 71242.63999999993,
+    "new_notes": 8,
+    "note_pv": 2694989,
+    "read_pv": 150075
+   },
+   "W43": {
+    "note_dgmv": 101263.04999999984,
+    "new_notes": 7,
+    "note_pv": 4378204,
+    "read_pv": 445128
+   },
+   "W44": {
+    "note_dgmv": 15076.38,
+    "new_notes": 5,
+    "note_pv": 1077514,
+    "read_pv": 179253
    }
   }
  },
@@ -1071,259 +1071,10 @@
     "read_pv": 15622
    },
    "W44": {
-    "note_dgmv": 12375.160000000003,
-    "new_notes": 8,
-    "note_pv": 157720,
-    "read_pv": 13491
-   }
-  }
- },
- {
-  "seller_id": "6548bef8368edf00013df609",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 4616.24,
-    "new_notes": 33,
-    "note_pv": 128035,
-    "read_pv": 18969
-   },
-   "W33": {
-    "note_dgmv": 6440.11,
-    "new_notes": 44,
-    "note_pv": 137056,
-    "read_pv": 19008
-   },
-   "W34": {
-    "note_dgmv": 6704.84,
-    "new_notes": 44,
-    "note_pv": 146029,
-    "read_pv": 20072
-   },
-   "W35": {
-    "note_dgmv": 7396.09,
-    "new_notes": 42,
-    "note_pv": 148520,
-    "read_pv": 20545
-   },
-   "W36": {
-    "note_dgmv": 7213.699999999999,
-    "new_notes": 33,
-    "note_pv": 131481,
-    "read_pv": 19081
-   },
-   "W37": {
-    "note_dgmv": 9777.380000000001,
-    "new_notes": 44,
-    "note_pv": 169557,
-    "read_pv": 22622
-   },
-   "W38": {
-    "note_dgmv": 10561.050000000001,
-    "new_notes": 40,
-    "note_pv": 158198,
-    "read_pv": 19815
-   },
-   "W39": {
-    "note_dgmv": 13210.89,
-    "new_notes": 55,
-    "note_pv": 165368,
-    "read_pv": 20661
-   },
-   "W40": {
-    "note_dgmv": 8451.630000000001,
-    "new_notes": 34,
-    "note_pv": 179383,
-    "read_pv": 23428
-   },
-   "W41": {
-    "note_dgmv": 13801.25,
-    "new_notes": 45,
-    "note_pv": 231339,
-    "read_pv": 29425
-   },
-   "W42": {
-    "note_dgmv": 15798.84,
-    "new_notes": 50,
-    "note_pv": 249874,
-    "read_pv": 31452
-   },
-   "W43": {
-    "note_dgmv": 14740.98,
-    "new_notes": 45,
-    "note_pv": 229642,
-    "read_pv": 29754
-   },
-   "W44": {
-    "note_dgmv": 11578.570000000002,
-    "new_notes": 47,
-    "note_pv": 181839,
-    "read_pv": 23683
-   }
-  }
- },
- {
-  "seller_id": "6555e04b1c841300014bc3f0",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 43420.21999999996,
-    "new_notes": 20,
-    "note_pv": 2470208,
-    "read_pv": 854392
-   },
-   "W33": {
-    "note_dgmv": 35716.78999999998,
-    "new_notes": 14,
-    "note_pv": 1746423,
-    "read_pv": 485836
-   },
-   "W34": {
-    "note_dgmv": 31207.820000000025,
+    "note_dgmv": 13745.460000000005,
     "new_notes": 9,
-    "note_pv": 1835955,
-    "read_pv": 731590
-   },
-   "W35": {
-    "note_dgmv": 24461.96000000003,
-    "new_notes": 10,
-    "note_pv": 1168436,
-    "read_pv": 273335
-   },
-   "W36": {
-    "note_dgmv": 22323.990000000016,
-    "new_notes": 5,
-    "note_pv": 923416,
-    "read_pv": 95324
-   },
-   "W37": {
-    "note_dgmv": 25607.870000000028,
-    "new_notes": 10,
-    "note_pv": 1228486,
-    "read_pv": 144044
-   },
-   "W38": {
-    "note_dgmv": 28083.060000000027,
-    "new_notes": 18,
-    "note_pv": 1126572,
-    "read_pv": 134755
-   },
-   "W39": {
-    "note_dgmv": 15823.010000000011,
-    "new_notes": 10,
-    "note_pv": 611324,
-    "read_pv": 83252
-   },
-   "W40": {
-    "note_dgmv": 15220.09000000001,
-    "new_notes": 10,
-    "note_pv": 721722,
-    "read_pv": 84491
-   },
-   "W41": {
-    "note_dgmv": 15316.980000000012,
-    "new_notes": 8,
-    "note_pv": 601798,
-    "read_pv": 68031
-   },
-   "W42": {
-    "note_dgmv": 14900.66000000001,
-    "new_notes": 18,
-    "note_pv": 610375,
-    "read_pv": 66399
-   },
-   "W43": {
-    "note_dgmv": 11694.460000000005,
-    "new_notes": 15,
-    "note_pv": 482007,
-    "read_pv": 52626
-   },
-   "W44": {
-    "note_dgmv": 10561.930000000004,
-    "new_notes": 9,
-    "note_pv": 378915,
-    "read_pv": 34003
-   }
-  }
- },
- {
-  "seller_id": "623463a0d5964e00011b942c",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 20504.500000000015,
-    "new_notes": 20,
-    "note_pv": 692345,
-    "read_pv": 35900
-   },
-   "W33": {
-    "note_dgmv": 21479.059999999998,
-    "new_notes": 21,
-    "note_pv": 670843,
-    "read_pv": 33853
-   },
-   "W34": {
-    "note_dgmv": 17445.990000000016,
-    "new_notes": 28,
-    "note_pv": 532070,
-    "read_pv": 27898
-   },
-   "W35": {
-    "note_dgmv": 22469.91000000002,
-    "new_notes": 25,
-    "note_pv": 597846,
-    "read_pv": 30389
-   },
-   "W36": {
-    "note_dgmv": 19293.34,
-    "new_notes": 23,
-    "note_pv": 527492,
-    "read_pv": 28126
-   },
-   "W37": {
-    "note_dgmv": 15614.25,
-    "new_notes": 23,
-    "note_pv": 398687,
-    "read_pv": 25608
-   },
-   "W38": {
-    "note_dgmv": 16973.58,
-    "new_notes": 19,
-    "note_pv": 528464,
-    "read_pv": 26762
-   },
-   "W39": {
-    "note_dgmv": 10444.620000000006,
-    "new_notes": 22,
-    "note_pv": 338087,
-    "read_pv": 17147
-   },
-   "W40": {
-    "note_dgmv": 7271.71,
-    "new_notes": 24,
-    "note_pv": 238958,
-    "read_pv": 13881
-   },
-   "W41": {
-    "note_dgmv": 13214.260000000013,
-    "new_notes": 26,
-    "note_pv": 354717,
-    "read_pv": 21714
-   },
-   "W42": {
-    "note_dgmv": 12678.030000000006,
-    "new_notes": 22,
-    "note_pv": 324397,
-    "read_pv": 20588
-   },
-   "W43": {
-    "note_dgmv": 14451.730000000012,
-    "new_notes": 30,
-    "note_pv": 367158,
-    "read_pv": 22518
-   },
-   "W44": {
-    "note_dgmv": 10538.310000000007,
-    "new_notes": 25,
-    "note_pv": 292397,
-    "read_pv": 17992
+    "note_pv": 180379,
+    "read_pv": 15345
    }
   }
  },
@@ -1403,10 +1154,259 @@
     "read_pv": 10810
    },
    "W44": {
-    "note_dgmv": 9861.09,
+    "note_dgmv": 13398.880000000001,
     "new_notes": 0,
-    "note_pv": 251853,
-    "read_pv": 16857
+    "note_pv": 328432,
+    "read_pv": 21552
+   }
+  }
+ },
+ {
+  "seller_id": "6548bef8368edf00013df609",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 4616.24,
+    "new_notes": 33,
+    "note_pv": 128035,
+    "read_pv": 18969
+   },
+   "W33": {
+    "note_dgmv": 6440.11,
+    "new_notes": 44,
+    "note_pv": 137056,
+    "read_pv": 19008
+   },
+   "W34": {
+    "note_dgmv": 6704.84,
+    "new_notes": 44,
+    "note_pv": 146029,
+    "read_pv": 20072
+   },
+   "W35": {
+    "note_dgmv": 7396.09,
+    "new_notes": 42,
+    "note_pv": 148520,
+    "read_pv": 20545
+   },
+   "W36": {
+    "note_dgmv": 7213.699999999999,
+    "new_notes": 33,
+    "note_pv": 131481,
+    "read_pv": 19081
+   },
+   "W37": {
+    "note_dgmv": 9777.380000000001,
+    "new_notes": 44,
+    "note_pv": 169557,
+    "read_pv": 22622
+   },
+   "W38": {
+    "note_dgmv": 10561.050000000001,
+    "new_notes": 40,
+    "note_pv": 158198,
+    "read_pv": 19815
+   },
+   "W39": {
+    "note_dgmv": 13210.89,
+    "new_notes": 55,
+    "note_pv": 165368,
+    "read_pv": 20661
+   },
+   "W40": {
+    "note_dgmv": 8451.630000000001,
+    "new_notes": 34,
+    "note_pv": 179383,
+    "read_pv": 23428
+   },
+   "W41": {
+    "note_dgmv": 13801.25,
+    "new_notes": 45,
+    "note_pv": 231339,
+    "read_pv": 29425
+   },
+   "W42": {
+    "note_dgmv": 15798.84,
+    "new_notes": 50,
+    "note_pv": 249874,
+    "read_pv": 31452
+   },
+   "W43": {
+    "note_dgmv": 14740.98,
+    "new_notes": 45,
+    "note_pv": 229642,
+    "read_pv": 29754
+   },
+   "W44": {
+    "note_dgmv": 12775.640000000001,
+    "new_notes": 54,
+    "note_pv": 213878,
+    "read_pv": 28620
+   }
+  }
+ },
+ {
+  "seller_id": "6555e04b1c841300014bc3f0",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 43420.21999999996,
+    "new_notes": 20,
+    "note_pv": 2470208,
+    "read_pv": 854392
+   },
+   "W33": {
+    "note_dgmv": 35716.78999999998,
+    "new_notes": 14,
+    "note_pv": 1746423,
+    "read_pv": 485836
+   },
+   "W34": {
+    "note_dgmv": 31207.820000000025,
+    "new_notes": 9,
+    "note_pv": 1835955,
+    "read_pv": 731590
+   },
+   "W35": {
+    "note_dgmv": 24461.96000000003,
+    "new_notes": 10,
+    "note_pv": 1168436,
+    "read_pv": 273335
+   },
+   "W36": {
+    "note_dgmv": 22323.990000000016,
+    "new_notes": 5,
+    "note_pv": 923416,
+    "read_pv": 95324
+   },
+   "W37": {
+    "note_dgmv": 25607.870000000028,
+    "new_notes": 10,
+    "note_pv": 1228486,
+    "read_pv": 144044
+   },
+   "W38": {
+    "note_dgmv": 28083.060000000027,
+    "new_notes": 18,
+    "note_pv": 1126572,
+    "read_pv": 134755
+   },
+   "W39": {
+    "note_dgmv": 15823.010000000011,
+    "new_notes": 10,
+    "note_pv": 611324,
+    "read_pv": 83252
+   },
+   "W40": {
+    "note_dgmv": 15220.09000000001,
+    "new_notes": 10,
+    "note_pv": 721722,
+    "read_pv": 84491
+   },
+   "W41": {
+    "note_dgmv": 15316.980000000012,
+    "new_notes": 8,
+    "note_pv": 601798,
+    "read_pv": 68031
+   },
+   "W42": {
+    "note_dgmv": 14900.66000000001,
+    "new_notes": 18,
+    "note_pv": 610375,
+    "read_pv": 66399
+   },
+   "W43": {
+    "note_dgmv": 11694.460000000005,
+    "new_notes": 15,
+    "note_pv": 482007,
+    "read_pv": 52626
+   },
+   "W44": {
+    "note_dgmv": 12342.790000000005,
+    "new_notes": 11,
+    "note_pv": 441655,
+    "read_pv": 39408
+   }
+  }
+ },
+ {
+  "seller_id": "623463a0d5964e00011b942c",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 20504.500000000015,
+    "new_notes": 20,
+    "note_pv": 692345,
+    "read_pv": 35900
+   },
+   "W33": {
+    "note_dgmv": 21479.059999999998,
+    "new_notes": 21,
+    "note_pv": 670843,
+    "read_pv": 33853
+   },
+   "W34": {
+    "note_dgmv": 17445.990000000016,
+    "new_notes": 28,
+    "note_pv": 532070,
+    "read_pv": 27898
+   },
+   "W35": {
+    "note_dgmv": 22469.91000000002,
+    "new_notes": 25,
+    "note_pv": 597846,
+    "read_pv": 30389
+   },
+   "W36": {
+    "note_dgmv": 19293.34,
+    "new_notes": 23,
+    "note_pv": 527492,
+    "read_pv": 28126
+   },
+   "W37": {
+    "note_dgmv": 15614.25,
+    "new_notes": 23,
+    "note_pv": 398687,
+    "read_pv": 25608
+   },
+   "W38": {
+    "note_dgmv": 16973.58,
+    "new_notes": 19,
+    "note_pv": 528464,
+    "read_pv": 26762
+   },
+   "W39": {
+    "note_dgmv": 10444.620000000006,
+    "new_notes": 22,
+    "note_pv": 338087,
+    "read_pv": 17147
+   },
+   "W40": {
+    "note_dgmv": 7271.71,
+    "new_notes": 24,
+    "note_pv": 238958,
+    "read_pv": 13881
+   },
+   "W41": {
+    "note_dgmv": 13214.260000000013,
+    "new_notes": 26,
+    "note_pv": 354717,
+    "read_pv": 21714
+   },
+   "W42": {
+    "note_dgmv": 12678.030000000006,
+    "new_notes": 22,
+    "note_pv": 324397,
+    "read_pv": 20588
+   },
+   "W43": {
+    "note_dgmv": 14451.730000000012,
+    "new_notes": 30,
+    "note_pv": 367158,
+    "read_pv": 22518
+   },
+   "W44": {
+    "note_dgmv": 12219.620000000006,
+    "new_notes": 28,
+    "note_pv": 336566,
+    "read_pv": 20797
    }
   }
  },
@@ -1486,93 +1486,10 @@
     "read_pv": 29008
    },
    "W44": {
-    "note_dgmv": 9186.530000000002,
-    "new_notes": 2,
-    "note_pv": 157210,
-    "read_pv": 53691
-   }
-  }
- },
- {
-  "seller_id": "6176a13d2137d00001440b99",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 6524.570000000001,
-    "new_notes": 26,
-    "note_pv": 71634,
-    "read_pv": 11215
-   },
-   "W33": {
-    "note_dgmv": 4640.45,
-    "new_notes": 23,
-    "note_pv": 74425,
-    "read_pv": 11238
-   },
-   "W34": {
-    "note_dgmv": 7260.01,
-    "new_notes": 17,
-    "note_pv": 61551,
-    "read_pv": 9399
-   },
-   "W35": {
-    "note_dgmv": 3221.18,
-    "new_notes": 16,
-    "note_pv": 56364,
-    "read_pv": 7990
-   },
-   "W36": {
-    "note_dgmv": 5184.29,
-    "new_notes": 24,
-    "note_pv": 54686,
-    "read_pv": 7736
-   },
-   "W37": {
-    "note_dgmv": 4772.139999999999,
-    "new_notes": 27,
-    "note_pv": 59942,
-    "read_pv": 9248
-   },
-   "W38": {
-    "note_dgmv": 7761.34,
-    "new_notes": 34,
-    "note_pv": 67324,
-    "read_pv": 10518
-   },
-   "W39": {
-    "note_dgmv": 5528.360000000001,
-    "new_notes": 23,
-    "note_pv": 56717,
-    "read_pv": 8810
-   },
-   "W40": {
-    "note_dgmv": 3419.8,
-    "new_notes": 5,
-    "note_pv": 48998,
-    "read_pv": 8016
-   },
-   "W41": {
-    "note_dgmv": 8761.89,
-    "new_notes": 27,
-    "note_pv": 65631,
-    "read_pv": 9746
-   },
-   "W42": {
-    "note_dgmv": 5087.91,
-    "new_notes": 27,
-    "note_pv": 69712,
-    "read_pv": 11470
-   },
-   "W43": {
-    "note_dgmv": 6102.81,
-    "new_notes": 25,
-    "note_pv": 58898,
-    "read_pv": 9720
-   },
-   "W44": {
-    "note_dgmv": 9071.530000000002,
-    "new_notes": 25,
-    "note_pv": 66669,
-    "read_pv": 9516
+    "note_dgmv": 11921.160000000003,
+    "new_notes": 3,
+    "note_pv": 205165,
+    "read_pv": 76538
    }
   }
  },
@@ -1652,259 +1569,10 @@
     "read_pv": 15705
    },
    "W44": {
-    "note_dgmv": 8818.470000000003,
-    "new_notes": 78,
-    "note_pv": 156591,
-    "read_pv": 13817
-   }
-  }
- },
- {
-  "seller_id": "665d93509ae3190001ccd9e6",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 5290.579999999998,
-    "new_notes": 56,
-    "note_pv": 244541,
-    "read_pv": 17648
-   },
-   "W33": {
-    "note_dgmv": 4898.539999999999,
-    "new_notes": 61,
-    "note_pv": 225841,
-    "read_pv": 16085
-   },
-   "W34": {
-    "note_dgmv": 5152.399999999999,
-    "new_notes": 62,
-    "note_pv": 290537,
-    "read_pv": 21694
-   },
-   "W35": {
-    "note_dgmv": 4790.969999999999,
-    "new_notes": 64,
-    "note_pv": 260060,
-    "read_pv": 18602
-   },
-   "W36": {
-    "note_dgmv": 4170.459999999999,
-    "new_notes": 57,
-    "note_pv": 195864,
-    "read_pv": 12796
-   },
-   "W37": {
-    "note_dgmv": 5045.249999999999,
-    "new_notes": 78,
-    "note_pv": 192975,
-    "read_pv": 14872
-   },
-   "W38": {
-    "note_dgmv": 7692.689999999999,
-    "new_notes": 81,
-    "note_pv": 250220,
-    "read_pv": 20685
-   },
-   "W39": {
-    "note_dgmv": 5016.0599999999995,
-    "new_notes": 69,
-    "note_pv": 235154,
-    "read_pv": 17719
-   },
-   "W40": {
-    "note_dgmv": 4923.349999999999,
-    "new_notes": 67,
-    "note_pv": 239574,
-    "read_pv": 17687
-   },
-   "W41": {
-    "note_dgmv": 6496.899999999998,
-    "new_notes": 70,
-    "note_pv": 308562,
-    "read_pv": 23114
-   },
-   "W42": {
-    "note_dgmv": 9359.979999999998,
-    "new_notes": 63,
-    "note_pv": 241058,
-    "read_pv": 19733
-   },
-   "W43": {
-    "note_dgmv": 6634.589999999998,
-    "new_notes": 68,
-    "note_pv": 203695,
-    "read_pv": 17479
-   },
-   "W44": {
-    "note_dgmv": 8346.310000000001,
-    "new_notes": 66,
-    "note_pv": 262462,
-    "read_pv": 19455
-   }
-  }
- },
- {
-  "seller_id": "6481c19d59544100011ded4c",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 15965.970000000018,
-    "new_notes": 89,
-    "note_pv": 1706030,
-    "read_pv": 93335
-   },
-   "W33": {
-    "note_dgmv": 13897.110000000013,
-    "new_notes": 73,
-    "note_pv": 1270177,
-    "read_pv": 68144
-   },
-   "W34": {
-    "note_dgmv": 9618.760000000002,
-    "new_notes": 70,
-    "note_pv": 788392,
-    "read_pv": 43332
-   },
-   "W35": {
-    "note_dgmv": 7204.459999999999,
-    "new_notes": 40,
-    "note_pv": 644179,
-    "read_pv": 35239
-   },
-   "W36": {
-    "note_dgmv": 9032.930000000004,
-    "new_notes": 38,
-    "note_pv": 780488,
-    "read_pv": 43001
-   },
-   "W37": {
-    "note_dgmv": 8207.609999999997,
+    "note_dgmv": 10625.030000000004,
     "new_notes": 87,
-    "note_pv": 733597,
-    "read_pv": 39464
-   },
-   "W38": {
-    "note_dgmv": 21597.25000000006,
-    "new_notes": 121,
-    "note_pv": 1979830,
-    "read_pv": 111571
-   },
-   "W39": {
-    "note_dgmv": 16912.69000000001,
-    "new_notes": 102,
-    "note_pv": 1606556,
-    "read_pv": 88424
-   },
-   "W40": {
-    "note_dgmv": 11506.149999999994,
-    "new_notes": 37,
-    "note_pv": 991732,
-    "read_pv": 52225
-   },
-   "W41": {
-    "note_dgmv": 14164.280000000017,
-    "new_notes": 57,
-    "note_pv": 1109515,
-    "read_pv": 58588
-   },
-   "W42": {
-    "note_dgmv": 11304.050000000001,
-    "new_notes": 92,
-    "note_pv": 1051660,
-    "read_pv": 77634
-   },
-   "W43": {
-    "note_dgmv": 11294.1,
-    "new_notes": 105,
-    "note_pv": 1224635,
-    "read_pv": 111649
-   },
-   "W44": {
-    "note_dgmv": 8118.990000000002,
-    "new_notes": 74,
-    "note_pv": 565711,
-    "read_pv": 44348
-   }
-  }
- },
- {
-  "seller_id": "6207ad085e3c4500018b5e9f",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 12668.540000000025,
-    "new_notes": 9,
-    "note_pv": 1101574,
-    "read_pv": 916871
-   },
-   "W33": {
-    "note_dgmv": 10290.120000000008,
-    "new_notes": 4,
-    "note_pv": 856199,
-    "read_pv": 720908
-   },
-   "W34": {
-    "note_dgmv": 15587.860000000017,
-    "new_notes": 9,
-    "note_pv": 1098166,
-    "read_pv": 921328
-   },
-   "W35": {
-    "note_dgmv": 20095.600000000028,
-    "new_notes": 8,
-    "note_pv": 883930,
-    "read_pv": 695112
-   },
-   "W36": {
-    "note_dgmv": 9840.800000000005,
-    "new_notes": 3,
-    "note_pv": 312455,
-    "read_pv": 162276
-   },
-   "W37": {
-    "note_dgmv": 11830.760000000006,
-    "new_notes": 3,
-    "note_pv": 349914,
-    "read_pv": 107211
-   },
-   "W38": {
-    "note_dgmv": 10455.850000000002,
-    "new_notes": 5,
-    "note_pv": 293510,
-    "read_pv": 88517
-   },
-   "W39": {
-    "note_dgmv": 6195.079999999999,
-    "new_notes": 2,
-    "note_pv": 221139,
-    "read_pv": 87292
-   },
-   "W40": {
-    "note_dgmv": 8928.11,
-    "new_notes": 6,
-    "note_pv": 263568,
-    "read_pv": 107980
-   },
-   "W41": {
-    "note_dgmv": 8033.1900000000005,
-    "new_notes": 3,
-    "note_pv": 223679,
-    "read_pv": 69980
-   },
-   "W42": {
-    "note_dgmv": 8438.740000000002,
-    "new_notes": 4,
-    "note_pv": 249773,
-    "read_pv": 61174
-   },
-   "W43": {
-    "note_dgmv": 10320.500000000004,
-    "new_notes": 6,
-    "note_pv": 217403,
-    "read_pv": 65476
-   },
-   "W44": {
-    "note_dgmv": 7238.219999999999,
-    "new_notes": 4,
-    "note_pv": 181563,
-    "read_pv": 67155
+    "note_pv": 179972,
+    "read_pv": 15875
    }
   }
  },
@@ -1984,10 +1652,342 @@
     "read_pv": 28797
    },
    "W44": {
-    "note_dgmv": 7237.74,
-    "new_notes": 20,
-    "note_pv": 99128,
-    "read_pv": 15211
+    "note_dgmv": 10138.59,
+    "new_notes": 23,
+    "note_pv": 115641,
+    "read_pv": 18221
+   }
+  }
+ },
+ {
+  "seller_id": "6176a13d2137d00001440b99",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 6524.570000000001,
+    "new_notes": 26,
+    "note_pv": 71634,
+    "read_pv": 11215
+   },
+   "W33": {
+    "note_dgmv": 4640.45,
+    "new_notes": 23,
+    "note_pv": 74425,
+    "read_pv": 11238
+   },
+   "W34": {
+    "note_dgmv": 7260.01,
+    "new_notes": 17,
+    "note_pv": 61551,
+    "read_pv": 9399
+   },
+   "W35": {
+    "note_dgmv": 3221.18,
+    "new_notes": 16,
+    "note_pv": 56364,
+    "read_pv": 7990
+   },
+   "W36": {
+    "note_dgmv": 5184.29,
+    "new_notes": 24,
+    "note_pv": 54686,
+    "read_pv": 7736
+   },
+   "W37": {
+    "note_dgmv": 4772.139999999999,
+    "new_notes": 27,
+    "note_pv": 59942,
+    "read_pv": 9248
+   },
+   "W38": {
+    "note_dgmv": 7761.34,
+    "new_notes": 34,
+    "note_pv": 67324,
+    "read_pv": 10518
+   },
+   "W39": {
+    "note_dgmv": 5528.360000000001,
+    "new_notes": 23,
+    "note_pv": 56717,
+    "read_pv": 8810
+   },
+   "W40": {
+    "note_dgmv": 3419.8,
+    "new_notes": 5,
+    "note_pv": 48998,
+    "read_pv": 8016
+   },
+   "W41": {
+    "note_dgmv": 8761.89,
+    "new_notes": 27,
+    "note_pv": 65631,
+    "read_pv": 9746
+   },
+   "W42": {
+    "note_dgmv": 5087.91,
+    "new_notes": 27,
+    "note_pv": 69712,
+    "read_pv": 11470
+   },
+   "W43": {
+    "note_dgmv": 6102.81,
+    "new_notes": 25,
+    "note_pv": 58898,
+    "read_pv": 9720
+   },
+   "W44": {
+    "note_dgmv": 10017.820000000003,
+    "new_notes": 29,
+    "note_pv": 76526,
+    "read_pv": 11112
+   }
+  }
+ },
+ {
+  "seller_id": "6481c19d59544100011ded4c",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 15965.970000000018,
+    "new_notes": 89,
+    "note_pv": 1706030,
+    "read_pv": 93335
+   },
+   "W33": {
+    "note_dgmv": 13897.110000000013,
+    "new_notes": 73,
+    "note_pv": 1270177,
+    "read_pv": 68144
+   },
+   "W34": {
+    "note_dgmv": 9618.760000000002,
+    "new_notes": 70,
+    "note_pv": 788392,
+    "read_pv": 43332
+   },
+   "W35": {
+    "note_dgmv": 7204.459999999999,
+    "new_notes": 40,
+    "note_pv": 644179,
+    "read_pv": 35239
+   },
+   "W36": {
+    "note_dgmv": 9032.930000000004,
+    "new_notes": 38,
+    "note_pv": 780488,
+    "read_pv": 43001
+   },
+   "W37": {
+    "note_dgmv": 8207.609999999997,
+    "new_notes": 87,
+    "note_pv": 733597,
+    "read_pv": 39464
+   },
+   "W38": {
+    "note_dgmv": 21597.25000000006,
+    "new_notes": 121,
+    "note_pv": 1979830,
+    "read_pv": 111571
+   },
+   "W39": {
+    "note_dgmv": 16912.69000000001,
+    "new_notes": 102,
+    "note_pv": 1606556,
+    "read_pv": 88424
+   },
+   "W40": {
+    "note_dgmv": 11506.149999999994,
+    "new_notes": 37,
+    "note_pv": 991732,
+    "read_pv": 52225
+   },
+   "W41": {
+    "note_dgmv": 14164.280000000017,
+    "new_notes": 57,
+    "note_pv": 1109515,
+    "read_pv": 58588
+   },
+   "W42": {
+    "note_dgmv": 11304.050000000001,
+    "new_notes": 92,
+    "note_pv": 1051660,
+    "read_pv": 77634
+   },
+   "W43": {
+    "note_dgmv": 11294.1,
+    "new_notes": 105,
+    "note_pv": 1224635,
+    "read_pv": 111649
+   },
+   "W44": {
+    "note_dgmv": 9853.770000000002,
+    "new_notes": 76,
+    "note_pv": 661025,
+    "read_pv": 52707
+   }
+  }
+ },
+ {
+  "seller_id": "665d93509ae3190001ccd9e6",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 5290.579999999998,
+    "new_notes": 56,
+    "note_pv": 244541,
+    "read_pv": 17648
+   },
+   "W33": {
+    "note_dgmv": 4898.539999999999,
+    "new_notes": 61,
+    "note_pv": 225841,
+    "read_pv": 16085
+   },
+   "W34": {
+    "note_dgmv": 5152.399999999999,
+    "new_notes": 62,
+    "note_pv": 290537,
+    "read_pv": 21694
+   },
+   "W35": {
+    "note_dgmv": 4790.969999999999,
+    "new_notes": 64,
+    "note_pv": 260060,
+    "read_pv": 18602
+   },
+   "W36": {
+    "note_dgmv": 4170.459999999999,
+    "new_notes": 57,
+    "note_pv": 195864,
+    "read_pv": 12796
+   },
+   "W37": {
+    "note_dgmv": 5045.249999999999,
+    "new_notes": 78,
+    "note_pv": 192975,
+    "read_pv": 14872
+   },
+   "W38": {
+    "note_dgmv": 7692.689999999999,
+    "new_notes": 81,
+    "note_pv": 250220,
+    "read_pv": 20685
+   },
+   "W39": {
+    "note_dgmv": 5016.0599999999995,
+    "new_notes": 69,
+    "note_pv": 235154,
+    "read_pv": 17719
+   },
+   "W40": {
+    "note_dgmv": 4923.349999999999,
+    "new_notes": 67,
+    "note_pv": 239574,
+    "read_pv": 17687
+   },
+   "W41": {
+    "note_dgmv": 6496.899999999998,
+    "new_notes": 70,
+    "note_pv": 308562,
+    "read_pv": 23114
+   },
+   "W42": {
+    "note_dgmv": 9359.979999999998,
+    "new_notes": 63,
+    "note_pv": 241058,
+    "read_pv": 19733
+   },
+   "W43": {
+    "note_dgmv": 6634.589999999998,
+    "new_notes": 68,
+    "note_pv": 203695,
+    "read_pv": 17479
+   },
+   "W44": {
+    "note_dgmv": 9436.570000000002,
+    "new_notes": 77,
+    "note_pv": 294342,
+    "read_pv": 21907
+   }
+  }
+ },
+ {
+  "seller_id": "6207ad085e3c4500018b5e9f",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 12668.540000000025,
+    "new_notes": 9,
+    "note_pv": 1101574,
+    "read_pv": 916871
+   },
+   "W33": {
+    "note_dgmv": 10290.120000000008,
+    "new_notes": 4,
+    "note_pv": 856199,
+    "read_pv": 720908
+   },
+   "W34": {
+    "note_dgmv": 15587.860000000017,
+    "new_notes": 9,
+    "note_pv": 1098166,
+    "read_pv": 921328
+   },
+   "W35": {
+    "note_dgmv": 20095.600000000028,
+    "new_notes": 8,
+    "note_pv": 883930,
+    "read_pv": 695112
+   },
+   "W36": {
+    "note_dgmv": 9840.800000000005,
+    "new_notes": 3,
+    "note_pv": 312455,
+    "read_pv": 162276
+   },
+   "W37": {
+    "note_dgmv": 11830.760000000006,
+    "new_notes": 3,
+    "note_pv": 349914,
+    "read_pv": 107211
+   },
+   "W38": {
+    "note_dgmv": 10455.850000000002,
+    "new_notes": 5,
+    "note_pv": 293510,
+    "read_pv": 88517
+   },
+   "W39": {
+    "note_dgmv": 6195.079999999999,
+    "new_notes": 2,
+    "note_pv": 221139,
+    "read_pv": 87292
+   },
+   "W40": {
+    "note_dgmv": 8928.11,
+    "new_notes": 6,
+    "note_pv": 263568,
+    "read_pv": 107980
+   },
+   "W41": {
+    "note_dgmv": 8033.1900000000005,
+    "new_notes": 3,
+    "note_pv": 223679,
+    "read_pv": 69980
+   },
+   "W42": {
+    "note_dgmv": 8438.740000000002,
+    "new_notes": 4,
+    "note_pv": 249773,
+    "read_pv": 61174
+   },
+   "W43": {
+    "note_dgmv": 10320.500000000004,
+    "new_notes": 6,
+    "note_pv": 217403,
+    "read_pv": 65476
+   },
+   "W44": {
+    "note_dgmv": 9282.630000000001,
+    "new_notes": 6,
+    "note_pv": 233848,
+    "read_pv": 90305
    }
   }
  },
@@ -2067,10 +2067,10 @@
     "read_pv": 165881
    },
    "W44": {
-    "note_dgmv": 6893.839999999998,
+    "note_dgmv": 7786.809999999998,
     "new_notes": 1,
-    "note_pv": 110567,
-    "read_pv": 42409
+    "note_pv": 125860,
+    "read_pv": 50080
    }
   }
  },
@@ -2150,10 +2150,10 @@
     "read_pv": 22822
    },
    "W44": {
-    "note_dgmv": 6814.430000000001,
-    "new_notes": 53,
-    "note_pv": 129000,
-    "read_pv": 16941
+    "note_dgmv": 7663.470000000001,
+    "new_notes": 63,
+    "note_pv": 149258,
+    "read_pv": 20168
    }
   }
  },
@@ -2233,10 +2233,10 @@
     "read_pv": 9634
    },
    "W44": {
-    "note_dgmv": 5810.419999999998,
-    "new_notes": 72,
-    "note_pv": 245288,
-    "read_pv": 35619
+    "note_dgmv": 7094.079999999997,
+    "new_notes": 77,
+    "note_pv": 303702,
+    "read_pv": 45005
    }
   }
  },
@@ -2316,93 +2316,10 @@
     "read_pv": 43080
    },
    "W44": {
-    "note_dgmv": 5443.609999999999,
-    "new_notes": 36,
-    "note_pv": 372013,
-    "read_pv": 38308
-   }
-  }
- },
- {
-  "seller_id": "5ad98c8fd20f44553a4cc327",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 5089.55,
-    "new_notes": 28,
-    "note_pv": 373043,
-    "read_pv": 27941
-   },
-   "W33": {
-    "note_dgmv": 5844.55,
-    "new_notes": 15,
-    "note_pv": 298322,
-    "read_pv": 40997
-   },
-   "W34": {
-    "note_dgmv": 7298.42,
-    "new_notes": 15,
-    "note_pv": 285616,
-    "read_pv": 35349
-   },
-   "W35": {
-    "note_dgmv": 9473.02,
-    "new_notes": 36,
-    "note_pv": 321305,
-    "read_pv": 37152
-   },
-   "W36": {
-    "note_dgmv": 9259.720000000001,
-    "new_notes": 14,
-    "note_pv": 280452,
-    "read_pv": 39087
-   },
-   "W37": {
-    "note_dgmv": 9131.270000000002,
-    "new_notes": 15,
-    "note_pv": 369426,
-    "read_pv": 66442
-   },
-   "W38": {
-    "note_dgmv": 11235.380000000001,
-    "new_notes": 21,
-    "note_pv": 376816,
-    "read_pv": 66725
-   },
-   "W39": {
-    "note_dgmv": 7237.639999999999,
-    "new_notes": 21,
-    "note_pv": 314944,
-    "read_pv": 58722
-   },
-   "W40": {
-    "note_dgmv": 6656.200000000001,
-    "new_notes": 19,
-    "note_pv": 261121,
-    "read_pv": 45446
-   },
-   "W41": {
-    "note_dgmv": 6142.5599999999995,
-    "new_notes": 4,
-    "note_pv": 263426,
-    "read_pv": 55297
-   },
-   "W42": {
-    "note_dgmv": 6057.710000000001,
-    "new_notes": 16,
-    "note_pv": 220971,
-    "read_pv": 42539
-   },
-   "W43": {
-    "note_dgmv": 5946.29,
-    "new_notes": 21,
-    "note_pv": 267710,
-    "read_pv": 41855
-   },
-   "W44": {
-    "note_dgmv": 5132.74,
-    "new_notes": 40,
-    "note_pv": 223026,
-    "read_pv": 43754
+    "note_dgmv": 6681.129999999999,
+    "new_notes": 39,
+    "note_pv": 447101,
+    "read_pv": 46468
    }
   }
  },
@@ -2482,10 +2399,93 @@
     "read_pv": 30712
    },
    "W44": {
-    "note_dgmv": 4973.209999999997,
-    "new_notes": 42,
-    "note_pv": 422744,
-    "read_pv": 36659
+    "note_dgmv": 6139.099999999997,
+    "new_notes": 48,
+    "note_pv": 483171,
+    "read_pv": 41883
+   }
+  }
+ },
+ {
+  "seller_id": "5ad98c8fd20f44553a4cc327",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 5089.55,
+    "new_notes": 28,
+    "note_pv": 373043,
+    "read_pv": 27941
+   },
+   "W33": {
+    "note_dgmv": 5844.55,
+    "new_notes": 15,
+    "note_pv": 298322,
+    "read_pv": 40997
+   },
+   "W34": {
+    "note_dgmv": 7298.42,
+    "new_notes": 15,
+    "note_pv": 285616,
+    "read_pv": 35349
+   },
+   "W35": {
+    "note_dgmv": 9473.02,
+    "new_notes": 36,
+    "note_pv": 321305,
+    "read_pv": 37152
+   },
+   "W36": {
+    "note_dgmv": 9259.720000000001,
+    "new_notes": 14,
+    "note_pv": 280452,
+    "read_pv": 39087
+   },
+   "W37": {
+    "note_dgmv": 9131.270000000002,
+    "new_notes": 15,
+    "note_pv": 369426,
+    "read_pv": 66442
+   },
+   "W38": {
+    "note_dgmv": 11235.380000000001,
+    "new_notes": 21,
+    "note_pv": 376816,
+    "read_pv": 66725
+   },
+   "W39": {
+    "note_dgmv": 7237.639999999999,
+    "new_notes": 21,
+    "note_pv": 314944,
+    "read_pv": 58722
+   },
+   "W40": {
+    "note_dgmv": 6656.200000000001,
+    "new_notes": 19,
+    "note_pv": 261121,
+    "read_pv": 45446
+   },
+   "W41": {
+    "note_dgmv": 6142.5599999999995,
+    "new_notes": 4,
+    "note_pv": 263426,
+    "read_pv": 55297
+   },
+   "W42": {
+    "note_dgmv": 6057.710000000001,
+    "new_notes": 16,
+    "note_pv": 220971,
+    "read_pv": 42539
+   },
+   "W43": {
+    "note_dgmv": 5946.29,
+    "new_notes": 21,
+    "note_pv": 267710,
+    "read_pv": 41855
+   },
+   "W44": {
+    "note_dgmv": 5848.929999999999,
+    "new_notes": 40,
+    "note_pv": 269510,
+    "read_pv": 50561
    }
   }
  },
@@ -2565,591 +2565,10 @@
     "read_pv": 3858
    },
    "W44": {
-    "note_dgmv": 4863.129999999999,
-    "new_notes": 12,
-    "note_pv": 55635,
-    "read_pv": 4894
-   }
-  }
- },
- {
-  "seller_id": "67bab95d5fb0980015921024",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 2558.54,
-    "new_notes": 5,
-    "note_pv": 208929,
-    "read_pv": 14939
-   },
-   "W33": {
-    "note_dgmv": 2866.7999999999997,
-    "new_notes": 4,
-    "note_pv": 202416,
-    "read_pv": 16578
-   },
-   "W34": {
-    "note_dgmv": 5322.24,
-    "new_notes": 6,
-    "note_pv": 279996,
-    "read_pv": 22698
-   },
-   "W35": {
-    "note_dgmv": 4808.33,
-    "new_notes": 7,
-    "note_pv": 239644,
-    "read_pv": 18764
-   },
-   "W36": {
-    "note_dgmv": 2626.0600000000004,
-    "new_notes": 6,
-    "note_pv": 186564,
-    "read_pv": 13181
-   },
-   "W37": {
-    "note_dgmv": 3014.9600000000005,
-    "new_notes": 7,
-    "note_pv": 235357,
-    "read_pv": 20082
-   },
-   "W38": {
-    "note_dgmv": 4223.26,
-    "new_notes": 6,
-    "note_pv": 268742,
-    "read_pv": 25536
-   },
-   "W39": {
-    "note_dgmv": 3649.0899999999997,
-    "new_notes": 4,
-    "note_pv": 247790,
-    "read_pv": 23332
-   },
-   "W40": {
-    "note_dgmv": 4493.839999999999,
-    "new_notes": 3,
-    "note_pv": 257598,
-    "read_pv": 25940
-   },
-   "W41": {
-    "note_dgmv": 3192.46,
-    "new_notes": 4,
-    "note_pv": 147064,
-    "read_pv": 17154
-   },
-   "W42": {
-    "note_dgmv": 2167.9,
-    "new_notes": 5,
-    "note_pv": 111544,
-    "read_pv": 14894
-   },
-   "W43": {
-    "note_dgmv": 1971.3999999999999,
-    "new_notes": 0,
-    "note_pv": 115918,
-    "read_pv": 16949
-   },
-   "W44": {
-    "note_dgmv": 4614.219999999999,
-    "new_notes": 4,
-    "note_pv": 155552,
-    "read_pv": 19307
-   }
-  }
- },
- {
-  "seller_id": "65ed705a08dad2000111bbed",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 8971.670000000002,
-    "new_notes": 41,
-    "note_pv": 490938,
-    "read_pv": 33030
-   },
-   "W33": {
-    "note_dgmv": 6033.999999999998,
-    "new_notes": 46,
-    "note_pv": 380701,
-    "read_pv": 28416
-   },
-   "W34": {
-    "note_dgmv": 4651.069999999998,
-    "new_notes": 37,
-    "note_pv": 293501,
-    "read_pv": 22014
-   },
-   "W35": {
-    "note_dgmv": 6122.929999999995,
-    "new_notes": 39,
-    "note_pv": 348415,
-    "read_pv": 24828
-   },
-   "W36": {
-    "note_dgmv": 3883.2599999999975,
-    "new_notes": 32,
-    "note_pv": 257210,
-    "read_pv": 18616
-   },
-   "W37": {
-    "note_dgmv": 5738.589999999998,
-    "new_notes": 35,
-    "note_pv": 276804,
-    "read_pv": 22135
-   },
-   "W38": {
-    "note_dgmv": 5322.859999999997,
-    "new_notes": 29,
-    "note_pv": 256895,
-    "read_pv": 19846
-   },
-   "W39": {
-    "note_dgmv": 3713.139999999998,
-    "new_notes": 34,
-    "note_pv": 224409,
-    "read_pv": 16706
-   },
-   "W40": {
-    "note_dgmv": 4141.759999999998,
-    "new_notes": 28,
-    "note_pv": 244979,
-    "read_pv": 16778
-   },
-   "W41": {
-    "note_dgmv": 3637.7599999999984,
-    "new_notes": 31,
-    "note_pv": 209041,
-    "read_pv": 14039
-   },
-   "W42": {
-    "note_dgmv": 4446.499999999998,
-    "new_notes": 29,
-    "note_pv": 217861,
-    "read_pv": 13629
-   },
-   "W43": {
-    "note_dgmv": 4286.199999999999,
-    "new_notes": 31,
-    "note_pv": 257494,
-    "read_pv": 14236
-   },
-   "W44": {
-    "note_dgmv": 4541.209999999997,
-    "new_notes": 29,
-    "note_pv": 272948,
-    "read_pv": 14005
-   }
-  }
- },
- {
-  "seller_id": "65435ca6368edf00013dcfb2",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 11559.94,
-    "new_notes": 15,
-    "note_pv": 214121,
-    "read_pv": 8489
-   },
-   "W33": {
-    "note_dgmv": 26243.910000000007,
-    "new_notes": 23,
-    "note_pv": 598876,
-    "read_pv": 27228
-   },
-   "W34": {
-    "note_dgmv": 22570.180000000008,
-    "new_notes": 13,
-    "note_pv": 474700,
-    "read_pv": 14669
-   },
-   "W35": {
-    "note_dgmv": 13629.550000000003,
-    "new_notes": 18,
-    "note_pv": 183393,
-    "read_pv": 6184
-   },
-   "W36": {
-    "note_dgmv": 9598.370000000003,
-    "new_notes": 12,
-    "note_pv": 117660,
-    "read_pv": 3987
-   },
-   "W37": {
-    "note_dgmv": 12483.940000000002,
-    "new_notes": 21,
-    "note_pv": 190750,
-    "read_pv": 7150
-   },
-   "W38": {
-    "note_dgmv": 11609.090000000002,
-    "new_notes": 20,
-    "note_pv": 137836,
-    "read_pv": 4921
-   },
-   "W39": {
-    "note_dgmv": 9762.79,
-    "new_notes": 27,
-    "note_pv": 166328,
-    "read_pv": 5681
-   },
-   "W40": {
-    "note_dgmv": 7929.800000000001,
-    "new_notes": 26,
-    "note_pv": 139259,
-    "read_pv": 4519
-   },
-   "W41": {
-    "note_dgmv": 6483.75,
-    "new_notes": 32,
-    "note_pv": 113780,
-    "read_pv": 3751
-   },
-   "W42": {
-    "note_dgmv": 9160.58,
-    "new_notes": 38,
-    "note_pv": 136383,
-    "read_pv": 3773
-   },
-   "W43": {
-    "note_dgmv": 4501.150000000001,
-    "new_notes": 34,
-    "note_pv": 79576,
-    "read_pv": 2746
-   },
-   "W44": {
-    "note_dgmv": 4433.56,
-    "new_notes": 38,
-    "note_pv": 76488,
-    "read_pv": 2491
-   }
-  }
- },
- {
-  "seller_id": "683d9b0bc3302a0015a9d5a8",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 498.0,
-    "new_notes": 0,
-    "note_pv": 12898,
-    "read_pv": 1632
-   },
-   "W33": {
-    "note_dgmv": 237.9,
-    "new_notes": 1,
-    "note_pv": 7726,
-    "read_pv": 865
-   },
-   "W34": {
-    "note_dgmv": 2779.8100000000004,
-    "new_notes": 8,
-    "note_pv": 45795,
-    "read_pv": 1868
-   },
-   "W35": {
-    "note_dgmv": 3597.52,
-    "new_notes": 6,
-    "note_pv": 58448,
-    "read_pv": 2241
-   },
-   "W36": {
-    "note_dgmv": 3745.3099999999995,
-    "new_notes": 1,
-    "note_pv": 45323,
-    "read_pv": 1581
-   },
-   "W37": {
-    "note_dgmv": 4172.550000000001,
-    "new_notes": 0,
-    "note_pv": 40615,
-    "read_pv": 1244
-   },
-   "W38": {
-    "note_dgmv": 1863.8599999999997,
-    "new_notes": 0,
-    "note_pv": 32158,
-    "read_pv": 1096
-   },
-   "W39": {
-    "note_dgmv": 3134.2,
-    "new_notes": 0,
-    "note_pv": 26326,
-    "read_pv": 992
-   },
-   "W40": {
-    "note_dgmv": 2616.65,
-    "new_notes": 0,
-    "note_pv": 30511,
-    "read_pv": 1057
-   },
-   "W41": {
-    "note_dgmv": 3684.46,
-    "new_notes": 0,
-    "note_pv": 27477,
-    "read_pv": 1012
-   },
-   "W42": {
-    "note_dgmv": 2432.5,
-    "new_notes": 0,
-    "note_pv": 22679,
-    "read_pv": 643
-   },
-   "W43": {
-    "note_dgmv": 6577.5599999999995,
-    "new_notes": 6,
-    "note_pv": 51779,
-    "read_pv": 4165
-   },
-   "W44": {
-    "note_dgmv": 4426.63,
-    "new_notes": 2,
-    "note_pv": 37177,
-    "read_pv": 5075
-   }
-  }
- },
- {
-  "seller_id": "69afcfddcf9d2c00155eab61",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 77684.56999999999,
-    "new_notes": 143,
-    "note_pv": 804738,
-    "read_pv": 73920
-   },
-   "W33": {
-    "note_dgmv": 51456.19,
-    "new_notes": 114,
-    "note_pv": 479946,
-    "read_pv": 49875
-   },
-   "W34": {
-    "note_dgmv": 10485.799999999997,
-    "new_notes": 37,
-    "note_pv": 142745,
-    "read_pv": 15726
-   },
-   "W35": {
-    "note_dgmv": 10317.300000000001,
-    "new_notes": 82,
-    "note_pv": 133852,
-    "read_pv": 14281
-   },
-   "W36": {
-    "note_dgmv": 12818.56,
-    "new_notes": 77,
-    "note_pv": 167234,
-    "read_pv": 19478
-   },
-   "W37": {
-    "note_dgmv": 12587.77,
-    "new_notes": 106,
-    "note_pv": 125332,
-    "read_pv": 13889
-   },
-   "W38": {
-    "note_dgmv": 12376.9,
-    "new_notes": 96,
-    "note_pv": 112885,
-    "read_pv": 10477
-   },
-   "W39": {
-    "note_dgmv": 9870.6,
-    "new_notes": 66,
-    "note_pv": 83651,
-    "read_pv": 8953
-   },
-   "W40": {
-    "note_dgmv": 7808.0,
-    "new_notes": 77,
-    "note_pv": 101595,
-    "read_pv": 12068
-   },
-   "W41": {
-    "note_dgmv": 7555.650000000001,
-    "new_notes": 97,
-    "note_pv": 95434,
-    "read_pv": 12196
-   },
-   "W42": {
-    "note_dgmv": 5152.459999999999,
-    "new_notes": 86,
-    "note_pv": 86531,
-    "read_pv": 15248
-   },
-   "W43": {
-    "note_dgmv": 5643.42,
-    "new_notes": 81,
-    "note_pv": 72163,
-    "read_pv": 11695
-   },
-   "W44": {
-    "note_dgmv": 4395.929999999999,
-    "new_notes": 62,
-    "note_pv": 57328,
-    "read_pv": 8979
-   }
-  }
- },
- {
-  "seller_id": "67fe00f32890a4001510dfd8",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 3322.92,
-    "new_notes": 8,
-    "note_pv": 295898,
-    "read_pv": 20094
-   },
-   "W33": {
-    "note_dgmv": 6707.16,
-    "new_notes": 16,
-    "note_pv": 680304,
-    "read_pv": 52310
-   },
-   "W34": {
-    "note_dgmv": 5264.7,
-    "new_notes": 5,
-    "note_pv": 486851,
-    "read_pv": 30299
-   },
-   "W35": {
-    "note_dgmv": 6923.699999999999,
-    "new_notes": 17,
-    "note_pv": 436581,
-    "read_pv": 26559
-   },
-   "W36": {
-    "note_dgmv": 5004.119999999999,
-    "new_notes": 8,
-    "note_pv": 442548,
-    "read_pv": 34294
-   },
-   "W37": {
-    "note_dgmv": 6339.079999999999,
+    "note_dgmv": 5688.48,
     "new_notes": 14,
-    "note_pv": 467703,
-    "read_pv": 34426
-   },
-   "W38": {
-    "note_dgmv": 8228.3,
-    "new_notes": 9,
-    "note_pv": 551466,
-    "read_pv": 40898
-   },
-   "W39": {
-    "note_dgmv": 4394.16,
-    "new_notes": 6,
-    "note_pv": 342190,
-    "read_pv": 24430
-   },
-   "W40": {
-    "note_dgmv": 1567.0900000000001,
-    "new_notes": 4,
-    "note_pv": 175862,
-    "read_pv": 11839
-   },
-   "W41": {
-    "note_dgmv": 2178.73,
-    "new_notes": 5,
-    "note_pv": 177585,
-    "read_pv": 12720
-   },
-   "W42": {
-    "note_dgmv": 5342.089999999999,
-    "new_notes": 5,
-    "note_pv": 409185,
-    "read_pv": 29707
-   },
-   "W43": {
-    "note_dgmv": 3872.77,
-    "new_notes": 7,
-    "note_pv": 328850,
-    "read_pv": 24289
-   },
-   "W44": {
-    "note_dgmv": 4385.92,
-    "new_notes": 9,
-    "note_pv": 398415,
-    "read_pv": 31337
-   }
-  }
- },
- {
-  "seller_id": "65b368dd2cdd640001d6c207",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 2804.51,
-    "new_notes": 47,
-    "note_pv": 372928,
-    "read_pv": 60054
-   },
-   "W33": {
-    "note_dgmv": 3572.8100000000004,
-    "new_notes": 47,
-    "note_pv": 438598,
-    "read_pv": 66604
-   },
-   "W34": {
-    "note_dgmv": 4933.08,
-    "new_notes": 52,
-    "note_pv": 514092,
-    "read_pv": 85379
-   },
-   "W35": {
-    "note_dgmv": 7129.429999999999,
-    "new_notes": 46,
-    "note_pv": 691400,
-    "read_pv": 103235
-   },
-   "W36": {
-    "note_dgmv": 6639.14,
-    "new_notes": 38,
-    "note_pv": 629076,
-    "read_pv": 101508
-   },
-   "W37": {
-    "note_dgmv": 5949.93,
-    "new_notes": 51,
-    "note_pv": 598330,
-    "read_pv": 99893
-   },
-   "W38": {
-    "note_dgmv": 7210.209999999999,
-    "new_notes": 52,
-    "note_pv": 652309,
-    "read_pv": 105883
-   },
-   "W39": {
-    "note_dgmv": 5793.96,
-    "new_notes": 45,
-    "note_pv": 609077,
-    "read_pv": 100574
-   },
-   "W40": {
-    "note_dgmv": 3540.3900000000003,
-    "new_notes": 39,
-    "note_pv": 525724,
-    "read_pv": 90095
-   },
-   "W41": {
-    "note_dgmv": 6276.5199999999995,
-    "new_notes": 46,
-    "note_pv": 585195,
-    "read_pv": 103534
-   },
-   "W42": {
-    "note_dgmv": 5174.279999999999,
-    "new_notes": 44,
-    "note_pv": 589266,
-    "read_pv": 104515
-   },
-   "W43": {
-    "note_dgmv": 5600.85,
-    "new_notes": 50,
-    "note_pv": 572578,
-    "read_pv": 101968
-   },
-   "W44": {
-    "note_dgmv": 4375.9400000000005,
-    "new_notes": 56,
-    "note_pv": 503272,
-    "read_pv": 89604
+    "note_pv": 63578,
+    "read_pv": 6011
    }
   }
  },
@@ -3229,10 +2648,425 @@
     "read_pv": 8487
    },
    "W44": {
-    "note_dgmv": 4326.5199999999995,
+    "note_dgmv": 5675.299999999999,
     "new_notes": 0,
-    "note_pv": 85357,
-    "read_pv": 8100
+    "note_pv": 104419,
+    "read_pv": 9849
+   }
+  }
+ },
+ {
+  "seller_id": "65ed705a08dad2000111bbed",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 8971.670000000002,
+    "new_notes": 41,
+    "note_pv": 490938,
+    "read_pv": 33030
+   },
+   "W33": {
+    "note_dgmv": 6033.999999999998,
+    "new_notes": 46,
+    "note_pv": 380701,
+    "read_pv": 28416
+   },
+   "W34": {
+    "note_dgmv": 4651.069999999998,
+    "new_notes": 37,
+    "note_pv": 293501,
+    "read_pv": 22014
+   },
+   "W35": {
+    "note_dgmv": 6122.929999999995,
+    "new_notes": 39,
+    "note_pv": 348415,
+    "read_pv": 24828
+   },
+   "W36": {
+    "note_dgmv": 3883.2599999999975,
+    "new_notes": 32,
+    "note_pv": 257210,
+    "read_pv": 18616
+   },
+   "W37": {
+    "note_dgmv": 5738.589999999998,
+    "new_notes": 35,
+    "note_pv": 276804,
+    "read_pv": 22135
+   },
+   "W38": {
+    "note_dgmv": 5322.859999999997,
+    "new_notes": 29,
+    "note_pv": 256895,
+    "read_pv": 19846
+   },
+   "W39": {
+    "note_dgmv": 3713.139999999998,
+    "new_notes": 34,
+    "note_pv": 224409,
+    "read_pv": 16706
+   },
+   "W40": {
+    "note_dgmv": 4141.759999999998,
+    "new_notes": 28,
+    "note_pv": 244979,
+    "read_pv": 16778
+   },
+   "W41": {
+    "note_dgmv": 3637.7599999999984,
+    "new_notes": 31,
+    "note_pv": 209041,
+    "read_pv": 14039
+   },
+   "W42": {
+    "note_dgmv": 4446.499999999998,
+    "new_notes": 29,
+    "note_pv": 217861,
+    "read_pv": 13629
+   },
+   "W43": {
+    "note_dgmv": 4286.199999999999,
+    "new_notes": 31,
+    "note_pv": 257494,
+    "read_pv": 14236
+   },
+   "W44": {
+    "note_dgmv": 5578.3399999999965,
+    "new_notes": 32,
+    "note_pv": 362444,
+    "read_pv": 18553
+   }
+  }
+ },
+ {
+  "seller_id": "65b368dd2cdd640001d6c207",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 2804.51,
+    "new_notes": 47,
+    "note_pv": 372928,
+    "read_pv": 60054
+   },
+   "W33": {
+    "note_dgmv": 3572.8100000000004,
+    "new_notes": 47,
+    "note_pv": 438598,
+    "read_pv": 66604
+   },
+   "W34": {
+    "note_dgmv": 4933.08,
+    "new_notes": 52,
+    "note_pv": 514092,
+    "read_pv": 85379
+   },
+   "W35": {
+    "note_dgmv": 7129.429999999999,
+    "new_notes": 46,
+    "note_pv": 691400,
+    "read_pv": 103235
+   },
+   "W36": {
+    "note_dgmv": 6639.14,
+    "new_notes": 38,
+    "note_pv": 629076,
+    "read_pv": 101508
+   },
+   "W37": {
+    "note_dgmv": 5949.93,
+    "new_notes": 51,
+    "note_pv": 598330,
+    "read_pv": 99893
+   },
+   "W38": {
+    "note_dgmv": 7210.209999999999,
+    "new_notes": 52,
+    "note_pv": 652309,
+    "read_pv": 105883
+   },
+   "W39": {
+    "note_dgmv": 5793.96,
+    "new_notes": 45,
+    "note_pv": 609077,
+    "read_pv": 100574
+   },
+   "W40": {
+    "note_dgmv": 3540.3900000000003,
+    "new_notes": 39,
+    "note_pv": 525724,
+    "read_pv": 90095
+   },
+   "W41": {
+    "note_dgmv": 6276.5199999999995,
+    "new_notes": 46,
+    "note_pv": 585195,
+    "read_pv": 103534
+   },
+   "W42": {
+    "note_dgmv": 5174.279999999999,
+    "new_notes": 44,
+    "note_pv": 589266,
+    "read_pv": 104515
+   },
+   "W43": {
+    "note_dgmv": 5600.85,
+    "new_notes": 50,
+    "note_pv": 572578,
+    "read_pv": 101968
+   },
+   "W44": {
+    "note_dgmv": 5504.25,
+    "new_notes": 65,
+    "note_pv": 595138,
+    "read_pv": 106733
+   }
+  }
+ },
+ {
+  "seller_id": "67bab95d5fb0980015921024",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 2558.54,
+    "new_notes": 5,
+    "note_pv": 208929,
+    "read_pv": 14939
+   },
+   "W33": {
+    "note_dgmv": 2866.7999999999997,
+    "new_notes": 4,
+    "note_pv": 202416,
+    "read_pv": 16578
+   },
+   "W34": {
+    "note_dgmv": 5322.24,
+    "new_notes": 6,
+    "note_pv": 279996,
+    "read_pv": 22698
+   },
+   "W35": {
+    "note_dgmv": 4808.33,
+    "new_notes": 7,
+    "note_pv": 239644,
+    "read_pv": 18764
+   },
+   "W36": {
+    "note_dgmv": 2626.0600000000004,
+    "new_notes": 6,
+    "note_pv": 186564,
+    "read_pv": 13181
+   },
+   "W37": {
+    "note_dgmv": 3014.9600000000005,
+    "new_notes": 7,
+    "note_pv": 235357,
+    "read_pv": 20082
+   },
+   "W38": {
+    "note_dgmv": 4223.26,
+    "new_notes": 6,
+    "note_pv": 268742,
+    "read_pv": 25536
+   },
+   "W39": {
+    "note_dgmv": 3649.0899999999997,
+    "new_notes": 4,
+    "note_pv": 247790,
+    "read_pv": 23332
+   },
+   "W40": {
+    "note_dgmv": 4493.839999999999,
+    "new_notes": 3,
+    "note_pv": 257598,
+    "read_pv": 25940
+   },
+   "W41": {
+    "note_dgmv": 3192.46,
+    "new_notes": 4,
+    "note_pv": 147064,
+    "read_pv": 17154
+   },
+   "W42": {
+    "note_dgmv": 2167.9,
+    "new_notes": 5,
+    "note_pv": 111544,
+    "read_pv": 14894
+   },
+   "W43": {
+    "note_dgmv": 1971.3999999999999,
+    "new_notes": 0,
+    "note_pv": 115918,
+    "read_pv": 16949
+   },
+   "W44": {
+    "note_dgmv": 5295.32,
+    "new_notes": 5,
+    "note_pv": 188045,
+    "read_pv": 23086
+   }
+  }
+ },
+ {
+  "seller_id": "65435ca6368edf00013dcfb2",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 11559.94,
+    "new_notes": 15,
+    "note_pv": 214121,
+    "read_pv": 8489
+   },
+   "W33": {
+    "note_dgmv": 26243.910000000007,
+    "new_notes": 23,
+    "note_pv": 598876,
+    "read_pv": 27228
+   },
+   "W34": {
+    "note_dgmv": 22570.180000000008,
+    "new_notes": 13,
+    "note_pv": 474700,
+    "read_pv": 14669
+   },
+   "W35": {
+    "note_dgmv": 13629.550000000003,
+    "new_notes": 18,
+    "note_pv": 183393,
+    "read_pv": 6184
+   },
+   "W36": {
+    "note_dgmv": 9598.370000000003,
+    "new_notes": 12,
+    "note_pv": 117660,
+    "read_pv": 3987
+   },
+   "W37": {
+    "note_dgmv": 12483.940000000002,
+    "new_notes": 21,
+    "note_pv": 190750,
+    "read_pv": 7150
+   },
+   "W38": {
+    "note_dgmv": 11609.090000000002,
+    "new_notes": 20,
+    "note_pv": 137836,
+    "read_pv": 4921
+   },
+   "W39": {
+    "note_dgmv": 9762.79,
+    "new_notes": 27,
+    "note_pv": 166328,
+    "read_pv": 5681
+   },
+   "W40": {
+    "note_dgmv": 7929.800000000001,
+    "new_notes": 26,
+    "note_pv": 139259,
+    "read_pv": 4519
+   },
+   "W41": {
+    "note_dgmv": 6483.75,
+    "new_notes": 32,
+    "note_pv": 113780,
+    "read_pv": 3751
+   },
+   "W42": {
+    "note_dgmv": 9160.58,
+    "new_notes": 38,
+    "note_pv": 136383,
+    "read_pv": 3773
+   },
+   "W43": {
+    "note_dgmv": 4501.150000000001,
+    "new_notes": 34,
+    "note_pv": 79576,
+    "read_pv": 2746
+   },
+   "W44": {
+    "note_dgmv": 5249.9800000000005,
+    "new_notes": 44,
+    "note_pv": 89078,
+    "read_pv": 2862
+   }
+  }
+ },
+ {
+  "seller_id": "683d9b0bc3302a0015a9d5a8",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 498.0,
+    "new_notes": 0,
+    "note_pv": 12898,
+    "read_pv": 1632
+   },
+   "W33": {
+    "note_dgmv": 237.9,
+    "new_notes": 1,
+    "note_pv": 7726,
+    "read_pv": 865
+   },
+   "W34": {
+    "note_dgmv": 2779.8100000000004,
+    "new_notes": 8,
+    "note_pv": 45795,
+    "read_pv": 1868
+   },
+   "W35": {
+    "note_dgmv": 3597.52,
+    "new_notes": 6,
+    "note_pv": 58448,
+    "read_pv": 2241
+   },
+   "W36": {
+    "note_dgmv": 3745.3099999999995,
+    "new_notes": 1,
+    "note_pv": 45323,
+    "read_pv": 1581
+   },
+   "W37": {
+    "note_dgmv": 4172.550000000001,
+    "new_notes": 0,
+    "note_pv": 40615,
+    "read_pv": 1244
+   },
+   "W38": {
+    "note_dgmv": 1863.8599999999997,
+    "new_notes": 0,
+    "note_pv": 32158,
+    "read_pv": 1096
+   },
+   "W39": {
+    "note_dgmv": 3134.2,
+    "new_notes": 0,
+    "note_pv": 26326,
+    "read_pv": 992
+   },
+   "W40": {
+    "note_dgmv": 2616.65,
+    "new_notes": 0,
+    "note_pv": 30511,
+    "read_pv": 1057
+   },
+   "W41": {
+    "note_dgmv": 3684.46,
+    "new_notes": 0,
+    "note_pv": 27477,
+    "read_pv": 1012
+   },
+   "W42": {
+    "note_dgmv": 2432.5,
+    "new_notes": 0,
+    "note_pv": 22679,
+    "read_pv": 643
+   },
+   "W43": {
+    "note_dgmv": 6577.5599999999995,
+    "new_notes": 6,
+    "note_pv": 51779,
+    "read_pv": 4165
+   },
+   "W44": {
+    "note_dgmv": 5079.82,
+    "new_notes": 2,
+    "note_pv": 42091,
+    "read_pv": 5625
    }
   }
  },
@@ -3312,93 +3146,176 @@
     "read_pv": 19891
    },
    "W44": {
-    "note_dgmv": 4310.2999999999965,
-    "new_notes": 9,
-    "note_pv": 240460,
-    "read_pv": 16072
+    "note_dgmv": 4835.429999999997,
+    "new_notes": 10,
+    "note_pv": 270274,
+    "read_pv": 18038
    }
   }
  },
  {
-  "seller_id": "65e53c7456541c000122c30f",
+  "seller_id": "69afcfddcf9d2c00155eab61",
   "weeks": {
    "W32": {
-    "note_dgmv": 3934.31,
-    "new_notes": 82,
-    "note_pv": 131820,
-    "read_pv": 24352
+    "note_dgmv": 77684.56999999999,
+    "new_notes": 143,
+    "note_pv": 804738,
+    "read_pv": 73920
    },
    "W33": {
-    "note_dgmv": 6334.0,
-    "new_notes": 74,
-    "note_pv": 172274,
-    "read_pv": 27919
+    "note_dgmv": 51456.19,
+    "new_notes": 114,
+    "note_pv": 479946,
+    "read_pv": 49875
    },
    "W34": {
-    "note_dgmv": 4417.73,
-    "new_notes": 82,
-    "note_pv": 150883,
-    "read_pv": 27425
+    "note_dgmv": 10485.799999999997,
+    "new_notes": 37,
+    "note_pv": 142745,
+    "read_pv": 15726
    },
    "W35": {
-    "note_dgmv": 6193.3,
-    "new_notes": 22,
-    "note_pv": 195724,
-    "read_pv": 28833
+    "note_dgmv": 10317.300000000001,
+    "new_notes": 82,
+    "note_pv": 133852,
+    "read_pv": 14281
    },
    "W36": {
-    "note_dgmv": 6625.52,
-    "new_notes": 16,
-    "note_pv": 194764,
-    "read_pv": 24022
+    "note_dgmv": 12818.56,
+    "new_notes": 77,
+    "note_pv": 167234,
+    "read_pv": 19478
    },
    "W37": {
-    "note_dgmv": 7353.5199999999995,
-    "new_notes": 27,
-    "note_pv": 171786,
-    "read_pv": 22997
+    "note_dgmv": 12587.77,
+    "new_notes": 106,
+    "note_pv": 125332,
+    "read_pv": 13889
    },
    "W38": {
-    "note_dgmv": 4936.33,
-    "new_notes": 25,
-    "note_pv": 140074,
-    "read_pv": 20434
+    "note_dgmv": 12376.9,
+    "new_notes": 96,
+    "note_pv": 112885,
+    "read_pv": 10477
    },
    "W39": {
-    "note_dgmv": 4202.22,
-    "new_notes": 25,
-    "note_pv": 132389,
-    "read_pv": 20469
+    "note_dgmv": 9870.6,
+    "new_notes": 66,
+    "note_pv": 83651,
+    "read_pv": 8953
    },
    "W40": {
-    "note_dgmv": 2993.25,
-    "new_notes": 21,
-    "note_pv": 122759,
-    "read_pv": 21443
+    "note_dgmv": 7808.0,
+    "new_notes": 77,
+    "note_pv": 101595,
+    "read_pv": 12068
    },
    "W41": {
-    "note_dgmv": 5309.24,
-    "new_notes": 19,
-    "note_pv": 158540,
-    "read_pv": 24117
+    "note_dgmv": 7555.650000000001,
+    "new_notes": 97,
+    "note_pv": 95434,
+    "read_pv": 12196
    },
    "W42": {
-    "note_dgmv": 5479.9,
-    "new_notes": 19,
-    "note_pv": 159613,
-    "read_pv": 25494
+    "note_dgmv": 5152.459999999999,
+    "new_notes": 86,
+    "note_pv": 86531,
+    "read_pv": 15248
    },
    "W43": {
-    "note_dgmv": 4412.5,
-    "new_notes": 14,
-    "note_pv": 139294,
-    "read_pv": 23018
+    "note_dgmv": 5643.42,
+    "new_notes": 81,
+    "note_pv": 72163,
+    "read_pv": 11695
    },
    "W44": {
-    "note_dgmv": 3808.7,
+    "note_dgmv": 4774.009999999999,
+    "new_notes": 71,
+    "note_pv": 67456,
+    "read_pv": 10627
+   }
+  }
+ },
+ {
+  "seller_id": "67fe00f32890a4001510dfd8",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 3322.92,
+    "new_notes": 8,
+    "note_pv": 295898,
+    "read_pv": 20094
+   },
+   "W33": {
+    "note_dgmv": 6707.16,
     "new_notes": 16,
-    "note_pv": 126939,
-    "read_pv": 19593
+    "note_pv": 680304,
+    "read_pv": 52310
+   },
+   "W34": {
+    "note_dgmv": 5264.7,
+    "new_notes": 5,
+    "note_pv": 486851,
+    "read_pv": 30299
+   },
+   "W35": {
+    "note_dgmv": 6923.699999999999,
+    "new_notes": 17,
+    "note_pv": 436581,
+    "read_pv": 26559
+   },
+   "W36": {
+    "note_dgmv": 5004.119999999999,
+    "new_notes": 8,
+    "note_pv": 442548,
+    "read_pv": 34294
+   },
+   "W37": {
+    "note_dgmv": 6339.079999999999,
+    "new_notes": 14,
+    "note_pv": 467703,
+    "read_pv": 34426
+   },
+   "W38": {
+    "note_dgmv": 8228.3,
+    "new_notes": 9,
+    "note_pv": 551466,
+    "read_pv": 40898
+   },
+   "W39": {
+    "note_dgmv": 4394.16,
+    "new_notes": 6,
+    "note_pv": 342190,
+    "read_pv": 24430
+   },
+   "W40": {
+    "note_dgmv": 1567.0900000000001,
+    "new_notes": 4,
+    "note_pv": 175862,
+    "read_pv": 11839
+   },
+   "W41": {
+    "note_dgmv": 2178.73,
+    "new_notes": 5,
+    "note_pv": 177585,
+    "read_pv": 12720
+   },
+   "W42": {
+    "note_dgmv": 5342.089999999999,
+    "new_notes": 5,
+    "note_pv": 409185,
+    "read_pv": 29707
+   },
+   "W43": {
+    "note_dgmv": 3872.77,
+    "new_notes": 7,
+    "note_pv": 328850,
+    "read_pv": 24289
+   },
+   "W44": {
+    "note_dgmv": 4745.42,
+    "new_notes": 9,
+    "note_pv": 416119,
+    "read_pv": 32336
    }
   }
  },
@@ -3478,10 +3395,93 @@
     "read_pv": 11543
    },
    "W44": {
-    "note_dgmv": 3714.999999999999,
+    "note_dgmv": 4379.889999999999,
     "new_notes": 1,
-    "note_pv": 192599,
-    "read_pv": 31864
+    "note_pv": 227635,
+    "read_pv": 41796
+   }
+  }
+ },
+ {
+  "seller_id": "65e53c7456541c000122c30f",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 3934.31,
+    "new_notes": 82,
+    "note_pv": 131820,
+    "read_pv": 24352
+   },
+   "W33": {
+    "note_dgmv": 6334.0,
+    "new_notes": 74,
+    "note_pv": 172274,
+    "read_pv": 27919
+   },
+   "W34": {
+    "note_dgmv": 4417.73,
+    "new_notes": 82,
+    "note_pv": 150883,
+    "read_pv": 27425
+   },
+   "W35": {
+    "note_dgmv": 6193.3,
+    "new_notes": 22,
+    "note_pv": 195724,
+    "read_pv": 28833
+   },
+   "W36": {
+    "note_dgmv": 6625.52,
+    "new_notes": 16,
+    "note_pv": 194764,
+    "read_pv": 24022
+   },
+   "W37": {
+    "note_dgmv": 7353.5199999999995,
+    "new_notes": 27,
+    "note_pv": 171786,
+    "read_pv": 22997
+   },
+   "W38": {
+    "note_dgmv": 4936.33,
+    "new_notes": 25,
+    "note_pv": 140074,
+    "read_pv": 20434
+   },
+   "W39": {
+    "note_dgmv": 4202.22,
+    "new_notes": 25,
+    "note_pv": 132389,
+    "read_pv": 20469
+   },
+   "W40": {
+    "note_dgmv": 2993.25,
+    "new_notes": 21,
+    "note_pv": 122759,
+    "read_pv": 21443
+   },
+   "W41": {
+    "note_dgmv": 5309.24,
+    "new_notes": 19,
+    "note_pv": 158540,
+    "read_pv": 24117
+   },
+   "W42": {
+    "note_dgmv": 5479.9,
+    "new_notes": 19,
+    "note_pv": 159613,
+    "read_pv": 25494
+   },
+   "W43": {
+    "note_dgmv": 4412.5,
+    "new_notes": 14,
+    "note_pv": 139294,
+    "read_pv": 23018
+   },
+   "W44": {
+    "note_dgmv": 4262.7,
+    "new_notes": 17,
+    "note_pv": 143204,
+    "read_pv": 22424
    }
   }
  },
@@ -3561,10 +3561,10 @@
     "read_pv": 12020
    },
    "W44": {
-    "note_dgmv": 2868.08,
+    "note_dgmv": 3436.08,
     "new_notes": 1,
-    "note_pv": 83368,
-    "read_pv": 9842
+    "note_pv": 95517,
+    "read_pv": 11560
    }
   }
  },
@@ -3644,10 +3644,10 @@
     "read_pv": 11733
    },
    "W44": {
-    "note_dgmv": 2609.42,
+    "note_dgmv": 3214.04,
     "new_notes": 18,
-    "note_pv": 116912,
-    "read_pv": 11679
+    "note_pv": 141594,
+    "read_pv": 14533
    }
   }
  },
@@ -3727,10 +3727,176 @@
     "read_pv": 15676
    },
    "W44": {
-    "note_dgmv": 2470.2400000000002,
+    "note_dgmv": 2904.5400000000004,
     "new_notes": 2,
-    "note_pv": 129723,
-    "read_pv": 12826
+    "note_pv": 150470,
+    "read_pv": 14972
+   }
+  }
+ },
+ {
+  "seller_id": "5f43628bf2774b00014df08e",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 3223.8399999999997,
+    "new_notes": 13,
+    "note_pv": 130973,
+    "read_pv": 8516
+   },
+   "W33": {
+    "note_dgmv": 2901.72,
+    "new_notes": 12,
+    "note_pv": 111225,
+    "read_pv": 8313
+   },
+   "W34": {
+    "note_dgmv": 1858.1999999999998,
+    "new_notes": 12,
+    "note_pv": 92950,
+    "read_pv": 7680
+   },
+   "W35": {
+    "note_dgmv": 2389.8,
+    "new_notes": 10,
+    "note_pv": 88124,
+    "read_pv": 7626
+   },
+   "W36": {
+    "note_dgmv": 2229.2799999999997,
+    "new_notes": 14,
+    "note_pv": 85201,
+    "read_pv": 7292
+   },
+   "W37": {
+    "note_dgmv": 3367.18,
+    "new_notes": 17,
+    "note_pv": 131309,
+    "read_pv": 9682
+   },
+   "W38": {
+    "note_dgmv": 2993.0199999999995,
+    "new_notes": 15,
+    "note_pv": 113578,
+    "read_pv": 9544
+   },
+   "W39": {
+    "note_dgmv": 2449.85,
+    "new_notes": 7,
+    "note_pv": 91021,
+    "read_pv": 8540
+   },
+   "W40": {
+    "note_dgmv": 1700.78,
+    "new_notes": 6,
+    "note_pv": 58097,
+    "read_pv": 5156
+   },
+   "W41": {
+    "note_dgmv": 1774.3100000000004,
+    "new_notes": 19,
+    "note_pv": 75679,
+    "read_pv": 7303
+   },
+   "W42": {
+    "note_dgmv": 1989.81,
+    "new_notes": 16,
+    "note_pv": 75080,
+    "read_pv": 7856
+   },
+   "W43": {
+    "note_dgmv": 2380.4999999999995,
+    "new_notes": 13,
+    "note_pv": 70763,
+    "read_pv": 7818
+   },
+   "W44": {
+    "note_dgmv": 2342.9299999999994,
+    "new_notes": 13,
+    "note_pv": 75636,
+    "read_pv": 8239
+   }
+  }
+ },
+ {
+  "seller_id": "64ccc00ba14d4e0001322a18",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 7989.92,
+    "new_notes": 27,
+    "note_pv": 213117,
+    "read_pv": 8919
+   },
+   "W33": {
+    "note_dgmv": 7861.110000000001,
+    "new_notes": 26,
+    "note_pv": 233877,
+    "read_pv": 9586
+   },
+   "W34": {
+    "note_dgmv": 5686.259999999999,
+    "new_notes": 26,
+    "note_pv": 209739,
+    "read_pv": 9282
+   },
+   "W35": {
+    "note_dgmv": 8604.51,
+    "new_notes": 22,
+    "note_pv": 225455,
+    "read_pv": 10704
+   },
+   "W36": {
+    "note_dgmv": 5716.0,
+    "new_notes": 15,
+    "note_pv": 174302,
+    "read_pv": 7705
+   },
+   "W37": {
+    "note_dgmv": 4400.84,
+    "new_notes": 21,
+    "note_pv": 191707,
+    "read_pv": 8654
+   },
+   "W38": {
+    "note_dgmv": 8535.970000000001,
+    "new_notes": 18,
+    "note_pv": 179296,
+    "read_pv": 8625
+   },
+   "W39": {
+    "note_dgmv": 5497.8,
+    "new_notes": 22,
+    "note_pv": 173062,
+    "read_pv": 8408
+   },
+   "W40": {
+    "note_dgmv": 3445.8,
+    "new_notes": 18,
+    "note_pv": 153885,
+    "read_pv": 7728
+   },
+   "W41": {
+    "note_dgmv": 5510.82,
+    "new_notes": 17,
+    "note_pv": 131582,
+    "read_pv": 6602
+   },
+   "W42": {
+    "note_dgmv": 2493.71,
+    "new_notes": 15,
+    "note_pv": 87840,
+    "read_pv": 2310
+   },
+   "W43": {
+    "note_dgmv": 1083.05,
+    "new_notes": 26,
+    "note_pv": 83953,
+    "read_pv": 2468
+   },
+   "W44": {
+    "note_dgmv": 2239.2200000000003,
+    "new_notes": 30,
+    "note_pv": 106026,
+    "read_pv": 4064
    }
   }
  },
@@ -3810,10 +3976,10 @@
     "read_pv": 26917
    },
    "W44": {
-    "note_dgmv": 1972.85,
+    "note_dgmv": 2125.2,
     "new_notes": 3,
-    "note_pv": 196178,
-    "read_pv": 17240
+    "note_pv": 209016,
+    "read_pv": 18472
    }
   }
  },
@@ -3895,8 +4061,8 @@
    "W44": {
     "note_dgmv": 1947.5,
     "new_notes": 3,
-    "note_pv": 52477,
-    "read_pv": 3932
+    "note_pv": 60514,
+    "read_pv": 4457
    }
   }
  },
@@ -3978,174 +4144,8 @@
    "W44": {
     "note_dgmv": 1906.2499999999998,
     "new_notes": 0,
-    "note_pv": 17163,
-    "read_pv": 2123
-   }
-  }
- },
- {
-  "seller_id": "5f43628bf2774b00014df08e",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 3223.8399999999997,
-    "new_notes": 13,
-    "note_pv": 130973,
-    "read_pv": 8516
-   },
-   "W33": {
-    "note_dgmv": 2901.72,
-    "new_notes": 12,
-    "note_pv": 111225,
-    "read_pv": 8313
-   },
-   "W34": {
-    "note_dgmv": 1858.1999999999998,
-    "new_notes": 12,
-    "note_pv": 92950,
-    "read_pv": 7680
-   },
-   "W35": {
-    "note_dgmv": 2389.8,
-    "new_notes": 10,
-    "note_pv": 88124,
-    "read_pv": 7626
-   },
-   "W36": {
-    "note_dgmv": 2229.2799999999997,
-    "new_notes": 14,
-    "note_pv": 85201,
-    "read_pv": 7292
-   },
-   "W37": {
-    "note_dgmv": 3367.18,
-    "new_notes": 17,
-    "note_pv": 131309,
-    "read_pv": 9682
-   },
-   "W38": {
-    "note_dgmv": 2993.0199999999995,
-    "new_notes": 15,
-    "note_pv": 113578,
-    "read_pv": 9544
-   },
-   "W39": {
-    "note_dgmv": 2449.85,
-    "new_notes": 7,
-    "note_pv": 91021,
-    "read_pv": 8540
-   },
-   "W40": {
-    "note_dgmv": 1700.78,
-    "new_notes": 6,
-    "note_pv": 58097,
-    "read_pv": 5156
-   },
-   "W41": {
-    "note_dgmv": 1774.3100000000004,
-    "new_notes": 19,
-    "note_pv": 75679,
-    "read_pv": 7303
-   },
-   "W42": {
-    "note_dgmv": 1989.81,
-    "new_notes": 16,
-    "note_pv": 75080,
-    "read_pv": 7856
-   },
-   "W43": {
-    "note_dgmv": 2380.4999999999995,
-    "new_notes": 13,
-    "note_pv": 70763,
-    "read_pv": 7818
-   },
-   "W44": {
-    "note_dgmv": 1857.2299999999996,
-    "new_notes": 12,
-    "note_pv": 63936,
-    "read_pv": 6938
-   }
-  }
- },
- {
-  "seller_id": "64ccc00ba14d4e0001322a18",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 7989.92,
-    "new_notes": 27,
-    "note_pv": 213117,
-    "read_pv": 8919
-   },
-   "W33": {
-    "note_dgmv": 7861.110000000001,
-    "new_notes": 26,
-    "note_pv": 233877,
-    "read_pv": 9586
-   },
-   "W34": {
-    "note_dgmv": 5686.259999999999,
-    "new_notes": 26,
-    "note_pv": 209739,
-    "read_pv": 9282
-   },
-   "W35": {
-    "note_dgmv": 8604.51,
-    "new_notes": 22,
-    "note_pv": 225455,
-    "read_pv": 10704
-   },
-   "W36": {
-    "note_dgmv": 5716.0,
-    "new_notes": 15,
-    "note_pv": 174302,
-    "read_pv": 7705
-   },
-   "W37": {
-    "note_dgmv": 4400.84,
-    "new_notes": 21,
-    "note_pv": 191707,
-    "read_pv": 8654
-   },
-   "W38": {
-    "note_dgmv": 8535.970000000001,
-    "new_notes": 18,
-    "note_pv": 179296,
-    "read_pv": 8625
-   },
-   "W39": {
-    "note_dgmv": 5497.8,
-    "new_notes": 22,
-    "note_pv": 173062,
-    "read_pv": 8408
-   },
-   "W40": {
-    "note_dgmv": 3445.8,
-    "new_notes": 18,
-    "note_pv": 153885,
-    "read_pv": 7728
-   },
-   "W41": {
-    "note_dgmv": 5510.82,
-    "new_notes": 17,
-    "note_pv": 131582,
-    "read_pv": 6602
-   },
-   "W42": {
-    "note_dgmv": 2493.71,
-    "new_notes": 15,
-    "note_pv": 87840,
-    "read_pv": 2310
-   },
-   "W43": {
-    "note_dgmv": 1083.05,
-    "new_notes": 26,
-    "note_pv": 83953,
-    "read_pv": 2468
-   },
-   "W44": {
-    "note_dgmv": 1702.02,
-    "new_notes": 26,
-    "note_pv": 89114,
-    "read_pv": 3491
+    "note_pv": 21125,
+    "read_pv": 2451
    }
   }
  },
@@ -4225,176 +4225,10 @@
     "read_pv": 19559
    },
    "W44": {
-    "note_dgmv": 1293.4,
-    "new_notes": 18,
-    "note_pv": 74306,
-    "read_pv": 14290
-   }
-  }
- },
- {
-  "seller_id": "67d8ee6262edfe0015df1659",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 15201.030000000037,
-    "new_notes": 40,
-    "note_pv": 1226393,
-    "read_pv": 1060963
-   },
-   "W33": {
-    "note_dgmv": 1599.3,
-    "new_notes": 42,
-    "note_pv": 135893,
-    "read_pv": 72171
-   },
-   "W34": {
-    "note_dgmv": 1771.3400000000001,
-    "new_notes": 40,
-    "note_pv": 132803,
-    "read_pv": 69649
-   },
-   "W35": {
-    "note_dgmv": 3681.5499999999993,
-    "new_notes": 41,
-    "note_pv": 311845,
-    "read_pv": 144028
-   },
-   "W36": {
-    "note_dgmv": 2139.7900000000004,
-    "new_notes": 36,
-    "note_pv": 173058,
-    "read_pv": 106116
-   },
-   "W37": {
-    "note_dgmv": 3940.6699999999983,
-    "new_notes": 7,
-    "note_pv": 341201,
-    "read_pv": 204231
-   },
-   "W38": {
-    "note_dgmv": 4944.639999999997,
-    "new_notes": 33,
-    "note_pv": 360606,
-    "read_pv": 238929
-   },
-   "W39": {
-    "note_dgmv": 2708.44,
-    "new_notes": 42,
-    "note_pv": 258190,
-    "read_pv": 175304
-   },
-   "W40": {
-    "note_dgmv": 2701.6000000000004,
-    "new_notes": 42,
-    "note_pv": 236832,
-    "read_pv": 180166
-   },
-   "W41": {
-    "note_dgmv": 1815.0700000000002,
-    "new_notes": 41,
-    "note_pv": 158109,
-    "read_pv": 104713
-   },
-   "W42": {
-    "note_dgmv": 2115.6000000000004,
-    "new_notes": 42,
-    "note_pv": 130179,
-    "read_pv": 56872
-   },
-   "W43": {
-    "note_dgmv": 1141.19,
-    "new_notes": 41,
-    "note_pv": 93468,
-    "read_pv": 39592
-   },
-   "W44": {
-    "note_dgmv": 930.9800000000002,
-    "new_notes": 36,
-    "note_pv": 68002,
-    "read_pv": 20607
-   }
-  }
- },
- {
-  "seller_id": "6690cfaa31d8df0001720ded",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 2200.4399999999996,
-    "new_notes": 129,
-    "note_pv": 207943,
-    "read_pv": 14587
-   },
-   "W33": {
-    "note_dgmv": 3917.6400000000026,
-    "new_notes": 104,
-    "note_pv": 358995,
-    "read_pv": 22448
-   },
-   "W34": {
-    "note_dgmv": 5793.990000000001,
-    "new_notes": 130,
-    "note_pv": 550453,
-    "read_pv": 32326
-   },
-   "W35": {
-    "note_dgmv": 3293.2799999999984,
-    "new_notes": 105,
-    "note_pv": 288327,
-    "read_pv": 20022
-   },
-   "W36": {
-    "note_dgmv": 1854.0699999999997,
-    "new_notes": 92,
-    "note_pv": 162952,
-    "read_pv": 11588
-   },
-   "W37": {
-    "note_dgmv": 1958.98,
-    "new_notes": 107,
-    "note_pv": 212899,
-    "read_pv": 15111
-   },
-   "W38": {
-    "note_dgmv": 2029.0799999999997,
-    "new_notes": 109,
-    "note_pv": 159302,
-    "read_pv": 11827
-   },
-   "W39": {
-    "note_dgmv": 2658.499999999999,
-    "new_notes": 84,
-    "note_pv": 305623,
-    "read_pv": 22258
-   },
-   "W40": {
-    "note_dgmv": 2645.299999999999,
-    "new_notes": 33,
-    "note_pv": 281977,
-    "read_pv": 18073
-   },
-   "W41": {
-    "note_dgmv": 2533.909999999999,
-    "new_notes": 62,
-    "note_pv": 261267,
-    "read_pv": 15918
-   },
-   "W42": {
-    "note_dgmv": 1020.4000000000001,
-    "new_notes": 48,
-    "note_pv": 104916,
-    "read_pv": 8175
-   },
-   "W43": {
-    "note_dgmv": 2339.4999999999995,
-    "new_notes": 0,
-    "note_pv": 225682,
-    "read_pv": 15322
-   },
-   "W44": {
-    "note_dgmv": 904.47,
-    "new_notes": 11,
-    "note_pv": 111789,
-    "read_pv": 8572
+    "note_dgmv": 1724.15,
+    "new_notes": 21,
+    "note_pv": 89201,
+    "read_pv": 17119
    }
   }
  },
@@ -4474,93 +4308,176 @@
     "read_pv": 609067
    },
    "W44": {
-    "note_dgmv": 840.9499999999999,
+    "note_dgmv": 1290.75,
     "new_notes": 0,
-    "note_pv": 452209,
-    "read_pv": 312025
+    "note_pv": 553279,
+    "read_pv": 389238
    }
   }
  },
  {
-  "seller_id": "642698d09a611c00019ec457",
+  "seller_id": "67d8ee6262edfe0015df1659",
   "weeks": {
    "W32": {
-    "note_dgmv": 39.9,
-    "new_notes": 0,
-    "note_pv": 8191,
-    "read_pv": 772
+    "note_dgmv": 15201.030000000037,
+    "new_notes": 40,
+    "note_pv": 1226393,
+    "read_pv": 1060963
    },
    "W33": {
-    "note_dgmv": 39.9,
-    "new_notes": 0,
-    "note_pv": 8268,
-    "read_pv": 810
+    "note_dgmv": 1599.3,
+    "new_notes": 42,
+    "note_pv": 135893,
+    "read_pv": 72171
    },
    "W34": {
-    "note_dgmv": 157.5,
-    "new_notes": 0,
-    "note_pv": 6869,
-    "read_pv": 651
+    "note_dgmv": 1771.3400000000001,
+    "new_notes": 40,
+    "note_pv": 132803,
+    "read_pv": 69649
    },
    "W35": {
-    "note_dgmv": 116.5,
-    "new_notes": 0,
-    "note_pv": 6110,
-    "read_pv": 584
+    "note_dgmv": 3681.5499999999993,
+    "new_notes": 41,
+    "note_pv": 311845,
+    "read_pv": 144028
    },
    "W36": {
-    "note_dgmv": 145.89999999999998,
-    "new_notes": 0,
-    "note_pv": 6256,
-    "read_pv": 592
+    "note_dgmv": 2139.7900000000004,
+    "new_notes": 36,
+    "note_pv": 173058,
+    "read_pv": 106116
    },
    "W37": {
-    "note_dgmv": 197.4,
-    "new_notes": 0,
-    "note_pv": 7758,
-    "read_pv": 765
+    "note_dgmv": 3940.6699999999983,
+    "new_notes": 7,
+    "note_pv": 341201,
+    "read_pv": 204231
    },
    "W38": {
-    "note_dgmv": 522.4999999999999,
-    "new_notes": 0,
-    "note_pv": 9252,
-    "read_pv": 961
+    "note_dgmv": 4944.639999999997,
+    "new_notes": 33,
+    "note_pv": 360606,
+    "read_pv": 238929
    },
    "W39": {
-    "note_dgmv": 332.0,
-    "new_notes": 11,
-    "note_pv": 10978,
-    "read_pv": 1241
+    "note_dgmv": 2708.44,
+    "new_notes": 42,
+    "note_pv": 258190,
+    "read_pv": 175304
    },
    "W40": {
-    "note_dgmv": 412.7,
-    "new_notes": 13,
-    "note_pv": 14115,
-    "read_pv": 1921
+    "note_dgmv": 2701.6000000000004,
+    "new_notes": 42,
+    "note_pv": 236832,
+    "read_pv": 180166
    },
    "W41": {
-    "note_dgmv": 570.3,
-    "new_notes": 11,
-    "note_pv": 13968,
-    "read_pv": 1922
+    "note_dgmv": 1815.0700000000002,
+    "new_notes": 41,
+    "note_pv": 158109,
+    "read_pv": 104713
    },
    "W42": {
-    "note_dgmv": 806.5999999999999,
-    "new_notes": 13,
-    "note_pv": 17435,
-    "read_pv": 2599
+    "note_dgmv": 2115.6000000000004,
+    "new_notes": 42,
+    "note_pv": 130179,
+    "read_pv": 56872
    },
    "W43": {
-    "note_dgmv": 787.1,
-    "new_notes": 11,
-    "note_pv": 19476,
-    "read_pv": 3171
+    "note_dgmv": 1141.19,
+    "new_notes": 41,
+    "note_pv": 93468,
+    "read_pv": 39592
    },
    "W44": {
-    "note_dgmv": 694.13,
-    "new_notes": 9,
-    "note_pv": 17342,
-    "read_pv": 2802
+    "note_dgmv": 1154.4800000000002,
+    "new_notes": 42,
+    "note_pv": 89228,
+    "read_pv": 25063
+   }
+  }
+ },
+ {
+  "seller_id": "6690cfaa31d8df0001720ded",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 2200.4399999999996,
+    "new_notes": 129,
+    "note_pv": 207943,
+    "read_pv": 14587
+   },
+   "W33": {
+    "note_dgmv": 3917.6400000000026,
+    "new_notes": 104,
+    "note_pv": 358995,
+    "read_pv": 22448
+   },
+   "W34": {
+    "note_dgmv": 5793.990000000001,
+    "new_notes": 130,
+    "note_pv": 550453,
+    "read_pv": 32326
+   },
+   "W35": {
+    "note_dgmv": 3293.2799999999984,
+    "new_notes": 105,
+    "note_pv": 288327,
+    "read_pv": 20022
+   },
+   "W36": {
+    "note_dgmv": 1854.0699999999997,
+    "new_notes": 92,
+    "note_pv": 162952,
+    "read_pv": 11588
+   },
+   "W37": {
+    "note_dgmv": 1958.98,
+    "new_notes": 107,
+    "note_pv": 212899,
+    "read_pv": 15111
+   },
+   "W38": {
+    "note_dgmv": 2029.0799999999997,
+    "new_notes": 109,
+    "note_pv": 159302,
+    "read_pv": 11827
+   },
+   "W39": {
+    "note_dgmv": 2658.499999999999,
+    "new_notes": 84,
+    "note_pv": 305623,
+    "read_pv": 22258
+   },
+   "W40": {
+    "note_dgmv": 2645.299999999999,
+    "new_notes": 33,
+    "note_pv": 281977,
+    "read_pv": 18073
+   },
+   "W41": {
+    "note_dgmv": 2533.909999999999,
+    "new_notes": 62,
+    "note_pv": 261267,
+    "read_pv": 15918
+   },
+   "W42": {
+    "note_dgmv": 1020.4000000000001,
+    "new_notes": 48,
+    "note_pv": 104916,
+    "read_pv": 8175
+   },
+   "W43": {
+    "note_dgmv": 2339.4999999999995,
+    "new_notes": 0,
+    "note_pv": 225682,
+    "read_pv": 15322
+   },
+   "W44": {
+    "note_dgmv": 1065.0700000000002,
+    "new_notes": 11,
+    "note_pv": 120375,
+    "read_pv": 9462
    }
   }
  },
@@ -4640,10 +4557,93 @@
     "read_pv": 13497
    },
    "W44": {
-    "note_dgmv": 667.9,
+    "note_dgmv": 919.1,
     "new_notes": 0,
-    "note_pv": 38625,
-    "read_pv": 9828
+    "note_pv": 46112,
+    "read_pv": 11855
+   }
+  }
+ },
+ {
+  "seller_id": "642698d09a611c00019ec457",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 39.9,
+    "new_notes": 0,
+    "note_pv": 8191,
+    "read_pv": 772
+   },
+   "W33": {
+    "note_dgmv": 39.9,
+    "new_notes": 0,
+    "note_pv": 8268,
+    "read_pv": 810
+   },
+   "W34": {
+    "note_dgmv": 157.5,
+    "new_notes": 0,
+    "note_pv": 6869,
+    "read_pv": 651
+   },
+   "W35": {
+    "note_dgmv": 116.5,
+    "new_notes": 0,
+    "note_pv": 6110,
+    "read_pv": 584
+   },
+   "W36": {
+    "note_dgmv": 145.89999999999998,
+    "new_notes": 0,
+    "note_pv": 6256,
+    "read_pv": 592
+   },
+   "W37": {
+    "note_dgmv": 197.4,
+    "new_notes": 0,
+    "note_pv": 7758,
+    "read_pv": 765
+   },
+   "W38": {
+    "note_dgmv": 522.4999999999999,
+    "new_notes": 0,
+    "note_pv": 9252,
+    "read_pv": 961
+   },
+   "W39": {
+    "note_dgmv": 332.0,
+    "new_notes": 11,
+    "note_pv": 10978,
+    "read_pv": 1241
+   },
+   "W40": {
+    "note_dgmv": 412.7,
+    "new_notes": 13,
+    "note_pv": 14115,
+    "read_pv": 1921
+   },
+   "W41": {
+    "note_dgmv": 570.3,
+    "new_notes": 11,
+    "note_pv": 13968,
+    "read_pv": 1922
+   },
+   "W42": {
+    "note_dgmv": 806.5999999999999,
+    "new_notes": 13,
+    "note_pv": 17435,
+    "read_pv": 2599
+   },
+   "W43": {
+    "note_dgmv": 787.1,
+    "new_notes": 11,
+    "note_pv": 19476,
+    "read_pv": 3171
+   },
+   "W44": {
+    "note_dgmv": 893.63,
+    "new_notes": 10,
+    "note_pv": 20159,
+    "read_pv": 3234
    }
   }
  },
@@ -4723,10 +4723,10 @@
     "read_pv": 2030
    },
    "W44": {
-    "note_dgmv": 665.38,
-    "new_notes": 2,
-    "note_pv": 26664,
-    "read_pv": 2704
+    "note_dgmv": 860.1800000000001,
+    "new_notes": 3,
+    "note_pv": 32440,
+    "read_pv": 3590
    }
   }
  },
@@ -4806,10 +4806,10 @@
     "read_pv": 11011
    },
    "W44": {
-    "note_dgmv": 529.55,
+    "note_dgmv": 619.15,
     "new_notes": 0,
-    "note_pv": 39427,
-    "read_pv": 4915
+    "note_pv": 45297,
+    "read_pv": 5565
    }
   }
  },
@@ -4889,10 +4889,10 @@
     "read_pv": 1106
    },
    "W44": {
-    "note_dgmv": 349.22999999999996,
+    "note_dgmv": 369.12999999999994,
     "new_notes": 64,
-    "note_pv": 33570,
-    "read_pv": 1902
+    "note_pv": 38218,
+    "read_pv": 2200
    }
   }
  },
@@ -4972,93 +4972,10 @@
     "read_pv": 1292
    },
    "W44": {
-    "note_dgmv": 272.71,
+    "note_dgmv": 326.62,
     "new_notes": 2,
-    "note_pv": 11817,
-    "read_pv": 961
-   }
-  }
- },
- {
-  "seller_id": "61b45d0caaae2500016addf8",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 56.97,
-    "new_notes": 0,
-    "note_pv": 17882,
-    "read_pv": 2645
-   },
-   "W33": {
-    "note_dgmv": 258.65,
-    "new_notes": 0,
-    "note_pv": 21244,
-    "read_pv": 3149
-   },
-   "W34": {
-    "note_dgmv": 281.89,
-    "new_notes": 0,
-    "note_pv": 22747,
-    "read_pv": 3245
-   },
-   "W35": {
-    "note_dgmv": 121.66999999999999,
-    "new_notes": 0,
-    "note_pv": 22482,
-    "read_pv": 3064
-   },
-   "W36": {
-    "note_dgmv": 252.26,
-    "new_notes": 0,
-    "note_pv": 22552,
-    "read_pv": 3273
-   },
-   "W37": {
-    "note_dgmv": 273.4,
-    "new_notes": 0,
-    "note_pv": 24743,
-    "read_pv": 3437
-   },
-   "W38": {
-    "note_dgmv": 240.89999999999998,
-    "new_notes": 0,
-    "note_pv": 22048,
-    "read_pv": 3145
-   },
-   "W39": {
-    "note_dgmv": 124.5,
-    "new_notes": 0,
-    "note_pv": 14842,
-    "read_pv": 1897
-   },
-   "W40": {
-    "note_dgmv": 170.9,
-    "new_notes": 0,
-    "note_pv": 12881,
-    "read_pv": 1700
-   },
-   "W41": {
-    "note_dgmv": 119.5,
-    "new_notes": 0,
-    "note_pv": 12439,
-    "read_pv": 1680
-   },
-   "W42": {
-    "note_dgmv": 80.6,
-    "new_notes": 0,
-    "note_pv": 15893,
-    "read_pv": 2390
-   },
-   "W43": {
-    "note_dgmv": 108.39999999999999,
-    "new_notes": 0,
-    "note_pv": 15783,
-    "read_pv": 2351
-   },
-   "W44": {
-    "note_dgmv": 199.2,
-    "new_notes": 0,
-    "note_pv": 13673,
-    "read_pv": 2008
+    "note_pv": 13648,
+    "read_pv": 1163
    }
   }
  },
@@ -5138,10 +5055,176 @@
     "read_pv": 468
    },
    "W44": {
-    "note_dgmv": 177.15,
+    "note_dgmv": 280.8,
     "new_notes": 3,
-    "note_pv": 5886,
-    "read_pv": 440
+    "note_pv": 6682,
+    "read_pv": 493
+   }
+  }
+ },
+ {
+  "seller_id": "67380342d27bf4001538b3c5",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 18.9,
+    "new_notes": 26,
+    "note_pv": 8040,
+    "read_pv": 981
+   },
+   "W33": {
+    "note_dgmv": 160.0,
+    "new_notes": 22,
+    "note_pv": 8768,
+    "read_pv": 1021
+   },
+   "W34": {
+    "note_dgmv": 0.0,
+    "new_notes": 30,
+    "note_pv": 11720,
+    "read_pv": 1091
+   },
+   "W35": {
+    "note_dgmv": 0.0,
+    "new_notes": 42,
+    "note_pv": 12627,
+    "read_pv": 1113
+   },
+   "W36": {
+    "note_dgmv": 99.8,
+    "new_notes": 36,
+    "note_pv": 12152,
+    "read_pv": 747
+   },
+   "W37": {
+    "note_dgmv": 245.87,
+    "new_notes": 58,
+    "note_pv": 12513,
+    "read_pv": 875
+   },
+   "W38": {
+    "note_dgmv": 159.9,
+    "new_notes": 65,
+    "note_pv": 14290,
+    "read_pv": 1001
+   },
+   "W39": {
+    "note_dgmv": 319.9,
+    "new_notes": 43,
+    "note_pv": 10876,
+    "read_pv": 906
+   },
+   "W40": {
+    "note_dgmv": 437.70000000000005,
+    "new_notes": 41,
+    "note_pv": 14572,
+    "read_pv": 1475
+   },
+   "W41": {
+    "note_dgmv": 547.6,
+    "new_notes": 52,
+    "note_pv": 26144,
+    "read_pv": 2589
+   },
+   "W42": {
+    "note_dgmv": 456.90999999999997,
+    "new_notes": 41,
+    "note_pv": 22280,
+    "read_pv": 2445
+   },
+   "W43": {
+    "note_dgmv": 652.24,
+    "new_notes": 44,
+    "note_pv": 22639,
+    "read_pv": 2587
+   },
+   "W44": {
+    "note_dgmv": 226.19,
+    "new_notes": 52,
+    "note_pv": 25634,
+    "read_pv": 3033
+   }
+  }
+ },
+ {
+  "seller_id": "61b45d0caaae2500016addf8",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 56.97,
+    "new_notes": 0,
+    "note_pv": 17882,
+    "read_pv": 2645
+   },
+   "W33": {
+    "note_dgmv": 258.65,
+    "new_notes": 0,
+    "note_pv": 21244,
+    "read_pv": 3149
+   },
+   "W34": {
+    "note_dgmv": 281.89,
+    "new_notes": 0,
+    "note_pv": 22747,
+    "read_pv": 3245
+   },
+   "W35": {
+    "note_dgmv": 121.66999999999999,
+    "new_notes": 0,
+    "note_pv": 22482,
+    "read_pv": 3064
+   },
+   "W36": {
+    "note_dgmv": 252.26,
+    "new_notes": 0,
+    "note_pv": 22552,
+    "read_pv": 3273
+   },
+   "W37": {
+    "note_dgmv": 273.4,
+    "new_notes": 0,
+    "note_pv": 24743,
+    "read_pv": 3437
+   },
+   "W38": {
+    "note_dgmv": 240.89999999999998,
+    "new_notes": 0,
+    "note_pv": 22048,
+    "read_pv": 3145
+   },
+   "W39": {
+    "note_dgmv": 124.5,
+    "new_notes": 0,
+    "note_pv": 14842,
+    "read_pv": 1897
+   },
+   "W40": {
+    "note_dgmv": 170.9,
+    "new_notes": 0,
+    "note_pv": 12881,
+    "read_pv": 1700
+   },
+   "W41": {
+    "note_dgmv": 119.5,
+    "new_notes": 0,
+    "note_pv": 12439,
+    "read_pv": 1680
+   },
+   "W42": {
+    "note_dgmv": 80.6,
+    "new_notes": 0,
+    "note_pv": 15893,
+    "read_pv": 2390
+   },
+   "W43": {
+    "note_dgmv": 108.39999999999999,
+    "new_notes": 0,
+    "note_pv": 15783,
+    "read_pv": 2351
+   },
+   "W44": {
+    "note_dgmv": 224.1,
+    "new_notes": 0,
+    "note_pv": 16381,
+    "read_pv": 2463
    }
   }
  },
@@ -5223,91 +5306,8 @@
    "W44": {
     "note_dgmv": 158.81,
     "new_notes": 0,
-    "note_pv": 6076,
-    "read_pv": 889
-   }
-  }
- },
- {
-  "seller_id": "67380342d27bf4001538b3c5",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 18.9,
-    "new_notes": 26,
-    "note_pv": 8040,
-    "read_pv": 981
-   },
-   "W33": {
-    "note_dgmv": 160.0,
-    "new_notes": 22,
-    "note_pv": 8768,
-    "read_pv": 1021
-   },
-   "W34": {
-    "note_dgmv": 0.0,
-    "new_notes": 30,
-    "note_pv": 11720,
-    "read_pv": 1091
-   },
-   "W35": {
-    "note_dgmv": 0.0,
-    "new_notes": 42,
-    "note_pv": 12627,
-    "read_pv": 1113
-   },
-   "W36": {
-    "note_dgmv": 99.8,
-    "new_notes": 36,
-    "note_pv": 12152,
-    "read_pv": 747
-   },
-   "W37": {
-    "note_dgmv": 245.87,
-    "new_notes": 58,
-    "note_pv": 12513,
-    "read_pv": 875
-   },
-   "W38": {
-    "note_dgmv": 159.9,
-    "new_notes": 65,
-    "note_pv": 14290,
-    "read_pv": 1001
-   },
-   "W39": {
-    "note_dgmv": 319.9,
-    "new_notes": 43,
-    "note_pv": 10876,
-    "read_pv": 906
-   },
-   "W40": {
-    "note_dgmv": 437.70000000000005,
-    "new_notes": 41,
-    "note_pv": 14572,
-    "read_pv": 1475
-   },
-   "W41": {
-    "note_dgmv": 547.6,
-    "new_notes": 52,
-    "note_pv": 26144,
-    "read_pv": 2589
-   },
-   "W42": {
-    "note_dgmv": 456.90999999999997,
-    "new_notes": 41,
-    "note_pv": 22280,
-    "read_pv": 2445
-   },
-   "W43": {
-    "note_dgmv": 652.24,
-    "new_notes": 44,
-    "note_pv": 22639,
-    "read_pv": 2587
-   },
-   "W44": {
-    "note_dgmv": 154.19,
-    "new_notes": 43,
-    "note_pv": 21539,
-    "read_pv": 2539
+    "note_pv": 6736,
+    "read_pv": 1002
    }
   }
  },
@@ -5387,10 +5387,10 @@
     "read_pv": 2169
    },
    "W44": {
-    "note_dgmv": 141.4,
+    "note_dgmv": 153.3,
     "new_notes": 2,
-    "note_pv": 20679,
-    "read_pv": 1785
+    "note_pv": 23704,
+    "read_pv": 2044
    }
   }
  },
@@ -5472,8 +5472,8 @@
    "W44": {
     "note_dgmv": 136.0,
     "new_notes": 2,
-    "note_pv": 17563,
-    "read_pv": 1987
+    "note_pv": 20593,
+    "read_pv": 2355
    }
   }
  },
@@ -5553,10 +5553,10 @@
     "read_pv": 1017
    },
    "W44": {
-    "note_dgmv": 110.9,
+    "note_dgmv": 125.9,
     "new_notes": 7,
-    "note_pv": 14527,
-    "read_pv": 1082
+    "note_pv": 17404,
+    "read_pv": 1388
    }
   }
  },
@@ -5638,8 +5638,8 @@
    "W44": {
     "note_dgmv": 92.3,
     "new_notes": 0,
-    "note_pv": 3020,
-    "read_pv": 342
+    "note_pv": 3491,
+    "read_pv": 390
    }
   }
  },
@@ -5721,8 +5721,8 @@
    "W44": {
     "note_dgmv": 85.69999999999999,
     "new_notes": 4,
-    "note_pv": 3127,
-    "read_pv": 479
+    "note_pv": 3622,
+    "read_pv": 536
    }
   }
  },
@@ -5803,9 +5803,9 @@
    },
    "W44": {
     "note_dgmv": 70.52,
-    "new_notes": 6,
-    "note_pv": 12709,
-    "read_pv": 1079
+    "new_notes": 7,
+    "note_pv": 16007,
+    "read_pv": 1261
    }
   }
  },
@@ -5887,8 +5887,8 @@
    "W44": {
     "note_dgmv": 65.8,
     "new_notes": 0,
-    "note_pv": 229,
-    "read_pv": 23
+    "note_pv": 293,
+    "read_pv": 30
    }
   }
  },
@@ -5970,8 +5970,8 @@
    "W44": {
     "note_dgmv": 54.9,
     "new_notes": 1,
-    "note_pv": 491,
-    "read_pv": 176
+    "note_pv": 557,
+    "read_pv": 208
    }
   }
  },
@@ -6051,10 +6051,93 @@
     "read_pv": 380
    },
    "W44": {
-    "note_dgmv": 37.400000000000006,
+    "note_dgmv": 51.2,
     "new_notes": 0,
-    "note_pv": 4798,
-    "read_pv": 352
+    "note_pv": 5485,
+    "read_pv": 404
+   }
+  }
+ },
+ {
+  "seller_id": "649d198d8c06ac0001b94b02",
+  "weeks": {
+   "W32": {
+    "note_dgmv": 6.99,
+    "new_notes": 0,
+    "note_pv": 4946,
+    "read_pv": 394
+   },
+   "W33": {
+    "note_dgmv": 34.95,
+    "new_notes": 0,
+    "note_pv": 5455,
+    "read_pv": 443
+   },
+   "W34": {
+    "note_dgmv": 0.0,
+    "new_notes": 0,
+    "note_pv": 4688,
+    "read_pv": 382
+   },
+   "W35": {
+    "note_dgmv": 49.760000000000005,
+    "new_notes": 0,
+    "note_pv": 5179,
+    "read_pv": 425
+   },
+   "W36": {
+    "note_dgmv": 9.9,
+    "new_notes": 0,
+    "note_pv": 2442,
+    "read_pv": 178
+   },
+   "W37": {
+    "note_dgmv": 28.78,
+    "new_notes": 0,
+    "note_pv": 4876,
+    "read_pv": 456
+   },
+   "W38": {
+    "note_dgmv": 77.89,
+    "new_notes": 0,
+    "note_pv": 4749,
+    "read_pv": 531
+   },
+   "W39": {
+    "note_dgmv": 9.98,
+    "new_notes": 0,
+    "note_pv": 4502,
+    "read_pv": 547
+   },
+   "W40": {
+    "note_dgmv": 61.650000000000006,
+    "new_notes": 0,
+    "note_pv": 4552,
+    "read_pv": 507
+   },
+   "W41": {
+    "note_dgmv": 16.79,
+    "new_notes": 0,
+    "note_pv": 5537,
+    "read_pv": 601
+   },
+   "W42": {
+    "note_dgmv": 24.880000000000003,
+    "new_notes": 0,
+    "note_pv": 5020,
+    "read_pv": 466
+   },
+   "W43": {
+    "note_dgmv": 24.880000000000003,
+    "new_notes": 0,
+    "note_pv": 5201,
+    "read_pv": 592
+   },
+   "W44": {
+    "note_dgmv": 39.86,
+    "new_notes": 0,
+    "note_pv": 5340,
+    "read_pv": 481
    }
   }
  },
@@ -6136,91 +6219,8 @@
    "W44": {
     "note_dgmv": 30.400000000000002,
     "new_notes": 4,
-    "note_pv": 4229,
-    "read_pv": 336
-   }
-  }
- },
- {
-  "seller_id": "649d198d8c06ac0001b94b02",
-  "weeks": {
-   "W32": {
-    "note_dgmv": 6.99,
-    "new_notes": 0,
-    "note_pv": 4946,
-    "read_pv": 394
-   },
-   "W33": {
-    "note_dgmv": 34.95,
-    "new_notes": 0,
-    "note_pv": 5455,
-    "read_pv": 443
-   },
-   "W34": {
-    "note_dgmv": 0.0,
-    "new_notes": 0,
-    "note_pv": 4688,
-    "read_pv": 382
-   },
-   "W35": {
-    "note_dgmv": 49.760000000000005,
-    "new_notes": 0,
-    "note_pv": 5179,
-    "read_pv": 425
-   },
-   "W36": {
-    "note_dgmv": 9.9,
-    "new_notes": 0,
-    "note_pv": 2442,
-    "read_pv": 178
-   },
-   "W37": {
-    "note_dgmv": 28.78,
-    "new_notes": 0,
-    "note_pv": 4876,
-    "read_pv": 456
-   },
-   "W38": {
-    "note_dgmv": 77.89,
-    "new_notes": 0,
-    "note_pv": 4749,
-    "read_pv": 531
-   },
-   "W39": {
-    "note_dgmv": 9.98,
-    "new_notes": 0,
-    "note_pv": 4502,
-    "read_pv": 547
-   },
-   "W40": {
-    "note_dgmv": 61.650000000000006,
-    "new_notes": 0,
-    "note_pv": 4552,
-    "read_pv": 507
-   },
-   "W41": {
-    "note_dgmv": 16.79,
-    "new_notes": 0,
-    "note_pv": 5537,
-    "read_pv": 601
-   },
-   "W42": {
-    "note_dgmv": 24.880000000000003,
-    "new_notes": 0,
-    "note_pv": 5020,
-    "read_pv": 466
-   },
-   "W43": {
-    "note_dgmv": 24.880000000000003,
-    "new_notes": 0,
-    "note_pv": 5201,
-    "read_pv": 592
-   },
-   "W44": {
-    "note_dgmv": 29.96,
-    "new_notes": 0,
-    "note_pv": 4607,
-    "read_pv": 419
+    "note_pv": 4870,
+    "read_pv": 387
    }
   }
  },
@@ -6300,10 +6300,10 @@
     "read_pv": 223
    },
    "W44": {
-    "note_dgmv": 2.8,
+    "note_dgmv": 16.6,
     "new_notes": 0,
-    "note_pv": 3248,
-    "read_pv": 190
+    "note_pv": 4302,
+    "read_pv": 250
    }
   }
  },
@@ -6385,8 +6385,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 1846,
-    "read_pv": 139
+    "note_pv": 2195,
+    "read_pv": 161
    }
   }
  },
@@ -6468,8 +6468,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 7075,
-    "read_pv": 910
+    "note_pv": 7879,
+    "read_pv": 974
    }
   }
  },
@@ -6551,8 +6551,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 606,
-    "read_pv": 43
+    "note_pv": 706,
+    "read_pv": 46
    }
   }
  },
@@ -6634,8 +6634,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 9379,
-    "read_pv": 1106
+    "note_pv": 11108,
+    "read_pv": 1297
    }
   }
  },
@@ -6717,8 +6717,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 310,
-    "read_pv": 18
+    "note_pv": 406,
+    "read_pv": 29
    }
   }
  },
@@ -6800,8 +6800,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 6443,
-    "read_pv": 453
+    "note_pv": 7460,
+    "read_pv": 521
    }
   }
  },
@@ -6883,8 +6883,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 2,
-    "note_pv": 1456,
-    "read_pv": 171
+    "note_pv": 1697,
+    "read_pv": 194
    }
   }
  },
@@ -6966,7 +6966,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 43,
+    "note_pv": 46,
     "read_pv": 0
    }
   }
@@ -7049,8 +7049,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 2,
-    "note_pv": 1427,
-    "read_pv": 146
+    "note_pv": 1630,
+    "read_pv": 165
    }
   }
  },
@@ -7132,8 +7132,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 144,
-    "read_pv": 10
+    "note_pv": 171,
+    "read_pv": 13
    }
   }
  },
@@ -7215,7 +7215,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 77,
+    "note_pv": 83,
     "read_pv": 3
    }
   }
@@ -7298,8 +7298,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 7451,
-    "read_pv": 202
+    "note_pv": 8096,
+    "read_pv": 221
    }
   }
  },
@@ -7464,8 +7464,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 211,
-    "read_pv": 27
+    "note_pv": 236,
+    "read_pv": 29
    }
   }
  },
@@ -7547,7 +7547,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 114,
+    "note_pv": 143,
     "read_pv": 6
    }
   }
@@ -7713,8 +7713,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 1732,
-    "read_pv": 245
+    "note_pv": 2092,
+    "read_pv": 321
    }
   }
  },
@@ -7796,7 +7796,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 77,
+    "note_pv": 95,
     "read_pv": 4
    }
   }
@@ -7879,8 +7879,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 2391,
-    "read_pv": 425
+    "note_pv": 2777,
+    "read_pv": 484
    }
   }
  },
@@ -7962,7 +7962,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 520,
+    "note_pv": 542,
     "read_pv": 19
    }
   }
@@ -8045,8 +8045,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 81,
-    "read_pv": 6
+    "note_pv": 121,
+    "read_pv": 14
    }
   }
  },
@@ -8211,7 +8211,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 105,
+    "note_pv": 113,
     "read_pv": 4
    }
   }
@@ -8294,8 +8294,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 1,
-    "note_pv": 1834,
-    "read_pv": 126
+    "note_pv": 1999,
+    "read_pv": 134
    }
   }
  },
@@ -8377,8 +8377,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 4,
-    "note_pv": 1399,
-    "read_pv": 166
+    "note_pv": 1449,
+    "read_pv": 172
    }
   }
  },
@@ -8543,7 +8543,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 11,
+    "note_pv": 12,
     "read_pv": 2
    }
   }
@@ -8626,8 +8626,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 106,
-    "read_pv": 1
+    "note_pv": 125,
+    "read_pv": 2
    }
   }
  },
@@ -8792,8 +8792,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 158,
-    "read_pv": 50
+    "note_pv": 187,
+    "read_pv": 64
    }
   }
  },
@@ -8875,8 +8875,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 16,
-    "read_pv": 11
+    "note_pv": 17,
+    "read_pv": 12
    }
   }
  },
@@ -9041,7 +9041,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 27,
+    "note_pv": 29,
     "read_pv": 3
    }
   }
@@ -9124,7 +9124,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 42,
+    "note_pv": 46,
     "read_pv": 3
    }
   }
@@ -9207,7 +9207,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 14,
+    "note_pv": 39,
     "read_pv": 2
    }
   }
@@ -9290,8 +9290,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 531,
-    "read_pv": 130
+    "note_pv": 629,
+    "read_pv": 150
    }
   }
  },
@@ -9456,7 +9456,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 31,
+    "note_pv": 34,
     "read_pv": 2
    }
   }
@@ -9539,7 +9539,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 18,
+    "note_pv": 24,
     "read_pv": 1
    }
   }
@@ -9622,7 +9622,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 70,
+    "note_pv": 76,
     "read_pv": 1
    }
   }
@@ -9705,8 +9705,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 72,
-    "read_pv": 4
+    "note_pv": 81,
+    "read_pv": 6
    }
   }
  },
@@ -9788,8 +9788,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 23,
-    "read_pv": 0
+    "note_pv": 27,
+    "read_pv": 1
    }
   }
  },
@@ -9871,8 +9871,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 54,
-    "read_pv": 5
+    "note_pv": 60,
+    "read_pv": 6
    }
   }
  },
@@ -9954,8 +9954,8 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 230,
-    "read_pv": 23
+    "note_pv": 257,
+    "read_pv": 26
    }
   }
  },
@@ -10114,7 +10114,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 24,
+    "note_pv": 31,
     "read_pv": 1
    }
   }
@@ -10197,7 +10197,7 @@
    "W44": {
     "note_dgmv": 0.0,
     "new_notes": 0,
-    "note_pv": 0,
+    "note_pv": 3,
     "read_pv": 0
    }
   }
