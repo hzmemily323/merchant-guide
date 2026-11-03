@@ -61,11 +61,7 @@ a{color:inherit}:focus-visible{outline:2.5px solid var(--brand);outline-offset:2
 
 <h2>三级类目气泡图 · 客单 × 人数 × 规模</h2>
 <div class="sub">横轴客单价（对数）· 纵轴购买人数（对数）· 气泡大小=礼盒成交额 · 悬停看明细，点图例筛选品类组</div>
-<div class="card" id="bubcard">
-<div id="bublegend" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px"></div>
-<div style="overflow-x:auto"><svg id="bub" viewBox="0 0 860 560" style="width:100%;min-width:560px;height:auto;display:block" role="img" aria-label="礼盒三级类目气泡图"></svg></div>
-<div class="note">虚线为全盘中位数（客单120元 / 购买8千人），气泡标签只标成交额 80 万+ 的类目；UNKNOWN 叶子类目（打标缺失，320万）已并入口径备注不上图。</div>
-<div style="margin-top:14px;padding:14px 16px;background:var(--soft);border:1px solid #ffdcd6;border-radius:10px;font-size:13px;line-height:1.7;color:#3c414a">
+<div style="margin-bottom:12px;padding:14px 16px;background:var(--soft);border:1px solid #ffdcd6;border-radius:10px;font-size:13px;line-height:1.7;color:#3c414a">
   <div style="font-weight:700;color:var(--brand);margin-bottom:6px;font-size:13.5px">气泡图核心归纳 · 94个三级类目的量价格局</div>
   <ul style="padding-left:18px;margin:0">
     <li><b>量价双优（5个类目 · 1,029万 · 占16.2%）：</b>客单超百元且购买过万人，坚果炒货与高端烘焙统治该区。<b>混合坚果</b>（328万/客单167元/1.8万人）和<b>西式糕点</b>（216万/客单136元/1.5万人）兼具高货值与走量能力，是品牌礼盒最健康的黄金基本盘。</li>
@@ -74,6 +70,11 @@ a{color:inherit}:focus-visible{outline:2.5px solid var(--brand);outline-offset:2
     <li><b>长尾潜力与低价补充（25个类目 · 658万 · 占10.4%）：</b>如基础调味品、豆浆粉、大众果酒等。客单平价且受众人群分散，多作为组合伴手礼配料或低门槛引流款。</li>
   </ul>
 </div>
+
+<div class="card" id="bubcard">
+<div id="bublegend" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px"></div>
+<div style="overflow-x:auto"><svg id="bub" viewBox="0 0 860 560" style="width:100%;min-width:560px;height:auto;display:block" role="img" aria-label="礼盒三级类目气泡图"></svg></div>
+<div class="note">虚线为全盘中位数（客单120元 / 购买8千人），气泡标签只标成交额 80 万+ 的类目；UNKNOWN 叶子类目（打标缺失，320万）已并入口径备注不上图。</div>
 </div>
 <script>
 (function(){
