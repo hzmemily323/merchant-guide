@@ -58,6 +58,77 @@ a{color:inherit}:focus-visible{outline:2.5px solid var(--brand);outline-offset:2
 <h2>谁在卖礼盒 · 二级类目格局</h2>
 <div class="sub">条长=成交规模，颜色=客单档位（红＜100元 / 橙100–200元 / 金≥200元）</div>
 <div class="card"><div class="brow"><div class="bname">糕点/点心</div><div class="btrack"><div class="bfill mid" style="width:100.0%"></div></div><div class="bval">1,240万<span class="aov">客单119元</span></div></div><div class="brow"><div class="bname">巧克力</div><div class="btrack"><div class="bfill mid" style="width:46.5%"></div></div><div class="bval">576万<span class="aov">客单104元</span></div></div><div class="brow"><div class="bname">山核桃/坚果/炒货</div><div class="btrack"><div class="bfill mid" style="width:46.4%"></div></div><div class="bval">575万<span class="aov">客单119元</span></div></div><div class="brow"><div class="bname">饼干/膨化</div><div class="btrack"><div class="bfill " style="width:43.5%"></div></div><div class="bval">539万<span class="aov">客单62元</span></div></div><div class="brow"><div class="bname">燕窝滋补品</div><div class="btrack"><div class="bfill hi" style="width:29.3%"></div></div><div class="bval">364万<span class="aov">客单709元</span></div></div><div class="brow"><div class="bname">代用/花草/水果/再加工茶</div><div class="btrack"><div class="bfill hi" style="width:20.7%"></div></div><div class="bval">256万<span class="aov">客单571元</span></div></div><div class="brow"><div class="bname">糖果零食</div><div class="btrack"><div class="bfill " style="width:18.9%"></div></div><div class="bval">234万<span class="aov">客单39元</span></div></div><div class="brow"><div class="bname">滋补养生原料</div><div class="btrack"><div class="bfill hi" style="width:16.8%"></div></div><div class="bval">208万<span class="aov">客单328元</span></div></div><div class="brow"><div class="bname">红茶</div><div class="btrack"><div class="bfill mid" style="width:14.8%"></div></div><div class="bval">183万<span class="aov">客单158元</span></div></div><div class="brow"><div class="bname">南北干货/肉类干货</div><div class="btrack"><div class="bfill mid" style="width:12.0%"></div></div><div class="bval">149万<span class="aov">客单134元</span></div></div><div class="brow"><div class="bname">普洱</div><div class="btrack"><div class="bfill hi" style="width:10.5%"></div></div><div class="bval">131万<span class="aov">客单340元</span></div></div><div class="brow"><div class="bname">牛肉干/猪肉脯/卤味零食</div><div class="btrack"><div class="bfill mid" style="width:10.3%"></div></div><div class="bval">128万<span class="aov">客单114元</span></div></div></div>
+
+<h2>三级类目气泡图 · 客单 × 人数 × 规模</h2>
+<div class="sub">横轴客单价（对数）· 纵轴购买人数（对数）· 气泡大小=礼盒成交额 · 悬停看明细，点图例筛选品类组</div>
+<div class="card" id="bubcard">
+<div id="bublegend" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px"></div>
+<div style="overflow-x:auto"><svg id="bub" viewBox="0 0 860 560" style="width:100%;min-width:560px;height:auto;display:block" role="img" aria-label="礼盒三级类目气泡图"></svg></div>
+<div class="note">虚线为全盘中位数（客单120元 / 购买8千人），气泡标签只标成交额 80 万+ 的类目；UNKNOWN 叶子类目（打标缺失，320万）已并入口径备注不上图。</div>
+</div>
+<script>
+(function(){
+var D=[["糕点/点心","中式糕点",8593826,75875,69393,113],["饼干/膨化","饼干",4486146,70508,51342,64],["山核桃/坚果/炒货","混合坚果",3277786,19593,17737,167],["糕点/点心","西式糕点",2163062,15899,14503,136],["滋补养生原料","传统滋补品其他",2077664,6325,5742,328],["代用/花草/水果/再加工茶","陈皮茶",2059249,1435,1387,1435],["燕窝滋补品","鲜炖即食燕窝",1908578,3305,3191,577],["巧克力","果仁巧克力",1702840,9942,9427,171],["糕点/点心","新鲜蛋糕/低温糕点/短保烘焙",1639526,12149,10693,135],["巧克力","混合巧克力",1509771,9084,8707,166],["燕窝滋补品","干燕窝",1465497,415,364,3531],["阿胶膏方","阿胶糕/固元糕",1104199,8638,7849,128],["红茶","金骏眉",998104,7829,7777,127],["巧克力","巧克力制品",944897,10418,10058,91],["乌龙茶","大红袍",933363,10189,4824,92],["饼干/膨化","膨化食品",901347,15728,14613,57],["南北干货/肉类干货","熏腊/香肠/火腿制品",803229,5375,5018,149],["巧克力","夹心巧克力",779006,18001,16495,43],["糖果零食","焦糖/太妃糖",760638,7324,7200,104],["白酒","白酒",721237,1794,1696,402],["糖果零食","软糖/果味糖/凝胶糖果",688327,29735,29198,23],["南北干货/肉类干货","干货/土特产/养生干料",683760,5694,5389,120],["山核桃/坚果/炒货","瓜子",671460,8673,8194,77],["鲜食饮品","纯果蔬汁/纯果汁",667843,4229,4123,158],["普洱","其他普洱",642161,545,531,1178],["牛肉干/猪肉脯/卤味零食","牛肉类",621161,4297,3390,145],["鱿鱼丝/鱼干/海味即食","即食虾零食",587732,2969,2796,198],["药食同源食品","黄精",558702,1558,1507,359],["葡萄酒","干红静态葡萄酒",552095,1531,1456,361],["饮料","饮用水",530708,804,791,660],["冲饮品/食补粉粉","其他冲饮品/食补粉粉",529377,3580,3474,148],["参类滋补品","西洋参及其制品",517560,2125,1811,244],["糖果零食","喜糖",507287,14060,13627,36],["露酒/果酒","果酒",494437,6573,6315,75],["山核桃/坚果/炒货","松子",492792,3065,2924,161],["冲饮品/食补粉粉","豆浆",482935,4937,4820,98],["药食同源食品","其他药食同源食品",470192,1441,1295,326],["山核桃/坚果/炒货","花生",468005,10604,10534,44],["红茶","其它红茶",458106,1467,1370,312],["普洱","熟茶",457467,2210,2155,207],["蜂蜜及其制品","蜂蜜",454627,2024,1888,225],["巧克力","牛奶巧克力",336082,2217,2119,152],["奶粉","学生/成人/中老年羊奶粉",333108,1236,1123,270],["代用/花草/水果/再加工茶","代用/花草茶",320577,2345,2307,137],["调味品/果酱/沙拉/干副食","基础调味品",319047,6448,6359,49],["牛肉干/猪肉脯/卤味零食","鸭肉零食",292998,3191,3041,92],["绿茶","特色产区绿茶",277604,1709,1674,162],["枸杞及其制品","枸杞",269798,2080,1966,130],["山核桃/坚果/炒货","坚果礼盒",269249,1779,1674,151],["饮料","果味/风味/果汁饮料",265327,3586,3409,74],["燕窝滋补品","燕窝粥",262589,1406,1355,187],["巧克力","黑巧克力",262152,3507,3310,75],["黄酒","黄酒",261283,664,641,393],["红茶","滇红",257975,2028,1944,127],["巧克力","松露巧克力",226693,2064,1979,110],["牛肉干/猪肉脯/卤味零食","猪肉类",225586,2381,2241,95],["液态奶/常温乳制品","纯牛奶",223998,3144,2882,71],["陈皮柑普茶","陈皮茶",222499,378,352,589],["液态奶/常温乳制品","调制乳（风味奶）",208339,2415,2323,86],["普洱","碎银子",207157,1088,1032,190],["低温乳制品","低温奶",188667,3139,3097,60],["葡萄酒","干白静态葡萄酒",186289,848,823,220],["代用/花草/水果/再加工茶","茉莉花茶",183296,711,681,258],["参类滋补品","其他参类制品",180515,409,349,441],["火锅/肉类/米饭类速食","米饭类速食",178551,4476,4301,40],["火锅/肉类/米饭类速食","肉类速食",177924,1475,1202,121],["面点/西式速食","面点类速食",177242,2784,2588,64],["山核桃/坚果/炒货","坚果制品",176034,843,755,209],["绿茶","龙井茶（非西湖）",172892,828,811,209],["糖果零食","棉花糖/牛轧糖/充气糖果",171308,2608,2469,66],["葡萄酒","起泡及香槟葡萄酒",170892,730,680,234],["葡萄酒","甜型葡萄酒（含贵腐/冰酒）",166453,947,915,176],["儿童速食","儿童面点/包点",160426,552,510,291],["啤酒","精酿啤酒",158179,1072,1010,148],["绿茶","碧螺春",154259,943,922,164],["山核桃/坚果/炒货","开心果",153877,1597,1527,96],["调味品/果酱/沙拉/干副食","复合非预制菜调料",148987,2889,2837,52],["乌龙茶","铁观音",142649,2729,685,52],["牛肉干/猪肉脯/卤味零食","鸡肉零食",141935,1422,1359,100],["山核桃/坚果/炒货","山核桃",141506,938,853,151],["蜜饯/枣类/梅/果干/冻干","枣类制品",138589,1819,1778,76],["乌龙茶","凤凰单丛",134535,812,655,166],["蜜饯/枣类/梅/果干/冻干","其他蜜饯果干",122167,1135,1016,108],["洋酒","清酒/烧酒",121013,386,373,314],["红茶","锡兰/阿萨姆/大吉岭/进口红茶",120404,271,236,444],["参类滋补品","人参/园参及其制品",117903,465,433,254],["糖果零食","传统糖果",110983,2639,2349,42],["白茶","寿眉",109814,396,377,277],["米/面粉/杂粮","米类",109703,867,794,127],["洋酒","威士忌/Whiskey",106227,245,244,434],["食用油/调味油","橄榄油",104205,829,751,126],["糖果零食","棒棒糖",103795,3614,3570,29],["冲饮品/食补粉粉","中式养生冲饮",103637,824,792,126],["山核桃/坚果/炒货","香榧",103295,1281,1246,81]];
+var G=[["#5b8def","糕点零食"],["#e8734a","坚果炒货"],["#8f6bd8","滋补保健"],["#2ea88a","茶饮"],["#d9a13b","糖果巧克力"],["#9aa2ad","其他"]];
+function grp(l2){if(/糕点|饼干|膨化|蛋糕|面包/.test(l2))return 0;if(/坚果|炒货|山核桃|瓜子|花生|果干/.test(l2))return 1;if(/滋补|燕窝|海参|阿胶|花胶|蜂蜜|养生|药食|人参|虫草/.test(l2))return 2;if(/茶|咖啡|饮品|白酒|黄酒|洋酒/.test(l2))return 3;if(/巧克力|糖果|软糖|蜜饯/.test(l2))return 4;return 5}
+D.forEach(function(r){r.g=grp(r[0]);r.l2=r[0];r.l3=r[1];r.dgmv=r[2];r.orders=r[3];r.uv=r[4];r.aov=r[5]});
+var gs=[0,1,2,3,4,5];
+var W=860,H=560,ML=64,MR=18,MT=18,MB=44,iw=W-ML-MR,ih=H-MT-MB;
+function lx(v){var a=Math.log10(20),b=Math.log10(4200);return ML+(Math.log10(v)-a)/(b-a)*iw}
+function ly(v){var a=Math.log10(200),b=Math.log10(80000);return MT+ih-(Math.log10(v)-a)/(b-a)*ih}
+var dmax=0;D.forEach(function(r){dmax=Math.max(dmax,r.dgmv)});
+function rad(d){return 4+Math.sqrt(d/dmax)*30}
+var svg=document.getElementById('bub');
+var NS='http://www.w3.org/2000/svg';
+function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+function txt(x,y,s,anch){var e=el('text',{x:x,y:y,'text-anchor':anch||'middle','font-size':'11','fill':'currentColor','opacity':'0.55'});e.textContent=s;return e}
+var xt=[30,50,100,200,500,1000,2000,4000];var yt=[200,500,1000,2000,5000,10000,20000,50000,80000];
+xt.forEach(function(v){var x=lx(v);svg.appendChild(el('line',{x1:x,y1:MT,x2:x,y2:MT+ih,stroke:'currentColor','stroke-opacity':'0.08'}));svg.appendChild(txt(x,MT+ih+16,v>=1000?(v/1000)+'k':v))});
+svg.appendChild(txt(ML+iw/2,H-6,'客单价（元，对数）'));
+yt.forEach(function(v){var y=ly(v);svg.appendChild(el('line',{x1:ML,y1:y,x2:ML+iw,y2:y,stroke:'currentColor','stroke-opacity':'0.08'}));svg.appendChild(txt(ML-8,y+4,v>=1000?(v/1000)+'k':v,'end'))});
+var yl=txt(16,MT+ih/2+4,'购买人数（对数）','middle');yl.setAttribute('transform','rotate(-90 16 '+(MT+ih/2+4)+')');svg.appendChild(yl);
+var medA=120,medU=8000;
+svg.appendChild(el('line',{x1:lx(medA),y1:MT,x2:lx(medA),y2:MT+ih,stroke:'currentColor','stroke-opacity':'0.22','stroke-dasharray':'4 4'}));
+svg.appendChild(el('line',{x1:ML,y1:ly(medU),x2:ML+iw,y2:ly(medU),stroke:'currentColor','stroke-opacity':'0.22','stroke-dasharray':'4 4'}));
+svg.appendChild(txt(lx(medA)+4,MT+12,'客单中位 120元','start'));
+svg.appendChild(txt(ML+iw-4,ly(medU)-5,'人数中位 8k','end'));
+svg.appendChild(txt(ML+iw-6,MT+30,'高客单·少人买：高价礼','end'));
+svg.appendChild(txt(ML+8,MT+30,'高客单·多人买：量价双优','start'));
+svg.appendChild(txt(ML+8,MT+ih-8,'低客单·少人买：长尾','start'));
+svg.appendChild(txt(ML+iw-6,MT+ih-8,'低客单·多人买：走量款','end'));
+var card=document.getElementById('bubcard');
+var tip=document.createElement('div');
+tip.style.cssText='position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:12.5px;line-height:1.5;box-shadow:0 2px 10px rgba(0,0,0,.12);opacity:0;transition:opacity .12s;z-index:9;max-width:240px';
+card.style.position='relative';card.appendChild(tip);
+var gEls={};
+gs.forEach(function(g){var ge=el('g',{});svg.appendChild(ge);gEls[g]=ge});
+D.sort(function(a,b){return b.dgmv-a.dgmv}).forEach(function(r){
+ var c=el('circle',{cx:lx(r.aov).toFixed(1),cy:ly(r.uv).toFixed(1),r:rad(r.dgmv).toFixed(1),fill:G[r.g][0],'fill-opacity':'0.55',stroke:G[r.g][0],'stroke-width':'1'});
+ c.style.cursor='pointer';
+ c.addEventListener('mouseenter',function(){
+  c.setAttribute('fill-opacity','0.85');
+  tip.innerHTML='<b>'+r.l3+'</b>（'+r.l2+'）<br>成交 '+(r.dgmv/1e4).toFixed(0)+' 万元 · 客单 '+r.aov+' 元<br>购买人数 '+(r.uv>=10000?(r.uv/10000).toFixed(1)+'万':(r.uv/1000).toFixed(1)+'k')+' · 订单 '+(r.orders>=10000?(r.orders/10000).toFixed(1)+'万':r.orders.toLocaleString());
+  tip.style.opacity=1});
+ c.addEventListener('mousemove',function(ev){var rc=card.getBoundingClientRect();var x=ev.clientX-rc.left+14,y=ev.clientY-rc.top+14;if(x>rc.width-250)x-=270;tip.style.left=x+'px';tip.style.top=y+'px'});
+ c.addEventListener('mouseleave',function(){c.setAttribute('fill-opacity','0.55');tip.style.opacity=0});
+ gEls[r.g].appendChild(c);
+ if(r.dgmv>8e5){var t=txt(lx(r.aov),ly(r.uv)-rad(r.dgmv)-4,r.l3);t.setAttribute('font-weight','600');t.setAttribute('opacity','0.85');gEls[r.g].appendChild(t)}
+});
+var lg=document.getElementById('bublegend');
+gs.forEach(function(g){
+ var n=D.filter(function(r){return r.g===g}).length;
+ var s=document.createElement('span');
+ s.style.cssText='display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:3px 11px;font-size:12.5px;cursor:pointer;user-select:none;color:#3c414a';
+ s.innerHTML='<span style="width:9px;height:9px;border-radius:50%;background:'+G[g][0]+';display:inline-block"></span>'+G[g][1]+'<span style="opacity:.6;font-size:11px">'+n+'</span>';
+ s.addEventListener('click',function(){
+  var off=s.style.opacity==='0.35';
+  s.style.opacity=off?'1':'0.35';
+  gEls[g].style.display=off?'':'none';
+ });
+ lg.appendChild(s)});
+})();
+</script>
+
 <div class="grid2" style="margin-top:14px">
 <div><h2 style="margin-top:0">价格带结构（Top100 商品）</h2><div class="card"><table><tr><th>价格带</th><th style="text-align:right">商品数</th><th style="text-align:right">合计成交</th><th>占比</th></tr><tr><td>0元以下</td><td class="num">3</td><td class="num">42万</td><td><div class="mini"><div style="width:6%"></div></div></td></tr><tr><td>30–60元</td><td class="num">11</td><td class="num">182万</td><td><div class="mini"><div style="width:25%"></div></div></td></tr><tr><td>60–100元</td><td class="num">5</td><td class="num">84万</td><td><div class="mini"><div style="width:11%"></div></div></td></tr><tr class="main"><td>100–200元</td><td class="num">27</td><td class="num">624万</td><td><div class="mini"><div style="width:84%"></div></div></td></tr><tr><td>200–500元</td><td class="num">27</td><td class="num">558万</td><td><div class="mini"><div style="width:76%"></div></div></td></tr><tr><td>500元以上</td><td class="num">27</td><td class="num">739万</td><td><div class="mini"><div style="width:100%"></div></div></td></tr></table></div></div>
 <div><h2 style="margin-top:0">商家类型构成</h2><div class="card"><div class="brow"><div class="bname">旗舰店</div><div class="btrack"><div class="bfill" style="width:100.0%"></div></div><div class="bval">3,472万<span class="aov">客单137元</span></div></div><div class="brow"><div class="bname">个体工商店</div><div class="btrack"><div class="bfill" style="width:48.1%"></div></div><div class="bval">1,671万<span class="aov">客单92元</span></div></div><div class="brow"><div class="bname">普通企业店</div><div class="btrack"><div class="bfill" style="width:43.0%"></div></div><div class="bval">1,495万<span class="aov">客单120元</span></div></div><div class="brow"><div class="bname">卖场型旗舰店</div><div class="btrack"><div class="bfill" style="width:2.9%"></div></div><div class="bval">101万<span class="aov">客单190元</span></div></div><div class="brow"><div class="bname">专卖店</div><div class="btrack"><div class="bfill" style="width:2.0%"></div></div><div class="bval">68万<span class="aov">客单59元</span></div></div><div class="brow"><div class="bname">个人店</div><div class="btrack"><div class="bfill" style="width:1.8%"></div></div><div class="bval">61万<span class="aov">客单107元</span></div></div><div class="note">旗舰店卖的是品牌标准礼盒；个体工商店主要是商家自己组合的平价款（占 27.7%）；普通企业店介于两者之间。</div></div></div>
