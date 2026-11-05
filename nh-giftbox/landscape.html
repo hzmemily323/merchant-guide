@@ -208,7 +208,7 @@ var name=document.createElement("b");name.textContent=r[0];name.style.cssText="m
 var am=document.createElement("span");am.textContent=r[1];am.style.cssText="font-size:11px;color:var(--mut,#888);white-space:nowrap";
 var tot=document.createElement("span");tot.style.cssText="font-size:12px;white-space:nowrap";tot.innerHTML="<b style=\"color:#e8503a\">"+r[2]+"万</b> · "+r[3]+"款";
 head.appendChild(toggle);head.appendChild(name);head.appendChild(am);head.appendChild(tot);
-var body=document.createElement("div");body.style.display="none";body.style.cssText="border-top:1px solid var(--line,#eee);background:var(--bg,#faf7f4)";
+var body=document.createElement("div");body.style.cssText="display:none;border-top:1px solid var(--line,#eee);background:var(--bg,#faf7f4)";
 var tb="<table style=\"width:100%;border-collapse:collapse;font-size:12px\"><tr style=\"color:var(--mut,#888)\"><th style=\"text-align:left;padding:6px 12px;font-weight:500\">商品</th><th style=\"text-align:right;padding:6px 8px;font-weight:500\">成交</th><th style=\"text-align:right;padding:6px 8px;font-weight:500\">客单</th><th style=\"text-align:right;padding:6px 12px;font-weight:500\">订单</th></tr>";
 r[4].forEach(function(it){tb+="<tr><td style=\"padding:6px 12px;line-height:1.45\">"+it[0]+"</td><td style=\"padding:6px 8px;text-align:right;white-space:nowrap\">"+it[1]+"万</td><td style=\"padding:6px 8px;text-align:right;white-space:nowrap\">"+it[2].toLocaleString()+"元</td><td style=\"padding:6px 12px;text-align:right;white-space:nowrap\">"+it[3]+"</td></tr>"});
 body.innerHTML=tb+"</table>";
