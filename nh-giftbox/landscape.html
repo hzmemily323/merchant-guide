@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>全休食礼赠场景礼盒全景 · 2026年货节</title>
+<title>全休食礼赠场景全景 · 2026年货节</title>
 <link rel="stylesheet" href="../style.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -39,6 +39,12 @@ tr.main td{background:var(--soft)}
 .path p{font-size:13px;color:#3c414a;line-height:1.65}
 .path .eg{font-size:12px;color:var(--mut);margin-top:8px;line-height:1.55}
 a.back{display:inline-block;margin:26px 0 0;color:var(--brand);font-size:14px;text-decoration:none}
+.blk{min-width:0}
+.blk.scrollx{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.blk.scrollx table{min-width:640px;table-layout:auto;width:max-content}
+.blk.scrollx td.tn{white-space:normal;word-break:break-all}
+.blk.scrollx th:not(:first-child){white-space:nowrap}
+.scroll-hint{font-size:11px;color:var(--mut);margin:4px 0 6px}
 @media(max-width:860px){.kpis{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}.paths{grid-template-columns:1fr}header.hero{padding:24px 20px}.brow{grid-template-columns:90px 1fr 120px}}
 a{color:inherit}:focus-visible{outline:2.5px solid var(--brand);outline-offset:2px;border-radius:4px}
 @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
@@ -46,14 +52,15 @@ a{color:inherit}:focus-visible{outline:2.5px solid var(--brand);outline-offset:2
 <main>
 <header class="hero">
 <div class="crumb"><a href="./index.html">← 返回两品类礼盒看板</a> ｜ 礼赠全景篇</div>
-<h1>全休食礼赠场景礼盒全景</h1>
-<p>2026 年货节（2026-01-23 ~ 2026-02-08）· 休食行业全类目 · 礼盒商品按标题关键词（礼盒/年货/大礼包/伴手礼/送礼）圈选 · 数据源：商品成交宽表 ds:15677</p>
+<h1>全休食礼赠场景全景</h1>
+<p>2026 年货节（2026-01-23 ~ 2026-02-08）· 休食行业全类目 · 数据源：商品成交宽表 ds:15677<br>礼赠口径：礼盒/礼包/礼箱/礼袋/礼罐/礼品/年货/伴手礼/送礼/组合装/套装/囤货/量贩/团购/定制/拜年/春节 共 17 个关键词圈选，礼赠 ≠ 礼盒 —— 干货礼包、组合装、囤货装同样计入</p>
+<nav style="display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 4px"><a href="#giftscene" style="text-decoration:none;background:rgba(255,255,255,.18);color:#fff;font-size:12.5px;padding:5px 11px;border-radius:14px">礼赠场景全景</a><a href="#giftl3" style="text-decoration:none;background:rgba(255,255,255,.18);color:#fff;font-size:12.5px;padding:5px 11px;border-radius:14px">卖得好的是什么</a><a href="#giftch" style="text-decoration:none;background:rgba(255,255,255,.18);color:#fff;font-size:12.5px;padding:5px 11px;border-radius:14px">靠什么卖出去</a><a href="#giftkol" style="text-decoration:none;background:rgba(255,255,255,.18);color:#fff;font-size:12.5px;padding:5px 11px;border-radius:14px">达人带货</a><a href="#giftw5" style="text-decoration:none;background:rgba(255,255,255,.18);color:#fff;font-size:12.5px;padding:5px 11px;border-radius:14px">五组位置</a></nav>
 </header>
 <section class="kpis">
-<div class="kpi"><div class="l">礼盒商品总成交</div><div class="v">6,354 万</div><div class="d">订单 52.8 万单</div></div>
-<div class="kpi"><div class="l">整体客单价</div><div class="v">120 元</div><div class="d">Top100 中位客单 170 元</div></div>
-<div class="kpi"><div class="l">主力价格带</div><div class="v">100–200 元</div><div class="d">33 个商品 · 1,194 万成交</div></div>
-<div class="kpi"><div class="l">500 元+ 高客单</div><div class="v">739 万</div><div class="d">18 个商品 · 全部为滋补/茶系</div></div>
+<div class="kpi"><div class="l">礼赠场景总成交</div><div class="v">8,110 万</div><div class="d">扩口径 17 词 · 01-23~02-08 · 同比 +80%</div></div>
+<div class="kpi"><div class="l">礼赠占休食大盘</div><div class="v">18.0%</div><div class="d">2025 届 14.9%，份额在扩大</div></div>
+<div class="kpi"><div class="l">k播成第一大场域</div><div class="v">2,776 万</div><div class="d">占 34% · 同比 +576% · 超店播</div></div>
+<div class="kpi"><div class="l">达人款成交</div><div class="v">1,549 万</div><div class="d">占礼赠 19% · 同比 +540%</div></div>
 </section>
 <h2>礼盒时间线 · 日成交节奏与关键节点</h2>
 <div class="sub">2026-01-16 ~ 02-12 全休食礼盒日成交（标题关键词圈选 · ds:15677）· 悬停柱子看单日数字</div>
@@ -220,6 +227,89 @@ render();
 })();</script>
 <style>#w5card button{transition:all .15s}@media(max-width:860px){#amfilter{position:sticky;top:0;background:var(--bg,#faf7f4);padding:6px 0;z-index:2}}</style>
 
+<h2 id="giftscene">礼赠场景全景 · 扩口径（礼盒 + 礼包 + 组合装 + 囤货装）</h2>
+<div class="sub">礼赠不只是礼盒：干货礼包、组合装、套装、囤货量贩装同属礼赠/年货场景。本节按 17 个关键词圈选（礼盒/礼包/礼箱/礼袋/礼罐/礼品/年货/伴手礼/送礼/组合装/套装/囤货/量贩/团购/定制/拜年/春节），同一条件内多词为「或」关系 · 2026 窗口 01-23~02-08，2025 窗口 01-21~02-16 · ds:15677</div>
+<section class="kpis" style="margin-bottom:18px">
+<div class="kpi"><div class="l">2026 礼赠盘成交</div><div class="v">8,110 万</div><div class="d">同比 +80% · 同日大盘 +49%</div></div>
+<div class="kpi"><div class="l">礼赠占休食大盘</div><div class="v">18.0%</div><div class="d">2025 届为 14.9%，礼赠在抢份额</div></div>
+<div class="kpi"><div class="l">礼赠客单价</div><div class="v">111 元</div><div class="d">2025 届 79 元 · 订单 73.1 万单</div></div>
+<div class="kpi"><div class="l">达人款成交</div><div class="v">1,549 万</div><div class="d">占礼赠 19% · 同比 +540%</div></div>
+</section>
+<div class="card" style="margin-bottom:8px;padding-bottom:14px">
+<div class="brow" style="grid-template-columns:150px 1fr 190px"><div class="bname">扩口径礼赠盘（17 词）</div><div class="btrack"><div class="bfill" style="width:100%"></div></div><div class="bval">8,110 万<span class="aov">同比 +80%</span></div></div>
+<div class="brow" style="grid-template-columns:150px 1fr 190px"><div class="bname">其中：纯「礼盒」1 词</div><div class="btrack"><div class="bfill hi" style="width:57.0%"></div></div><div class="bval">4,619 万<span class="aov">占 57%</span></div></div>
+<div class="note" style="margin-top:10px">若只按「礼盒」一个词圈选，2026 届只能看到 4,619 万，比完整礼赠场景少 3,490 万（漏 43%）。2025 届同口径纯礼盒 1,964 万，占当年礼赠 44%——说明礼赠场景里「非礼盒形态」的占比在扩大，只盯礼盒会误判机会大小。</div></div>
+<h2 id="giftl3">礼赠场景卖得好的是什么 · 三级类目两年对照</h2>
+<div class="sub">2026 vs 2025 同关键词口径 · 仅列 2026 成交 ≥ 80 万的 25 个三级类目 · 占比为占礼赠盘比重</div>
+<div class="card"><div class="blk scrollx"><div class="scroll-hint">左右滑动查看完整表</div>
+<table style="table-layout:auto;width:max-content;min-width:100%">
+<tr><th style="min-width:190px">三级类目</th><th style="text-align:right">2025 成交</th><th style="text-align:right">2026 成交</th><th style="text-align:right">同比</th><th style="text-align:right">占礼赠</th><th style="min-width:130px">规模对比</th></tr>
+<tr><td class="tn" style="white-space:nowrap">中式糕点</td><td class="num">349 万</td><td class="num">927 万</td><td class="num" style="color:#c2412f;font-weight:600">+166%</td><td class="num">11.4%</td><td><div class="mini"><div style="width:100.0%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">饼干</td><td class="num">254 万</td><td class="num">475 万</td><td class="num">+87%</td><td class="num">5.9%</td><td><div class="mini"><div style="width:51.2%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">UNKNOWN</td><td class="num">758 万</td><td class="num">405 万</td><td class="num" style="color:#8a8f98">-47%</td><td class="num">5.0%</td><td><div class="mini"><div style="width:43.6%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">混合坚果</td><td class="num">25 万</td><td class="num">340 万</td><td class="num" style="color:#c2412f;font-weight:600">+1246%</td><td class="num">4.2%</td><td><div class="mini"><div style="width:36.7%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">西式糕点</td><td class="num">168 万</td><td class="num">241 万</td><td class="num">+44%</td><td class="num">3.0%</td><td><div class="mini"><div style="width:26.0%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">传统滋补品其他</td><td class="num">102 万</td><td class="num">238 万</td><td class="num">+133%</td><td class="num">2.9%</td><td><div class="mini"><div style="width:25.7%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">陈皮茶</td><td class="num">15 万</td><td class="num">229 万</td><td class="num" style="color:#c2412f;font-weight:600">+1454%</td><td class="num">2.8%</td><td><div class="mini"><div style="width:24.7%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">新鲜蛋糕/低温糕点/短保烘焙</td><td class="num">192 万</td><td class="num">197 万</td><td class="num">+3%</td><td class="num">2.4%</td><td><div class="mini"><div style="width:21.2%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">鲜炖即食燕窝</td><td class="num">44 万</td><td class="num">192 万</td><td class="num" style="color:#c2412f;font-weight:600">+332%</td><td class="num">2.4%</td><td><div class="mini"><div style="width:20.7%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">果仁巧克力</td><td class="num">20 万</td><td class="num">174 万</td><td class="num" style="color:#c2412f;font-weight:600">+756%</td><td class="num">2.1%</td><td><div class="mini"><div style="width:18.8%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">混合巧克力</td><td class="num">98 万</td><td class="num">156 万</td><td class="num">+59%</td><td class="num">1.9%</td><td><div class="mini"><div style="width:16.9%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">其他药食同源食品</td><td class="num">21 万</td><td class="num">149 万</td><td class="num" style="color:#c2412f;font-weight:600">+618%</td><td class="num">1.8%</td><td><div class="mini"><div style="width:16.1%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">干燕窝</td><td class="num">56 万</td><td class="num">147 万</td><td class="num" style="color:#c2412f;font-weight:600">+165%</td><td class="num">1.8%</td><td><div class="mini"><div style="width:15.9%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">阿胶糕/固元糕</td><td class="num">70 万</td><td class="num">115 万</td><td class="num">+65%</td><td class="num">1.4%</td><td><div class="mini"><div style="width:12.4%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">熏腊/香肠/火腿制品</td><td class="num">33 万</td><td class="num">114 万</td><td class="num" style="color:#c2412f;font-weight:600">+243%</td><td class="num">1.4%</td><td><div class="mini"><div style="width:12.2%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">膨化食品</td><td class="num">38 万</td><td class="num">104 万</td><td class="num" style="color:#c2412f;font-weight:600">+172%</td><td class="num">1.3%</td><td><div class="mini"><div style="width:11.2%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">巧克力制品</td><td class="num">84 万</td><td class="num">101 万</td><td class="num">+21%</td><td class="num">1.3%</td><td><div class="mini"><div style="width:10.9%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">金骏眉</td><td class="num">9 万</td><td class="num">101 万</td><td class="num" style="color:#c2412f;font-weight:600">+967%</td><td class="num">1.2%</td><td><div class="mini"><div style="width:10.9%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">大红袍</td><td class="num">85 万</td><td class="num">98 万</td><td class="num">+15%</td><td class="num">1.2%</td><td><div class="mini"><div style="width:10.5%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">果酒</td><td class="num">31 万</td><td class="num">88 万</td><td class="num" style="color:#c2412f;font-weight:600">+186%</td><td class="num">1.1%</td><td><div class="mini"><div style="width:9.5%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">纯果蔬汁/纯果汁</td><td class="num">30 万</td><td class="num">84 万</td><td class="num" style="color:#c2412f;font-weight:600">+180%</td><td class="num">1.0%</td><td><div class="mini"><div style="width:9.1%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">其他普洱</td><td class="num">2 万</td><td class="num">84 万</td><td class="num" style="color:#c2412f;font-weight:600">+5365%</td><td class="num">1.0%</td><td><div class="mini"><div style="width:9.0%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">软糖/果味糖/凝胶糖果</td><td class="num">21 万</td><td class="num">84 万</td><td class="num" style="color:#c2412f;font-weight:600">+308%</td><td class="num">1.0%</td><td><div class="mini"><div style="width:9.0%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">白酒</td><td class="num">33 万</td><td class="num">83 万</td><td class="num" style="color:#c2412f;font-weight:600">+153%</td><td class="num">1.0%</td><td><div class="mini"><div style="width:9.0%"></div></div></td></tr>
+<tr><td class="tn" style="white-space:nowrap">黄精</td><td class="num">3 万</td><td class="num">80 万</td><td class="num" style="color:#c2412f;font-weight:600">+2803%</td><td class="num">1.0%</td><td><div class="mini"><div style="width:8.7%"></div></div></td></tr>
+</table></div>
+<div class="note"><b>结论：</b>中式糕点以 927 万、+166% 同时拿下规模第一和增速前列，是本届礼赠最确定的主赛道；饼干 475 万（+87%）稳居第二。真正的爆发项是混合坚果（25→340 万，+1246%）、陈皮茶（15→229 万，+1454%）、果仁巧克力（20→174 万，+756%）、其他药食同源（21→149 万，+618%）、鲜炖即食燕窝（44→192 万，+332%）——这些去年的基数都很小，属于「第一年被验证」的新品类。反向看，新鲜蛋糕/低温糕点/短保烘焙 192→197 万只 +3%，基本停滞；巧克力系整体偏温（混合巧克力和巧克力制品都只 +21~59%），是明显缺口。<br>「UNKNOWN」（758→405 万，-47%）是数据集中类目字段缺失的商品，不建议作为品类结论使用。</div></div>
+<h2 id="giftch">靠什么卖出去的 · 渠道结构两年对照</h2>
+<div class="sub">商品级归因指标，同款商品可同时命中多渠道，各项相加会超过总成交（实测合计 118%），占比只看结构不看加总</div>
+<div class="card"><div class="blk scrollx"><div class="scroll-hint">左右滑动查看完整表</div>
+<table style="table-layout:auto;width:max-content;min-width:100%">
+<tr><th style="min-width:150px">场域</th><th style="text-align:right">2025 成交</th><th style="text-align:right">2025 占比</th><th style="text-align:right">2026 成交</th><th style="text-align:right">2026 占比</th><th style="text-align:right">同比</th><th style="text-align:right">达人款内占比</th></tr>
+<tr class="main"><td class="tn" style="white-space:nowrap">k播（达人直播）</td><td class="num">411 万</td><td class="num">9%</td><td class="num" style="color:#c2412f;font-weight:600">2,776 万</td><td class="num" style="color:#c2412f;font-weight:600">34%</td><td class="num" style="color:#c2412f;font-weight:600">+576%</td><td class="num">74%</td></tr>
+<tr><td class="tn" style="white-space:nowrap">店播</td><td class="num">572 万</td><td class="num">13%</td><td class="num">1,185 万</td><td class="num">15%</td><td class="num">+107%</td><td class="num">7%</td></tr>
+<tr><td class="tn" style="white-space:nowrap">笔记</td><td class="num">2,304 万</td><td class="num">51%</td><td class="num">2,024 万</td><td class="num">25%</td><td class="num">-12%</td><td class="num">5%</td></tr>
+<tr><td class="tn" style="white-space:nowrap">商卡</td><td class="num">1,214 万</td><td class="num">27%</td><td class="num">2,102 万</td><td class="num">26%</td><td class="num">+73%</td><td class="num">13%</td></tr>
+<tr><td class="tn" style="white-space:nowrap">搜索</td><td class="num">864 万</td><td class="num">19%</td><td class="num">1,260 万</td><td class="num">16%</td><td class="num">+46%</td><td class="num">9%</td></tr>
+<tr><td class="tn" style="white-space:nowrap">其他</td><td class="num">85 万</td><td class="num">2%</td><td class="num">184 万</td><td class="num">2%</td><td class="num">+116%</td><td class="num">3%</td></tr>
+</table></div>
+<div class="note"><b>结构性变化：</b>k播（达人直播）从 2025 年的 411 万、9% 涨到 2026 年的 2776 万、34%，同比 +576%，首次超过店播成为礼赠第一大场域；笔记从 51% 掉到 25%（2304→2024 万，-12%），份额被 k播吃掉。店播 572→1185 万（+107%）、商卡 1214→2102 万（+73%）、搜索 864→1260 万（+46%）都在涨，只是没跑赢大盘。<br><b>两种打法完全分开：</b>达人款 74% 成交走 k播，店播只占 7%、笔记 5%；非达人款则主要靠笔记（1945 万）和商卡（1894 万）。做达人定制款基本可以不投店播和笔记，做品牌自营款则必须靠笔记种草+商卡承接。</div></div>
+<h2 id="giftkol">达人带货 · 本届最大的增量来源</h2>
+<div class="sub">商品标题命中「达人/专属/同款/代言/联名/直播间」且属于礼赠场景（两个条件为「且」关系）</div>
+<div class="card">
+<div class="brow"><div class="bname">达人款成交</div><div class="btrack"><div class="bfill" style="width:100%"></div></div><div class="bval">1,549 万<span class="aov">占礼赠 19%</span></div></div>
+<div class="brow"><div class="bname">2025 同期</div><div class="btrack"><div class="bfill mid" style="width:15.6%"></div></div><div class="bval">242 万<span class="aov">同比 +540%</span></div></div>
+<div class="note" style="margin-top:10px"><b>达人款 Top 单款</b>：鹏友专属广芳斋大红皮大礼包 171.9 万（客单 5,041 元）· 鹏友专属参养道鲜食海参礼盒 56.5 万 · "董"生活专属小仙炖龙马安康 42.8 万 · 鹏友专属鑫凤凰冰岛老寨生茶 28.8 万 · 鹏友专属参养道辽参 26.2 万 · 鹏友专属鲜炖海参 19.9 万 · 鹏友专属寰九酱香白酒 17.5 万 · 吴昕专属小仙炖龙马安康 15.7 万 · 辰辰专属燕之屋鲜炖燕窝 13.0 万 · 吴昕专属 SKIGIN 阿胶肽红参饮 12.2 万。<br><b>达人头格局（按出现款数）</b>：鹏友专属 9 款、吴昕专属 7 款、姐夫专属 4 款、年货节专属 3 款、JASON 专属 3 款、刘乔方专属 2 款、千语专属 2 款、Lingling 专属 3 款。相比上一届几乎只有李亚鹏系单点支撑，本届已经形成多达人并行的格局，吴昕、辰辰、刘雨鑫等中腰部达人各自带出 10 万级以上单品。</div>
+</div>
+<h2 id="giftw5">五组在礼赠盘里的位置</h2>
+<div class="sub">五组（休食）11 位 AM，扩口径礼赠盘 · 2026 合计 4,894 万，占全休食礼赠盘 60.3%</div>
+<div class="card"><div class="blk scrollx"><div class="scroll-hint">左右滑动查看完整列</div>
+<table style="table-layout:auto;width:max-content;min-width:100%">
+<tr><th style="min-width:110px">AM</th><th style="text-align:right">礼赠成交</th><th style="text-align:right">占五组</th><th style="text-align:right">订单量</th><th style="text-align:right">客单价</th><th style="min-width:130px">规模对比</th></tr>
+<tr><td style="white-space:nowrap">令仪(沙依兰)</td><td class="num">1,115 万</td><td class="num">22.8%</td><td class="num">3.6 万</td><td class="num">311 元</td><td><div class="mini"><div style="width:100.0%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">勒达(张力丹)</td><td class="num">899 万</td><td class="num">18.4%</td><td class="num">7.7 万</td><td class="num">117 元</td><td><div class="mini"><div style="width:80.7%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">莱莉(孙雨萱)</td><td class="num">532 万</td><td class="num">10.9%</td><td class="num">2.9 万</td><td class="num">184 元</td><td><div class="mini"><div style="width:47.7%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">诺亚(单恩浩)</td><td class="num">508 万</td><td class="num">10.4%</td><td class="num">4.7 万</td><td class="num">109 元</td><td><div class="mini"><div style="width:45.6%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">大门(朱锦程)</td><td class="num">486 万</td><td class="num">9.9%</td><td class="num">5.4 万</td><td class="num">91 元</td><td><div class="mini"><div style="width:43.6%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">文锦(郑雯萱)</td><td class="num">407 万</td><td class="num">8.3%</td><td class="num">2.8 万</td><td class="num">147 元</td><td><div class="mini"><div style="width:36.5%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">路歌(李红红)</td><td class="num">336 万</td><td class="num">6.9%</td><td class="num">4.4 万</td><td class="num">77 元</td><td><div class="mini"><div style="width:30.1%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">春千(贺子鸣)</td><td class="num">173 万</td><td class="num">3.5%</td><td class="num">2.2 万</td><td class="num">79 元</td><td><div class="mini"><div style="width:15.5%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">石玉(诗雨)</td><td class="num">168 万</td><td class="num">3.4%</td><td class="num">0.8 万</td><td class="num">220 元</td><td><div class="mini"><div style="width:15.0%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">绿枝(张若尘)</td><td class="num">140 万</td><td class="num">2.9%</td><td class="num">2.0 万</td><td class="num">72 元</td><td><div class="mini"><div style="width:12.5%"></div></div></td></tr>
+<tr><td style="white-space:nowrap">莱拉(付艺迪)</td><td class="num">131 万</td><td class="num">2.7%</td><td class="num">0.9 万</td><td class="num">146 元</td><td><div class="mini"><div style="width:11.8%"></div></div></td></tr>
+<tr style="font-weight:600"><td>合计</td><td class="num">4,894 万</td><td class="num">100%</td><td class="num">37.2 万</td><td class="num">132 元</td><td></td></tr>
+</table></div>
+<div class="note">五组礼赠盘两年持平于全盘的六成左右（2026 占 60.3%、2025 占 61.5%），自身同比 +77%，略慢于全盘 +80%。五组的 k播占比 39%（全盘 34%），说明组内商家已经跟上了达人直播这波，但店播占比 20% 高于全盘的 15%，仍偏重自播。<br><b>提醒：</b>本表的成交口径是扩口径礼赠（含礼包/组合装/囤货装），与上文「剔除达人头」章节的礼盒 Top200 口径不同，两组数字不可直接对比。</div></div>
 <h2>客单价拔高的四条路径</h2>
 <div class="sub">来自 500 元+ 样本与高客单案例的共性</div>
 <div class="paths">
@@ -228,7 +318,13 @@ render();
 <div class="path"><b>③ 节日限定叙事</b><p>生肖/新年限定包装本身就是溢价理由，配合店播讲新年送礼场景。</p><div class="eg">东方树叶新年礼盒 689元（店播82%）· 小仙炖新年限定 925元</div></div>
 <div class="path"><b>④ B 端企业采购</b><p>标题带「公司年货/商务/送客户」的礼盒客单稳定且订单集中，适合开企业购专款。</p><div class="eg">也文七年货大礼包 112元 · 食四季商务款 539元</div></div>
 </div>
-<div class="note" style="margin-top:22px">口径备注：礼盒商品按标题关键词圈选，不含关键词的礼盒会漏算；窗口为2026-01-23~02-08（节前4周至节前2周，不含春节当周）；达人定制/自拼划分为近似推断。计算说明 t_20261102_053。</div>
+<div class="note" style="margin-top:22px"><b>口径备注</b><br>
+上面前三个板块（时间线、类目格局、气泡图、价格带、三种打法、剔除达人头、五组归属）用的是<b>礼盒窄口径</b>：只按「礼盒/年货/大礼包/伴手礼/送礼」5 个词圈选，2026 届合计 6,354 万，不含礼包、组合装、囤货装等形态。<br>
+新增的「礼赠场景全景」四个板块用的是<b>扩口径</b>：17 个词圈选，2026 届 8,110 万，比礼盒窄口径多 1,756 万。两套口径不可直接对比数字，看趋势和机会点请以扩口径为准。<br>
+窗口：2026-01-23~02-08 / 2025-01-21~02-16（两届同为节前窗口，对齐春节日期）。<br>
+渠道字段（k播/店播/笔记/商卡/搜索/其他）为商品级归因，同一商品可命中多渠道，相加会超过总成交，占比只看结构不看加总。<br>
+达人头判定、达人定制/自拼划分均为按商品标题关键词的近似推断，非平台官方标记。<br>
+计算说明：礼盒窄口径 t_20261102_053、t_20261106_065（剔除达人头）；礼赠扩口径 t_20261106_066。</div>
 <a class="back" href="./index.html">← 返回两品类礼盒看板</a>
 </main>
 </div>
